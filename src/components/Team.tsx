@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { professor, phdStudents, msStudents } from "@/data/team";
 
 export default function Team() {
@@ -14,7 +15,10 @@ export default function Team() {
 
         {/* Professor */}
         <div className="mb-12 sm:mb-16">
-          <div className="max-w-md mx-auto p-6 sm:p-8 border-4 border-black bg-[#FFDE59] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
+          <Link
+            href="/professor"
+            className="block max-w-md mx-auto p-6 sm:p-8 border-4 border-black bg-[#FFDE59] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all duration-150 cursor-pointer"
+          >
             <div className="flex items-center gap-4 sm:gap-6">
               <div className="w-16 h-16 sm:w-20 sm:h-20 bg-black flex items-center justify-center flex-shrink-0">
                 <span className="text-white font-black text-2xl sm:text-3xl">{professor.name.charAt(0)}</span>
@@ -23,18 +27,15 @@ export default function Team() {
                 <h3 className="text-xl sm:text-2xl font-black text-black mb-1">{professor.name}</h3>
                 <p className="text-black font-bold text-sm sm:text-base mb-1">{professor.role}</p>
                 <p className="text-black/70 text-xs sm:text-sm mb-2">{professor.affiliation}</p>
-                <a
-                  href={`mailto:${professor.email}`}
-                  className="text-black font-bold text-xs sm:text-sm hover:bg-black hover:text-white px-1 transition-colors inline-flex items-center gap-1"
-                >
+                <span className="text-black font-bold text-xs sm:text-sm inline-flex items-center gap-1">
                   <svg className="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                   {professor.email}
-                </a>
+                </span>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
 
         {/* PhD Students */}

@@ -29,7 +29,7 @@ export const phdStudents: Student[] = [
 ];
 
 export const msStudents: Student[] = [
-  { name: "이수지", major: "산업데이터엔지니어링학과" },
+  { name: "이지수", major: "산업데이터엔지니어링학과" },
   { name: "조두희", major: "산업데이터엔지니어링학과" },
   { name: "김다빈", major: "산업데이터엔지니어링학과" },
   { name: "최화연", major: "산업데이터엔지니어링학과" },
