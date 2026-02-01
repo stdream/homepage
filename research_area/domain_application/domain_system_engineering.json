@@ -1,0 +1,609 @@
+{
+  "query": "ontology knowledge graph system engineering MBSE",
+  "timestamp": "2026-01-25T13:55:12.045637",
+  "count": 30,
+  "papers": [
+    {
+      "id": "4d6fcfaf7f64146017b561d293cac260c59b9860",
+      "title": "Demonstrating Integrative, Scalable and Extensible Modeling of Hydrological Systems with Model-Based Systems Engineering and Hetero-functional Graph Theory",
+      "authors": [
+        "Megan S. Harris",
+        "Ehsanoddin Ghorbanichemazkati",
+        "Mohammad Mahdi Naderi",
+        "John C. Little",
+        "A. Farid"
+      ],
+      "year": 2025,
+      "venue": "",
+      "citation_count": 0,
+      "abstract": "Worsening global challenges demand solutions grounded in a systems-level understanding of coupled social and environmental dynamics. Existing environmental models encode extensive knowledge of individual systems, yet much of this information remains isolated within domain-specific formulations and data structures. This paper introduces a unified modeling framework that formalizes information from existing process models by asserting real-world physical relationships onto their underlying mathematical representations. By integrating Model-Based Systems Engineering (MBSE) with Hetero-functional Graph Theory (HFGT), the framework establishes a consistent ontology that explicitly defines system structure and behavior. Illustrative hydrological examples demonstrate implementation of the methodology, showing how relationships embedded in conventional process models can be made explicit and scalable. While simplified, these examples provide a first step toward applying the approach to complex environmental systems. More broadly, the methodology offers a foundation for future modeling of systems of systems within a shared computational architecture.",
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/4d6fcfaf7f64146017b561d293cac260c59b9860",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Engineering",
+        "Computer Science"
+      ],
+      "publication_date": "2025-05-31"
+    },
+    {
+      "id": "f993bfccc258e7c31d45b3396658df57a4ce0755",
+      "title": "Design Ontology Supporting Model-Based Systems Engineering Formalisms",
+      "authors": [
+        "Jinzhi Lu",
+        "Junda Ma",
+        "Xiaochen Zheng",
+        "Guoxin Wang",
+        "Han Li",
+        "D. Kiritsis"
+      ],
+      "year": 2020,
+      "venue": "IEEE Systems Journal",
+      "citation_count": 52,
+      "abstract": "Model-based systems engineering (MBSE) provides an important capability for managing the complexities of system development. MBSE empowers the formalism of system architectures for supporting model-based requirement elicitation, specification, design, development, testing, fielding, etc. However, the modeling languages and techniques are heterogeneous, even within the same enterprise system, which leads to difficulties for data interoperability. The discrepancies among data structures and language syntaxes make information exchange among MBSE models more difficult, resulting in considerable information deviations when connecting data flows across the enterprise. Therefore, this article presents an ontology based upon graphs, objects, points, properties, roles, and relationships with extensions (GOPPRRE), providing metamodels that support the various MBSE formalisms across lifecycle stages. In particular, knowledge graph models are developed to support unified model representations to further implement ontological data integration based on GOPPRRE throughout the entire lifecycle. The applicability of the MBSE formalism is verified using quantitative and qualitative approaches. Moreover, the GOPPRRE ontologies are used to create the MBSE formalisms in a domain-specific modeling tool, MetaGraph, for evaluating its availability. The results demonstrate that the proposed ontology supports the formal structures and descriptive logic of the systems engineering lifecycle.",
+      "doi": "10.1109/JSYST.2021.3106195",
+      "url": "https://www.semanticscholar.org/paper/f993bfccc258e7c31d45b3396658df57a4ce0755",
+      "pdf_url": "https://ieeexplore.ieee.org/ielx7/4267003/9979155/09534721.pdf",
+      "fields_of_study": [
+        "Computer Science",
+        "Engineering"
+      ],
+      "publication_date": "2020-10-15"
+    },
+    {
+      "id": "7fffdb2c44a2f92994f2cf683bd97e835037d767",
+      "title": "Building SysML Model Graph to Support the System Model Reuse",
+      "authors": [
+        "Chao Fu",
+        "Jihong Liu",
+        "Shude Wang"
+      ],
+      "year": 2021,
+      "venue": "IEEE Access",
+      "citation_count": 8,
+      "abstract": "With the implementation and application of MBSE (Model Based System Engineering) in enterprises, a vast number of system model files is constantly and increasingly generated. The problem of how to acquire the knowledge carried by the system model and reuse the system model is urgently required to be solved. Therefore, a cross-products system model graph construction method supporting system model reuse is proposed. System model graph is constructed by defining the SysML metamodel ontology and the construction strategy is given. The entity alignment based on the relationship set and the rule-based reasoning is applied to achieve the fusion of multiple subgraphs, and the semantic extended retrieval of design requirements is realized based on this graph. Finally, the case studies of the Automatic Climate Control Integrated System of car and satellite design verify the effectiveness and practicability of the method, supporting system model reuse. In conclusion, the paper indicates that it is feasible to express the system model with knowledge graph and the constructed system model knowledge graph can well support the retrieval and reuse of cross- products system models.",
+      "doi": "10.1109/ACCESS.2021.3115165",
+      "url": "https://www.semanticscholar.org/paper/7fffdb2c44a2f92994f2cf683bd97e835037d767",
+      "pdf_url": "https://doi.org/10.1109/access.2021.3115165",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "2524b7f0281b9831a66aa29a02ad834687933104",
+      "title": "A Hybrid Semantic Question Answering System for the History of Sumedang Larang: Integrating Retrieval-Augmented Generation, Knowledge Graph, and Ontology",
+      "authors": [
+        "Fauzi Rahman",
+        "Z. Baizal",
+        "K. Wiharja"
+      ],
+      "year": 2025,
+      "venue": "2025 3rd International Conference on Software Engineering and Information Technology (ICoSEIT)",
+      "citation_count": 0,
+      "abstract": "Accessing, gathering, and understanding historical information is quite difficult because it comes from limited, fragmented, handwritten, and multi-language resources. This research was conducted as part of an effort to help access information about historical things. We choose Sumedang Larang Kingdom as the object of study because it is part of Sundanese culture. Most hybrid QA research has been focused on the industrial and technical fields, and most only involve a combination of two components. This research is one of the first that uses Retrieval-Augmented Generation, Knowledge Graph, and Ontology in the field of culture and history. In this study, we present a hybrid semantic question answering (QA) system that combines structured and unstructured knowledge to provide an answer that is more accurate and contextually aware. The system was evaluated using a collection of 100 diverse historical questions, where the hybrid approach reached an accuracy of 81% and outperformed the individual knowledge components. These results highlight the potential complementarity of different knowledge sources and the feasibility of hybrid QA approaches in sensitive historical domains. In addition to its technical aspects, this work also represents a contribution to cultural preservation and digital education, as it seeks to bridge advanced natural language processing techniques with the historical knowledge of the local community.",
+      "doi": "10.1109/ICoSEIT67010.2025.11290830",
+      "url": "https://www.semanticscholar.org/paper/2524b7f0281b9831a66aa29a02ad834687933104",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-10-08"
+    },
+    {
+      "id": "05d999c50d369b0e44deedd862a16a4205a67c8c",
+      "title": "Identification of Missing Knowledge in MBSE System Models Using Graph‐Based Machine Learning",
+      "authors": [
+        "Esma Karagoz",
+        "Olivia J. Pinon Fischer",
+        "Dimitri Mavris"
+      ],
+      "year": 2025,
+      "venue": "Systems Engineering",
+      "citation_count": 0,
+      "abstract": "The design and development of complex aerospace systems pose significant challenges due to their growing complexity. Iterative design processes, guided by formal specifications, strive to refine initially vague characteristics through multiple stages. Despite these efforts, the integration of diverse disciplinary knowledge into system models often remains incomplete. This study tackles the challenge of incomplete knowledge in MBSE system models by introducing a graph‐based machine learning approach to uncover and address missing links. SysML models are transformed into knowledge graphs, where relational graph convolutional networks are applied to identify missing connections that may be overlooked by human analysts. By utilizing the graphical structure of system models, this approach automates link prediction and enhances model completeness. The results demonstrate that graph neural networks effectively recover missing links, achieving 72% accuracy, although dataset availability remains a key challenge for large‐scale implementation. The findings emphasize the need for extensive open‐source datasets to fully understand the impact of machine learning in systems engineering frameworks.",
+      "doi": "10.1002/sys.70013",
+      "url": "https://www.semanticscholar.org/paper/05d999c50d369b0e44deedd862a16a4205a67c8c",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-10-10"
+    },
+    {
+      "id": "12695df00809a82c73cae6d0255de0037081f0bd",
+      "title": "Personalized Asthma Recommendation System: Leveraging Predictive Analysis and Semantic Ontology-Based Knowledge Graph",
+      "authors": [
+        "Ayan Chatterjee"
+      ],
+      "year": 2024,
+      "venue": "International Conference on Knowledge Engineering and Ontology Development",
+      "citation_count": 1,
+      "abstract": null,
+      "doi": "10.5220/0012894500003838",
+      "url": "https://www.semanticscholar.org/paper/12695df00809a82c73cae6d0255de0037081f0bd",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "90eae5eedb2b650b067322a1de5ba5033d0e3830",
+      "title": "Ontology and Knowledge Graph Construction of Thai Traditional Medicine",
+      "authors": [
+        "Lisa Simasatitkul",
+        "Tientham Apichanyatham",
+        "Luepol Pipanmekaporn",
+        "Wilaiporn Lee",
+        "K. Srisomboon",
+        "Akara Prayote"
+      ],
+      "year": 2025,
+      "venue": "International Electrical Engineering Congress",
+      "citation_count": 1,
+      "abstract": "Thai traditional medicine (TTM) has been an important part of healthcare in Thailand. However, TTM faces challenges that limit its acceptance and integration into the modern healthcare system. These challenges include a lack of standardized documentation and scientific evidence. Furthermore, the knowledge of TTM is often fragmented and localized with practitioners relying heavily on oral transmission. In addition, there is limited knowledge, making it difficult to access and apply this information effectively in a clinical setting. To address these issues, this research proposes the development of ontology and the construction of a TTM knowledge graph. The ontology provides a framework for TTM knowledge, while the knowledge graph represents information from ontology. This approach aims to enhance the accessibility and usability of TTM, facilitating its integration into medical practices. The knowledge graph is important for the medical field as it enables better data organization, supports clinical decision-making, and helps discover new insights for treatments.",
+      "doi": "10.1109/iEECON64081.2025.10987892",
+      "url": "https://www.semanticscholar.org/paper/90eae5eedb2b650b067322a1de5ba5033d0e3830",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-03-05"
+    },
+    {
+      "id": "76817f2e7cb22e52677f556544f7457f32aac860",
+      "title": "Towards an Ontology and Knowledge Graph-Based Recommendation Approach Enhanced with Large Language Models for Civil Service Recruitment in Burkina Faso",
+      "authors": [
+        "Wend-Panga Régis Cédric Béré",
+        "Yaya Traore",
+        "P. J. Kouraogo",
+        "Daouda Ouedraogo"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE Multi-conference on Natural and Engineering Sciences for Sahel's Sustainable Development (MNE3SD)",
+      "citation_count": 0,
+      "abstract": "Recruitment processes in the civil service often face challenges related to the management of competencies, complex regulatory rules, and the lack of explainability in selection decisions. To address these issues, we propose a hybrid recommendation approach that integrates a modular core ontology, a dynamic knowledge graph, and large language models (LLMs) for automated knowledge extraction. This paper focuses on the overall system architecture and the development of the first component, COREM-CiS (Competence Ontology for REsource Management in the Civil Service), a modular ontology aligned with the Interministerial Directory of Jobs and Occupations (RIME) and tailored to the Burkinabé civil service. COREM-CiS provides a structured representation of professions, skills, and personnel data, forming the foundation for future integration with reasoning engines and LLMs. The proposed approach lays the groundwork for an intelligent, explainable, and scalable recruitment recommendation system in the civil service domain.",
+      "doi": "10.1109/MNE3SD67637.2025.11323232",
+      "url": "https://www.semanticscholar.org/paper/76817f2e7cb22e52677f556544f7457f32aac860",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-11-27"
+    },
+    {
+      "id": "a1d03cff61bdd087a8cd6ec50c0a101b9e294487",
+      "title": "Stitching History into Semantics: LLM-Supported Knowledge Graph Engineering for 19th-Century Greek Bookbinding",
+      "authors": [
+        "Dimitrios Doumanas",
+        "Efthalia Ntalouka",
+        "C. Vassilakis",
+        "Manolis Wallace",
+        "Konstantinos Kotis"
+      ],
+      "year": 2025,
+      "venue": "Machine Learning and Knowledge Extraction",
+      "citation_count": 1,
+      "abstract": "Preserving cultural heritage can be efficiently supported by structured and semantic representation of historical artifacts. Bookbinding, a critical aspect of book history, provides valuable insights into past craftsmanship, material use, and conservation practices. However, existing bibliographic records often lack the depth needed to analyze bookbinding techniques, provenance, and preservation status. This paper presents a proof-of-concept system that explores how Large Language Models (LLMs) can support knowledge graph engineering within the context of 19th-century Greek bookbinding (1830–1900), and as a result, generate a domain-specific ontology and a knowledge graph. Our ontology encapsulates materials, binding techniques, artistic styles, and conservation history, integrating metadata standards like MARC and Dublin Core to ensure interoperability with existing library and archival systems. To validate its effectiveness, we construct a Neo4j knowledge graph, based on the generated ontology and utilize Cypher Queries—including LLM-generated queries—to extract insights about bookbinding practices and trends. This study also explores how semantic reasoning over the knowledge graph can identify historical binding patterns, assess book conservation needs, and infer relationships between bookbinding workshops. Unlike previous bibliographic ontologies, our approach provides a comprehensive, semantically rich representation of bookbinding history, methods and techniques, supporting scholars, conservators, and cultural heritage institutions. By demonstrating how LLMs can assist in ontology/KG creation and query generation, we introduce and evaluate a semi-automated pipeline as a methodological demonstration for studying historical bookbinding, contributing to digital humanities, book conservation, and cultural informatics. Finally, the proposed approach can be used in other domains, thus, being generally applicable in knowledge engineering.",
+      "doi": "10.3390/make7030059",
+      "url": "https://www.semanticscholar.org/paper/a1d03cff61bdd087a8cd6ec50c0a101b9e294487",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-06-24"
+    },
+    {
+      "id": "cdc5aea6fbd8578b0642d65453891f99329b7bc9",
+      "title": "Accelerating Knowledge Graph and Ontology Engineering with Large Language Models",
+      "authors": [
+        "C. Shimizu",
+        "Pascal Hitzler"
+      ],
+      "year": 2024,
+      "venue": "Journal of Web Semantics",
+      "citation_count": 23,
+      "abstract": "Large Language Models bear the promise of significant acceleration of key Knowledge Graph and Ontology Engineering tasks, including ontology modeling, extension, modification, population, alignment, as well as entity disambiguation. We lay out LLM-based Knowledge Graph and Ontology Engineering as a new and coming area of research, and argue that modular approaches to ontologies will be of central importance.",
+      "doi": "10.48550/arXiv.2411.09601",
+      "url": "https://www.semanticscholar.org/paper/cdc5aea6fbd8578b0642d65453891f99329b7bc9",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-11-14"
+    },
+    {
+      "id": "551a7cb16691eeb41a63c18f6bf55507d9d0b63f",
+      "title": "Construction of Intelligent Educational Teaching Evaluation System Based on Knowledge Graph and Natural Language Processing",
+      "authors": [
+        "Lin Lin"
+      ],
+      "year": 2024,
+      "venue": "2024 IEEE 2nd International Conference on Sensors, Electronics and Computer Engineering (ICSECE)",
+      "citation_count": 1,
+      "abstract": "This project constructs a subject knowledge map for instructional design based on natural language processing technology. This provides a new way of thinking and method for the teaching practice of this subject. Firstly, the ontology-oriented dictionary learning method is studied. By using the fusion ontology relation extraction method, the subject-action-semantic association is extracted to enrich the category of association. Ontology alignment technique is used to disambiguate the extracted knowledge base. Using “Neo4j” as the development tool, the knowledge map of course design theme is displayed visually. It is found that presenting the image of information and knowledge in the subject teaching is an operable technological support. The system further expands the applied research field. Knowledge graph and other visual tools will be used in more education fields in the future to achieve specific visual education based on the corresponding experience and lessons.",
+      "doi": "10.1109/ICSECE61636.2024.10729380",
+      "url": "https://www.semanticscholar.org/paper/551a7cb16691eeb41a63c18f6bf55507d9d0b63f",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-08-29"
+    },
+    {
+      "id": "cdf26d9e30970a3701625f1a93135ac67f663dee",
+      "title": "Construction of a Knowledge Graph for the Principles of Communication Course Based on System Thinking",
+      "authors": [
+        "Changzhi Wei",
+        "Xiaoqing Jiang",
+        "Yue Zhao"
+      ],
+      "year": 2024,
+      "venue": "Advances in Engineering Technology Research",
+      "citation_count": 1,
+      "abstract": "From the perspective of a complete communication system, this paper presents the construction of a knowledge graph for the Principles of Communication course through a semi-automatic method combining automated techniques with human verification. The ontology is designed with a hierarchical structure of \"complete system - various transmission system types - knowledge points.\" Entity recognition is performed using a Bi-LSTM+CRF model combined with manual verification, followed by relation extraction using a Relational Graph Convolutional Network (R-GCN). After attribute extraction and knowledge fusion, visualization is achieved using Neo4j. The resulting knowledge graph integrates the structure of the communication system, enabling students to intuitively understand the relationships between knowledge points, plan learning paths, and enhance learning efficiency.",
+      "doi": "10.56028/aetr.12.1.494.2024",
+      "url": "https://www.semanticscholar.org/paper/cdf26d9e30970a3701625f1a93135ac67f663dee",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-11-28"
+    },
+    {
+      "id": "b77b191216261a525f9a66a7f8ed7b4e62e8a1ca",
+      "title": "Construction and Application of SCADA System Knowledge Graph Based on Multi-Source Data Fusion",
+      "authors": [
+        "Guang Ma",
+        "Juncong Huang",
+        "Nanjing Zhou",
+        "Yewei Wang"
+      ],
+      "year": 2024,
+      "venue": "IEEE PES Asia-Pacific Power and Energy Engineering Conference",
+      "citation_count": 0,
+      "abstract": "SCADA system is widely used in the field of electric power, system data multi-source and complex, in order to realize the problem of multi-source data fusion of SCADA system, a multi-source data fusion method is proposed to construct the knowledge graph of SCADA system, and its ontology design, data acquisition and extraction, knowledge fusion and visualization display are researched, which realizes the construction of the graph, accurate retrieval and decision support.",
+      "doi": "10.1109/APPEEC61255.2024.10922565",
+      "url": "https://www.semanticscholar.org/paper/b77b191216261a525f9a66a7f8ed7b4e62e8a1ca",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-10-25"
+    },
+    {
+      "id": "e612d041f93fdc2c3ae91dc291804d6cd1ad326f",
+      "title": "A Fuzzy Decision Support System with Semantic Knowledge Graph for Personalized Asthma Monitoring: A Conceptual Modeling",
+      "authors": [
+        "Ayan Chatterjee"
+      ],
+      "year": 2024,
+      "venue": "International Conference on Knowledge Engineering and Ontology Development",
+      "citation_count": 1,
+      "abstract": ": Asthma, a complex chronic respiratory condition, poses significant management challenges, necessitating personalized monitoring for optimal treatment outcomes and individual well-being. This study introduces a Fuzzy Decision Support System (FDSS) for personalized asthma monitoring, leveraging semantic reasoning techniques and SPARQL querying to enhance decision-making accuracy and provide individualized assessments of asthma control and exacerbation risk. By utilizing semantic reasoning, the FDSS captures intricate relationships among asthma parameters, health data, triggers, and treatment outcomes, enabling precise management decisions. Development involves creating an ontology to encapsulate asthma domain knowledge, representing fuzzy logic, integrating crisp and fuzzy clinical variables, and executing SPARQL queries for fuzzy inference. The proposed FDSS demonstrates the feasibility of integrating these techniques for personalized asthma management, offering flexibility and adaptability to improve treatment outcomes and quality of life. Further research is needed to validate its efficacy in real-world healthcare settings.",
+      "doi": "10.5220/0012910500003838",
+      "url": "https://www.semanticscholar.org/paper/e612d041f93fdc2c3ae91dc291804d6cd1ad326f",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "5b767ebe45ebea23986120f0117168acec930696",
+      "title": "A Knowledge Graph Informing Soil Carbon Modeling",
+      "authors": [
+        "Nasim Shirvani-Mahdavi",
+        "Devin Wingfield",
+        "Juan Guajardo Gutierrez",
+        "Mai Tran",
+        "Zhengyuan Zhu",
+        "Zeyu Zhang",
+        "Haiqi Zhang",
+        "Abhishek Divakar Goudar",
+        "Chengkai Li",
+        "Virginia Jin",
+        "T. Propst",
+        "Dan Roberts",
+        "Catherine Stewart",
+        "Jianzhong Su",
+        "Jennifer Woodward-Greene"
+      ],
+      "year": 2025,
+      "venue": "International Conference on Web Engineering",
+      "citation_count": 1,
+      "abstract": "Soil organic carbon is crucial for climate change mitigation and agricultural sustainability. However, understanding its dynamics requires integrating complex, heterogeneous data from multiple sources. This paper introduces the Soil Organic Carbon Knowledge Graph (SOCKG), a semantic infrastructure designed to transform agricultural research data into a queryable knowledge representation. SOCKG features a robust ontological model of agricultural experimental data, enabling precise mapping of datasets from the Agricultural Collaborative Research Outcomes System. It is semantically aligned with the National Agricultural Library Thesaurus for consistent terminology and improved interoperability. The knowledge graph, constructed in GraphDB and Neo4j, provides advanced querying capabilities and RDF access. A user-friendly dashboard allows easy exploration of the knowledge graph and ontology. SOCKG supports advanced analyses, such as comparing soil organic carbon changes across fields and treatments, advancing soil carbon research, and enabling more effective agricultural strategies to mitigate climate change.",
+      "doi": "10.48550/arXiv.2508.10965",
+      "url": "https://www.semanticscholar.org/paper/5b767ebe45ebea23986120f0117168acec930696",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-08-14"
+    },
+    {
+      "id": "a94ee0b4d0832b47a758b946fa410338d1256657",
+      "title": "Research on knowledge graph construction and intelligent assisted decision-making of power grid dispatching",
+      "authors": [
+        "Xue Yang",
+        "Yu Li",
+        "Qi Zhao",
+        "Yi Wang"
+      ],
+      "year": 2025,
+      "venue": "The International Conference Optoelectronic Information and Optical Engineering",
+      "citation_count": 0,
+      "abstract": "In view of the complex knowledge of power grid dispatching and the high real-time performance of dispatching decision, a study on the construction of power grid dispatching knowledge graph and intelligent assisted decision-making were proposed. Firstly, a BERT-BiLSTM entity recognition model is proposed to identify the data such as power grid dispatching procedures, fault plans and business processes. Then, a top-down ontology construction model for power grid dispatching is proposed to assist the construction of the knowledge graph for power grid dispatching. Finally, based on the knowledge graph of power grid dispatching, the intelligent assisted decision-making of power grid dispatching is realized. The validity and rationality of the model have been verified through actual operation data of power grid dispatching, and the assisted decision-making system can realize the rapid data processing and decision support.",
+      "doi": "10.1117/12.3045346",
+      "url": "https://www.semanticscholar.org/paper/a94ee0b4d0832b47a758b946fa410338d1256657",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Engineering"
+      ],
+      "publication_date": "2025-01-15"
+    },
+    {
+      "id": "28ba549c47a2e008ef1269913d6a32e741c6d3e7",
+      "title": "Dynamic Assessment and Early Warning of Cross-Border Pipeline Risks Based on Knowledge Graph",
+      "authors": [
+        "Ruhui Shi",
+        "Tianran Chen",
+        "Chunyu Lu",
+        "Duo Shang",
+        "Jun Luo",
+        "Xin Hui",
+        "Haoran Li",
+        "Huihong He"
+      ],
+      "year": 2025,
+      "venue": "2025 8th International Conference on Advanced Electronic Materials, Computers and Software Engineering (AEMCSE)",
+      "citation_count": 0,
+      "abstract": "This paper introduces a novel framework for the dynamic assessment and early warning of cross-border pipeline risks, leveraging the zero-shot learning capabilities of the GPT-4 large language model (LLM) to construct and utilize a domain-specific knowledge graph. The approach circumvents the need for extensive pre-training or fine-tuning, thereby enabling rapid development and deployment in a domain characterized by data scarcity. The methodology begins with the construction of a knowledge graph, which involves a comprehensive ontology design, followed by knowledge extraction from unstructured text sources, and culminates in knowledge representation and storage in a structured format. Subsequently, the framework facilitates dynamic risk understanding and analysis, encompassing risk factor identification, risk event inference, and the analysis of complex relationships between these elements, all supported by the structured knowledge base. Finally, the system provides knowledge-based risk interpretation and decision-making support, generating explanations for risk events, assessing their potential impacts, and offering actionable recommendations to stakeholders. By employing carefully crafted prompts and the inherent natural language processing capabilities of GPT-4, the framework facilitates the extraction of entities and relationships from unstructured textual data, effectively populating the knowledge graph. This knowledge graph, representing entities, attributes, and relationships pertinent to cross-border pipeline risks, serves as a foundation for dynamic risk assessment. This method presents a scalable, data-efficient approach tailored to the specialized domain of cross-border pipeline risk management, particularly advantageous in contexts with limited resources. The proposed framework demonstrates the potential of LLMs, specifically GPT-4, in conjunction with knowledge graph methodologies, to advance risk management practices in complex, data-sparse domains.",
+      "doi": "10.1109/AEMCSE65292.2025.11042435",
+      "url": "https://www.semanticscholar.org/paper/28ba549c47a2e008ef1269913d6a32e741c6d3e7",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-05-09"
+    },
+    {
+      "id": "10ec533e50fe00e0df18b663695609d449b71719",
+      "title": "Mitigating Hallucinations in SysML v2 Generation Using LLMs and a Tri-Layered Knowledge Graph Reasoning Framework",
+      "authors": [
+        "Richard A. Qualis"
+      ],
+      "year": 2025,
+      "venue": "2025 ACM/IEEE 28th International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C)",
+      "citation_count": 0,
+      "abstract": "This paper presents a structured reasoning pipeline that integrates Large Language Models (LLMs) with a tri-layered knowledge graph (KG) framework to automate the generation of SysML v2 modeling artifacts from structured requirements. The approach addresses the persistent challenge of LLM hallucinations in digital and model-based systems engineering (MBSE) by grounding generative outputs in curated knowledge sources. Two core KGs are constructed using a custom Python-based Reasoning Engine: one encodes reusable SysML patterns annotated across nine diagram types, and the other captures domain-specific system models (e.g., aerospace, automotive). A third, system-specific KG is automatically synthesized by parsing capability-linked requirements and aligning them with the foundational KGs and structured prompt templates. These KGs enable context-aware, hierarchical system model generation and inform a dual-parameter prompting strategy: one set is auto injected post-KG construction to preserve domain integrity, and another is derived through our Reasoning Engine over system data prior to LLM invocation. The resulting prompts are validated and refined to produce accurate, high-fidelity SysML v2 representations. This framework offers a scalable path for integrating generative AI into digital engineering (DE) workflows. Ongoing work includes semantic alignment, traceability, prompt optimization, curated dataset with more complex cases, and the addition of a knowledge graph-based memory and planner to enable our reasoner to efficiently execute step-by-step plans—further advancing AI-assisted MBSE.",
+      "doi": "10.1109/MODELS-C68889.2025.00054",
+      "url": "https://www.semanticscholar.org/paper/10ec533e50fe00e0df18b663695609d449b71719",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-10-05"
+    },
+    {
+      "id": "78cec7a71d67e125d0dfe7f1e6ab0c6eb4d6eba4",
+      "title": "Evaluation of Effectiveness of Large Language Models in Ontology and Knowledge Graph Creation",
+      "authors": [
+        "Biswanath Dutta",
+        "Debanjali Bain",
+        "Nabina Khamaru"
+      ],
+      "year": 2025,
+      "venue": "Journal of Information and Knowledge",
+      "citation_count": 0,
+      "abstract": "This study investigates the effectiveness of selected Large Language Models (LLMs), namely ChatGPT 3.5, Semantic Web Senior (GPT-4), and Perplexity AI, in automating the creation of ontologies and knowledge graphs from unstructured, paragraph-style text using prompt engineering techniques. The research follows a five-phase methodology, including identifying suitable LLMs, developing tailored prompts for interaction, and assessing their performance based on specific parameters. The findings reveal that Perplexity AI outperforms other LLMs regarding comprehensiveness, query handling, and defining data properties. While ChatGPT models demonstrate the ability to generate ontologies, they exhibit limitations in defining subclass relationships and managing domain and range specifications of properties. The study emphasises the critical role of prompt engineering in optimising the capabilities of LLMs for ontology and knowledge graph creation. It offers a structured evaluation methodology, shedding light on the strengths and weaknesses of each LLM. By leveraging prompt engineering, this research uniquely illustrates how systematically chosen LLMs can facilitate the development of ontologies and knowledge graphs from unstructured text and identifies the most effective models through detailed performance analysis.",
+      "doi": "10.17821/srels/2025/v62i2/171792",
+      "url": "https://www.semanticscholar.org/paper/78cec7a71d67e125d0dfe7f1e6ab0c6eb4d6eba4",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-04-29"
+    },
+    {
+      "id": "a6ed874526aa404b3492f5265e65e55d42ee3c6e",
+      "title": "A Construction Method for the Knowledge Graph of Power Equipment Based on Ontology Modeling",
+      "authors": [
+        "Shaoguang Liu",
+        "Ching-Wei Ma",
+        "Jinhe Wang",
+        "Haoqi Dai",
+        "Jiefeng Lin",
+        "Shaoting Feng",
+        "Fengzhang Luo"
+      ],
+      "year": 2023,
+      "venue": "2023 8th Asia Conference on Power and Electrical Engineering (ACPEE)",
+      "citation_count": 1,
+      "abstract": "Knowledge graph technology can make full use of the vast amount of data stored in power grid to describe the core elements of power equipment in a structured form. So as to form a professional knowledge system of power equipment, effectively use the value of it, and promote the intelligent development of power grid. This paper proposes a construction method for the knowledge graph of power equipment based on ontology modeling, which can extract and integrate equipment data from massive historical data accumulated by power grid, and realize the creation of power equipment knowledge graph through knowledge modeling, knowledge extraction, knowledge fusion and other links. Finally, the relevant process and visualized display are demonstrated through an example. The results show that the knowledge graph of power equipment can effectively integrate the information in the power grid, realize the unified description of power equipment data, and provide a basis for the research of intelligent power grid.",
+      "doi": "10.1109/ACPEE56931.2023.10135669",
+      "url": "https://www.semanticscholar.org/paper/a6ed874526aa404b3492f5265e65e55d42ee3c6e",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2023-04-01"
+    },
+    {
+      "id": "b36a73cb06d644c187cb9e2f948a6f104fbeb6ed",
+      "title": "Integration of EMU Overall Design Model Based on Ontology–Knowledge Collaboration",
+      "authors": [
+        "Baomin Wang",
+        "Tingli Huang",
+        "Lujie Zhou",
+        "Lin Guan",
+        "Keyan Wan"
+      ],
+      "year": 2024,
+      "venue": "Applied Sciences",
+      "citation_count": 2,
+      "abstract": "The whole train design of an Electric Multiple Unit (EMU) involves multiple domains and scenarios, thus requiring comprehensive consideration of various factors during the design process. Traditional design methods often utilize text-based approaches to model systems; however, such documentation-based designs often suffer from semantic heterogeneity, inconsistent data sources, and also struggle to provide a more intuitive overview of the overall design process. To address these issues, this paper proposes a method based on ontology–knowledge collaborative drive to achieve integration of the overall EMU design. Firstly, we employ the System Modeling Language (SysML) to construct the Model-Based Systems Engineering (MBSE) model of the EMU, establishing functional and physical architecture element models, with the EMU MBSE model serving as input. Subsequently, in the requirement model, architecture model, and traceability model, we utilize top-level ontology to construct the EMU ontology framework in a top-down manner. Lastly, leveraging the Neo4j database, we employ a knowledge graph (KG) approach to fill domain knowledge into each model in a bottom-up manner, thereby realizing the ontology–knowledge collaborative drive for the overall EMU design construction. The effectiveness of the proposed method is validated using the EMU Passenger Information System (PIS) and Traction transformer System (TS) as examples.",
+      "doi": "10.3390/app14177828",
+      "url": "https://www.semanticscholar.org/paper/b36a73cb06d644c187cb9e2f948a6f104fbeb6ed",
+      "pdf_url": "https://doi.org/10.3390/app14177828",
+      "fields_of_study": null,
+      "publication_date": "2024-09-04"
+    },
+    {
+      "id": "ece68e11a3438cf8b5f4025d33bb6ad3260c252d",
+      "title": "Deep Learning-Based Fault Knowledge Graph Construction for Power Communication Networks",
+      "authors": [
+        "Dequan Gao",
+        "Pengyu Zhu",
+        "Wang Sheng",
+        "Zhao Ziyan"
+      ],
+      "year": 2024,
+      "venue": "2024 6th Asia Energy and Electrical Engineering Symposium (AEEES)",
+      "citation_count": 2,
+      "abstract": "Power communication network is a crucial infrastructure in the model power system, and its maintenance capability are crucial to ensuring the stable operation of power grid business. As an organized semantic knowledge base, the knowledge graph effectively organizes power communication network fault documentation and expert experience to enhance intelligent maintenance. This paper outlines a top-down approach to systematically construct a fault knowledge graph in the domain of power communication networks. The approach utilizes a seven-step method to establish a domain ontology model and integrates deep learning algorithms, including pre-trained language models, bidirectional long short time memory networks, convolutional neural networks and attention mechanisms. These algorithms process unstructured text to extract key entities and relationships. The effectiveness of the approach is verified through experiments using a product device document as a test case. Extracted knowledge is then visualized and stored using Neo4j database. Finally, this paper proposes a knowledge service model centered on fault knowledge graph and explores its application in fault diagnosis.",
+      "doi": "10.1109/AEEES61147.2024.10544941",
+      "url": "https://www.semanticscholar.org/paper/ece68e11a3438cf8b5f4025d33bb6ad3260c252d",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-03-28"
+    },
+    {
+      "id": "f6e95c6d0777dea1c06b669ba1e97648ffaf61a5",
+      "title": "A Multi-Granularity and Multi-Dimensional Code Knowledge Graph Construction Approach",
+      "authors": [
+        "Jiayun Lu",
+        "Xia Hou",
+        "Haoxiang Wang",
+        "Xiuming Qiao",
+        "Wenfeng Song"
+      ],
+      "year": 2024,
+      "venue": "2024 6th International Conference on Communications, Information System and Computer Engineering (CISCE)",
+      "citation_count": 0,
+      "abstract": "Traditional code knowledge graphs have problems such as broad and complex knowledge coverage, incomplete code granularity, insufficient semantic richness in code relationships, and difficulty in comprehension. To address these challenges, a method for constructing a multi-granularity and multidimensional code knowledge graph was proposed. Firstly, a code knowledge graph ontology model was designed, capable of describing various granularity levels of code entities in the source code and multiple relationship dimensions between entities. Leveraging this ontology model, a methodology for constructing the code knowledge graph through knowledge extraction, fusion, and reasoning was proposed, with examples illustrating its multi-granularity and multidimensional characteristics. A prototype system capable of generating a code knowledge graph for project source code was implemented, and its application value was demonstrated using test case optimization as an example. The experimental results show that using multi-granularity and multidimensional code knowledge in the code knowledge graph can more effectively analyze the scope of code changes and help optimize test cases.",
+      "doi": "10.1109/CISCE62493.2024.10653047",
+      "url": "https://www.semanticscholar.org/paper/f6e95c6d0777dea1c06b669ba1e97648ffaf61a5",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-05-10"
+    },
+    {
+      "id": "50215e4b63893ebcc27f25076aef5882a7e57a32",
+      "title": "Design Knowledge Graph-Based Recommender System for Engineering Pedagogy",
+      "authors": [
+        "Yan Li",
+        "Zuyang Ma"
+      ],
+      "year": 2024,
+      "venue": "International Conference Innovation Engineering and Technology",
+      "citation_count": 1,
+      "abstract": "There is an increasing interest in engineering pedagogy to design a knowledge graph-based recommender system and apply it to help with programming skills teaching. The emergence of artificial intelligence brings the knowledge graph as a pivotal tool for research and learning in the information age. This study aims to explore the process of the recommender system design and apply it in engineering pedagogy spanning from conceptualizing students' abstract learning ideas to addressing their practical challenges. The subject of the study is postgraduate students from two different teaching styles universities. The case study is used as the main research method to collect both quantitative and qualitative data. TP ACK Framework is applied and followed as the theoretical framework in both the technical system designing process and the programming skills teaching process. The limitations of the study and how future work can make up the research gaps in the current stage are discussed. It explored a significant research area with the potential to drastically change the pedagogical methods in engineering pedagogy.",
+      "doi": "10.1109/ICIET60671.2024.10542811",
+      "url": "https://www.semanticscholar.org/paper/50215e4b63893ebcc27f25076aef5882a7e57a32",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-03-18"
+    },
+    {
+      "id": "1613702214dcfcd4a3137abe7c1f8a4d21a5c004",
+      "title": "Building FKG.in: A knowledge graph for Indian food",
+      "authors": [
+        "Saransh Kumar Gupta",
+        "Lipika Dey",
+        "Partha Pratim Das",
+        "Ramesh Jain"
+      ],
+      "year": 2024,
+      "venue": "Joint Ontology Workshops",
+      "citation_count": 0,
+      "abstract": "This paper presents an ontology design along with knowledge engineering, and multilingual semantic reasoning techniques to build an automated system for assimilating culinary information for Indian food in the form of a knowledge graph. The main focus is on designing intelligent methods to derive ontology designs and capture all-encompassing knowledge about food, recipes, ingredients, cooking characteristics, and most importantly, nutrition, at scale. We present our ongoing work in this workshop paper, describe in some detail the relevant challenges in curating knowledge of Indian food, and propose our high-level ontology design. We also present a novel workflow that uses AI, LLM, and language technology to curate information from recipe blog sites in the public domain to build knowledge graphs for Indian food. The methods for knowledge curation proposed in this paper are generic and can be replicated for any domain. The design is application-agnostic and can be used for AI-driven smart analysis, building recommendation systems for Personalized Digital Health, and complementing the knowledge graph for Indian food with contextual information such as user information, food biochemistry, geographic information, agricultural information, etc.",
+      "doi": "10.48550/arXiv.2409.00830",
+      "url": "https://www.semanticscholar.org/paper/1613702214dcfcd4a3137abe7c1f8a4d21a5c004",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-09-01"
+    },
+    {
+      "id": "ff4741f966e9873e8a6f16c8f852f15c7fb1965e",
+      "title": "A Knowledge Graph Construction Method for Complex Products Improvement Design",
+      "authors": [
+        "Shan Ren",
+        "Ming Wang",
+        "Jiankai Zhang",
+        "Zhiguo Ma"
+      ],
+      "year": 2024,
+      "venue": "International Conference on Natural Computation, Fuzzy Systems and Knowledge Discovery",
+      "citation_count": 0,
+      "abstract": "Nowadays, complex products play a key role in fields such as industrial engineering and smart manufacturing, and their improved design is crucial in reducing maintenance costs and enhancing product performance and reliability. However, due to the extreme complexity of heterogeneous data in the product life cycle, the field of complex products improvement design still lacks a unified knowledge representation framework. Aiming to fulfill the gap, knowledge graph (KG) is introduced as a powerful tool for managing intricate system knowledge. By collecting multisource and heterogeneous data across the life cycle and conducting knowledge extraction, design knowledge and related historical knowledge are processed and represented into a unified form through function-behavior-structure (FBS) model. Finally, a KG is constructed under the guidance of ontology to provide a knowledge basis for tasks such as knowledge reuse and solution recommendation in the field of complex products improvement design.",
+      "doi": "10.1109/ICNC-FSKD64080.2024.10702222",
+      "url": "https://www.semanticscholar.org/paper/ff4741f966e9873e8a6f16c8f852f15c7fb1965e",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-07-27"
+    },
+    {
+      "id": "3777ef1f8a6f6b17801cd583c2c9ebd9d1115d2b",
+      "title": "Knowledge Graph based Quality Supervision Question-and-Answer System for Offshore Oil Engineering",
+      "authors": [
+        "Lei Wang",
+        "Yongjun Ma",
+        "Shaocong Hao",
+        "Ce Shi"
+      ],
+      "year": 2024,
+      "venue": "2024 8th International Conference on Electrical, Mechanical and Computer Engineering (ICEMCE)",
+      "citation_count": 0,
+      "abstract": "With the developments of offshore oil industry, a large number of specification documents have been implemented in the field of offshore oil engineering quality, which has placed significant posed pressure and a series of challenges to the traditional manual inspection method of engineering quality. This paper uses entity relationship recognition, data extraction and graph database technologies to construct a quality knowledge graph for offshore oil engineering. Subsequently, a quality supervision question-and-answer (Q&A) system for offshore oil engineering is developed based on this knowledge graph. The system has functional modules including quality inspection Q&A and problem case retrieval, enabling intelligent Q&A for quality inspection. This not only enhances the standardization and work efficiency of quality inspection but also elevates the intelligence level of quality supervision operations in offshore oil engineering projects.",
+      "doi": "10.1109/ICEMCE64157.2024.10862945",
+      "url": "https://www.semanticscholar.org/paper/3777ef1f8a6f6b17801cd583c2c9ebd9d1115d2b",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-10-25"
+    },
+    {
+      "id": "f3ccb57535edb5bab85ed384e57c27bfc8f9212b",
+      "title": "OWL2Vec4OA: Tailoring Knowledge Graph Embeddings for Ontology Alignment",
+      "authors": [
+        "Sevinj Teymurova",
+        "Ernesto Jim'enez-Ruiz",
+        "Tillman Weyde",
+        "Jiaoyan Chen"
+      ],
+      "year": 2024,
+      "venue": "Iberoamerican Conference on Knowledge Graphs and Semantic Web",
+      "citation_count": 5,
+      "abstract": "Ontology alignment is integral to achieving semantic interoperability as the number of available ontologies covering intersecting domains is increasing. This paper proposes OWL2Vec4OA, an extension of the ontology embedding system OWL2Vec*. While OWL2Vec* has emerged as a powerful technique for ontology embedding, it currently lacks a mechanism to tailor the embedding to the ontology alignment task. OWL2Vec4OA incorporates edge confidence values from seed mappings to guide the random walk strategy. We present the theoretical foundations, implementation details, and experimental evaluation of our proposed extension, demonstrating its potential effectiveness for ontology alignment tasks.",
+      "doi": "10.48550/arXiv.2408.06310",
+      "url": "https://www.semanticscholar.org/paper/f3ccb57535edb5bab85ed384e57c27bfc8f9212b",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-08-12"
+    },
+    {
+      "id": "c4b30b9a795d7f76713748bdbc24810f076197c2",
+      "title": "Construction of Knowledge Graph for Marine Diesel Engine Faults Based on Deep Learning Methods",
+      "authors": [
+        "Xiaohe Tian",
+        "Huibing Gan",
+        "Yanlin Liu"
+      ],
+      "year": 2025,
+      "venue": "Journal of Marine Science and Engineering",
+      "citation_count": 4,
+      "abstract": "As the core equipment in ship power systems, the accurate and real-time diagnosis of ship diesel engine faults directly affects navigation safety and operation efficiency. Existing methods (e.g., expert systems, traditional machine learning) can hardly cope with the complex failure modes and dynamic operation environment due to the problems of relying on artificial features and insufficient generalization ability. In this paper, we propose a BiLSTM-CRF-based knowledge graph construction method for ship diesel engine faults, aiming at integrating multi-source heterogeneous data through deep learning and knowledge graph technology, and mining the deep semantic associations among fault phenomena, causes, and solutions. The research framework covers data acquisition, ontology modeling, and knowledge extraction and storage, and the BiLSTM-CRF model is used to fuse bi-directional contextual features with label transfer probability to achieve high-precision entity recognition and relationship extraction. Finally, a scalable knowledge graph is constructed by Neo4j. Experiments show that the model significantly outperforms baseline methods such as HMM, CRF, and BiLSTM, and the graph visualization clearly presents the fault causality network, which supports knowledge reasoning and decision optimization. For example, “high exhaust temperature” can be related to potential causes such as “turbine failure” and “poor cooling”, and recommended measures can be taken. This method not only improves fault diagnosis accuracy and efficiency but also provides a novel method for intelligent ship health management.",
+      "doi": "10.3390/jmse13040693",
+      "url": "https://www.semanticscholar.org/paper/c4b30b9a795d7f76713748bdbc24810f076197c2",
+      "pdf_url": "https://doi.org/10.3390/jmse13040693",
+      "fields_of_study": null,
+      "publication_date": "2025-03-29"
+    },
+    {
+      "id": "4a0432d5bec0a9a57355ef2d0f7b409bfa04d2d0",
+      "title": "Knowledge graph-assisted design-by-analogy: promoting product innovation through structured analogical knowledge retrieval",
+      "authors": [
+        "Liting Jing",
+        "Mingyang Huang",
+        "Qizhi Li",
+        "Yubo Dou",
+        "Di Feng",
+        "Shaofei Jiang"
+      ],
+      "year": 2025,
+      "venue": "Artificial intelligence for engineering design, analysis and manufacturing",
+      "citation_count": 2,
+      "abstract": "Abstract Design-by-analogy (DbA) is a powerful method for product innovation design, leveraging multidomain design knowledge to generate new ideas. Previous studies have relied heavily on designers’ experiences to retrieve analogical knowledge from other domains, lacking a structured method to organize and understand multidomain analogical knowledge. This presents a significant challenge in recommending high-quality analogical sources, which needs to be addressed. To tackle these issues, a knowledge graph-assisted DbA approach via structured analogical knowledge retrieval is proposed. First, an improved function-effect-structure ontology model is constructed to extract functions and effects as potential analogical sources, and six semantic matching rules are established to output entity triplets, and the DbA knowledge graph (DbAKG) is developed. Second, based on the knowledge of semantic relationships in DbAKG, the domain distance and similarity between the design target and the analogical sources are introduced to establish an analogical value model, ensuring the novelty and feasibility of analogical sources. After that, with function as the design target, analogical sources transfer strategy is formed to support innovative solution solving, and TRIZ theory is used to solve design conflicts. Finally, a pipeline inspection robot case study is further employed to verify the proposed approach. Additionally, a knowledge graph-assisted analogical design system has been developed to assist in managing multidomain knowledge and the analogical process, facilitate the adoption of innovative design strategies, and assist companies in providing more competitive products to seize the market.",
+      "doi": "10.1017/S0890060425100103",
+      "url": "https://www.semanticscholar.org/paper/4a0432d5bec0a9a57355ef2d0f7b409bfa04d2d0",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-07-31"
+    }
+  ]
+}

@@ -1,0 +1,629 @@
+{
+  "query": "ontology knowledge graph digital twin asset management",
+  "timestamp": "2026-01-25T14:28:30.799573",
+  "count": 30,
+  "papers": [
+    {
+      "id": "55a18ea17dad3b67c49cafa92ff2b7492352903c",
+      "title": "Towards Intelligent and Trustable Digital Twin Asset Management Platform for Transportation Infrastructure Management Using Knowledge Graph and Explainable Artificial Intelligence (XAI)",
+      "authors": [
+        "Hendro Wicaksono",
+        "M. U. Nisa",
+        "A. Vijaya"
+      ],
+      "year": 2023,
+      "venue": "IEEE International Conference on Industrial Engineering and Engineering Management",
+      "citation_count": 7,
+      "abstract": "In the transportation sector, implementing digital twins is part of the digitization measure to improve resource efficiency in infrastructure management. However, the use of digital twins is still limited due to challenges such as a lack of shared understanding of digital twin models, complex model integration, security issues, lack of access to essential data, and high costs due to inefficient business models. This research develops an asset management platform suitable for Small and Medium Enterprises (SMEs) for the cross-company, secure, and intuitive collaborative management of digital twin assets. It can be achieved by developing an ontology-based semantic model of the assets, explainable machine learning (XAI), and a scenario-based intelligent search and discovery mechanism.",
+      "doi": "10.1109/IEEM58616.2023.10406401",
+      "url": "https://www.semanticscholar.org/paper/55a18ea17dad3b67c49cafa92ff2b7492352903c",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-12-18"
+    },
+    {
+      "id": "366f789af32fb2b05e4047184f70f96e893ceafb",
+      "title": "Turning Risk into Quantifiable Asset. Platform-Based Project Execution Powered by Data Science and AI",
+      "authors": [
+        "Stefan Ceulemans",
+        "Oussama Guedira",
+        "Roald Muller"
+      ],
+      "year": 2025,
+      "venue": "ADIPEC",
+      "citation_count": 0,
+      "abstract": "\n The accelerating energy transition presents a dual challenge for developers: managing a growing portfolio of renewable projects across diverse geographies while delivering large-scale, capital-intensive infrastructure to exacting standards. This complexity is compounded by fragmented data, siloed processes, and conventional project management tools that fail to provide timely, actionable insights, resulting in persistent schedule delays, cost overruns, and underperforming assets.\n This paper demonstrates how a three-pronged digital approach, combining ontology-based semantic lakes for digital continuity, context-aware intelligence and analytics, and collaborative platform-based virtual twin experiences, transforms project risk from a liability into a strategic asset. A semantic lake integrates and contextualizes data across enterprise systems, creating an ontology- driven knowledge graph that supports advanced queries, traceability, and adaptive integration of new data sources. Role-based data perspectives and virtual twin experiences allow stakeholders to visualize project status in real time, detect early warning signals, and take coordinated action with full situational awareness.\n Case studies from Larsen & Toubro Energy-Hydrocarbon (LTEH) and EDF illustrate the tangible benefits of this approach. LTEH achieved early risk identification, improved coordination across EPC activities, and realized measurable gains in efficiency, schedule adherence, and cost control. EDF leveraged digital continuity and AI to unify requirements management, enhance system interface alignment, and industrialize nuclear project execution, improving predictability across multiple concurrent programs.\n AI and ML extend these capabilities by enabling predictive risk forecasting, schedule optimization, knowledge-driven issue resolution, generative requirements and traceability, sourcing optimization, and virtual companions. These tools extract patterns from historical data, generate actionable insights, automate repetitive tasks, and embed recommendations within the virtual twin environment. Across use cases, organizations gain faster decision-making, improved collaboration, and higher execution reliability.\n Collectively, the methodology demonstrates that integrating digital continuity, collaborative platforms, and AI-driven intelligence enables energy developers to anticipate challenges, optimize resources, and manage projects proactively. By turning risk into foresight, complexity into control, and uncertainty into a lever for competitive advantage, this approach represents a transformative model for next-generation project delivery in the energy sector",
+      "doi": "10.2118/229213-ms",
+      "url": "https://www.semanticscholar.org/paper/366f789af32fb2b05e4047184f70f96e893ceafb",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-11-03"
+    },
+    {
+      "id": "246b155389c5327a9d1daf6f1a7d313e64fd4301",
+      "title": "PANOPTES: A Digital Twin Ontology for Cultural Asset Management",
+      "authors": [
+        "George Pavlidis",
+        "V. Sevetlidis",
+        "Vasileios Arampatzakis"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE International Conference on Cyber Humanities (IEEE-CH)",
+      "citation_count": 1,
+      "abstract": "In this paper we present PANOPTES, a digital twin ontology designed to support dynamic monitoring, predictive analytics, and decision-making in the management of cultural heritage assets. Building on standards such as CIDOC CRM, SOSA/SSN, PROV-O, GeoSPARQL, and OWL-Time, PANOPTES introduces a unified semantic model that represents assets, observations, diagnoses, predictions, threats, and decision processes. The ontology naturally maps to a relational backend, enabling efficient data ingestion, traceability, and operational deployment. Application scenarios include condition monitoring, risk forecasting, emergency response, and preventive conservation planning. PANOPTES enables structured monitoring, predictive threat modeling, and decision support for the preventive conservation of cultural heritage assets, particularly in remote and infrastructure-poor sites.",
+      "doi": "10.1109/IEEE-CH65308.2025.11279654",
+      "url": "https://www.semanticscholar.org/paper/246b155389c5327a9d1daf6f1a7d313e64fd4301",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-09-08"
+    },
+    {
+      "id": "b7afcd6131d7b93b876d5c508ecdfb82c9ae575e",
+      "title": "OntoSmartDCU: A Multi-Agent Microservice Based Automated, Dynamic Ontology and Knowledge Graph Creation Framework From Real-Time Sensor Data for the Smart DCU Digital Twin",
+      "authors": [
+        "Sukanya Mandal",
+        "Noel E. O'Connor"
+      ],
+      "year": 2024,
+      "venue": "World Forum on Internet of Things",
+      "citation_count": 2,
+      "abstract": "This paper presents OntoSmartDCU, a novel Multi-Agent Microservice (MAMS) based framework for automated and dynamic Ontology and Knowledge Graph (KG) creation from real-time sensor data. Designed specifically for the Smart Dublin City University (DCU) Digital Twin (DT), OntoSmartDCU facilitates the continuous acquisition, interpretation, and integration of sensor data streams into an evolving knowledge representation. The architecture consists of interconnected microservices and autonomous agents, each responsible for specific tasks such as data gathering and processing, ontology creation, and KG population. These agents act as intelligent microservices, operating in parallel and communicating to achieve a common goal. This modular design facilitates scalability, flexibility, and adaptability to heterogeneous sensor environments. The dynamic nature of OntoSmartDCU will enable the DT to accurately reflect the real-time operational state of the university campus, serving as the foundation for various applied use cases. OntoSmartDCU offers a significant advancement in DT technology, providing a robust and scalable solution for real-time knowledge representation and data integration in complex cyber-physical systems.",
+      "doi": "10.1109/WF-IoT62078.2024.10811412",
+      "url": "https://www.semanticscholar.org/paper/b7afcd6131d7b93b876d5c508ecdfb82c9ae575e",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-11-10"
+    },
+    {
+      "id": "522aeb6243d82afa6698ff1a8914a5c79d72ef55",
+      "title": "Cognitive Digital Twin with Knowledge Graph for Intelligent Inversion of Marine Evaporation Duct",
+      "authors": [
+        "Chang Su",
+        "Jiajing Wu"
+      ],
+      "year": 2025,
+      "venue": "2025 5th International Conference on Artificial Intelligence, Automation and High Performance Computing (AIAHPC)",
+      "citation_count": 0,
+      "abstract": "Marine evaporation duct inversion is critical for maritime communication and radar monitoring, yet faces challenges in integrating multi-source environmental data and expert knowledge. This paper proposes a knowledge graph-driven cognitive digital twin (CDT) framework to enable intelligent inversion of marine evaporation ducts. The system integrates an ontology layer for formalizing atmospheric physics rules, a knowledge layer for real-time assimilation of oceanographic sensor data, and a cognitive layer embedding our novel RGCN-PRotatE reasoning model. Validated on evaporation duct monitoring scenarios, the framework demonstrates 19% accuracy gain in inversion parameters and 73.4% reliability in decision recommendations, providing human operators with physics-aware inversion guidance.",
+      "doi": "10.1109/AIAHPC66801.2025.11290198",
+      "url": "https://www.semanticscholar.org/paper/522aeb6243d82afa6698ff1a8914a5c79d72ef55",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-09-19"
+    },
+    {
+      "id": "9be37f20623fbd426b8ee00dc349d19195f1fd18",
+      "title": "Innovative Application of Knowledge Graph-Driven Causal Inference in Digital Twin of Chronic Disease Progression",
+      "authors": [
+        "Jia Wang",
+        "Lin Li"
+      ],
+      "year": 2025,
+      "venue": "Theoretical and Natural Science",
+      "citation_count": 0,
+      "abstract": "A patient-centric digital-twin architecture that fuses ontology-grounded knowledge graphs with structural causal inference is presented to simulate the five-year evolution of type 2 diabetes mellitus and cardio-renal comorbidities. A harmonised health-information-exchange corpus comprising 12 318 adults, 22.7 million encounter rows and 7.4 million laboratory records (2010 2024) was mapped to a 168 402-node, 1 217 965-edge graph aligned to SNOMED-CT. Counterfactual trajectories under 17 therapeutic bundles were generated by a differentiable do-calculus engine nested inside a temporal graph transformer, producing 1 000 Monte-Carlo roll-outs per patient. External validation on an independent 2 975-subject cohort yielded a dynamic concordance index of 0.842, an integrated Brier score of 0.091 and a calibration-in-the-large of 0.013, surpassing recurrent neural and mechanistic baselines by 18.5 % and 11.2 % respectively. Sensitivity analyses confirmed robustness to 24 % MCAR missingness and 15 % hidden-confounding bias. The findings demonstrate that knowledge-graph-driven causal twins deliver granular, well-calibrated forecasts and quantitatively rank preventive strategies, paving the way for learning-health-system deployment in chronic-disease management.",
+      "doi": "10.54254/2753-8818/2025.25630",
+      "url": "https://www.semanticscholar.org/paper/9be37f20623fbd426b8ee00dc349d19195f1fd18",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-07-30"
+    },
+    {
+      "id": "8d62f899e5210fd547fc55a98f2a1e7927e9a1ec",
+      "title": "Digital twin system for manufacturing processes based on a multi-layer knowledge graph model",
+      "authors": [
+        "Chang Su",
+        "Xin Tang",
+        "Qi Jiang",
+        "Yong Han",
+        "Tao Wang",
+        "Dongsheng Jiang"
+      ],
+      "year": 2025,
+      "venue": "Scientific Reports",
+      "citation_count": 11,
+      "abstract": "Digital twin technology in the manufacturing process faces challenges like integrating diverse data sources and managing real-time data flow. To address this, we propose a novel three-layer knowledge graph architecture to enhance digital twin modeling for manufacturing processes. This architecture consists of a concept layer that structures key information into a knowledge network, a model layer that aligns digital and physical parameters, and a decision layer that leverages model and real-time data for decision support. Validated in aero-engine blade production, this system integrates multi-source data, enhances predictive analysis and anomaly detection, and supports process control and quality management. Over a 5-month validation period, the maximum contour error precision of the blades improved from 0.073 mm to 0.062 mm, and the product qualification rate increased from 81.3% to 85.2%. This demonstrates the system’s robust capability for advancing digital twin utilization in manufacturing, highlighting its potential for future improvements.",
+      "doi": "10.1038/s41598-024-85053-0",
+      "url": "https://www.semanticscholar.org/paper/8d62f899e5210fd547fc55a98f2a1e7927e9a1ec",
+      "pdf_url": "https://doi.org/10.1038/s41598-024-85053-0",
+      "fields_of_study": [
+        "Medicine"
+      ],
+      "publication_date": "2025-04-14"
+    },
+    {
+      "id": "ac9a70fcb663ec44a2a480fc8e880248ca9692f6",
+      "title": "Knowledge Graph Construction and Digital Twin Modeling Integrating Multi-modal Data",
+      "authors": [
+        "He Fangzhou"
+      ],
+      "year": 2024,
+      "venue": "Journal of Electrical Systems",
+      "citation_count": 3,
+      "abstract": "Supply chain analytics is focusing more and more attention on industrial logistics. Optimal allocation of assets is severely restricted by the timing inconsistency and geographical instability of industrial logistics assets brought by unpredictability and variability. Unnecessarily lengthy drive distances and lengthy delays are caused by the incapacity to acquire and utilize industrial logistics asset spatial-and-temporal (ST) qualities rationally, which affects the processes' potential to operate sustainably. Thus, for efficient usage of resources in industrial logistics, a novel machine learning (ML)-assisted knowledge graph (ML-KG) design is provided in this work. For evaluating the multi-modal data produced by widely deployed IoT devices, a novel customizable diversified kernelized support vector machine (CDK-SVM) approach is also suggested. After establishing the suggested ML-KG framework for ST integrity in the representation of the digital twin version, links are carried out and reasoning is performed using job data related to industrial logistics. The graph mechanism effectively distributes the industrial logistics resources. Lastly, the outcome proves that the suggested process is successful in the distribution of industrial logistics assets.",
+      "doi": "10.52783/jes.3428",
+      "url": "https://www.semanticscholar.org/paper/ac9a70fcb663ec44a2a480fc8e880248ca9692f6",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-04-25"
+    },
+    {
+      "id": "b5e293f86eeadcb04da99895b5c6e06d475a400f",
+      "title": "A Method for Constructing the Knowledge Graph of Digital Twin Power Facilities Based on Deep Learning",
+      "authors": [
+        "Lufeng Yuan",
+        "Haiyang Li",
+        "Shijie Gao",
+        "Zehao Yu",
+        "Xin He",
+        "Changnian Liu"
+      ],
+      "year": 2024,
+      "venue": "International Conference on Innovative Computing and Cloud Computing",
+      "citation_count": 0,
+      "abstract": "We propose a method for constructing the knowledge graph of digital twin power facilities based on deep learning to solve the problem which is difficult to effectively manage and apply complex and diverse information of power facilities. This method systematically integrates structured data and unstructured data such as facility attributes, functions, locations, operating status, and detection status, generates digital twin models of power facilities. It constructs knowledge graph through entity recognition and fills in the lacks in the knowledge graph. The experiments show that the accuracy of entity recognition by this method reaches 90.89%, and the accuracy of knowledge graph completion is 83.8%. Finally, we constructed the knowledge graph of digital twin power facilities. This knowledge graph contains 29564 entities and 104615 relationships, with entity recognition accuracy of 81.68% and relationship recognition accuracy of 79.35%. This knowledge graph can serve as the core of data and model management for our power facility digital twin platform for model management and facility retrieval.",
+      "doi": "10.1109/ICCC62609.2024.10942291",
+      "url": "https://www.semanticscholar.org/paper/b5e293f86eeadcb04da99895b5c6e06d475a400f",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-12-13"
+    },
+    {
+      "id": "e740f13ee611c85d06ea64ba52d5945336bb5cbd",
+      "title": "Knowledge-graph-based multi-domain model integration method for digital-twin workshops",
+      "authors": [
+        "Xiang Wang",
+        "Xiaofeng Hu",
+        "Zijie Ren",
+        "Tian Tian",
+        "J. Wan"
+      ],
+      "year": 2023,
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "citation_count": 26,
+      "abstract": "The digital twin workshop is a new workshop operation paradigm that enables precise decision-making by fusing virtual and physical space. As a complex manufacturing system, the digital twin model of the workshop must integrate models from different domains in order to provide personalized services. The interoperability of multi-domain models and the dynamic update of parameters become obstacles. In this paper, a knowledge graph (KG)-based multi-domain model integration method for digital twin workshops is proposed. The multi-domain model integration architecture based on KG is consisted of model element, model ontology, model data, semantic integration, and network connection. Then, the KG of multi-domain model for design, manufacturing, and simulation is constructed through ontology modeling and knowledge extraction. On this basis, multi-domain model integration is realized through semantic inference and knowledge query. The model parameters are updated through file exchange during the dynamic simulation. Finally, multiple scenarios in the subassembly workshop for hull construction are used to verify the efficacy of the proposed method. During the assembly and welding of hull parts, the integration of the product model, equipment model, and simulation model is realized, which assists in meeting the service requirements of multiple business scenarios.",
+      "doi": "10.1007/s00170-023-11874-4",
+      "url": "https://www.semanticscholar.org/paper/e740f13ee611c85d06ea64ba52d5945336bb5cbd",
+      "pdf_url": "https://www.researchsquare.com/article/rs-2630784/latest.pdf",
+      "fields_of_study": null,
+      "publication_date": "2023-07-12"
+    },
+    {
+      "id": "d1c5a7da1f92bad5aea7c61857129a7da1331979",
+      "title": "Digital Twin for Industrial Asset Management: A Case Study for Pipeline Maintenance",
+      "authors": [
+        "Ling Bai",
+        "Rakiba Rayhana",
+        "Jiatong Ling",
+        "Teng Wang",
+        "Zheng Liu",
+        "Andreas Schnabel",
+        "Chunsheng Yang",
+        "Min Liao"
+      ],
+      "year": 2024,
+      "venue": "Annual Conference of the IEEE Industrial Electronics Society",
+      "citation_count": 0,
+      "abstract": "Industrial asset management (IAM) is crucial for the sustainability and efficiency of industries that depend on significant infrastructure, especially pipelines. Pipelines are vital assets in the global energy supply chain, transporting oil, natural gas, and chemical products, and their maintenance is essential to prevent severe environmental and economic consequences. However, current methods such as manual visual inspections are limited by their invasiveness, the requirement for periodic shutdowns, and a lack of real-time accuracy. These limitations present substantial challenges to effective IAM. This paper introduces an innovative digital twin ecosystem integrated with information and communication technology to enhance IAM for pipelines. This ecosystem creates a dynamic, interactive digital twin that accurately reflects the physical state of pipelines, bolstered by real-time data transmission from sensors. The ecosystem comprises physical pipelines equipped with sensors, a comprehensive data knowledge library that records and updates damage information, a virtual pipeline twin, and an interactive platform that facilitates detailed visualization and interaction. Through a detailed case study of pipeline damage detection on cracks and corrosion using visual imaging techniques, this paper demonstrates enhanced results and visualizations compared to existing methods. The observed damage features sharper contrasts, higher resolution, and clearer boundaries in affected areas, significantly improving the accuracy of damage localization. Additionally, the relative accuracy of the calculated damage stress intensity factor by the virtual twin model reaches 95%. In summary, the capabilities for real-time, remote interaction and comprehensive visualization within the digital twin ecosystem significantly enhance the management efficiency of digital and intelligent pipeline IAM.",
+      "doi": "10.1109/IECON55916.2024.10905260",
+      "url": "https://www.semanticscholar.org/paper/d1c5a7da1f92bad5aea7c61857129a7da1331979",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-11-03"
+    },
+    {
+      "id": "03780e2a16e2ce287c47886b3a6f9dd2cb10b7a3",
+      "title": "Real-Time Warehouse Monitoring with Ceiling Cameras and Digital Twin for Asset Tracking and Scene Analysis",
+      "authors": [
+        "Jianqiao Cheng",
+        "Connor Verhulst",
+        "Pieter De Clercq",
+        "Shannon Van De Velde",
+        "Steven Sagaert",
+        "Marc Mertens",
+        "M. Birem",
+        "Maithili Deshmukh",
+        "Neel Broekx",
+        "Erwin Rademakers",
+        "A. Bey-Temsamani",
+        "Jean-Edouard Blanquart"
+      ],
+      "year": 2025,
+      "venue": "Logistics",
+      "citation_count": 0,
+      "abstract": "Background: Effective asset tracking and monitoring are critical for modern warehouse management. Methods: In this paper, we present a real-time warehouse monitoring system that leverages ceiling-mounted cameras, computer vision-based object detection, a knowledge-graph based world model. The system is implemented in two architectural configurations: a distributed setup with edge processing and a centralized setup. Results: Experimental results demonstrate the system’s capability to accurately detect and continuously track common warehouse assets such as pallets, boxes, and forklifts. This work provides a detailed methodology, covering aspects from camera placement and neural network training to world model integration and real-world deployment. Conclusions: Our experiments show that the system achieves high detection accuracy and reliable real-time tracking across multiple viewpoints, and it is easily scalable to large-scale logistics and inventory applications.",
+      "doi": "10.3390/logistics9040153",
+      "url": "https://www.semanticscholar.org/paper/03780e2a16e2ce287c47886b3a6f9dd2cb10b7a3",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-10-28"
+    },
+    {
+      "id": "6a43ffb85c670c05409203942749a9c63c76d8f8",
+      "title": "Knowledge Graph-Enhanced Digital Twin Framework for Optimized Job Shop Scheduling in Smart Manufacturing",
+      "authors": [
+        "Nehal Tarek",
+        "A. Algarni",
+        "Nancy A. El-Hefnawy",
+        "Hatem Abdel-Kader",
+        "Amira Abdelatey"
+      ],
+      "year": 2025,
+      "venue": "IEEE Access",
+      "citation_count": 7,
+      "abstract": "The emergence of Digital Twin (DT) technology over the past decade has introduced a transformative perspective to various research areas, notably the Job Shop Scheduling Problem (JSSP) in smart manufacturing. This paper proposes a novel algorithm to address the JSSP in industrial contexts, operating under different modes to minimize makespan and calculate energy consumption. The approach is grounded in a DT framework that leverages a knowledge graph to represent the assets of the manufacturing system. Two algorithms are designed to balance the time required to complete a list of jobs with the energy consumed by the machines in the factory, all while considering the delivery deadline of the final product. The first algorithm is a genetic algorithm (GA) that minimizes the makespan required to complete the job list for each mode of operation followed by a grey wolf optimization algorithm (GWO) to verify and enhance the results of the GA. The second algorithm uses the results of the first algorithm to calculate the running time and energy consumption for each machine in each production line, considering that the production lines of the factory vary in capacity and power, then computes the total energy consumption and presents the results to the decision maker via a dashboard. The dashboard displays, for each mode of operation, the makespan, total energy consumption, and the deadline for all the jobs. To validate the efficiency and accuracy, a case study of a Smart Poultry Feed Planet (SPFP) has been conducted.",
+      "doi": "10.1109/ACCESS.2025.3532600",
+      "url": "https://www.semanticscholar.org/paper/6a43ffb85c670c05409203942749a9c63c76d8f8",
+      "pdf_url": "https://doi.org/10.1109/access.2025.3532600",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "7d35862812418814836a928675df3dc69f218526",
+      "title": "Personalized Diabetes Management with Digital Twins: A Patient-Centric Knowledge Graph Approach",
+      "authors": [
+        "Fatemeh Sarani Rad",
+        "Rasha Hendawi",
+        "Xinyi Yang",
+        "Juan Li"
+      ],
+      "year": 2024,
+      "venue": "Journal of Personalized Medicine",
+      "citation_count": 28,
+      "abstract": "Diabetes management requires constant monitoring and individualized adjustments. This study proposes a novel approach that leverages digital twins and personal health knowledge graphs (PHKGs) to revolutionize diabetes care. Our key contribution lies in developing a real-time, patient-centric digital twin framework built on PHKGs. This framework integrates data from diverse sources, adhering to HL7 standards and enabling seamless information access and exchange while ensuring high levels of accuracy in data representation and health insights. PHKGs offer a flexible and efficient format that supports various applications. As new knowledge about the patient becomes available, the PHKG can be easily extended to incorporate it, enhancing the precision and accuracy of the care provided. This dynamic approach fosters continuous improvement and facilitates the development of new applications. As a proof of concept, we have demonstrated the versatility of our digital twins by applying it to different use cases in diabetes management. These include predicting glucose levels, optimizing insulin dosage, providing personalized lifestyle recommendations, and visualizing health data. By enabling real-time, patient-specific care, this research paves the way for more precise and personalized healthcare interventions, potentially improving long-term diabetes management outcomes.",
+      "doi": "10.3390/jpm14040359",
+      "url": "https://www.semanticscholar.org/paper/7d35862812418814836a928675df3dc69f218526",
+      "pdf_url": "https://www.mdpi.com/2075-4426/14/4/359/pdf?version=1711640372",
+      "fields_of_study": [
+        "Medicine"
+      ],
+      "publication_date": "2024-03-28"
+    },
+    {
+      "id": "b29d4e535a2858acafd08f864ff4ad576f411d8f",
+      "title": "Digital Twin-Based and Knowledge Graph-Enhanced Emergency Response in Urban Infrastructure Construction",
+      "authors": [
+        "Chao Chen",
+        "Yanyun Lu",
+        "Bo Wu",
+        "Linhai Lu"
+      ],
+      "year": 2025,
+      "venue": "Applied Sciences",
+      "citation_count": 2,
+      "abstract": "Urban infrastructure construction poses significant risks to surrounding the infrastructure due to ground settlement, structural disturbances, and underground utility disruptions. Traditional risk assessment methods often rely on static models and experience-based decision-making, limiting their ability to adapt to dynamic construction conditions. This study proposes an integrated framework combining digital twin and knowledge graph technologies to enhance real-time risk assessment and emergency response in tunnel construction. The digital twin continuously integrates real-time monitoring data, including settlement measurements, TBM operational parameters, and structural responses, creating a virtual representation of the tunneling environment. Meanwhile, the knowledge graph structures domain knowledge and applies rule-based reasoning to infer potential hazards, detect abnormal conditions, and suggest mitigation strategies. The proposed approach has been successfully applied to a practical tunnel project in China, where it played a crucial role in emergency response and risk mitigation. By integrating real-time monitoring data with the knowledge-driven reasoning system, the developed framework enabled the early identification of anomalies, rapid risk assessment, and the formulation of effective mitigation strategies, preventing further structural impact. This bidirectional interaction between the digital twin and the knowledge graph ensured that the real-world data informed the automated reasoning, while the inference results were visualized within the digital twin for intuitive decision support. The proposed framework not only enhances current risk management practices but also serves as a foundation for future innovations in smart infrastructure and automated emergency response systems.",
+      "doi": "10.3390/app15116009",
+      "url": "https://www.semanticscholar.org/paper/b29d4e535a2858acafd08f864ff4ad576f411d8f",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-05-27"
+    },
+    {
+      "id": "0d3e6c0f53be1ec35e00724be663af8b7e36c976",
+      "title": "Efficient distributed association management method of data, model, and knowledge for digital twin railway",
+      "authors": [
+        "Yongxin Guo",
+        "Qing Zhu",
+        "Yuling Ding",
+        "Yun Li",
+        "Haoyu Wu",
+        "Yang He",
+        "Zhihong Li",
+        "Hankan Li",
+        "Liguo Zhang",
+        "Yuanzhen Zhao",
+        "Yan Pan",
+        "Ting Yang",
+        "Mingwei Liu",
+        "Haowei Zeng"
+      ],
+      "year": 2024,
+      "venue": "International Journal of Digital Earth",
+      "citation_count": 12,
+      "abstract": "ABSTRACT Digital twin railway is a pivotal foundation for the intelligent construction and maintenance of railway engineering projects within extensive open spaces. Its essence is the integrated representation and association management of multi-granularity spatiotemporal data, executable analysis models, and professional knowledge. These elements are characterized by the prominent characteristics of multi-source, heterogeneity, and massive volume. However, current decentralized and independent management strategies often neglect the dynamic coupling relationships between them, and numerous multi-path joins and conversion aggregation operations exist across various spatial scale applications. Consequently, this results in challenges such as the inability to dynamically couple data-model-knowledge and conduct global association retrieval, thereby limiting the potential for real-time analysis and intelligent application capabilities. To address these problems, we first constructed a tripartite graph model ($DMK{\\rm -}Graph\\; model$DMK−Graphmodel) that explicitly associates temporal, spatial, and interactive relationships. Subsequently, an association management architecture was proposed, accompanied by a global association graph index ($DMK{\\rm -}Graph\\; index$DMK−Graphindex) and a global-local indexing mechanism. Finally, a prototype system for railway data-model-knowledge association management was developed. The effectiveness of the distributed association management method was demonstrated by employing a case study of high-temperature safety risk analysis in railway tunnel engineering with multi-physics field coupling.",
+      "doi": "10.1080/17538947.2024.2340089",
+      "url": "https://www.semanticscholar.org/paper/0d3e6c0f53be1ec35e00724be663af8b7e36c976",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/17538947.2024.2340089?needAccess=true",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-05-02"
+    },
+    {
+      "id": "fb46a1aae992d575aa91f0523c0df1f6462fc645",
+      "title": "Ontology-Driven Digital Twin Framework for Aviation Maintenance and Operations",
+      "authors": [
+        "Igor Kabashkin"
+      ],
+      "year": 2025,
+      "venue": "Mathematics",
+      "citation_count": 1,
+      "abstract": "This paper presents a novel ontology-driven digital twin framework specifically designed for aviation maintenance and operations that addresses these challenges through semantic reasoning and explainable decision support. The proposed framework integrates seven interconnected ontologies—structural, functional, behavioral, monitoring, maintenance, lifecycle, and environmental. It collectively provides a comprehensive semantic representation of aircraft systems and their operational context. Each ontology is mathematically formalized using description logics and graph theory, creating a unified knowledge graph that enables transparent, traceable reasoning from sensor observations to maintenance decisions. The digital twin is formally defined as a 6-tuple that incorporates semantic transformation engines, cross-ontology mappings, and dynamic reasoning mechanisms. Unlike traditional data-driven approaches that operate as black boxes, the ontology-driven framework provides explainable inference capabilities essential for regulatory compliance and safety certification in aviation. The semantic foundation enables causal reasoning, rule-based validation, and context-aware maintenance recommendations while supporting standardization and interoperability across manufacturers, airlines, and regulatory bodies. The research contributes a mathematically grounded, semantically transparent framework that bridges the gap between domain knowledge and operational data in aviation maintenance. This work establishes the foundation for next-generation cognitive maintenance systems that can support intelligent, adaptive, and trustworthy operations in modern aviation ecosystems.",
+      "doi": "10.3390/math13172817",
+      "url": "https://www.semanticscholar.org/paper/fb46a1aae992d575aa91f0523c0df1f6462fc645",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-09-02"
+    },
+    {
+      "id": "a111b536882bc0c5944ebb3ef22e07d70c3e42ae",
+      "title": "An Ontology‐Augmented Digital Twin for Fiber‐Reinforced Polymer Structures at the Example of Wind Turbine Rotor Blades",
+      "authors": [
+        "Marc Luger",
+        "Alexander Seidel",
+        "Ursula Pähler",
+        "Sebastian Schröck",
+        "Peter Hofmann",
+        "Sebastian Kölbl",
+        "Klaus Drechsler"
+      ],
+      "year": 2025,
+      "venue": "Advanced Engineering Materials",
+      "citation_count": 1,
+      "abstract": "A methodology for establishing a structural digital twin is proposed to facilitate the lifetime prediction of fiber‐reinforced polymer (FRP) structures, in this case, a wind turbine rotor blade. The digital twin incorporates production peculiarities and imperfections occurring during the manufacturing process of the FRP component. The methodology involves the computation of process‐defined effective elastic properties and residual stresses through numerical simulation of the resin cure cycle. The results are then transferred to a structural finite‐element model. By applying local wind conditions to this model, a comprehensive state of stress is obtained. This serves as a basis for a practical evaluation of material fatigue within the composite, leading to the prediction of the component's lifetime. The entire workflow is implemented in a Jupyter‐based application that uses an ontology with an appertaining knowledge graph to facilitate the transfer of intermediate results between the observation scales and process steps of the digital twin. In line with the principles of open science, the methodology utilizes open‐source software.",
+      "doi": "10.1002/adem.202401437",
+      "url": "https://www.semanticscholar.org/paper/a111b536882bc0c5944ebb3ef22e07d70c3e42ae",
+      "pdf_url": "https://doi.org/10.1002/adem.202401437",
+      "fields_of_study": null,
+      "publication_date": "2025-01-15"
+    },
+    {
+      "id": "a0e483e8044ff30a8494f8f2c742622da0a2493a",
+      "title": "Optimizing Facilities Management Through Artificial Intelligence and Digital Twin Technology in Mega-Facilities",
+      "authors": [
+        "A. Abdelalim",
+        "Ahmed Essawy",
+        "Alaa Sherif",
+        "Mohamed Salem",
+        "Manal Al-Adwani",
+        "Mohammad Sadeq Abdullah"
+      ],
+      "year": 2025,
+      "venue": "Sustainability",
+      "citation_count": 12,
+      "abstract": "Mega-facility management has long been inefficient due to manual, reactive approaches. Current facility management systems face challenges such as fragmented data integration, limited predictive systems, use of traditional methods, and lack of knowledge of new technologies, such as Building Information Modeling and Artificial Intelligence. This study examines the transformative integration of Artificial Intelligence and Digital Twin technologies into Building Information Modeling (BIM) frameworks using IoT sensors for real-time data collection and predictive analytics. Unlike previous research, this study uses case studies and simulation models for dynamic data integration and scenario-based analyses. Key findings show a significant reduction in maintenance costs (25%) and energy consumption (20%), as well as increased asset utilization and operational efficiency. With an F1-score of more than 90%, the system shows excellent predictive accuracy for equipment failures and energy forecasting. Practical applications in hospitals and airports demonstrate the developed ability of the platform to integrate the Internet of Things and Building Information Modeling technologies, shifting facilities management from being reactive to proactive. This paper presents a demo platform that integrates BIM with Digital Twins to improve the predictive maintenance of HVAC systems, equipment, security systems, etc., by recording data from different assets, which helps streamline asset management, enhance energy efficiency, and support decision-making for the buildings’ critical systems.",
+      "doi": "10.3390/su17051826",
+      "url": "https://www.semanticscholar.org/paper/a0e483e8044ff30a8494f8f2c742622da0a2493a",
+      "pdf_url": "https://doi.org/10.3390/su17051826",
+      "fields_of_study": null,
+      "publication_date": "2025-02-21"
+    },
+    {
+      "id": "b8a4f5bf59a9abe6c7afaa3dc4c6253eab84a3ae",
+      "title": "Semantic Digital Libraries in Public Administration: A Knowledge Graph Approach to Certificate Request Management",
+      "authors": [
+        "Valentina Albano",
+        "Giovanni Carau",
+        "D. Firmani",
+        "Elio Gullo",
+        "Claudia Ilardi",
+        "Luigi Laura"
+      ],
+      "year": 2025,
+      "venue": "Italian Research Conference on Digital Library Management Systems",
+      "citation_count": 0,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/b8a4f5bf59a9abe6c7afaa3dc4c6253eab84a3ae",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "72c4ffe4caac37671793a16eb1cab7e9437134ab",
+      "title": "Towards an Ontology-Driven Approach for Digital Twin Enabled Governed IT Management",
+      "authors": [
+        "H. Proper",
+        "D. Bork",
+        "G. Poels"
+      ],
+      "year": 2021,
+      "venue": "International Conference on Semantic Systems",
+      "citation_count": 7,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/72c4ffe4caac37671793a16eb1cab7e9437134ab",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "7d0df5c8d86d3d821692a7e0827b74cdde41b422",
+      "title": "A Digital Twin Model of High-Pile Docks’ Structures based on Neo4j Knowledge Graph",
+      "authors": [
+        "Shan Lu",
+        "Yaqi Jie",
+        "Xinyi Xu",
+        "Jiale Tong"
+      ],
+      "year": 2024,
+      "venue": "Journal of Physics: Conference Series",
+      "citation_count": 3,
+      "abstract": "High-pile docks plays a vital role in modern civil engineering field. The operational efficiency and structural safety of these docks are paramount. However, structural damage to high-pile docks can lead to economic and human losses. To effectively manage structural health monitoring information for high-pile docks, this research utilizes knowledge graph technology to construct a visual knowledge repository for high-pile docks, named as the High-Pile Dock Knowledge Graph (DKG-Neo4j). For the construction of DKG-Neo4j, a plethora of literature, news, and standards related to health monitoring in the field of high-pile docks were gathered. Then, the collected information was organized hierarchically and categorized into tables, with CSV files exported using Python. Finally, this aggregated information was integrated into the Neo4j graph database to establish a comprehensive knowledge graph. The proposed High-Pile Dock Knowledge Graph (DKG-Neo4j) not only reflects the current state of the docks but also captures the connections between issues and maintenance strategies, empowering experts to engage in structural health monitoring and risk analysis. The DKG-Neo4j model boasts structural flexibility and scalability, contributing to smart cities and providing new approaches for the sustainable development of high-pile docks and the digital management of civil engineering.",
+      "doi": "10.1088/1742-6596/2736/1/012010",
+      "url": "https://www.semanticscholar.org/paper/7d0df5c8d86d3d821692a7e0827b74cdde41b422",
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1742-6596/2736/1/012010/pdf",
+      "fields_of_study": [
+        "Physics"
+      ],
+      "publication_date": "2024-03-01"
+    },
+    {
+      "id": "7dbaeb4342815fb9dd1f949f4a7ca8ebbdf6ab4b",
+      "title": "A Review of an Ontology-Based Digital Twin to Enable Condition-Based Maintenance for Aircraft Operations",
+      "authors": [
+        "Darren B. Macer",
+        "I. Jennions",
+        "N. Avdelidis"
+      ],
+      "year": 2025,
+      "venue": "Applied Sciences",
+      "citation_count": 0,
+      "abstract": "The concept of digital twins has been studied for over two decades and the core tenet lies in it being a “digital representation of a connected physical object”. Utilization of digital twins promises to enable superior decision-making, enhanced operational understanding and future predictions to enable levels of Condition Based Maintenance (CBM) through Integrated Vehicle Health Management (IVHM) which exceeds existing capabilities. Digital twins are being embraced by many industries, including aviation, and are often depicted as electronic images of an asset of interest. However, in a less visually appealing manner, they can also be described simply as a collection of data in an organized and easily accessible format from across the lifecycle which describes a feature that addresses a specific use case. This review demonstrates how the creation and maintenance of digital twins will play a critical role in enhancing IVHM to enable CBM within the aerospace industry. Through a literature review, this paper demonstrates the need for digital twins, of a sufficient level of fidelity, to facilitate the transition to being condition based through deeper levels of operational and component understanding. It emphasizes how detailed knowledge, represented through ontologies, regarding component design, manufacturing, and operational history aid in achieving the desired fidelity levels. By synthesizing insights from various industries with a focus on aerospace applications, this paper aims to provide a comprehensive understanding, focused on the aviation industry, of digital twin definitions, their creation processes, fidelity measurement, and their implications for CBM, while acknowledging the limitations of the current research landscape.",
+      "doi": "10.3390/app152011136",
+      "url": "https://www.semanticscholar.org/paper/7dbaeb4342815fb9dd1f949f4a7ca8ebbdf6ab4b",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-10-17"
+    },
+    {
+      "id": "d2134b4130dd229ac97ad99268adfd341e460930",
+      "title": "Design and Construction of Agricultural Culture Knowledge Graph from the Perspective of Digital Culture",
+      "authors": [
+        "Hui Li",
+        "Xuliang Duan"
+      ],
+      "year": 2024,
+      "venue": "Proceedings of the 2024 International Conference on Computer and Multimedia Technology",
+      "citation_count": 1,
+      "abstract": "With the advent of the era of big data and artificial intelligence, cultural and research institutions represented by cultural centers are conducting research on cultural digitization and digital library construction. Agricultural culture is a precious asset of China's agriculture and an important component of Chinese culture. However, due to the current concentration of research on agricultural culture in academic literature and cultural museums, there are problems such as a long history, scattered and inconsistent resource information, low completeness and correlation of information data, and severe fragmentation, which are not conducive to the digital preservation, knowledge sharing, and intelligent services of agricultural cultural resources. By analyzing the concepts, objects, and attributes of traditional agricultural tools, a traditional agricultural tool ontology model was created using the open-source knowledge graph tool development platform Prot é g é. Map the ontology model to the graph database, use the Neo4j database to import and organize the traditional agricultural tool data of the Agricultural Culture Museum, and complete the construction of the traditional agricultural tool knowledge graph. Finally, using Power BI tools to build a visualization platform, the association and mining of agricultural tool knowledge can be achieved, thereby promoting the sharing and inheritance of agricultural culture, providing new ideas for the construction of digital agricultural culture museums, and promoting the transformation and upgrading development of agricultural cultural industries.",
+      "doi": "10.1145/3675249.3675264",
+      "url": "https://www.semanticscholar.org/paper/d2134b4130dd229ac97ad99268adfd341e460930",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-05-24"
+    },
+    {
+      "id": "977691f495b95856648be22040dd3490fca384ad",
+      "title": "Digital twins as asset management support for urban drainage systems",
+      "authors": [
+        "Miloš Milašinović",
+        "Damjan Ivetić",
+        "Anja Ranđelović",
+        "Robert Ljubičić",
+        "Željko Vasilić",
+        "Ognjen Govedarica",
+        "V. Prodanović",
+        "Luka Vinokić",
+        "L. Brajović",
+        "Milan Gocić"
+      ],
+      "year": 2025,
+      "venue": "Zbornik radova",
+      "citation_count": 0,
+      "abstract": "Efficient management of sewer systems is becoming increasingly challenging due to aging infrastructure, limited resources, and workforce shortages. Digitalization offers an opportunity to improve this process using digital twins - virtual replicas of systems that enable condition monitoring, real-time problem detection, extreme scenario analysis, and intervention planning. Implementing this technology as support for operational management of sewer systems requires a clear digital-twin architecture. This paper presents the concept of an operational digital twin based on the DATA-INFORMATION-KNOWLEDGE-WISDOM (DIKW) architecture, applied to create a virtual replica of a section of the Novi Beograd sewer system, developed within the DIGIDRAIN project.",
+      "doi": "10.5937/vi25121m",
+      "url": "https://www.semanticscholar.org/paper/977691f495b95856648be22040dd3490fca384ad",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "40214a95216570b135fb21fc98a6424bf87e0083",
+      "title": "Transforming Live IoT Data into Actionable Information for Asset Management via Digital Twins",
+      "authors": [
+        "I. Smirnov",
+        "S. Maltese",
+        "N. Molinari",
+        "F. Re Cecconi"
+      ],
+      "year": 2025,
+      "venue": "IOP Conference Series: Earth and Environment",
+      "citation_count": 0,
+      "abstract": "The rapid expansion of the Internet of Things (IoT) has generated an over-whelming amount of dynamic data, challenging asset management in the built environment. The sheer volume and complexity of these raw data often prevent managers from extracting actionable insights necessary for sustainable practices. This paper aims to transform live IoT data into meaningful information to enhance sustainable asset management. Focusing on the segment ’data-to-information’ of the pyramid of data-information-knowledge-wisdom, it explores how integrating IoT data with digital twin technology can facilitate environmentally conscious decision making. Authors propose a cohesive framework that leverages data analytics and machine learning algorithms within a digital twin environment. The methodology involves deploying a data processing pipeline that aggregates IoT data streams, enhancing relevance for asset managers focused on sustainability objectives. Visualization tools present this information in an accessible format, aiding informed decision-making. Through two case studies, it is demonstrated how this approach leads to improved operational efficiency and strategic asset utilization, all contributing to minimized environmental impact. The findings highlight the critical role of effective data interpretation in driving decisions that align with organizational values and green initiatives. By transforming raw IoT data into actionable insights within a digital twin framework, organizations can make informed decisions to promote sustainable asset management. This approach optimizes resource utilization and supports environmental sustainability goals, contributing to a greener future. The paper includes the design and implementation of the data processing pipeline, integration strategies with digital twin technology, application of machine learning algorithms for data analysis, and development of visualization tools. It provides detailed insights from the studies, illustrating the practical benefits and sustainability outcomes of the proposed framework in asset management. The issues beyond the data-to-information conversion and technical specifics of IoT hardware deployment and cybersecurity aspects related to IoT data transmission are not addressed.",
+      "doi": "10.1088/1755-1315/1554/1/012051",
+      "url": "https://www.semanticscholar.org/paper/40214a95216570b135fb21fc98a6424bf87e0083",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Physics"
+      ],
+      "publication_date": "2025-11-01"
+    },
+    {
+      "id": "b90b26cfc5d97b9be4a60ec57870bf67373774b6",
+      "title": "A knowledge graph based construction method for Digital Twin Network",
+      "authors": [
+        "Yanhong Zhu",
+        "Danyang Chen",
+        "Cheng Zhou",
+        "Lu Lu",
+        "Xiaodong Duan"
+      ],
+      "year": 2021,
+      "venue": "2021 IEEE 1st International Conference on Digital Twins and Parallel Intelligence (DTPI)",
+      "citation_count": 43,
+      "abstract": "With the advent of the digital age, digital twin as a new potential technology has received much attention from both academia and industry increasingly. Digital twin technology paves a way for achieving cost-efficient trial and performance-optimal management, through creating a virtual representation of physical network digitally to simulate and predict. In this paper, we propose a novel network paradigm, called digital twin network (DTN) architecture for the future network, which consists of Physical Network, Data Lake, Digital Twin Layer and Network Application Layer. A Sketch acquisition algorithm is introduced to meet the demand of large-scale real-time data collection in Data Lake. A digital twin network construction method based on knowledge graph is developed, which can represent entity attribute and various topologies according to physical network. Finally, the proposed DTN is introduced to realize fault self-healing in the future network, and the feasibility and novelty is proved.",
+      "doi": "10.1109/DTPI52967.2021.9540177",
+      "url": "https://www.semanticscholar.org/paper/b90b26cfc5d97b9be4a60ec57870bf67373774b6",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2021-07-15"
+    },
+    {
+      "id": "e12c1de32481ad21bd343312d587b43919949657",
+      "title": "Digital Twin Smart City: Integrating IFC and CityGML with Semantic Graph for Advanced 3D City Model Visualization",
+      "authors": [
+        "Phuoc-Dat Lam",
+        "Bon-Hyon Gu",
+        "Hoang-Khanh Lam",
+        "Soo-Yol Ok",
+        "Suk-Hwan Lee"
+      ],
+      "year": 2024,
+      "venue": "Italian National Conference on Sensors",
+      "citation_count": 19,
+      "abstract": "The growing interest in building data management, especially the building information model (BIM), has significantly influenced urban management, materials supply chain analysis, documentation, and storage. However, the integration of BIM into 3D GIS tools is becoming more common, showing progress beyond the traditional problem. To address this, this study proposes data transformation methods involving mapping between three domains: industry foundation classes (IFC), city geometry markup language (CityGML), and web ontology framework (OWL)/resource description framework (RDF). Initially, IFC data are converted to CityGML format using the feature manipulation engine (FME) at CityGML standard’s levels of detail 4 (LOD4) to enhance BIM data interoperability. Subsequently, CityGML is converted to the OWL/RDF diagram format to validate the proposed BIM conversion process. To ensure integration between BIM and GIS, geometric data and information are visualized through Cesium Ion web services and Unreal Engine. Additionally, an RDF graph is applied to analyze the association between the semantic mapping of the CityGML standard, with Neo4j (a graph database management system) utilized for visualization. The study’s results demonstrate that the proposed data transformation methods significantly improve the interoperability and visualization of 3D city models, facilitating better urban management and planning.",
+      "doi": "10.3390/s24123761",
+      "url": "https://www.semanticscholar.org/paper/e12c1de32481ad21bd343312d587b43919949657",
+      "pdf_url": "https://www.mdpi.com/1424-8220/24/12/3761/pdf?version=1717926083",
+      "fields_of_study": [
+        "Medicine",
+        "Computer Science"
+      ],
+      "publication_date": "2024-06-01"
+    },
+    {
+      "id": "4af3f351730cfcfeac2bf2d94b086f6b1d571a52",
+      "title": "From BIM to digital twin. IOT data integration in asset management platform",
+      "authors": [
+        "Carlo Biagini",
+        "A. Bongini",
+        "Luca Marzi"
+      ],
+      "year": 2024,
+      "venue": "Journal of Information Technology in Construction",
+      "citation_count": 13,
+      "abstract": "Real estate asset operations typically represent around 80% of investment and management costs, with space management and system monitoring being crucial for user well-being.The AECO industry is moving towards a data-driven model, combining various type of data from various sources. In addition, the inclusion of sensor systems in buildings is leading to a shift towards a distributed semantic approach, requiring a deeper understanding of reality and the ability to link different ontologies from various fields. So, the need to address challenges such as data interoperability, integration of different semantic domains, and improvement of information exchange processes has recognized semantic web technologies as a powerful tool for enhancing the value of BIM models by facilitating data integration and enabling the application of complex queries across multiple data sources.\nThe proposed paper aims to analyze the state of art about IoT and semantic web technologies, and their possible integration in a BIM environment to aid decision-making in building maintenance. It will provide a first ongoing approach for the digitalization of the assets managed by the University of Florence's Building Area. The study shows the two different workflows set up to connect BIM models with sensor data. \nThe first one involved the use of DTH22 environmental sensors integrated through Node-Red to the open source platform Snap4City for data management; the second one involved the installation of LORAWAN sensors within a building and the use of a property platform, Niagara Tridium, for data manipulation and sampling to be convolved within a BMS platform. The work is part of a larger EU Next Generation research project titled, \"BIM2DT. BIM-to-Digital Twin: information management to support decision-making in the building life cycle\".",
+      "doi": "10.36680/j.itcon.2024.049",
+      "url": "https://www.semanticscholar.org/paper/4af3f351730cfcfeac2bf2d94b086f6b1d571a52",
+      "pdf_url": "https://doi.org/10.36680/j.itcon.2024.049",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-12-26"
+    },
+    {
+      "id": "c5994435c7f19f27f5a349bcc25afd093e5095b0",
+      "title": "An Ontology and Geospatial Knowledge Graph for Reasoning About Cascading Failures (Short Paper)",
+      "authors": [
+        "Torsten Hahmann",
+        "D. K. Kedrowski"
+      ],
+      "year": 2024,
+      "venue": "Conference On Spatial Information Theory",
+      "citation_count": 1,
+      "abstract": null,
+      "doi": "10.4230/LIPIcs.COSIT.2024.21",
+      "url": "https://www.semanticscholar.org/paper/c5994435c7f19f27f5a349bcc25afd093e5095b0",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    }
+  ]
+}

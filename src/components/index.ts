@@ -1,0 +1,11 @@
+export { default as Header } from "./Header";
+export { default as Hero } from "./Hero";
+export { default as StatsStrip } from "./StatsStrip";
+export { default as Research } from "./Research";
+export { default as ResearchTrends } from "./ResearchTrends";
+export { default as ResearchFeed } from "./ResearchFeed";
+export { default as Projects } from "./Projects";
+export { default as Team } from "./Team";
+export { default as Publications } from "./Publications";
+export { default as Join } from "./Join";
+export { default as Footer } from "./Footer";

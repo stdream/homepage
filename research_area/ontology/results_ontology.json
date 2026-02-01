@@ -1,0 +1,1042 @@
+{
+  "query": "ontology engineering",
+  "timestamp": "2026-01-25T11:48:16.576243",
+  "count": 50,
+  "papers": [
+    {
+      "id": "b3133630f1308e62445021de6e628e599d4e596e",
+      "title": "An Ontology Model for Systems Engineering Derived from ISO/IEC/IEEE 15288: 2015: Systems and Software Engineering - System Life Cycle Processes",
+      "authors": [
+        "Lan Yang",
+        "Kathryn Cormican",
+        "Ming Yu"
+      ],
+      "year": 2016,
+      "venue": "",
+      "citation_count": 266,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/b3133630f1308e62445021de6e628e599d4e596e",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2016-11-01"
+    },
+    {
+      "id": "321f29324168a56f1b587c4177a14a290eeee583",
+      "title": "LOT: An industrial oriented ontology engineering framework",
+      "authors": [
+        "M. Poveda-Villalón",
+        "Alba Fernández-Izquierdo",
+        "M. Fernández-López",
+        "R. García-Castro"
+      ],
+      "year": 2022,
+      "venue": "Engineering applications of artificial intelligence",
+      "citation_count": 146,
+      "abstract": null,
+      "doi": "10.1016/j.engappai.2022.104755",
+      "url": "https://www.semanticscholar.org/paper/321f29324168a56f1b587c4177a14a290eeee583",
+      "pdf_url": "https://doi.org/10.1016/j.engappai.2022.104755",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-05-01"
+    },
+    {
+      "id": "3321b88c06b6d71fbbb7cc1c403c5554ab15d2a8",
+      "title": "DOLCE: A descriptive ontology for linguistic and cognitive engineering",
+      "authors": [
+        "S. Borgo",
+        "R. Ferrario",
+        "Aldo Gangemi",
+        "Nicola Guarino",
+        "Claudio Masolo",
+        "Daniele Porello",
+        "Emilio M. Sanfilippo",
+        "L. Vieu"
+      ],
+      "year": 2021,
+      "venue": "Appl. Ontology",
+      "citation_count": 125,
+      "abstract": "dolce, the first top-level (foundational) ontology to be axiomatized, has remained stable for twenty years and today is broadly used in a variety of domains. dolce is inspired by cognitive and linguistic considerations and aims to model a commonsense view of reality, like the one human beings exploit in everyday life in areas as diverse as socio-technical systems, manufacturing, financial transactions and cultural heritage. dolce clearly lists the ontological choices it is based upon, relies on philosophical principles, is richly formalized, and is built according to well-established ontological methodologies, e.g. OntoClean. Because of these features, it has inspired most of the existing top-level ontologies and has been used to develop or improve standards and public domain resources (e.g. CIDOC CRM, DBpedia and WordNet). Being a foundational ontology, dolce is not directly concerned with domain knowledge. Its purpose is to provide the general categories and relations needed to give a coherent view of reality, to integrate domain knowledge, and to mediate across domains. In these 20 years dolce has shown that applied ontologies can be stable and that interoperability across reference and domain ontologies is a reality. This paper briefly introduces the ontology and shows how to use it on a few modeling cases.",
+      "doi": "10.3233/AO-210259",
+      "url": "https://www.semanticscholar.org/paper/3321b88c06b6d71fbbb7cc1c403c5554ab15d2a8",
+      "pdf_url": "https://hal.science/hal-04383614/file/2308.01597.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2021-11-18"
+    },
+    {
+      "id": "b81c2fc19820e9800f4874692a08ba969a279cd4",
+      "title": "A lightweight methodology for rapid ontology engineering",
+      "authors": [
+        "Antonio De Nicola",
+        "M. Missikoff"
+      ],
+      "year": 2016,
+      "venue": "Communications of the ACM",
+      "citation_count": 125,
+      "abstract": null,
+      "doi": "10.1145/2818359",
+      "url": "https://www.semanticscholar.org/paper/b81c2fc19820e9800f4874692a08ba969a279cd4",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2016-02-25"
+    },
+    {
+      "id": "309df3da7596b11cb96df80c7c1b0cfb04de946d",
+      "title": "Ontology-based systems engineering: A state-of-the-art review",
+      "authors": [
+        "Lan Yang",
+        "K. Cormican",
+        "Ming Yu"
+      ],
+      "year": 2019,
+      "venue": "Computers in industry (Print)",
+      "citation_count": 122,
+      "abstract": null,
+      "doi": "10.1016/j.compind.2019.05.003",
+      "url": "https://www.semanticscholar.org/paper/309df3da7596b11cb96df80c7c1b0cfb04de946d",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2019-10-01"
+    },
+    {
+      "id": "2fa062a5427df653ba91ef0d7c7bbb23bf62d85f",
+      "title": "Ontology Engineering",
+      "authors": [
+        "Avigdor Gal"
+      ],
+      "year": 2019,
+      "venue": "Encyclopedia of Database Systems",
+      "citation_count": 119,
+      "abstract": null,
+      "doi": "10.1007/978-1-4614-8265-9_1315",
+      "url": "https://www.semanticscholar.org/paper/2fa062a5427df653ba91ef0d7c7bbb23bf62d85f",
+      "pdf_url": "https://link.springer.com/content/pdf/bfm:978-3-031-79486-5/1?pdf=chapter%20toc",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2019-04-24"
+    },
+    {
+      "id": "b1c81b32900d9e2cd49ef05c42a1de8a584b0887",
+      "title": "Semantic web methodologies, best practices and ontology engineering applied to Internet of Things",
+      "authors": [
+        "A. Gyrard",
+        "M. Serrano",
+        "G. Atemezing"
+      ],
+      "year": 2015,
+      "venue": "World Forum on Internet of Things",
+      "citation_count": 101,
+      "abstract": null,
+      "doi": "10.1109/WF-IOT.2015.7389090",
+      "url": "https://www.semanticscholar.org/paper/b1c81b32900d9e2cd49ef05c42a1de8a584b0887",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2015-12-14"
+    },
+    {
+      "id": "95b88fb30d459057a4e37794551eda37d6fb20b8",
+      "title": "Ontology Engineering with Ontology Design Patterns - Foundations and Applications",
+      "authors": [
+        "P. Hitzler",
+        "Aldo Gangemi",
+        "K. Janowicz",
+        "Adila Alfa Krisnadhi",
+        "V. Presutti"
+      ],
+      "year": 2016,
+      "venue": "Studies on the Semantic Web",
+      "citation_count": 94,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/95b88fb30d459057a4e37794551eda37d6fb20b8",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2016-09-01"
+    },
+    {
+      "id": "461a4e621439a7f930ab93c81f89fb221ac61041",
+      "title": "Ontology engineering methodologies for the evolution of living and reused ontologies: status, trends, findings and recommendations",
+      "authors": [
+        "Konstantinos I. Kotis",
+        "G. Vouros",
+        "D. Spiliotopoulos"
+      ],
+      "year": 2020,
+      "venue": "Knowledge engineering review (Print)",
+      "citation_count": 75,
+      "abstract": "Abstract The aim of this critical review paper is threefold: (a) to provide an insight on the impact of ontology engineering methodologies (OEMs) to the evolution of living and reused ontologies, (b) to update the ontology engineering (OE) community on the status and trends in OEMs and of their use in practice and (c) to propose a set of recommendations for working ontologists to consider during the life cycle of living, evolved and reused ontologies. The work outlined in this critical review paper has been motivated by the need to address critical issues on keeping ontologies alive and evolving while these are shared in wide communities. It is argued that the engineering of ontologies must follow a well-defined methodology, addressing practical aspects that would allow (sometimes wide) communities of experts and ontologists to reach consensus on developments and keep the evolution of ontologies ‘in track’. In doing so, specific collaborative and iterative tool-supported tasks and phases within a complete and evaluated ontology life cycle are necessary. This way the engineered ontologies can be considered ‘shared, commonly agreed and continuously evolved “live” conceptualizations’ of domains of discourse. Today, in the era of Linked Data and Knowledge Graphs, it is more necessary than ever not to neglect to consider the recommendations that OEMs explicitly and implicitly introduce and their implications to the evolution of living ontologies. This paper reports on the status of OEMs, identifies trends and provides recommendations based on the findings of an analysis that concerns the impact of OEMs to the status of well-known, widely used and representative ontologies.",
+      "doi": "10.1017/S0269888920000065",
+      "url": "https://www.semanticscholar.org/paper/461a4e621439a7f930ab93c81f89fb221ac61041",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7A2D8D844EE0369C24967E156910AB50/S0269888920000065a.pdf/div-class-title-ontology-engineering-methodologies-for-the-evolution-of-living-and-reused-ontologies-status-trends-findings-and-recommendations-div.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2020-01-31"
+    },
+    {
+      "id": "5fcfff0ad86b87d41c9708bb9d52feed0f492fb1",
+      "title": "Ontology engineering: Current state, challenges, and future directions",
+      "authors": [
+        "Tania Tudorache"
+      ],
+      "year": 2020,
+      "venue": "Semantic Web",
+      "citation_count": 64,
+      "abstract": "In the past decade, we have witnessed a significant adoption of ontologies in a variety of fields including biomedicine, finance, engineering, law, and cultural heritage. The ontology engineering field has been strengthened by the adoption of several standards pertaining to ontologies, by the development or extension of ontology building tools, and by a wider recognition of the importance of standardized vocabularies and formalized semantics. Research into ontology engineering has also produced methods and tools that are used more and more in production settings. Despite all these advancements, ontology engineering is still a difficult process, and many challenges still remain to be solved. This paper gives an overview of how the ontology engineering field has evolved in the last decade and discusses some of the unsolved issues and opportunities for future research.",
+      "doi": "10.3233/sw-190382",
+      "url": "https://www.semanticscholar.org/paper/5fcfff0ad86b87d41c9708bb9d52feed0f492fb1",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science",
+        "Engineering"
+      ],
+      "publication_date": "2020-01-31"
+    },
+    {
+      "id": "3f9c19cac3841abf19891ca5cadae46a3a66da03",
+      "title": "An Ontology-based Engineering system to support aircraft manufacturing system design",
+      "authors": [
+        "Rebeca Arista",
+        "Xiaochen Zheng",
+        "Jinzhi Lu",
+        "F. Mas"
+      ],
+      "year": 2023,
+      "venue": "Journal of manufacturing systems",
+      "citation_count": 64,
+      "abstract": null,
+      "doi": "10.1016/j.jmsy.2023.02.012",
+      "url": "https://www.semanticscholar.org/paper/3f9c19cac3841abf19891ca5cadae46a3a66da03",
+      "pdf_url": "https://doi.org/10.1016/j.jmsy.2023.02.012",
+      "fields_of_study": null,
+      "publication_date": "2023-06-01"
+    },
+    {
+      "id": "ccab107a0ec38c52aedccf1ec34f76ededc41fcb",
+      "title": "Peer-production system or collaborative ontology engineering effort: what is Wikidata?",
+      "authors": [
+        "C. Müller-Birn",
+        "Benjamin Karran",
+        "Janette Lehmann",
+        "Markus Luczak-Rösch"
+      ],
+      "year": 2015,
+      "venue": "International Symposium on Open Collaboration",
+      "citation_count": 60,
+      "abstract": null,
+      "doi": "10.1145/2788993.2789836",
+      "url": "https://www.semanticscholar.org/paper/ccab107a0ec38c52aedccf1ec34f76ededc41fcb",
+      "pdf_url": "https://eprints.soton.ac.uk/377397/1/paper-1.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2015-08-19"
+    },
+    {
+      "id": "a8f6305dfa00bad53037c3c544cfcbb59c3a50b4",
+      "title": "Ontology-Based Data Integration in Multi-Disciplinary Engineering Environments: A Review",
+      "authors": [
+        "Fajar J. Ekaputra",
+        "M. Sabou",
+        "Estefanía Serral",
+        "Elmar Kiesling",
+        "S. Biffl"
+      ],
+      "year": 2017,
+      "venue": "Open Journal of Information Systems",
+      "citation_count": 60,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/a8f6305dfa00bad53037c3c544cfcbb59c3a50b4",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science",
+        "Engineering"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "f993bfccc258e7c31d45b3396658df57a4ce0755",
+      "title": "Design Ontology Supporting Model-Based Systems Engineering Formalisms",
+      "authors": [
+        "Jinzhi Lu",
+        "Junda Ma",
+        "Xiaochen Zheng",
+        "Guoxin Wang",
+        "Han Li",
+        "D. Kiritsis"
+      ],
+      "year": 2020,
+      "venue": "IEEE Systems Journal",
+      "citation_count": 52,
+      "abstract": "Model-based systems engineering (MBSE) provides an important capability for managing the complexities of system development. MBSE empowers the formalism of system architectures for supporting model-based requirement elicitation, specification, design, development, testing, fielding, etc. However, the modeling languages and techniques are heterogeneous, even within the same enterprise system, which leads to difficulties for data interoperability. The discrepancies among data structures and language syntaxes make information exchange among MBSE models more difficult, resulting in considerable information deviations when connecting data flows across the enterprise. Therefore, this article presents an ontology based upon graphs, objects, points, properties, roles, and relationships with extensions (GOPPRRE), providing metamodels that support the various MBSE formalisms across lifecycle stages. In particular, knowledge graph models are developed to support unified model representations to further implement ontological data integration based on GOPPRRE throughout the entire lifecycle. The applicability of the MBSE formalism is verified using quantitative and qualitative approaches. Moreover, the GOPPRRE ontologies are used to create the MBSE formalisms in a domain-specific modeling tool, MetaGraph, for evaluating its availability. The results demonstrate that the proposed ontology supports the formal structures and descriptive logic of the systems engineering lifecycle.",
+      "doi": "10.1109/JSYST.2021.3106195",
+      "url": "https://www.semanticscholar.org/paper/f993bfccc258e7c31d45b3396658df57a4ce0755",
+      "pdf_url": "https://ieeexplore.ieee.org/ielx7/4267003/9979155/09534721.pdf",
+      "fields_of_study": [
+        "Computer Science",
+        "Engineering"
+      ],
+      "publication_date": "2020-10-15"
+    },
+    {
+      "id": "c4922aa7f90d164e37cc38db6a3c3c3fa71cdcee",
+      "title": "Ontology engineering with Large Language Models",
+      "authors": [
+        "Patricia Mateiu",
+        "Adrian Groza"
+      ],
+      "year": 2023,
+      "venue": "Symposium on Symbolic and Numeric Algorithms for Scientific Computing",
+      "citation_count": 49,
+      "abstract": "We tackle the task of enriching ontologies by automatically translating natural language (NL) into Description Logic (DL). Since Large Language Models (LLMs) are the best tools for translations, we fine-tuned a GPT-3 model to convert NL into OWL Functional Syntax. For fine-tuning, we designed pairs of sentences in NL and the corresponding translations. This training pairs cover various aspects from ontology engineering: instances, class subsumption, domain and range of relations, object properties relationships, disjoint classes, complements, or cardinality restrictions. The resulted axioms are used to enrich an ontology, in a human supervised manner. The developed tool is publicly provided as a Protégé plugin.",
+      "doi": "10.1109/SYNASC61333.2023.00038",
+      "url": "https://www.semanticscholar.org/paper/c4922aa7f90d164e37cc38db6a3c3c3fa71cdcee",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-07-31"
+    },
+    {
+      "id": "476f12ef62bd55aef99a4996a31b65a6337625a6",
+      "title": "Automating ontology engineering support activities with OnToology",
+      "authors": [
+        "Ahmad Alobaid",
+        "D. Garijo",
+        "M. Poveda-Villalón",
+        "Idafen Santana-Pérez",
+        "Alba Fernández-Izquierdo",
+        "Óscar Corcho"
+      ],
+      "year": 2019,
+      "venue": "Journal of Web Semantics",
+      "citation_count": 49,
+      "abstract": null,
+      "doi": "10.1016/J.WEBSEM.2018.09.003",
+      "url": "https://www.semanticscholar.org/paper/476f12ef62bd55aef99a4996a31b65a6337625a6",
+      "pdf_url": "https://oa.upm.es/78226/1/SSRN-id3260516.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2019-08-01"
+    },
+    {
+      "id": "c9de7f1dfa7ba504d3e4743f6f502c4628b35ed0",
+      "title": "Social engineering in cybersecurity: a domain ontology and knowledge graph application examples",
+      "authors": [
+        "Zuoguang Wang",
+        "Hongsong Zhu",
+        "Peipei Liu",
+        "Limin Sun"
+      ],
+      "year": 2021,
+      "venue": "Cybersecurity",
+      "citation_count": 44,
+      "abstract": "Social engineering has posed a serious threat to cyberspace security. To protect against social engineering attacks, a fundamental work is to know what constitutes social engineering. This paper first develops a domain ontology of social engineering in cybersecurity and conducts ontology evaluation by its knowledge graph application. The domain ontology defines 11 concepts of core entities that significantly constitute or affect social engineering domain, together with 22 kinds of relations describing how these entities related to each other. It provides a formal and explicit knowledge schema to understand, analyze, reuse and share domain knowledge of social engineering. Furthermore, this paper builds a knowledge graph based on 15 social engineering attack incidents and scenarios. 7 knowledge graph application examples (in 6 analysis patterns) demonstrate that the ontology together with knowledge graph is useful to 1) understand and analyze social engineering attack scenario and incident, 2) find the top ranked social engineering threat elements (e.g. the most exploited human vulnerabilities and most used attack mediums), 3) find potential social engineering threats to victims, 4) find potential targets for social engineering attackers, 5) find potential attack paths from specific attacker to specific target, and 6) analyze the same origin attacks.",
+      "doi": "10.1186/s42400-021-00094-6",
+      "url": "https://www.semanticscholar.org/paper/c9de7f1dfa7ba504d3e4743f6f502c4628b35ed0",
+      "pdf_url": "https://cybersecurity.springeropen.com/track/pdf/10.1186/s42400-021-00094-6",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2021-05-28"
+    },
+    {
+      "id": "c0405cf441d787445db03cb3ccde2e730c58117d",
+      "title": "Ontology-Assisted Engineering of Cyber–Physical Production Systems in the Field of Process Technology",
+      "authors": [
+        "Grischan Engel",
+        "Thomas Greiner",
+        "Sascha Seifert"
+      ],
+      "year": 2018,
+      "venue": "IEEE Transactions on Industrial Informatics",
+      "citation_count": 44,
+      "abstract": "Future cyber–physical production systems (CPPS) constitute a complex and dynamic network of services and plant components such as actuators and sensors. Consequently, the manual technical specification and design of these systems are a complex and time-consuming task involving extensive expert knowledge. In scope of CPPS, current approaches to reduce the engineering effort focus on manufacturing technology. There are initial approaches in the domain of process engineering available. However, these neither consider the knowledge-supported definition of recipe-based operations nor the assignment of dynamic service networks to process modules. The objective of this contribution is the design of a concept and a systematic approach to automate the engineering of batch process plants respecting dynamic service networks and process modules using a knowledge-based assistance system. For this purpose, a declarative recipe description is combined with an ontological model. This enables an automatic inference of technical requirements. Based on this information, a multistage orchestration algorithm selects and combines process modules and networked services to find appropriate engineering solutions. Finally, a comprehensive case-study demonstrates that the proposed approach is able to automate the target-oriented selection and combination of process modules and service networks.",
+      "doi": "10.1109/TII.2018.2805320",
+      "url": "https://www.semanticscholar.org/paper/c0405cf441d787445db03cb3ccde2e730c58117d",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2018-02-12"
+    },
+    {
+      "id": "f5a2f55c781846362a026eec262007b184636c27",
+      "title": "Sentiment Analysis and Ontology Engineering - An Environment of Computational Intelligence",
+      "authors": [
+        "W. Pedrycz",
+        "Shyi-Ming Chen"
+      ],
+      "year": 2016,
+      "venue": "Sentiment Analysis and Ontology Engineering",
+      "citation_count": 40,
+      "abstract": null,
+      "doi": "10.1007/978-3-319-30319-2",
+      "url": "https://www.semanticscholar.org/paper/f5a2f55c781846362a026eec262007b184636c27",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2016-03-23"
+    },
+    {
+      "id": "a2d765c0563aaf802cf3b70bb69fe6361bb9e316",
+      "title": "DeepOnto: A Python Package for Ontology Engineering with Deep Learning",
+      "authors": [
+        "Yuan He",
+        "Jiaoyan Chen",
+        "Hang Dong",
+        "Ian Horrocks",
+        "Carlo Allocca",
+        "Taehun Kim",
+        "B. Sapkota"
+      ],
+      "year": 2023,
+      "venue": "Semantic Web",
+      "citation_count": 39,
+      "abstract": "Integrating deep learning techniques, particularly language models (LMs), with knowledge representation techniques like ontologies has raised widespread attention, urging the need of a platform that supports both paradigms. Although packages such as OWL API and Jena offer robust support for basic ontology processing features, they lack the capability to transform various types of information within ontologies into formats suitable for downstream deep learning-based applications. Moreover, widely-used ontology APIs are primarily Java-based while deep learning frameworks like PyTorch and Tensorflow are mainly for Python programming. To address the needs, we present DeepOnto, a Python package designed for ontology engineering with deep learning. The package encompasses a core ontology processing module founded on the widely-recognised and reliable OWL API, encapsulating its fundamental features in a more “Pythonic” manner and extending its capabilities to incorporate other essential components including reasoning, verbalisation, normalisation, taxonomy, projection, and more. Building on this module, DeepOnto offers a suite of tools, resources, and algorithms that support various ontology engineering tasks, such as ontology alignment and completion, by harnessing deep learning methods, primarily pre-trained LMs. In this paper, we also demonstrate the practical utility of DeepOnto through two use-cases: the Digital Health Coaching in Samsung Research UK and the Bio-ML track of the Ontology Alignment Evaluation Initiative (OAEI).",
+      "doi": "10.48550/arXiv.2307.03067",
+      "url": "https://www.semanticscholar.org/paper/a2d765c0563aaf802cf3b70bb69fe6361bb9e316",
+      "pdf_url": "https://arxiv.org/pdf/2307.03067",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-07-06"
+    },
+    {
+      "id": "f002e96b3c26a62ec9fb383e528f9bb9399aaabd",
+      "title": "Collaborative Ontology Engineering Methodologies for the Development of Decision Support Systems: Case Studies in the Healthcare Domain",
+      "authors": [
+        "Daniele Spoladore",
+        "E. Pessot"
+      ],
+      "year": 2021,
+      "venue": "Electronics",
+      "citation_count": 38,
+      "abstract": "New models and technological advances are driving the digital transformation of healthcare systems. Ontologies and Semantic Web have been recognized among the most valuable solutions to manage the massive, various, and complex healthcare data deriving from different sources, thus acting as backbones for ontology-based Decision Support Systems (DSSs). Several contributions in the literature propose Ontology engineering methodologies (OEMs) to assist the formalization and development of ontologies, by providing guidelines on tasks, activities, and stakeholders’ participation. Nevertheless, existing OEMs differ widely according to their approach, and often lack of sufficient details to support ontology engineers. This paper performs a meta-review of the main criteria adopted for assessing OEMs, and major issues and shortcomings identified in existing methodologies. The key issues requiring specific attention (i.e., the delivery of a feasibility study, the introduction of project management processes, the support for reuse, and the involvement of stakeholders) are then explored into three use cases of semantic-based DSS in health-related fields. Results contribute to the literature on OEMs by providing insights on specific tools and approaches to be used when tackling these issues in the development of collaborative OEMs supporting DSS.",
+      "doi": "10.3390/ELECTRONICS10091060",
+      "url": "https://www.semanticscholar.org/paper/f002e96b3c26a62ec9fb383e528f9bb9399aaabd",
+      "pdf_url": "https://www.mdpi.com/2079-9292/10/9/1060/pdf?version=1620261362",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2021-04-29"
+    },
+    {
+      "id": "286a50b24916bee6f4d3f0e41061e0bf0ef8da2a",
+      "title": "Ontology Engineering by Combining Ontology Patterns",
+      "authors": [
+        "F. B. Ruy",
+        "C. Reginato",
+        "V. A. Santos",
+        "R. Falbo",
+        "G. Guizzardi"
+      ],
+      "year": 2015,
+      "venue": "International Conference on Conceptual Modeling",
+      "citation_count": 37,
+      "abstract": null,
+      "doi": "10.1007/978-3-319-25264-3_13",
+      "url": "https://www.semanticscholar.org/paper/286a50b24916bee6f4d3f0e41061e0bf0ef8da2a",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2015-10-19"
+    },
+    {
+      "id": "df008854259dd004093427bc77acf305fc37ac52",
+      "title": "AI\n in digital forensics: Ontology engineering for cybercrime investigations",
+      "authors": [
+        "L. Sikos"
+      ],
+      "year": 2020,
+      "venue": "WIREs Forensic Science",
+      "citation_count": 34,
+      "abstract": null,
+      "doi": "10.1002/wfs2.1394",
+      "url": "https://www.semanticscholar.org/paper/df008854259dd004093427bc77acf305fc37ac52",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2020-09-01"
+    },
+    {
+      "id": "53b12cb6653aaea9ed532411235c5d9054b850bc",
+      "title": "Interoperability of disparate engineering domain ontologies using basic formal ontology",
+      "authors": [
+        "Thomas J. Hagedorn",
+        "Barry Smith",
+        "S. Krishnamurty",
+        "I. Grosse"
+      ],
+      "year": 2019,
+      "venue": "Journal of engineering design",
+      "citation_count": 33,
+      "abstract": "ABSTRACT As engineering applications require management of ever larger volumes of data, ontologies offer the potential to capture, manage, and augment data with the capability for automated reasoning and semantic querying. Unfortunately, considerable barriers hinder wider deployment of ontologies in engineering. Key among these is lack of a shared top-level ontology to unify and organise disparate aspects of the field and coordinate co-development of orthogonal ontologies. As a result, many engineering ontologies are limited to their scope, and functionally difficult to extend or interoperate with other engineering ontologies. This paper demonstrates how the use of a top-level ontology, specifically the Basic Formal Ontology (BFO), greatly facilitates interoperability of multiple engineering-related ontologies. We constructed a system of formal linked ontologies by re-engineering legacy ontologies to be conformant with BFO and developing new BFO-conformant ontologies to capture knowledge in the engineering design, enterprise, human factors, manufacturing, and application domain of additive manufacturing. The resulting Integrated Framework for Additively Manufactured Products (IFAMP), including the body knowledge instantiated on its basis, serve as the basis for a proposed Design with Additive Manufacturing Method (DWAM), which we believe can support the design of innovative products with semantically enhanced ideation tools and enhanced access to application domain knowledge. The method and its facilitation through the ontological framework are demonstrated using a case study in medicine.",
+      "doi": "10.1080/09544828.2019.1630805",
+      "url": "https://www.semanticscholar.org/paper/53b12cb6653aaea9ed532411235c5d9054b850bc",
+      "pdf_url": "https://philpapers.org/archive/HAGIOD.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2019-06-14"
+    },
+    {
+      "id": "8cfd371938caa9e74e381d381ad3ade176de5057",
+      "title": "OntoChat: a Framework for Conversational Ontology Engineering using Language Models",
+      "authors": [
+        "Bohui Zhang",
+        "Valentina Anita Carriero",
+        "Katrin Schreiberhuber",
+        "Stefani Tsaneva",
+        "Luc'ia S'anchez Gonz'alez",
+        "Jongmo Kim",
+        "Jacopo de Berardinis"
+      ],
+      "year": 2024,
+      "venue": "ESWC Satellite Events",
+      "citation_count": 29,
+      "abstract": "Ontology engineering (OE) in large projects poses a number of challenges arising from the heterogeneous backgrounds of the various stakeholders, domain experts, and their complex interactions with ontology designers. This multi-party interaction often creates systematic ambiguities and biases from the elicitation of ontology requirements, which directly affect the design, evaluation and may jeopardise the target reuse. Meanwhile, current OE methodologies strongly rely on manual activities (e.g., interviews, discussion pages). After collecting evidence on the most crucial OE activities, we introduce \\textbf{OntoChat}, a framework for conversational ontology engineering that supports requirement elicitation, analysis, and testing. By interacting with a conversational agent, users can steer the creation of user stories and the extraction of competency questions, while receiving computational support to analyse the overall requirements and test early versions of the resulting ontologies. We evaluate OntoChat by replicating the engineering of the Music Meta Ontology, and collecting preliminary metrics on the effectiveness of each component from users. We release all code at https://github.com/King-s-Knowledge-Graph-Lab/OntoChat.",
+      "doi": "10.48550/arXiv.2403.05921",
+      "url": "https://www.semanticscholar.org/paper/8cfd371938caa9e74e381d381ad3ade176de5057",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-03-09"
+    },
+    {
+      "id": "e5fa346cf96c8f59b0dc2dc63b515cbe568f09f7",
+      "title": "Towards Complex Ontology Alignment using Large Language Models",
+      "authors": [
+        "Reihaneh Amini",
+        "Sanaz Saki Norouzi",
+        "Pascal Hitzler",
+        "Reza Amini"
+      ],
+      "year": 2024,
+      "venue": "Iberoamerican Conference on Knowledge Graphs and Semantic Web",
+      "citation_count": 29,
+      "abstract": "Ontology alignment, a critical process in the Semantic Web for detecting relationships between different ontologies, has traditionally focused on identifying so-called\"simple\"1-to-1 relationships through class labels and properties comparison. The more practically useful exploration of more complex alignments remains a hard problem to automate, and as such is largely underexplored, i.e. in application practice it is usually done manually by ontology and domain experts. Recently, the surge in Natural Language Processing (NLP) capabilities, driven by advancements in Large Language Models (LLMs), presents new opportunities for enhancing ontology engineering practices, including ontology alignment tasks. This paper investigates the application of LLM technologies to tackle the complex ontology alignment challenge. Leveraging a prompt-based approach and integrating rich ontology content so-called modules our work constitutes a significant advance towards automating the complex alignment task.",
+      "doi": "10.48550/arXiv.2404.10329",
+      "url": "https://www.semanticscholar.org/paper/e5fa346cf96c8f59b0dc2dc63b515cbe568f09f7",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-04-16"
+    },
+    {
+      "id": "d4464682f79b64f58add7a6386da82522bad6e6c",
+      "title": "Ontology Learning for Systems Engineering Body of Knowledge",
+      "authors": [
+        "Lan Yang",
+        "K. Cormican",
+        "Ming Yu"
+      ],
+      "year": 2021,
+      "venue": "IEEE Transactions on Industrial Informatics",
+      "citation_count": 27,
+      "abstract": "Extant systems engineering standards are so fragmented that the conceptualization of a cohesive body of knowledge is not easy. The discrepancies between different standards lead to misunderstanding and misinterpretation, making communication between stakeholders increasingly difficult. Moreover, these standards remain document centric, whereas systems engineering is transforming from paper-based to a model-based discipline. This requires the use of advanced information exchange schema and digital artifacts to enhance interoperability. Ontologies have been advocated as a mechanism to address these problems, as they can support the model-based transition and formalize the domain knowledge. However, manually creating ontologies is a time-consuming, error-prone, and tedious process. Little has been known about how to automate the development and little work has been conducted for building systems engineering ontologies. Therefore, in this article, we propose an ontology learning methodology to extract a systems engineering ontology from the extant standards. This methodology employs natural language processing techniques to carry out the lexical and morphological analyses on the standard documents. From the learning process, important terminologies, synonyms, concepts, and relations constructing the systems engineering body of knowledge are automatically recognized and classified. A formal and sophisticated system engineering ontology is achieved, which can be used to harmonize the extant standards, unify the languages, and improve the interoperability of the model-based systems engineering approach.",
+      "doi": "10.1109/TII.2020.2990953",
+      "url": "https://www.semanticscholar.org/paper/d4464682f79b64f58add7a6386da82522bad6e6c",
+      "pdf_url": "https://researchrepository.universityofgalway.ie/bitstreams/9e81d2e2-4011-4649-b368-85f8d7c2bde3/download",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2021-02-01"
+    },
+    {
+      "id": "6cd8857fe37636517e56ecd945e6bc5de46b850e",
+      "title": "Ontology Engineering and Development Aspects: A Survey",
+      "authors": [
+        "U. Yadav",
+        "Gagandeep Singh Narula",
+        "Neelam Duhan",
+        "Vishal Jain"
+      ],
+      "year": 2016,
+      "venue": "",
+      "citation_count": 26,
+      "abstract": "Ontology can be defined as hierarchical representation of classes, sub classes, their properties and instances. It has led to understanding the concepts of given domain, deriving relationships and representing them in machine interpretable language. Ontologies are associated with different languages that are used in mapping of multiple ontologies. Several applications of ontologies have led towards realization of semantic web. The current web (2.0) is approaching towards semantic web (3.0) that performs intelligent search and stores results in distributed databases. The paper makes readers aware of various aspects of ontology like types of ontology, ontology development life cycle phases, activities involved in ontology development and ontology engineering tools. Ontology engineering contributes to meaningful search and provides with open source tools for deploying and building ontologies.",
+      "doi": "10.5815/IJEME.2016.03.02",
+      "url": "https://www.semanticscholar.org/paper/6cd8857fe37636517e56ecd945e6bc5de46b850e",
+      "pdf_url": "http://www.mecs-press.org/ijeme/ijeme-v6-n3/IJEME-V6-N3-2.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2016-05-08"
+    },
+    {
+      "id": "fa95fb4761bde8dc7944b433c2aa9b51fa8d92f5",
+      "title": "Crowd-based ontology engineering with the uComp Protégé plugin",
+      "authors": [
+        "G. Wohlgenannt",
+        "M. Sabou",
+        "F. Hanika"
+      ],
+      "year": 2016,
+      "venue": "Semantic Web",
+      "citation_count": 26,
+      "abstract": null,
+      "doi": "10.3233/SW-150181",
+      "url": "https://www.semanticscholar.org/paper/fa95fb4761bde8dc7944b433c2aa9b51fa8d92f5",
+      "pdf_url": "http://www.semantic-web-journal.net/system/files/swj894.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "4bb58bbaa78533204a4520073559a6570fbfa09f",
+      "title": "A novel agile ontology engineering methodology for supporting organizations in collaborative ontology development",
+      "authors": [
+        "Daniele Spoladore",
+        "E. Pessot",
+        "A. Trombetta"
+      ],
+      "year": 2023,
+      "venue": "Computers in industry (Print)",
+      "citation_count": 24,
+      "abstract": null,
+      "doi": "10.1016/j.compind.2023.103979",
+      "url": "https://www.semanticscholar.org/paper/4bb58bbaa78533204a4520073559a6570fbfa09f",
+      "pdf_url": "https://doi.org/10.1016/j.compind.2023.103979",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-10-01"
+    },
+    {
+      "id": "c729416ece49e7bff03b2fd50229e68ef0944978",
+      "title": "Ontology Generation using Large Language Models",
+      "authors": [
+        "Anna Sofia Lippolis",
+        "Mohammad Javad Saeedizade",
+        "Robin Keskisarkka",
+        "Sara Zuppiroli",
+        "Miguel Ceriani",
+        "Aldo Gangemi",
+        "Eva Blomqvist",
+        "Andrea Giovanni Nuzzolese"
+      ],
+      "year": 2025,
+      "venue": "Extended Semantic Web Conference",
+      "citation_count": 24,
+      "abstract": "The ontology engineering process is complex, time-consuming, and error-prone, even for experienced ontology engineers. In this work, we investigate the potential of Large Language Models (LLMs) to provide effective OWL ontology drafts directly from ontological requirements described using user stories and competency questions. Our main contribution is the presentation and evaluation of two new prompting techniques for automated ontology development: Memoryless CQbyCQ and Ontogenia. We also emphasize the importance of three structural criteria for ontology assessment, alongside expert qualitative evaluation, highlighting the need for a multi-dimensional evaluation in order to capture the quality and usability of the generated ontologies. Our experiments, conducted on a benchmark dataset of ten ontologies with 100 distinct CQs and 29 different user stories, compare the performance of three LLMs using the two prompting techniques. The results demonstrate improvements over the current state-of-the-art in LLM-supported ontology engineering. More specifically, the model OpenAI o1-preview with Ontogenia produces ontologies of sufficient quality to meet the requirements of ontology engineers, significantly outperforming novice ontology engineers in modelling ability. However, we still note some common mistakes and variability of result quality, which is important to take into account when using LLMs for ontology authoring support. We discuss these limitations and propose directions for future research.",
+      "doi": "10.48550/arXiv.2503.05388",
+      "url": "https://www.semanticscholar.org/paper/c729416ece49e7bff03b2fd50229e68ef0944978",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-03-07"
+    },
+    {
+      "id": "cdc5aea6fbd8578b0642d65453891f99329b7bc9",
+      "title": "Accelerating Knowledge Graph and Ontology Engineering with Large Language Models",
+      "authors": [
+        "C. Shimizu",
+        "Pascal Hitzler"
+      ],
+      "year": 2024,
+      "venue": "Journal of Web Semantics",
+      "citation_count": 23,
+      "abstract": "Large Language Models bear the promise of significant acceleration of key Knowledge Graph and Ontology Engineering tasks, including ontology modeling, extension, modification, population, alignment, as well as entity disambiguation. We lay out LLM-based Knowledge Graph and Ontology Engineering as a new and coming area of research, and argue that modular approaches to ontologies will be of central importance.",
+      "doi": "10.48550/arXiv.2411.09601",
+      "url": "https://www.semanticscholar.org/paper/cdc5aea6fbd8578b0642d65453891f99329b7bc9",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-11-14"
+    },
+    {
+      "id": "ce87f7c75a876132bbb45931a60544dfcf62cf33",
+      "title": "Modular Graphical Ontology Engineering Evaluated",
+      "authors": [
+        "C. Shimizu",
+        "K. Hammar",
+        "P. Hitzler"
+      ],
+      "year": 2020,
+      "venue": "Extended Semantic Web Conference",
+      "citation_count": 23,
+      "abstract": "Ontology engineering is traditionally a complex and time-consuming process, requiring an intimate knowledge of description logic and predicting non-local effects of different ontological commitments. Pattern-based modular ontology engineering, coupled with a graphical modeling paradigm, can help make ontology engineering accessible to modellers with limited ontology expertise. We have developed CoModIDE, the Comprehensive Modular Ontology IDE, to develop and explore such a modeling approach. In this paper we present an evaluation of the CoModIDE tool, with a set of 21 subjects carrying out some typical modeling tasks. Our findings indicate that using CoModIDE improves task completion rate and reduces task completion time, compared to using standard Protégé. Further, our subjects report higher System Usability Scale (SUS) evaluation scores for CoModIDE, than for Protégé. The subjects also report certain room for improvements in the CoModIDE tool – notably, these comments all concern comparatively shallow UI bugs or issues, rather than limitations inherent in the proposed modeling method itself. We deduce that our modeling approach is viable, and propose some consequences for ontology engineering tool development.",
+      "doi": "10.1007/978-3-030-49461-2_2",
+      "url": "https://www.semanticscholar.org/paper/ce87f7c75a876132bbb45931a60544dfcf62cf33",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-49461-2_2.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2020-05-07"
+    },
+    {
+      "id": "fab14c47a79a408a731fab69f1ae2bf4d0329f74",
+      "title": "Ontology-based feature engineering in machine learning workflows for heterogeneous epilepsy patient records",
+      "authors": [
+        "S. Sahoo",
+        "K. Kobow",
+        "Jianzhe Zhang",
+        "J. Buchhalter",
+        "Mojtaba Dayyani",
+        "Dipak Prasad Upadhyaya",
+        "K. Prantzalos",
+        "Meenakshi Bhattacharjee",
+        "I. Blumcke",
+        "S. Wiebe",
+        "S. Lhatoo"
+      ],
+      "year": 2022,
+      "venue": "Scientific Reports",
+      "citation_count": 21,
+      "abstract": "Biomedical ontologies are widely used to harmonize heterogeneous data and integrate large volumes of clinical data from multiple sources. This study analyzed the utility of ontologies beyond their traditional roles, that is, in addressing a challenging and currently underserved field of feature engineering in machine learning workflows. Machine learning workflows are being increasingly used to analyze medical records with heterogeneous phenotypic, genotypic, and related medical terms to improve patient care. We performed a retrospective study using neuropathology reports from the German Neuropathology Reference Center for Epilepsy Surgery at Erlangen, Germany. This cohort included 312 patients who underwent epilepsy surgery and were labeled with one or more diagnoses, including dual pathology, hippocampal sclerosis, malformation of cortical dysplasia, tumor, encephalitis, and gliosis. We modeled the diagnosis terms together with their microscopy, immunohistochemistry, anatomy, etiologies, and imaging findings using the description logic-based Web Ontology Language (OWL) in the Epilepsy and Seizure Ontology (EpSO). Three tree-based machine learning models were used to classify the neuropathology reports into one or more diagnosis classes with and without ontology-based feature engineering. We used five-fold cross validation to avoid overfitting with a fixed number of repetitions while leaving out one subset of data for testing, and we used recall, balanced accuracy, and hamming loss as performance metrics for the multi-label classification task. The epilepsy ontology-based feature engineering approach improved the performance of all the three learning models with an improvement of 35.7%, 54.5%, and 33.3% in logistics regression, random forest, and gradient tree boosting models respectively. The run time performance of all three models improved significantly with ontology-based feature engineering with gradient tree boosting model showing a 93.8% reduction in the time required for training and testing of the model. Although, all three models showed an overall improved performance across the three-performance metrics using ontology-based feature engineering, the rate of improvement was not consistent across all input features. To analyze this variation in performance, we computed feature importance scores and found that microscopy had the highest importance score across the three models, followed by imaging, immunohistochemistry, and anatomy in a decreasing order of importance scores. This study showed that ontologies have an important role in feature engineering to make heterogeneous clinical data accessible to machine learning models and also improve the performance of machine learning models in multilabel multiclass classification tasks.",
+      "doi": "10.1038/s41598-022-23101-3",
+      "url": "https://www.semanticscholar.org/paper/fab14c47a79a408a731fab69f1ae2bf4d0329f74",
+      "pdf_url": "https://www.nature.com/articles/s41598-022-23101-3.pdf",
+      "fields_of_study": [
+        "Medicine"
+      ],
+      "publication_date": "2022-11-12"
+    },
+    {
+      "id": "1d603e32ad2b2ce5bcc119ac76c3c762bd744f7d",
+      "title": "Design and Implementation of E-Campus Ontology with a Hybrid Software Engineering Methodology",
+      "authors": [
+        "Karwan Jacksi"
+      ],
+      "year": 2019,
+      "venue": "Science Journal of University of Zakho",
+      "citation_count": 21,
+      "abstract": "Semantic Web according to the vision of the W3C is the future of WWW (or Web). It is an extension of the current Web through standards by the W3C. Data of the Semantic Web has well-defined meanings, can be understood by devices and allows machines and people to work in collaboration. Ontologies are vital components of the Semantic Web infrastructure and are more often recognized as the backbone of the Semantic Web. Although numerous developments occur in the field of developing ontologies along the lines with the Semantic Web implementation, but standardizing the process models, tools and methodologies need to be improved in the future. In literature, experts in ontology engineering have stated that setting a methodology for developing ontology applications with support of integrated tools is an essential task for ontology engineering to be succeeded. In this paper, an e-campus ontology for educational purposes is designed and implemented, and mainly focused on the learning hierarchy of C-sharp programming language. A hybrid methodology based on software engineering approaches for developing ontologies is presented. Finally, the developed methodology is applied on the implemented ontology.",
+      "doi": "10.25271/sjuoz.2019.7.3.613",
+      "url": "https://www.semanticscholar.org/paper/1d603e32ad2b2ce5bcc119ac76c3c762bd744f7d",
+      "pdf_url": "https://sjuoz.uoz.edu.krd/index.php/sjuoz/article/download/613/411",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2019-09-30"
+    },
+    {
+      "id": "61738e48788f7799f2f60b8059c8c5eaa49c4ee3",
+      "title": "Ontology engineering in the era of linked data",
+      "authors": [
+        "Óscar Corcho",
+        "M. Poveda-Villalón",
+        "Asunción Gómez-Pérez"
+      ],
+      "year": 2015,
+      "venue": "",
+      "citation_count": 20,
+      "abstract": null,
+      "doi": "10.1002/BULT.2015.1720410407",
+      "url": "https://www.semanticscholar.org/paper/61738e48788f7799f2f60b8059c8c5eaa49c4ee3",
+      "pdf_url": "https://asistdl.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/bult.2015.1720410407",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2015-04-01"
+    },
+    {
+      "id": "f3babf2e43f93a69d3a0a678336c21b85cd23fcd",
+      "title": "Ontology Embedding: A Survey of Methods, Applications and Resources",
+      "authors": [
+        "Jiaoyan Chen",
+        "Olga Mashkova",
+        "Fernando Zhapa-Camacho",
+        "R. Hoehndorf",
+        "Yuan He",
+        "Ian Horrocks"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Knowledge and Data Engineering",
+      "citation_count": 20,
+      "abstract": "Ontologies are widely used for representing domain knowledge and meta data, playing an increasingly important role in Information Systems, the Semantic Web, Bioinformatics and many other domains. However, logical reasoning that ontologies can directly support are quite limited in learning, approximation and prediction. One straightforward solution is to integrate statistical analysis and machine learning. To this end, automatically learning vector representation for knowledge of an ontology i.e., ontology embedding has been widely investigated. Numerous papers have been published on ontology embedding, but a lack of systematic reviews hinders researchers from gaining a comprehensive understanding of this field. To bridge this gap, we write this survey paper, which first introduces different kinds of semantics of ontologies and formally defines ontology embedding as well as its property of faithfulness. Based on this, it systematically categorizes and analyses a relatively complete set of over 80 papers, according to the ontologies they aim at and their technical solutions including geometric modeling, sequence modeling and graph propagation. This survey also introduces the applications of ontology embedding in ontology engineering, machine learning augmentation and life sciences, presents a new library mOWL and discusses the challenges and future directions.",
+      "doi": "10.1109/TKDE.2025.3559023",
+      "url": "https://www.semanticscholar.org/paper/f3babf2e43f93a69d3a0a678336c21b85cd23fcd",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-06-16"
+    },
+    {
+      "id": "ca25d5ef61d19ff19c44f8edc6782703ee38372f",
+      "title": "Use of Competency Questions in Ontology Engineering: A Survey",
+      "authors": [
+        "Glaice K. S. Quirino",
+        "J. S. Salamon",
+        "M. Barcellos"
+      ],
+      "year": 2023,
+      "venue": "International Conference on Conceptual Modeling",
+      "citation_count": 17,
+      "abstract": null,
+      "doi": "10.1007/978-3-031-47262-6_3",
+      "url": "https://www.semanticscholar.org/paper/ca25d5ef61d19ff19c44f8edc6782703ee38372f",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "a46ee4bba1d334c811a8da2567fabdd1b9bf2091",
+      "title": "A Vision for Diagrammatic Ontology Engineering",
+      "authors": [
+        "Gem Stapleton",
+        "J. Howse",
+        "Adrienne Bonnington",
+        "Jim Burton"
+      ],
+      "year": 2014,
+      "venue": "VISUAL@EKAW",
+      "citation_count": 15,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/a46ee4bba1d334c811a8da2567fabdd1b9bf2091",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "0a20f047495038e68c642262a0bec44b290f5b6a",
+      "title": "Sequential Action Patterns in Collaborative Ontology-Engineering Projects: A Case-Study in the Biomedical Domain",
+      "authors": [
+        "Simon Walk",
+        "Philipp Singer",
+        "M. Strohmaier"
+      ],
+      "year": 2014,
+      "venue": "International Conference on Information and Knowledge Management",
+      "citation_count": 15,
+      "abstract": null,
+      "doi": "10.1145/2661829.2662049",
+      "url": "https://www.semanticscholar.org/paper/0a20f047495038e68c642262a0bec44b290f5b6a",
+      "pdf_url": "https://dl.acm.org/action/showFmPdf?doi=10.1145%2F2661829",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2014-11-03"
+    },
+    {
+      "id": "b1ed386545b22bcded19a0e9bb9e4fb347c3cab2",
+      "title": "POEM: Practical ontology engineering model for semantic web ontologies",
+      "authors": [
+        "Shaukat Ali",
+        "Shah Khusro"
+      ],
+      "year": 2016,
+      "venue": "",
+      "citation_count": 14,
+      "abstract": "Abstract Sundown of the twentieth century saw the emergence of the World Wide Web. A decade later, semantic web (SW) envisioned enriching of web-accessible information and services with machine-processable semantics to solve the problems of information management and sharing which are aroused by the success of the web. However, success of the SW largely depends on the availability of formal ontologies for representing and structuring information in different domains. To facilitate web ontology engineering (OE), methodologies are proposed by the researchers since years. However, OE particularly web OE is still immature and none of the methodologies is standardized for web OE projects as yet. This paper presents an evolutionary SW ontology engineering methodology called POEM. POEM presents a complete methodology comprising of various phases for performing conceptualization, designing, implementation, evaluation, and project management tasks. POEM exploits and incorporates the large experiences from the widely used software engineering standards to make the methodology more realistic and provide greater functionality. Due to its broad nature, POEM has the potential applicability in a wider range of OE projects. Comparison of POEM with other OE methodologies has ascertained POEM as more advantageous and easy methodology for SW ontology engineering.",
+      "doi": "10.1080/23311916.2016.1193959",
+      "url": "https://www.semanticscholar.org/paper/b1ed386545b22bcded19a0e9bb9e4fb347c3cab2",
+      "pdf_url": "https://doi.org/10.1080/23311916.2016.1193959",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2016-06-16"
+    },
+    {
+      "id": "48db5ad5610f1769ee5f6a8baa0bd128a1782965",
+      "title": "LLMs4Life: Large Language Models for Ontology Learning in Life Sciences",
+      "authors": [
+        "Nadeen Fathallah",
+        "Steffen Staab",
+        "Alsayed Algergawy"
+      ],
+      "year": 2024,
+      "venue": "International Conference Knowledge Engineering and Knowledge Management",
+      "citation_count": 13,
+      "abstract": "Ontology learning in complex domains, such as life sciences, poses significant challenges for current Large Language Models (LLMs). Existing LLMs struggle to generate ontologies with multiple hierarchical levels, rich interconnections, and comprehensive class coverage due to constraints on the number of tokens they can generate and inadequate domain adaptation. To address these issues, we extend the NeOn-GPT pipeline for ontology learning using LLMs with advanced prompt engineering techniques and ontology reuse to enhance the generated ontologies' domain-specific reasoning and structural depth. Our work evaluates the capabilities of LLMs in ontology learning in the context of highly specialized and complex domains such as life science domains. To assess the logical consistency, completeness, and scalability of the generated ontologies, we use the AquaDiva ontology developed and used in the collaborative research center AquaDiva as a case study. Our evaluation shows the viability of LLMs for ontology learning in specialized domains, providing solutions to longstanding limitations in model performance and scalability.",
+      "doi": "10.48550/arXiv.2412.02035",
+      "url": "https://www.semanticscholar.org/paper/48db5ad5610f1769ee5f6a8baa0bd128a1782965",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-12-02"
+    },
+    {
+      "id": "5757074b9a97f495987161b965558941f8e67109",
+      "title": "Integrating Language and Ontology Engineering",
+      "authors": [
+        "B. Barroca",
+        "Thomas Kühne",
+        "H. Vangheluwe"
+      ],
+      "year": 2014,
+      "venue": "MPM@MoDELS",
+      "citation_count": 13,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/5757074b9a97f495987161b965558941f8e67109",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "4a7e4b17f7a6e652c9fce4f8aed404b543818f86",
+      "title": "The Role of Ontology Engineering in Linked Data Publishing and Management: An Empirical Study",
+      "authors": [
+        "Markus Luczak-Rösch",
+        "E. Simperl",
+        "S. Stadtmüller",
+        "Tobias Käfer"
+      ],
+      "year": 2014,
+      "venue": "International Journal on Semantic Web and Information Systems (IJSWIS)",
+      "citation_count": 12,
+      "abstract": null,
+      "doi": "10.4018/IJSWIS.2014070103",
+      "url": "https://www.semanticscholar.org/paper/4a7e4b17f7a6e652c9fce4f8aed404b543818f86",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2014-07-01"
+    },
+    {
+      "id": "23e40bba841b732d359b6688f822c5270a0c7fc2",
+      "title": "Towards Ontology-Based Requirements Engineering for IoT-Supported Well-Being, Aging and Health",
+      "authors": [
+        "H. Belani",
+        "P. Šolić",
+        "T. Perković"
+      ],
+      "year": 2022,
+      "venue": "2022 IEEE 30th International Requirements Engineering Conference Workshops (REW)",
+      "citation_count": 11,
+      "abstract": "Ontologies serve as a one of the formal means to represent and model knowledge in computer science, electrical engineering, system engineering and other related disciplines. Ontologies within requirements engineering may be used for formal representation of system requirements. In the Internet of Things, ontologies may be used to represent sensor knowledge and describe acquired data semantics. Designing an ontology comprehensive enough with an appropriate level of knowledge expressiveness, serving multiple purposes, from system requirements specifications to modeling knowledge based on data from IoT sensors, is one of the great challenges. This paper proposes an approach towards ontology-based requirements engineering for well-being, aging and health supported by the Internet of Things. Such an ontology design does not aim at creating a new ontology, but extending the appropriate one already existing, SAREF4EHAW, in order align with the well-being, aging and health concepts and structure the knowledge within the domain. Other contributions include a conceptual formulation for Well-Being, Aging and Health and a related taxonomy, as well as a concept of One Well-Being, Aging and Health. New attributes and relations have been proposed for the new ontology extension, along with the updated list of use cases and particular ontological requirements not covered by the original ontology. Future work envisions full specification of the new ontology extension, as well as structuring system requirements and sensor measurement parameters to follow description logic.",
+      "doi": "10.1109/REW56159.2022.00019",
+      "url": "https://www.semanticscholar.org/paper/23e40bba841b732d359b6688f822c5270a0c7fc2",
+      "pdf_url": "https://arxiv.org/pdf/2211.10735",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-08-01"
+    },
+    {
+      "id": "81f158a26ea066898d7b31c18c4a3a8b397c7384",
+      "title": "On the Roles of Competency Questions in Ontology Engineering",
+      "authors": [
+        "C. Keet",
+        "Z. Khan"
+      ],
+      "year": 2024,
+      "venue": "International Conference Knowledge Engineering and Knowledge Management",
+      "citation_count": 9,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/81f158a26ea066898d7b31c18c4a3a8b397c7384",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "0eebc85eb7072f2a5512ec6d8210afb4a2669df1",
+      "title": "CoModIDE - The Comprehensive Modular Ontology Engineering IDE",
+      "authors": [
+        "C. Shimizu",
+        "K. Hammar"
+      ],
+      "year": 2019,
+      "venue": "International Workshop on the Semantic Web",
+      "citation_count": 9,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/0eebc85eb7072f2a5512ec6d8210afb4a2669df1",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "653d131a56f9db3cc5264f67b84acb056a8f91d8",
+      "title": "A Method for Detecting Behavior-Based User Profiles in Collaborative Ontology Engineering",
+      "authors": [
+        "S. V. Laere",
+        "R. Buyl",
+        "M. Nyssen"
+      ],
+      "year": 2014,
+      "venue": "OTM Conferences",
+      "citation_count": 9,
+      "abstract": null,
+      "doi": "10.1007/978-3-662-45563-0_40",
+      "url": "https://www.semanticscholar.org/paper/653d131a56f9db3cc5264f67b84acb056a8f91d8",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2014-10-27"
+    },
+    {
+      "id": "abbaaec8969745162d25d3f468dc080eda289ce7",
+      "title": "Ontology Engineering Methodologies: An Analytical Study",
+      "authors": [
+        "R. Rekha",
+        "C. Syamili"
+      ],
+      "year": 2017,
+      "venue": "",
+      "citation_count": 7,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/abbaaec8969745162d25d3f468dc080eda289ce7",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2017-08-01"
+    },
+    {
+      "id": "ab9648d4bd8abf26f823e33c5d37ffbff4c4e512",
+      "title": "Ontology Engineering",
+      "authors": [
+        "V. Tamma",
+        "Mauro Dragoni",
+        "Rafael S. Gonçalves",
+        "A. Ławrynowicz"
+      ],
+      "year": 2015,
+      "venue": "Lecture Notes in Computer Science",
+      "citation_count": 1,
+      "abstract": null,
+      "doi": "10.1007/978-3-319-33245-1",
+      "url": "https://www.semanticscholar.org/paper/ab9648d4bd8abf26f823e33c5d37ffbff4c4e512",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    }
+  ]
+}

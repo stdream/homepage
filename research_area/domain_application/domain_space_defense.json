@@ -1,0 +1,613 @@
+{
+  "query": "ontology knowledge graph aerospace defense satellite",
+  "timestamp": "2026-01-25T14:31:33.640785",
+  "count": 30,
+  "papers": [
+    {
+      "id": "8d518fb731d09da60fd03daa310de1ec58e404c3",
+      "title": "IRSKG: Unified Intrusion Response System Knowledge Graph Ontology for Cyber Defense",
+      "authors": [
+        "Damodar Panigrahi",
+        "Shaswata Mitra",
+        "Subash Neupane",
+        "Sudip Mittal",
+        "Benjamin A. Blakely"
+      ],
+      "year": 2024,
+      "venue": "BigData Congress [Services Society]",
+      "citation_count": 2,
+      "abstract": "Cyberattacks are becoming increasingly difficult to detect and prevent due to their sophistication. In response, Autonomous Intelligent Cyber-defense Agents (AICAs) are emerging as crucial solutions. One prominent AICA agent is the Intrusion Response System (IRS), which is critical for mitigating threats after detection. IRS uses several Tactics, Techniques, and Procedures (TTPs) to mitigate attacks and restore the infrastructure to normal operations. Continuous monitoring of the enterprise infrastructure is an essential TTP the IRS uses. However, each system serves different purposes to meet operational needs. Integrating these disparate sources for continuous monitoring increases pre-processing complexity and limits automation, eventually prolonging critical response time for attackers to exploit. We propose a unified IRS Knowledge Graph ontology (IRSKG) that streamlines the onboarding of new enterprise systems as a source for the AICAs. Our ontology can capture system monitoring logs and supplemental data, such as a rules repository containing the administrator-defined policies to dictate the IRS responses. Besides, our ontology permits us to incorporate dynamic changes to adapt to the evolving cyber-threat landscape. This robust yet concise design allows machine learning models to train effectively and recover a compromised system to its desired state autonomously with explainability.",
+      "doi": "10.1109/BigData62323.2024.10825797",
+      "url": "https://www.semanticscholar.org/paper/8d518fb731d09da60fd03daa310de1ec58e404c3",
+      "pdf_url": "http://arxiv.org/pdf/2411.15672",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-11-23"
+    },
+    {
+      "id": "746516994b0ec191a41f657cbf22df9d436c3771",
+      "title": "Construction of Satellite Spectrum Knowledge Graph: Ontology Design and Knowledge Application",
+      "authors": [
+        "Yike Li",
+        "Yuhang Wu",
+        "Lu Yuan",
+        "Fuhui Zhou",
+        "Qihui Wu"
+      ],
+      "year": 2023,
+      "venue": "2023 International Conference on Ubiquitous Communication (Ucom)",
+      "citation_count": 2,
+      "abstract": "The explosive growth in the scale of satellite networks poses challenges in spectrum resource allocation, and forms an urgent demand for intelligent spectrum management methodology. However, the current spectrum management methodology is unable to effectively handle the enormous amount of heterogeneous multi-dimensional data. In order to overcome this drawbacks, the Satellite Spectrum Knowledge Graph is constructed in this paper. The ontology of satellite spectrum domain is designed by utilizing top-down method. Additionally, the raw data are processed by knowledge extraction, data mapping, knowledge fusion, and knowledge storage to complete the knowledge graph in graph database form. Moreover, the constructed knowledge graph is also applied in satellite information retrieval and frequency bands recommendation for satellite in this paper, which exhibits the potential in advanced satellite spectrum management framework.",
+      "doi": "10.1109/Ucom59132.2023.10257575",
+      "url": "https://www.semanticscholar.org/paper/746516994b0ec191a41f657cbf22df9d436c3771",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2023-07-07"
+    },
+    {
+      "id": "fbeb9f134f7f1aebde229be47bd7c2087e04dd6f",
+      "title": "Research on Knowledge Graph Construction and Semantic Representation of Low Earth Orbit Satellite Spectrum Sensing Data",
+      "authors": [
+        "Yijie Ma",
+        "Ziwei Liu",
+        "Nan Yang",
+        "Huajian Xu",
+        "Gengxin Zhang"
+      ],
+      "year": 2024,
+      "venue": "Electronics",
+      "citation_count": 3,
+      "abstract": "The growth of frequency-usage devices has made the electromagnetic spectrum posture complex, resulting in an urgent demand for frequency-usage posture cognition. However, the sensing of space-based platforms is limited by the transmission capacity of the satellite-to-ground link and the satellite processing capacity, which makes on-satellite data analysis and posture generation lack the efficient means. Facing the above issues, an idea of a knowledge graph construction and semantic representation for low Earth orbit (LEO) satellite spectrum sensing data is designed in this paper. In the designed construction process, technologies such as knowledge extraction, ontology construction, knowledge fusion and knowledge visualization are utilized to efficiently analyze on-satellite sensing data. Moreover, the constructed spectrum knowledge graph can be applied in the analysis and prediction of frequency-usage behavior and intelligent spectrum management, which exhibits the effectiveness of the spectrum knowledge graph. Finally, the further development of the spectrum knowledge graph is foreseen.",
+      "doi": "10.3390/electronics13040672",
+      "url": "https://www.semanticscholar.org/paper/fbeb9f134f7f1aebde229be47bd7c2087e04dd6f",
+      "pdf_url": "https://www.mdpi.com/2079-9292/13/4/672/pdf?version=1707193089",
+      "fields_of_study": null,
+      "publication_date": "2024-02-06"
+    },
+    {
+      "id": "0bde575b0363bff3e8fa2750f3117fd4c5aa765f",
+      "title": "Construction and application of aerospace quality knowledge graph",
+      "authors": [
+        "Chenyue Zhang",
+        "Fangxu Dong",
+        "Qinghua Long"
+      ],
+      "year": 2023,
+      "venue": "International Conference on Signal Processing and Computer Science",
+      "citation_count": 0,
+      "abstract": "Aiming at the huge and discrete storage of quality problem data in aerospace model quality management, a method for improving the efficiency of finding aerospace quality information by constructing a knowledge graph of aerospace quality and applying a question-answering system is proposed. The graph construction adopts a top-down construction method. First, the concept-attribute-relationship ontology model of aerospace quality knowledge is constructed. Then, based on combining expert knowledge to design the ontology concept of aerospace quality knowledge, the data to be processed is pre-processed by BERT. The training model is combined with deep learning technologies such as BiLSTM-CRF and self-attention mechanism to realize independent knowledge extraction, and then the Dice coefficient combined with the weighted average method is used to fuse the entity-relationship extraction results. Finally, based on the constructed knowledge graph, to improve the accuracy of semantic template matching, a natural language question semantic classification process model based on a weighted naive Bayesian classifier is established, which can further realize intelligent question answering. The results of the paper show that the intelligent application of knowledge graphs in the field of aerospace quality has a good prospect.",
+      "doi": "10.1117/12.3012121",
+      "url": "https://www.semanticscholar.org/paper/0bde575b0363bff3e8fa2750f3117fd4c5aa765f",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Engineering"
+      ],
+      "publication_date": "2023-12-21"
+    },
+    {
+      "id": "5151eef29164d404d0712fc8e66c0d4fe29a39cc",
+      "title": "Research on Network Security Threat Analysis Method Based on Knowledge Graph",
+      "authors": [
+        "Zhenwan Zou",
+        "Bin Wang",
+        "Feng Li",
+        "Bo Ye"
+      ],
+      "year": 2024,
+      "venue": "IEEE Advanced Information Technology, Electronic and Automation Control Conference",
+      "citation_count": 2,
+      "abstract": "Network security threat analysis is an important component of network security assessment. Traditional threat analysis methods cannot effectively integrate multi-source information and adapt to the rapidly changing network attack and defense situation. To address the above issues, a network security threat analysis method based on knowledge graph is proposed. Firstly, this article constructs a network security ontology model, which models the concepts and relationships in the field of network security, and then associates and integrates multi-source network security information. Next, this article constructs a network security knowledge graph based on ontology. Then, a network security threat path prediction, traceability, and analysis method based on knowledge graph is proposed to accurately perceive cyberspace security threat. Finally, by comparing with traditional threat detection methods, it is verified that the network security threat analysis method based on knowledge graph proposed in this article is more suitable for perceiving high-strength security threat.",
+      "doi": "10.1109/IAEAC59436.2024.10504024",
+      "url": "https://www.semanticscholar.org/paper/5151eef29164d404d0712fc8e66c0d4fe29a39cc",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-03-15"
+    },
+    {
+      "id": "d570a8eccbc1310d4428148409a3319ad6a8f239",
+      "title": "Research on Method for Fusion and Mapping of Cyberspace Assets Based on Knowledge Graph",
+      "authors": [
+        "Junyuan Yang",
+        "Chungui Li",
+        "Xingwen Chen",
+        "Kejiu Tan",
+        "Yuncheng Zhao",
+        "Huan Wang",
+        "Jie Wang"
+      ],
+      "year": 2024,
+      "venue": "IEEE Access",
+      "citation_count": 0,
+      "abstract": "The fusion and mapping of cyberspace assets represent an effective means of organizing cyber assets and converging asset defense profiles. However, asset fusion and mapping in the context of Internet exposure encounters numerous challenges, including semantic coreference conflicts in heterogeneous discrete asset attributes, entity wildcard resolution, and false positives in mapping results. Therefore, this study proposes a method for fusion and mapping of cyberspace assets based on knowledge graph. Firstly, a coreference resolution mechanism for asset attributes that leverages the quality of asset intelligence is designed. This mechanism defines core asset accuracy and asset attribute completeness indicators, and integrates asset type weights to quantitatively evaluate asset intelligence quality. This serves as a benchmark for resolving semantic coreference in asset attributes. Secondly, a cyberspace assets knowledge graph ontology based on six-tuples is constructed. We design a triple structure for cyber asset entity representation and establish cyber asset relationship extraction rules based on protocol analysis. Finally, an entity alignment algorithm for false positive domain name assets based on wildcard resolution feature similarity is proposed, leveraging DNS resolution features and service response features to identify wildcard resolution assets, establishes thresholds to determine the range of false positive domain names, and aligns wildcard resolution assets to primary domain name asset entities. Experimental results in real network environments demonstrate that our method effectively addresses challenges including semantic coreference conflicts in asset attributes, entity wildcard resolution, and false positives in asset mapping. This study enhances the completeness and accuracy of cyberspace assets mapping results.",
+      "doi": "10.1109/ACCESS.2024.3476481",
+      "url": "https://www.semanticscholar.org/paper/d570a8eccbc1310d4428148409a3319ad6a8f239",
+      "pdf_url": "https://doi.org/10.1109/access.2024.3476481",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "50c248c9c7d90c768aeaa98d166b8c3a7193cafc",
+      "title": "Adaptive Resilience and Self-Healing in Aerospace System-of-Systems (SoS) Using Graph Neural Networks and Adversarial Machine Learning",
+      "authors": [
+        "A. K. Das",
+        "Pragyan Paramita Das",
+        "Jayashree Piri",
+        "Raghunath Dey"
+      ],
+      "year": 2025,
+      "venue": "2025 4th International Conference on Range Technology (ICORT)",
+      "citation_count": 0,
+      "abstract": "Complex aerospace systems of systems (SoS), like UAV networks, satellite constellations, and sensor systems, work in highly dynamic and adversarial environments. This research deals with building a self-healing and adaptive system within this complex system (SoS) using Graph Neural Networks (GNNs) and Adversarial Machine Learning (AML) that can predict, detect, and then mitigate adversarial attacks and actively manage real-time faults. Our idea was to devise a multi-layered defense framework that not only deals with anomalies caused by adversarial attacks like spoofing, jamming, data poisoning, etc. but also predicts fault propagation and ensures robust decision-making even under adversarial conditions across the system before some major critical failures occur in aerospace missions. We introduce an innovative framework that involves fault diagnosis and prognosis (FDP) techniques along with graph neural networks (GNNs) and adversarial machine learning (AML) to improve resilience, proactive maintenance, and anomaly detection in SoS. In this paper, we tried to demonstrate how the GNNs are applied to model inter-agent dependencies and cope with the faults in real time while the AML techniques help the system to identify, learn, and defend itself against adversarial attacks. We compared multiple fault detection techniques, including K-means clustering, autoencoders, and GNNs (with and without adversarial training). The results reveal that the regular GNN and GNN-AML frameworks improve fault detection accuracy by 80% and UAV swarm stability under adversarial situations, resulting in a 22 % increase in system resilience. This technique provides a strong foundation for future aircraft system operations in dynamic and potentially dangerous circumstances.",
+      "doi": "10.1109/ICORT64008.2025.11115648",
+      "url": "https://www.semanticscholar.org/paper/50c248c9c7d90c768aeaa98d166b8c3a7193cafc",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-03-06"
+    },
+    {
+      "id": "6620022c8a252b0c74354a3430e7dd5a0cad74b8",
+      "title": "Knowledge-Based Aerospace Engineering - A Systematic Literature Review",
+      "authors": [
+        "Tim Wittenborg",
+        "I. Baimuratov",
+        "L. K. Franzén",
+        "Ingo Staack",
+        "Ulrich Römer",
+        "Sören Auer"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 1,
+      "abstract": "The aerospace industry operates at the frontier of technological innovation while maintaining high standards regarding safety and reliability. In this environment, with an enormous potential for re-use and adaptation of existing solutions and methods, Knowledge-Based Engineering (KBE) has been applied for decades. The objective of this study is to identify and examine state-of-the-art knowledge management practices in the field of aerospace engineering. Our contributions include: 1) A SWARM-SLR of over 1,000 articles with qualitative analysis of 164 selected articles, supported by two aerospace engineering domain expert surveys. 2) A knowledge graph of over 700 knowledge-based aerospace engineering processes, software, and data, formalized in the interoperable Web Ontology Language (OWL) and mapped to Wikidata entries where possible. The knowledge graph is represented on the Open Research Knowledge Graph (ORKG), and an aerospace Wikibase, for reuse and continuation of structuring aerospace engineering knowledge exchange. 3) Our resulting intermediate and final artifacts of the knowledge synthesis, available as a Zenodo dataset. This review sets a precedent for structured, semantic-based approaches to managing aerospace engineering knowledge. By advancing these principles, research, and industry can achieve more efficient design processes, enhanced collaboration, and a stronger commitment to sustainable aviation.",
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/6620022c8a252b0c74354a3430e7dd5a0cad74b8",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-05-15"
+    },
+    {
+      "id": "40c9234b67fe6bae4ee15968c3516e020f464098",
+      "title": "SecTKG: A Knowledge Graph for Open-Source Security Tools",
+      "authors": [
+        "Siqi Sun",
+        "Cheng Huang",
+        "Tiejun Wu",
+        "Yi Shen"
+      ],
+      "year": 2023,
+      "venue": "International Journal of Intelligent Systems",
+      "citation_count": 4,
+      "abstract": "As the complexity of cyberattacks continues to increase, multistage combination attacks have become the primary method of attack. Attackers plan and organize a series of attack steps, using various attack tools to achieve specific goals. Extracting knowledge about these tools is of great significance for both defense and tracing of attacks. We have noticed that there is a wealth of security tool-related knowledge within the open-source community, but research in this area is limited. It is challenging to achieve large-scale automated security tool information extraction. To address this, we propose automated knowledge graph construction architecture, named SecTKG, for open-source security tools. Our approach involves designing a security tool ontology model to describe tools, users, and relationships, which guides the extraction of security tool knowledge. In addition, we develop advanced entity recognition and classification methods, ensuring efficient and accurate knowledge extraction. As far as we know, this work is the first to construct the large-scale security tool knowledge graph, containing 4 million entities and 10 million relationships. Furthermore, we investigate the tendencies and particularities of security tools based on the SecTKG and developed a security tool influence-measuring application. The research fills a gap in the field of automated security tools’ knowledge extraction and provides a foundation for future research and practical applications.",
+      "doi": "10.1155/2023/4464974",
+      "url": "https://www.semanticscholar.org/paper/40c9234b67fe6bae4ee15968c3516e020f464098",
+      "pdf_url": "https://downloads.hindawi.com/journals/ijis/2023/4464974.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-08-14"
+    },
+    {
+      "id": "e204dddcf4d5acbb9a5438720ecb17b110ce48c7",
+      "title": "GeoOutageKG: A Multimodal Geospatiotemporal Knowledge Graph for Multiresolution Power Outage Analysis",
+      "authors": [
+        "Ethan Frakes",
+        "Yinghui Wu",
+        "Roger H. French",
+        "Mengjie Li"
+      ],
+      "year": 2025,
+      "venue": "International Workshop on the Semantic Web",
+      "citation_count": 0,
+      "abstract": "Detecting, analyzing, and predicting power outages is crucial for grid risk assessment and disaster mitigation. Numerous outages occur each year, exacerbated by extreme weather events such as hurricanes. Existing outage data are typically reported at the county level, limiting their spatial resolution and making it difficult to capture localized patterns. However, it offers excellent temporal granularity. In contrast, nighttime light satellite image data provides significantly higher spatial resolution and enables a more comprehensive spatial depiction of outages, enhancing the accuracy of assessing the geographic extent and severity of power loss after disaster events. However, these satellite data are only available on a daily basis. Integrating spatiotemporal visual and time-series data sources into a unified knowledge representation can substantially improve power outage detection, analysis, and predictive reasoning. In this paper, we propose GeoOutageKG, a multimodal knowledge graph that integrates diverse data sources, including nighttime light satellite image data, high-resolution spatiotemporal power outage maps, and county-level timeseries outage reports in the U.S. We describe our method for constructing GeoOutageKG by aligning source data with a developed ontology, GeoOutageOnto. Currently, GeoOutageKG includes over 10.6 million individual outage records spanning from 2014 to 2024, 300,000 NTL images spanning from 2012 to 2024, and 15,000 outage maps. GeoOutageKG is a novel, modular and reusable semantic resource that enables robust multimodal data integration. We demonstrate its use through multiresolution analysis of geospatiotemporal power outages.",
+      "doi": "10.48550/arXiv.2507.22878",
+      "url": "https://www.semanticscholar.org/paper/e204dddcf4d5acbb9a5438720ecb17b110ce48c7",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-07-30"
+    },
+    {
+      "id": "d3290ceafad9d463181dc1458922bfd2a5c1fa8b",
+      "title": "Internet-based Knowledge Graph Construction Technology in Air Defense Field",
+      "authors": [
+        "Liuyang Yu",
+        "Gang Chen",
+        "Zhi-xiong Guo",
+        "Qiaoyi Gong"
+      ],
+      "year": 2021,
+      "venue": "2021 International Conference on Computer Technology and Media Convergence Design (CTMCD)",
+      "citation_count": 0,
+      "abstract": "Air defense security is an important part of our military work. In order to solve the contradiction between \"data explosion\" and \"knowledge lack\" existing in the field of military air defense, in this paper, we adopt a more scientific way to organize and manage big data, namely, constructing knowledge graph. In this paper, we construct the ontology model of knowledge graph of air defense domain at first. Secondly, we use information extraction technology to sort, extract and clean the open source data on the Internet. Then the data that meet the requirements are added to the knowledge graph. Finally, we use the Neo4j graph database to manage and store the data in the knowledge graph.",
+      "doi": "10.1109/CTMCD53128.2021.00013",
+      "url": "https://www.semanticscholar.org/paper/d3290ceafad9d463181dc1458922bfd2a5c1fa8b",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2021-04-01"
+    },
+    {
+      "id": "0b456c999d207e7da7fa14f44305fa8891f2619e",
+      "title": "Construction and Application of Knowledge Graph for Aerospace Product Quality Problems",
+      "authors": [
+        "Meiqing Wang",
+        "Fangxu Dong",
+        "Han-xing Liu",
+        "Qiu Lin"
+      ],
+      "year": 2021,
+      "venue": "2021 2nd International Conference on Information Science and Education (ICISE-IE)",
+      "citation_count": 0,
+      "abstract": "Aiming at the decision-making problem under the condition of information overload in the quality management of aerospace products, a method is proposed to improve the quality and the efficiency of decision-making by establishing a quality problem knowledge graph. We established a top-down quality problem knowledge graph construction process model and designed the data model layer of the quality problem knowledge graph. With the reference of the designed knowledge graph, we constructed the concept-attribute-relationship ontology model of quality problem knowledge and put forward the strategy of knowledge entity and relationship integration. Finally, a knowledge management system for product quality problem was developed and initially applied in an aerospace product development enterprise. The results of the research can provide a reference for the intelligent application of quality big data.",
+      "doi": "10.1109/icise-ie53922.2021.00132",
+      "url": "https://www.semanticscholar.org/paper/0b456c999d207e7da7fa14f44305fa8891f2619e",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2021-11-01"
+    },
+    {
+      "id": "ae6879168fc6ba1cff9fec48e392bb2a8e1eaf77",
+      "title": "Unlocking the Potential of Knowledge Graphs: A Cyber Defense Ontology for a Knowledge Representation and Reasoning System",
+      "authors": [
+        "J. M. Jorquera Valero",
+        "Antonio López Martínez",
+        "Pedro Miguel Sánchez Sánchez",
+        "Daniel Navarro Martínez",
+        "Rodrigo Varas López",
+        "J. I. Rojo Lacal",
+        "Antonio López Vivar",
+        "Marco Antonio Sotelo Monge",
+        "M. Gil Pérez",
+        "Gregorio Martínez Pérez"
+      ],
+      "year": 2024,
+      "venue": "ARES",
+      "citation_count": 0,
+      "abstract": "In today’s dynamic and complex warfare landscape, characterized by the convergence of traditional and emerging threats, the significance of cybersecurity in shaping modern conflicts cannot be overstated. Such trend presents a challenging paradigm shift in how military organizations approach mosaic warfare in the digital age since new attack vectors and targets appear in their landscapes. In this vein, it is pivotal for military teams to have a clear and concise roadmap for cybersecurity incidents linked to potential mosaic warfare. This manuscript introduces a novel approach to bolstering mosaic warfare strategies by integrating an advanced Knowledge Representation and Reasoning system and a tailored ontology. Motivated by the critical role of cybersecurity in contemporary warfare, the proposed system aims to enhance situational awareness, decision-making capabilities, and operational effectiveness in the face of evolving cyber threats. In this sense, this manuscript entails a new ontology that not only covers the cybersecurity realm but also introduces key concepts related to strategic and operational military levels at the same time. The ad-hoc ontology is also compared against other well-known ones, such as MITRE, NATO, or UCO approaches and manifests a significant performance by employing standardized quality metrics for ontologies. Lastly, a realistic mosaic warfare scenario is contextualized to demonstrate the deployment of the proposed system and how it can properly represent all information gathered from heterogeneous data sources.",
+      "doi": "10.1145/3664476.3670916",
+      "url": "https://www.semanticscholar.org/paper/ae6879168fc6ba1cff9fec48e392bb2a8e1eaf77",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-07-30"
+    },
+    {
+      "id": "f604d958ef9ed33ba8fc1c32c1de152fa483b21f",
+      "title": "Leveraging Linked Data for Knowledge Management: A Proposal for the Aerospace Industry",
+      "authors": [
+        "T. Procko",
+        "Omar Ochoa"
+      ],
+      "year": 2024,
+      "venue": "Journal of Aerospace Information Systems",
+      "citation_count": 1,
+      "abstract": "Within a given subculture or industry, knowledge proliferates insofar as those outside the sphere of knowledge lack an understanding of the terms, concepts, and ideas specific to the domain. Moreover, collaborative work within large industries suffers from a lack of understanding between collaborators and from the use of nonstructured legacy knowledge artifacts. The aerospace and defense industries are no exception; indeed, they present examples of some of the largest industries with extensive projects and a diverse array of applications. This paper presents a state-of-the-art literature review of knowledge management and knowledge collaboration systems in the aerospace and defense industries. Based on the review findings, a proposal for an extensible and queryable knowledge management system for aerospace industry workspaces using the Web Ontology Language of the Semantic Web is presented.",
+      "doi": "10.2139/ssrn.4703237",
+      "url": "https://www.semanticscholar.org/paper/f604d958ef9ed33ba8fc1c32c1de152fa483b21f",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-07-09"
+    },
+    {
+      "id": "a60f2f917d34069b8fd4252a5bf74cf6b591c6b0",
+      "title": "Research on Construction of Outer Space Secure Event Logic Graph and Cooperative Defense",
+      "authors": [
+        "Xukang Tang",
+        "Yougan Luo"
+      ],
+      "year": 2025,
+      "venue": "2025 7th International Conference on Frontier Technologies of Information and Computer (ICFTIC)",
+      "citation_count": 0,
+      "abstract": "Addressing the issues in the field of outer space security where traditional Space Situational Awareness (SSA) systems exhibit shallow cognition and slow responses to high-dynamic, strong-confrontation environments, and struggle to characterize deep \"event logic\" such as causality and temporal sequences in the evolution of space threat events, this paper proposes a framework for Outer Space Secure Event Logic Graph (OS-SELG) construction and cooperative defense. First, this method extracts space events from multi-source information such as orbital data and intelligence texts. A hybrid method fusing prior knowledge of orbital dynamics with the PCMCI (Peter-Clark Momentary Conditional Independence) causal discovery algorithm is designed to construct an OS-SELG that is event-centric and rich in event logic. Furthermore, a cooperative defense model based on Relational Graph Convolutional Networks (R-GCN) and Multi-Agent Reinforcement Learning (QMIX) is designed. This model utilizes R-GCN to deeply encode graph logic for precise threat assessment and drives high-efficiency cooperation among multiple agents (defense satellites, ground stations) through shared situational cognition. Experiments demonstrate that the proposed event logic graph construction method achieves an F1 score of 80.7% in relation extraction tasks, significantly outperforming baselines. In cooperative defense tasks based on real Conjunction Data Message (CDM) data from Space-Track.org, the model’s Collision Avoidance Success Rate (CASR) reaches 82.7%, far exceeding independent learning models (53.6%) and rule-based models (48.9%). Ablation studies confirm the necessity of event logic and graph neural networks, proving the effectiveness of this framework in enhancing intelligent cognition and decision-making in outer space security.",
+      "doi": "10.1109/ICFTIC68075.2025.11324948",
+      "url": "https://www.semanticscholar.org/paper/a60f2f917d34069b8fd4252a5bf74cf6b591c6b0",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-12-05"
+    },
+    {
+      "id": "78e0247ed9e8167f98b9cc6cbf4848a7cd6154fe",
+      "title": "CSKG4APT: A Cybersecurity Knowledge Graph for Advanced Persistent Threat Organization Attribution",
+      "authors": [
+        "Yitong Ren",
+        "Yanjun Xiao",
+        "Yinghai Zhou",
+        "Zhiyong Zhang",
+        "Zhihong Tian"
+      ],
+      "year": 2023,
+      "venue": "IEEE Transactions on Knowledge and Data Engineering",
+      "citation_count": 143,
+      "abstract": "Open-source cyber threat intelligence (OSCTI) is becoming more influential in obtaining current network security information. Most studies on cyber threat intelligence (CTI) focus on automating the extraction of threat entities from public sources that describe attack events. The cybersecurity knowledge graph aims to change the expression of threat knowledge so that security researchers can accurately and efﬁciently obtain various types of threat information for preliminary intelligent decisions. The attribution technology can not only assist security analysts in detecting advanced persistent threats, but can also identify the same threat from different attack events. Therefore, it is important to trace the attack threat actor. In this study, we used the knowledge graph technology, considered the latest research on cyber threat attack attribution, and thoroughly examined key related technologies and theories in the process of constructing and applying the advanced persistent threat (APT) knowledge graph from OSCTI. We designed a cybersecurity platform named CSKG4APT based on a knowledge graph. Inspired by the theory of ontology, we constructed CSKG4APT as an APT knowledge graph model based on real APT attack scenarios. We then designed an APT threat knowledge extraction algorithm for completing and updating the knowledge graph using deep learning and expert knowledge. Finally, we proposed a practical APT attack attribution method with attribution and countermeasures. CSKG4APT is not a passive defense method in traditional network confrontation but one that integrates a large amount of fragmented intelligence and can actively adjust its defense strategy. It lays the foundation for further dominance in network attack and defense.",
+      "doi": "10.1109/TKDE.2022.3175719",
+      "url": "https://www.semanticscholar.org/paper/78e0247ed9e8167f98b9cc6cbf4848a7cd6154fe",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-06-01"
+    },
+    {
+      "id": "8872baae989d81c06e0e8c9aa7da7805776d306d",
+      "title": "Intelligent Cybersecurity Ontology Framework for Internet of Medical Things -Enabled Remote Patient Monitoring",
+      "authors": [
+        "Aysola Sai Chander",
+        "Harshavardhana M N",
+        "Sathyanarayana N",
+        "Hemalatha K L",
+        "Gagana B R"
+      ],
+      "year": 2025,
+      "venue": "ITM Web of Conferences",
+      "citation_count": 0,
+      "abstract": "In recent years, the Internet of Medical Things (IoMT) has evolved in Remote Patient Monitoring (RPM) through a digitally connected ecosystem of medical devices, medical sensors, and cloud platforms which enabling mechanism for continuous collection, exchange, and analysis of health data. Existing IoMT ontology-based method provide a defined and orderly representation of the threats and vulnerabilities but remain limited due to their static nature, with the inability to adapt and account for new attacks, and offer no automatic defense capabilities. To overcome these challenges, this research proposes an Intelligent Cybersecurity Ontology Framework (ICOF) that employs ontology-driven representation of knowledge representation with semantic reasoning based on description logic to infer device risks associated with each vulnerability. After that, the ICOF framework incorporates graph-based learning techniques, enabling the discovery of complex attack patterns and hidden relationships across IoMT networks. This integration supports proactive mitigation, semantic interoperability, and resilient cybersecurity in IoMT-enabled RPM environments. Experimental results demonstrate ICOF model provide an average accuracy of 98.69% for digital temperature sensor readings and 98.43% for pulse sensor readings across 5 users when compared with Blockchain-based IoT for real-time secured medical management.",
+      "doi": "10.1051/itmconf/20257901030",
+      "url": "https://www.semanticscholar.org/paper/8872baae989d81c06e0e8c9aa7da7805776d306d",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "9f5fd33c8af01ecabdd4a6ffb35247594f00f211",
+      "title": "APTKG: Constructing Threat Intelligence Knowledge Graph from Open-Source APT Reports Based on Deep Learning",
+      "authors": [
+        "Lixiao Sun",
+        "Zitong Li",
+        "Lei Xie",
+        "Mai Ye",
+        "Bing Chen"
+      ],
+      "year": 2022,
+      "venue": "International Conference on Data Science and Information Technology",
+      "citation_count": 4,
+      "abstract": "Advanced persistent threats (APTs) pose a serious threat to the security of cyberspace. Recently, more and more security organizations and vendors have been focusing on cyber threat intelligence (CTI) to tackle APTs. Particularly, some researchers have introduced knowledge graphs to aggregate CTIs and explore the potential intelligence value. This paper presents APTKG, a framework for automatically extracting CTI triples from open-source APT reports and constructing APT group- focused knowledge graphs. Specially, first, we model the STIX- based ontology, APTOnt, which aggregates malicious information from hierarchical levels and can be applied to threat hunting, group profiling, APT tracing and other tasks. Then, we propose a Multi-Feature based CTI recognition method to improve the accuracy of various CTIs extraction. Finally, we apply a BiGRU based Inter-Sentence method to extract document-level CTI relationships. The experimental results confirm that the proposed CTI entity recognition model and relationship extraction method exhibit excellent performance, and the joint model of the two is also effective for CTI triples extraction. In addition, APTKG has stimulated exploration and research on CTI-based APT attack defense and analysis.",
+      "doi": "10.1109/DSIT55514.2022.9943933",
+      "url": "https://www.semanticscholar.org/paper/9f5fd33c8af01ecabdd4a6ffb35247594f00f211",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-07-22"
+    },
+    {
+      "id": "98f4ed8e1c19260c2d9e8bddef1c82fd85186cde",
+      "title": "AI Military Satellites Security in Aerospace: The POC Solution",
+      "authors": [
+        "Elisabetta Zuanelli"
+      ],
+      "year": 2025,
+      "venue": "Journal of Information Technology and Integrity",
+      "citation_count": 0,
+      "abstract": "The purpose of the paper is to illustrate the specific AI satellites security domain issues and to propose the first AI ontological-taxonomic knowledge representation of partial components of the satellites security domain, with specific attention to the military field. The components of the satellites domain are investigated as for entities, classes, logical semantic relationships according to the Pragmema POC, Platform Ontology of Cybersecurity for cybersecurity defense*. The approach is based on the use of linguistic cognitive axioms implied by the semantic cognitive analysis of classes, entities and relationships. A new approach to the configuration analysis of properties and attributes involves the articulation structure into semantic, operative and episodic memory layers of architecture by means of a controlled semantic vocabulary.",
+      "doi": "10.33790/jiti1100106",
+      "url": "https://www.semanticscholar.org/paper/98f4ed8e1c19260c2d9e8bddef1c82fd85186cde",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "9d479f0cbbb9148ad0c368e72e04a9b2d8b75231",
+      "title": "Enabling Reuse of Knowledge from Coupled Systems in Aerospace Engineering",
+      "authors": [
+        "I. Baimuratov",
+        "Tim Wittenborg",
+        "Ihar Antonau",
+        "Susanna Baars"
+      ],
+      "year": 2025,
+      "venue": "International Conference on Semantic Systems",
+      "citation_count": 0,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/9d479f0cbbb9148ad0c368e72e04a9b2d8b75231",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "ce46837379f2d4a40456bfecc9b24abb25b14f8c",
+      "title": "Analysis System for Security Situation in Cyberspace Based on Knowledge Graph",
+      "authors": [
+        "Ji-Won Kang",
+        "Yi Sun",
+        "Hui Xie",
+        "Xixi Zhu",
+        "Zhaoyun Ding"
+      ],
+      "year": 2021,
+      "venue": "2021 7th International Conference on Big Data and Information Analytics (BigDIA)",
+      "citation_count": 2,
+      "abstract": "With the booming of Internet technology, the continuous emergence of new technologies and new algorithms greatly expands the application boundaries of cyberspace. While enjoying the convenience brought by informatization, the society is also facing increasingly severe threats to the security of cyberspace. In cyber security defense, cyberspace operators rely on the discovered vulnerabilities, attack patterns, TTPs, and other knowledge to observe, analyze and determine the current threats to the network and security situation in cyberspace, and then make corresponding decisions. However, most of such open-source knowledge is distributed in different data sources in the form of text or web pages, which is not conducive to the understanding, query and correlation analysis of cyberspace operators. In this paper, a knowledge graph for cyber security is constructed to solve this problem. At first, in the process of obtaining security data from multi-source heterogeneous cyberspaces, we adopt efficient crawler to crawl the required data, paving the way for knowledge graph building. In order to establish the ontology required by the knowledge graph, we abstract the overall framework of security data sources in cyberspace, and depict in detail the correlations among various data sources. Then, based on the $\\mathbf{OWL }+\\mathbf{SWRL}$ language, we construct the cyber security knowledge graph. On this basis, we design an analysis system for situation in cyberspace based on knowledge graph and the Snort intrusion detection system (IDS), and study the rules in Snort. The system integrates and links various public resources from the Internet, including key information such as general platforms, vulnerabilities, weaknesses, attack patterns, tactics, techniques, etc. in real cyberspace, enabling the provision of comprehensive, systematic and rich cyber security knowledge to security researchers and professionals, with the expectation to provide a useful reference for cyber security defense.",
+      "doi": "10.1109/bigdia53151.2021.9619719",
+      "url": "https://www.semanticscholar.org/paper/ce46837379f2d4a40456bfecc9b24abb25b14f8c",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2021-10-29"
+    },
+    {
+      "id": "6904e30223165894cb0ab8832e9eab115f54ef88",
+      "title": "Towards Real-Time Warning and Defense Strategy AI Planning for Cyber Security Systems Aided by Security Ontology",
+      "authors": [
+        "Yingze Liu",
+        "Y. Guo"
+      ],
+      "year": 2022,
+      "venue": "Electronics",
+      "citation_count": 9,
+      "abstract": "Cyber security systems generally have the phenomena of passive defense and low-efficiency early warnings. Aiming at the above problems, this study proposes a real-time warning and plans an AI defense strategy for a cyber security system aided by a security ontology. First, we design a security defense ontology that integrates attack graphs, general purpose and domain-specific knowledge bases, and on this basis, we (1) develop an ontology-driven method of early warnings of real-time attacks, which supports non-intrusive scanning attack detection and (2) combine artificial intelligence planning and bounded rationality to recommend and automatically execute defense strategies in conventional defense scenarios. A case study has been performed, and the results indicate that: (1) the proposed method can quickly analyze network traffic data for real-time warnings, (2) the proposed method is highly feasible and has the ability to implement defense strategies autonomously, and (3) the proposed method performs the best, with a 5.4–11.4% increase in defense effectiveness against the state-of-the-art counterparts considering the APT29 attack. Overall, the proposed method holds the potential to increase the defense effectiveness against cyberattacks under high computing resource constraints.",
+      "doi": "10.3390/electronics11244128",
+      "url": "https://www.semanticscholar.org/paper/6904e30223165894cb0ab8832e9eab115f54ef88",
+      "pdf_url": "https://www.mdpi.com/2079-9292/11/24/4128/pdf?version=1671436073",
+      "fields_of_study": null,
+      "publication_date": "2022-12-11"
+    },
+    {
+      "id": "4252c7a45ccf910f5adddda7f1b003b166f0fb1c",
+      "title": "Design of 0-day Vulnerability Monitoring and Defense Architecture based on Artificial Intelligence Technology",
+      "authors": [
+        "Jian Hu",
+        "Zhenhong Zhang",
+        "Feilu Hang",
+        "Linjiang Xie"
+      ],
+      "year": 2024,
+      "venue": "Scalable Computing : Practice and Experience",
+      "citation_count": 1,
+      "abstract": "In response to the difficulty in detecting attacks caused by the unknown nature of 0-day vulnerabilities, the author proposes a knowledge graph based 0-day attack path prediction method. By extracting concepts and entities related to attacks from existing research on the ontology of network security and network security databases, a network defense knowledge graph is constructed to extract discrete security data such as threats, vulnerabilities, and assets into interrelated security knowledge. Using a knowledge graph reasoning method based on path sorting algorithm to explore possible 0-day attacks in the target system. Experimental results have shown that the proposed method can rely on the knowledge system provided by the knowledge graph to provide comprehensive knowledge support for attack prediction, reduce the dependence of prediction analysis on expert models, and effectively overcome the adverse effects of unknown 0-day vulnerabilities on prediction analysis. It improves the accuracy of 0-day attack prediction and utilizes the path sorting algorithm to infer based on the explicit feature of graph structure, being able to effectively backtrack the reasons behind the formation of reasoning results, this to some extent improves the interpretability of attack prediction analysis results.",
+      "doi": "10.12694/scpe.v25i5.3035",
+      "url": "https://www.semanticscholar.org/paper/4252c7a45ccf910f5adddda7f1b003b166f0fb1c",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-08-01"
+    },
+    {
+      "id": "4b7dc78a5837f0fc3f4049a0eb685a897ae8278f",
+      "title": "TITAN: Graph-Executable Reasoning for Cyber Threat Intelligence",
+      "authors": [
+        "Marco Simoni",
+        "Aleksandar Fontana",
+        "Andrea Saracino",
+        "Paolo Mori"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 0,
+      "abstract": "TITAN (Threat Intelligence Through Automated Navigation) is a framework that connects natural-language cyber threat queries with executable reasoning over a structured knowledge graph. It integrates a path planner model, which predicts logical relation chains from text, and a graph executor that traverses the TITAN Ontology to retrieve factual answers and supporting evidence. Unlike traditional retrieval systems, TITAN operates on a typed, bidirectional graph derived from MITRE, allowing reasoning to move clearly and reversibly between threats, behaviors, and defenses. To support training and evaluation, we introduce the TITAN Dataset, a corpus of 88209 examples (Train: 74258; Test: 13951) pairing natural language questions with executable reasoning paths and step by step Chain of Thought explanations. Empirical evaluations show that TITAN enables models to generate syntactically valid and semantically coherent reasoning paths that can be deterministically executed on the underlying graph.",
+      "doi": "10.48550/arXiv.2510.14670",
+      "url": "https://www.semanticscholar.org/paper/4b7dc78a5837f0fc3f4049a0eb685a897ae8278f",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-10-16"
+    },
+    {
+      "id": "d08941620a006904e7304c2e94c8bad2acde7e91",
+      "title": "Mapping Cyber Threats: Constructing An APT Knowledge Graph From OSCTI",
+      "authors": [
+        "K. Snehalatha",
+        "DR. R. Yamuna"
+      ],
+      "year": null,
+      "venue": "",
+      "citation_count": 0,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/d08941620a006904e7304c2e94c8bad2acde7e91",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "31e1ef9947d1f88cfc61814db222b4f818db0cb2",
+      "title": "FLIGHT CONTROL SYSTEM KNOWLEDGE GRAPH CONSTRUCTION BASED ON AERONAUTICAL DOMAIN KNOWLEDGE AUGMENTED LARGE LANGUAGE MODEL",
+      "authors": [
+        "Yi Fan",
+        "Yu Sun",
+        "Baigang Mi"
+      ],
+      "year": null,
+      "venue": "",
+      "citation_count": 1,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/31e1ef9947d1f88cfc61814db222b4f818db0cb2",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "6c204175f70476f2c7b6ce1163c05febbe93b283",
+      "title": "Aerospace Innovation: The Next Frontier",
+      "authors": [
+        "Sachin Srivasatava",
+        "P. Arun Kumar"
+      ],
+      "year": 2025,
+      "venue": "",
+      "citation_count": 0,
+      "abstract": "In the 21st century, aerospace technology stands at the intersection of imagination and innovation, ushering humanity into a new era of exploration, sustainability, and interconnectedness. As we look skyward and venture beyond the confines of Earth, the aerospace sector is rapidly transforming through groundbreaking advancements that touch nearly every facet of modern life—from air travel and space exploration to national defense, environmental monitoring, and disaster response. \nThis book, Aerospace Innovation: The Next Frontier, brings together a comprehensive collection of chapters that reflect the dynamic evolution of aerospace technology. It is designed to provide readers with in-depth knowledge and forward-looking perspectives on a wide array of cutting-edge topics, including artificial intelligence, smart materials, 3D printing, quantum computing, digital twins, and sustainable fuels. The content spans innovations in aircraft design and autonomous systems to the future of space habitats and global connectivity through satellite technologies. \nBy compiling contributions across more than 100 meticulously researched topics, this volume aims to serve as both a reference and a roadmap for students, researchers, engineers, and industry professionals. Each chapter not only delves into the technical aspects of innovation but also examines the broader implications for society, the environment, and the global economy. Special attention is given to emerging technologies and their potential to reshape the aerospace landscape in the coming decades. \nThe vision behind this work is to inspire exploration, foster collaboration, and stimulate innovation in one of the most transfonnative fields of our time. As the aerospace domain expands into realms once confined to science fiction, it is our hope that this book ignites curiosity, fuels ambition, and supports informed decision-making for those leading the charge toward the next frontier.",
+      "doi": "10.63686/978-81-986347-4-0",
+      "url": "https://www.semanticscholar.org/paper/6c204175f70476f2c7b6ce1163c05febbe93b283",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-04-30"
+    },
+    {
+      "id": "a4654f0c4338cf147869a3e9b1fb35bb46e5de71",
+      "title": "LLM-Driven Knowledge Graph Construction from Earth Observation Data for Extreme Events",
+      "authors": [
+        "Theodoros Aivalis",
+        "I. Klampanos",
+        "Antonis Troumpoukis"
+      ],
+      "year": null,
+      "venue": "",
+      "citation_count": 0,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/a4654f0c4338cf147869a3e9b1fb35bb46e5de71",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "09230627052c0340707b26f181690b4781bdbb45",
+      "title": "Evolutionary Game Strategy Research on PSC Inspection Based on Knowledge Graphs",
+      "authors": [
+        "Chengyong Liu",
+        "Qi Wang",
+        "Banghao Xiang",
+        "Yi Xu",
+        "Langxiong Gan"
+      ],
+      "year": 2024,
+      "venue": "Journal of Marine Science and Engineering",
+      "citation_count": 3,
+      "abstract": "Port state control (PSC) inspections, considered a crucial means of maritime safety supervision, are viewed by the industry as a critical line of defense ensuring the stability of the international supply chain. Due to the high level of globalization and strong regional characteristics of PSC inspections, improving the accuracy of these inspections and efficiently utilizing inspection resources have become urgent issues. The construction of a PSC inspection ontology model from top to bottom, coupled with the integration of multisource data from bottom to top, is proposed in this paper. The RoBERTa-wwm-ext model is adopted as the entity recognition model, while the XGBoost4 model serves as the knowledge fusion model to establish the PSC inspection knowledge graph. Building upon an evolutionary game model of the PSC inspection knowledge graph, this study introduces an evolutionary game method to analyze the internal evolutionary dynamics of ship populations from a microscopic perspective. Through numerical simulations and standardization diffusion evolution simulations for ship support, the evolutionary impact of each parameter on the subgraph is examined. Subsequently, based on the results of the evolutionary game analysis, recommendations for PSC inspection auxiliary decision-making and related strategic suggestions are presented. The experimental results show that the RoBERTa-wwm-ext model and the XGBoost4 model used in the PSC inspection knowledge graph achieve superior performance in both entity recognition and knowledge fusion tasks, with the model accuracies surpassing those of other compared models. In the knowledge graph-based PSC inspection evolutionary game, the reward and punishment conditions (n, f) can reduce the burden of the standardization cost for safeguarding the ship. A ship is more sensitive to changes in the detention rate β than to changes in the inspection rate α. To a certain extent, the detention cost CDC plays a role similar to that of the detention rate β. In small-scale networks, relevant parameters in the ship’s standardization game have a more pronounced effect, with detention cost CDC having a greater impact than standardization cost CS on ship strategy choice and scale-free network evolution. Based on the experimental results, PSC inspection strategies are suggested. These strategies provide port state authorities with auxiliary decision-making tools for PSC inspections, promote the informatization of maritime regulation, and offer new insights for the study of maritime traffic safety management and PSC inspections.",
+      "doi": "10.3390/jmse12081449",
+      "url": "https://www.semanticscholar.org/paper/09230627052c0340707b26f181690b4781bdbb45",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-08-21"
+    },
+    {
+      "id": "d1f289b1b6ca11032419a7224f24bee9dd6b1ace",
+      "title": "Integrating Large Language Models and Knowledge Graphs for Extraction and Validation of Textual Test Data",
+      "authors": [
+        "Antonio De Santis",
+        "Marco Balduini",
+        "F. D. Santis",
+        "Andrea Proia",
+        "Arsenio Leo",
+        "Marco Brambilla",
+        "Emanuele Della Valle"
+      ],
+      "year": 2024,
+      "venue": "International Workshop on the Semantic Web",
+      "citation_count": 4,
+      "abstract": "Aerospace manufacturing companies, such as Thales Alenia Space, design, develop, integrate, verify, and validate products characterized by high complexity and low volume. They carefully document all phases for each product but analyses across products are challenging due to the heterogeneity and unstructured nature of the data in documents. In this paper, we propose a hybrid methodology that leverages Knowledge Graphs (KGs) in conjunction with Large Language Models (LLMs) to extract and validate data contained in these documents. We consider a case study focused on test data related to electronic boards for satellites. To do so, we extend the Semantic Sensor Network ontology. We store the metadata of the reports in a KG, while the actual test results are stored in parquet accessible via a Virtual Knowledge Graph. The validation process is managed using an LLM-based approach. We also conduct a benchmarking study to evaluate the performance of state-of-the-art LLMs in executing this task. Finally, we analyze the costs and benefits of automating preexisting processes of manual data extraction and validation for subsequent cross-report analyses.",
+      "doi": "10.1007/978-3-031-77847-6_17",
+      "url": "https://www.semanticscholar.org/paper/d1f289b1b6ca11032419a7224f24bee9dd6b1ace",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-08-03"
+    }
+  ]
+}

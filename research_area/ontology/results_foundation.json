@@ -1,0 +1,594 @@
+{
+  "query": "ontology knowledge representation",
+  "timestamp": "2026-01-25T11:45:55.497532",
+  "count": 30,
+  "papers": [
+    {
+      "id": "5109faf8ff0b152263b7531163fbceedf6112530",
+      "title": "Formal ontology, conceptual analysis and knowledge representation",
+      "authors": [
+        "Nicola Guarino"
+      ],
+      "year": 1995,
+      "venue": "Int. J. Hum. Comput. Stud.",
+      "citation_count": 1244,
+      "abstract": "Abstract The purpose of this paper is to defend the systematic introduction of formal ontological principles in the current practice of knowledge engineering, to explore the various relationships between ontology and knowledge representation, and to present the recent trends in this promising research area. According to the \"modelling view\" of knowledge acquisition proposed by Clancey, the modelling activity must establish a correspondence between a knowledge base and two separate subsystems: the agent's behaviour (i.e. the problem-solving expertise ) and its own environment (the problem domain ). Current knowledge modelling methodologies tend to focus on the former sub-system only, viewing domain knowledge as strongly dependent on the particular task at hand: in fact, AI researchers seem to have been much more interested in the nature of reasoning rather than in the nature of the real world. Recently, however, the potential value of task-independent knowledge bases (or \"ontologies\") suitable to large scale integration has been underlined in many ways. In this paper, we compare the dichotomy between reasoning and representation to the philosophical distinction between epistemology and ontology. We introduce the notion of the ontological level, intermediate between the epistemological and the conceptual levels discussed by Brachman, as a way to characterize a knowledge representation formalism taking into account the intended meaning of its primitives. We then discuss some formal ontologic distinctions which may play an important role for such purpose.",
+      "doi": "10.1006/IJHC.1995.1066",
+      "url": "https://www.semanticscholar.org/paper/5109faf8ff0b152263b7531163fbceedf6112530",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "1995-11-01"
+    },
+    {
+      "id": "7aed8a6e1e60bb7ef27d080b9ffb4cad627e7ddf",
+      "title": "Ontology-based knowledge representation for additive manufacturing",
+      "authors": [
+        "Emilio M. Sanfilippo",
+        "F. Belkadi",
+        "A. Bernard"
+      ],
+      "year": 2019,
+      "venue": "Computers in industry (Print)",
+      "citation_count": 81,
+      "abstract": null,
+      "doi": "10.1016/J.COMPIND.2019.03.006",
+      "url": "https://www.semanticscholar.org/paper/7aed8a6e1e60bb7ef27d080b9ffb4cad627e7ddf",
+      "pdf_url": "http://manuscript.elsevier.com/S016636151830808X/pdf/S016636151830808X.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2019-08-01"
+    },
+    {
+      "id": "c63e710bd969490c297de17a0baaf546c207fee4",
+      "title": "Ontology based knowledge representation technique, domain modeling languages and planners for robotic path planning: A survey",
+      "authors": [
+        "Gayathri R.",
+        "V. Uma"
+      ],
+      "year": 2018,
+      "venue": "ICT express",
+      "citation_count": 69,
+      "abstract": null,
+      "doi": "10.1016/J.ICTE.2018.04.008",
+      "url": "https://www.semanticscholar.org/paper/c63e710bd969490c297de17a0baaf546c207fee4",
+      "pdf_url": "https://doi.org/10.1016/j.icte.2018.04.008",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2018-06-01"
+    },
+    {
+      "id": "e5dc8448621556da24601cee1106f6e1e15bc11b",
+      "title": "TransO: a knowledge-driven representation learning method with ontology information constraints",
+      "authors": [
+        "Zhao Li",
+        "Xin Liu",
+        "Xin Wang",
+        "Pengkai Liu",
+        "Yuxin Shen"
+      ],
+      "year": 2022,
+      "venue": "World wide web (Bussum)",
+      "citation_count": 62,
+      "abstract": null,
+      "doi": "10.1007/s11280-022-01016-3",
+      "url": "https://www.semanticscholar.org/paper/e5dc8448621556da24601cee1106f6e1e15bc11b",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-02-15"
+    },
+    {
+      "id": "4b392a09923070b9481c2c98ad0322c49a73b850",
+      "title": "An Ontology-Based Approach to Enable Knowledge Representation and Reasoning in Worker-Cobot Agile Manufacturing",
+      "authors": [
+        "Ahmed R. Sadik",
+        "B. Urban"
+      ],
+      "year": 2017,
+      "venue": "Future Internet",
+      "citation_count": 51,
+      "abstract": "There is no doubt that the rapid development in robotics technology has dramatically changed the interaction model between the Industrial Robot (IR) and the worker. As the current robotic technology has afforded very reliable means to guarantee the physical safety of the worker during a close proximity interaction with the IR. Therefore, new forms of cooperation between the robot and the worker can now be achieved. Collaborative/Cooperative robotics is the new branch of industrial robotics which empowers the idea of cooperative manufacturing. Cooperative manufacturing significantly depends on the existence of a collaborative/cooperative robot (cobot). A cobot is usually a Light-Weight Robot (LWR) which is capable of operating safely with the human co-worker in a shared work environment. This is in contrast with the conventional IR which can only operate in isolation from the worker workspace, due to the fact that the conventional IR can manipulate very heavy objects, which makes it so dangerous to operate in direct contact with the worker. There is a slight difference between the definition of collaboration and cooperation in robotics. In cooperative robotics, both the worker and the robot are performing tasks over the same product in the same shared workspace but not simultaneously. Collaborative robotics has a similar definition, except that the worker and the robot are performing a simultaneous task. Gathering the worker and the cobot in the same manufacturing workcell can provide an easy and cheap method to flexibly customize the production. Moreover, to adapt with the production demands in the real time of production, without the need to stop or to modify the production operations. There are many challenges and problems that can be addressed in the cooperative manufacturing field. However, one of the most important challenges in this field is the representation of the cooperative manufacturing environment and components. Thus, in order to accomplish the cooperative manufacturing concept, a proper approach is required to describe the shared environment between the worker and the cobot. The cooperative manufacturing shared environment includes the cobot, the co-worker, and other production components such as the product itself. Furthermore, the whole cooperative manufacturing system components need to communicate and share their knowledge, to reason and process the shared information, which eventually gives the control solution the capability of obtaining collective manufacturing decisions. Putting into consideration that the control solution should also provide a natural language which is human readable and in the same time can be understood by the machine (i.e., the cobot). Accordingly, a distributed control solution which combines an ontology-based Multi-Agent System (MAS) and a Business Rule Management System (BRMS) is proposed, in order to solve the mentioned challenges in the cooperative manufacturing, which are: manufacturing knowledge representation, sharing, and reasoning.",
+      "doi": "10.3390/fi9040090",
+      "url": "https://www.semanticscholar.org/paper/4b392a09923070b9481c2c98ad0322c49a73b850",
+      "pdf_url": "https://www.mdpi.com/1999-5903/9/4/90/pdf?version=1511867990",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2017-11-24"
+    },
+    {
+      "id": "2d06bd2153d0d93b3ca858e6edbdd26671fc617b",
+      "title": "Ontology-Based Knowledge Representation in Robotic Systems: A Survey Oriented toward Applications",
+      "authors": [
+        "S. Manzoor",
+        "Yuri Goncalves Rocha",
+        "Sunghyeon Joo",
+        "Sanghyeon Bae",
+        "Eun-jin Kim",
+        "Kyeong-Jin Joo",
+        "Tae-Yong Kuc"
+      ],
+      "year": 2021,
+      "venue": "Applied Sciences",
+      "citation_count": 48,
+      "abstract": "Knowledge representation in autonomous robots with social roles has steadily gained importance through their supportive task assistance in domestic, hospital, and industrial activities. For active assistance, these robots must process semantic knowledge to perform the task more efficiently. In this context, ontology-based knowledge representation and reasoning (KR & R) techniques appear as a powerful tool and provide sophisticated domain knowledge for processing complex robotic tasks in a real-world environment. In this article, we surveyed ontology-based semantic representation unified into the current state of robotic knowledge base systems, with our aim being three-fold: (i) to present the recent developments in ontology-based knowledge representation systems that have led to the effective solutions of real-world robotic applications; (ii) to review the selected knowledge-based systems in seven dimensions: application, idea, development tools, architecture, ontology scope, reasoning scope, and limitations; (iii) to pin-down lessons learned from the review of existing knowledge-based systems for designing better solutions and delineating research limitations that might be addressed in future studies. This survey article concludes with a discussion of future research challenges that can serve as a guide to those who are interested in working on the ontology-based semantic knowledge representation systems for autonomous robots.",
+      "doi": "10.3390/APP11104324",
+      "url": "https://www.semanticscholar.org/paper/2d06bd2153d0d93b3ca858e6edbdd26671fc617b",
+      "pdf_url": "https://www.mdpi.com/2076-3417/11/10/4324/pdf?version=1620715018",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2021-05-11"
+    },
+    {
+      "id": "573e51f5a373286e2de87e2df4a95e0f2fd77e92",
+      "title": "A Review on Ontology Development Methodologies for Developing Ontological Knowledge Representation Systems for various Domains",
+      "authors": [
+        "E. Aminu",
+        "I. O. Oyefolahan",
+        "M. B. Abdullahi",
+        "M. Salaudeen"
+      ],
+      "year": 2020,
+      "venue": "International Journal of Information Engineering and Electronic Business",
+      "citation_count": 48,
+      "abstract": "—The success of machine represented web known as semantic web largely hinges on ontologies. Ontology is a data modeling technique for structured data repository premised on collection of concepts with their semantic relationships and constraints on domain. There are existing methodologies to aid ontology development process. However, there is no single correct ontology design methodology. Therefore, this paper aims to present a review on existing ontology development approaches for different domains with the goal of identifying individual methodology’s weakness and suggests for hybridization in order to strengthen ontology development in terms of its content and constructions correctness. The analysis and comparison of the review were carried out by considering these criteria but not limited to: activities of each method, the initial domain of the methodology, ontology created from scratch or reuse, frequently used ontology management tools based on literature, subject granularity, and usage across different platforms. This review based on the literature showed some approaches that exhibit the required principles of ontology engineering in",
+      "doi": "10.5815/ijieeb.2020.02.05",
+      "url": "https://www.semanticscholar.org/paper/573e51f5a373286e2de87e2df4a95e0f2fd77e92",
+      "pdf_url": "http://www.mecs-press.org/ijieeb/ijieeb-v12-n2/IJIEEB-V12-N2-5.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2020-04-08"
+    },
+    {
+      "id": "4e867945fe6ec084f26164d5c2cf5b00c832f62c",
+      "title": "Ontology-based knowledge representation of industrial production workflow",
+      "authors": [
+        "Chao Yang",
+        "Yuan Zheng",
+        "Xinyi Tu",
+        "Riku Ala-Laurinaho",
+        "Juuso Autiosalo",
+        "O. Seppänen",
+        "Kari Tammi"
+      ],
+      "year": 2023,
+      "venue": "Advanced Engineering Informatics",
+      "citation_count": 44,
+      "abstract": null,
+      "doi": "10.1016/j.aei.2023.102185",
+      "url": "https://www.semanticscholar.org/paper/4e867945fe6ec084f26164d5c2cf5b00c832f62c",
+      "pdf_url": "https://doi.org/10.1016/j.aei.2023.102185",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-10-01"
+    },
+    {
+      "id": "e44d25297998723630a020738af927954365bd1c",
+      "title": "An Automatic Ontology-Based Approach to Support Logical Representation of Observable and Measurable Data for Healthy Lifestyle Management: Proof-of-Concept Study",
+      "authors": [
+        "Ayan Chatterjee",
+        "A. Prinz",
+        "Martin W. Gerdes",
+        "Santiago Martinez"
+      ],
+      "year": 2021,
+      "venue": "Journal of Medical Internet Research",
+      "citation_count": 40,
+      "abstract": "Background Lifestyle diseases, because of adverse health behavior, are the foremost cause of death worldwide. An eCoach system may encourage individuals to lead a healthy lifestyle with early health risk prediction, personalized recommendation generation, and goal evaluation. Such an eCoach system needs to collect and transform distributed heterogenous health and wellness data into meaningful information to train an artificially intelligent health risk prediction model. However, it may produce a data compatibility dilemma. Our proposed eHealth ontology can increase interoperability between different heterogeneous networks, provide situation awareness, help in data integration, and discover inferred knowledge. This “proof-of-concept” study will help sensor, questionnaire, and interview data to be more organized for health risk prediction and personalized recommendation generation targeting obesity as a study case. Objective The aim of this study is to develop an OWL-based ontology (UiA eHealth Ontology/UiAeHo) model to annotate personal, physiological, behavioral, and contextual data from heterogeneous sources (sensor, questionnaire, and interview), followed by structuring and standardizing of diverse descriptions to generate meaningful, practical, personalized, and contextual lifestyle recommendations based on the defined rules. Methods We have developed a simulator to collect dummy personal, physiological, behavioral, and contextual data related to artificial participants involved in health monitoring. We have integrated the concepts of “Semantic Sensor Network Ontology” and “Systematized Nomenclature of Medicine—Clinical Terms” to develop our proposed eHealth ontology. The ontology has been created using Protégé (version 5.x). We have used the Java-based “Jena Framework” (version 3.16) for building a semantic web application that includes resource description framework (RDF) application programming interface (API), OWL API, native tuple store (tuple database), and the SPARQL (Simple Protocol and RDF Query Language) query engine. The logical and structural consistency of the proposed ontology has been evaluated with the “HermiT 1.4.3.x” ontology reasoner available in Protégé 5.x. Results The proposed ontology has been implemented for the study case “obesity.” However, it can be extended further to other lifestyle diseases. “UiA eHealth Ontology” has been constructed using logical axioms, declaration axioms, classes, object properties, and data properties. The ontology can be visualized with “Owl Viz,” and the formal representation has been used to infer a participant’s health status using the “HermiT” reasoner. We have also developed a module for ontology verification that behaves like a rule-based decision support system to predict the probability for health risk, based on the evaluation of the results obtained from SPARQL queries. Furthermore, we discussed the potential lifestyle recommendation generation plan against adverse behavioral risks. Conclusions This study has led to the creation of a meaningful, context-specific ontology to model massive, unintuitive, raw, unstructured observations for health and wellness data (eg, sensors, interviews, questionnaires) and to annotate them with semantic metadata to create a compact, intelligible abstraction for health risk predictions for individualized recommendation generation.",
+      "doi": "10.2196/24656",
+      "url": "https://www.semanticscholar.org/paper/e44d25297998723630a020738af927954365bd1c",
+      "pdf_url": "https://www.jmir.org/2021/4/e24656/PDF",
+      "fields_of_study": [
+        "Medicine"
+      ],
+      "publication_date": "2021-04-01"
+    },
+    {
+      "id": "c674d2c91cf4c795889cff62eaddd0c5e9b5d5a4",
+      "title": "Ontology-driven representation of knowledge for geological maps",
+      "authors": [
+        "Alizia Mantovani",
+        "F. Piana",
+        "V. Lombardo"
+      ],
+      "year": 2020,
+      "venue": "Computational Geosciences",
+      "citation_count": 38,
+      "abstract": null,
+      "doi": "10.1016/j.cageo.2020.104446",
+      "url": "https://www.semanticscholar.org/paper/c674d2c91cf4c795889cff62eaddd0c5e9b5d5a4",
+      "pdf_url": "https://iris.unito.it/bitstream/2318/1754931/1/CAGEO_2019_226_3rdReview.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2020-06-01"
+    },
+    {
+      "id": "c4377a9ab1e7a8d5ff969df91246eb9ec33ea2ba",
+      "title": "Ontology-Based Schema to Support Maintenance Knowledge Representation With a Case Study of a Pneumatic Valve",
+      "authors": [
+        "Vahid Ebrahimipour",
+        "S. Yacout"
+      ],
+      "year": 2015,
+      "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "citation_count": 36,
+      "abstract": null,
+      "doi": "10.1109/TSMC.2014.2383361",
+      "url": "https://www.semanticscholar.org/paper/c4377a9ab1e7a8d5ff969df91246eb9ec33ea2ba",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2015-01-06"
+    },
+    {
+      "id": "dc94f21122be14a71842e50d5d0a404bf77faf64",
+      "title": "Ontology-Based Knowledge Management Tools for Knowledge Sharing in Organization—A Review",
+      "authors": [
+        "M. A. Osman",
+        "Shahrul Azman Mohd Noah",
+        "S. Saad"
+      ],
+      "year": 2022,
+      "venue": "IEEE Access",
+      "citation_count": 33,
+      "abstract": "Knowledge management (KM) comprises several processes, and one of the most important is the knowledge sharing activities. The ability of an organization to manage its organizational knowledge, specifically in the context of knowledge sharing, may enhance the organization’s overall performance. Various approaches and technologies have been introduced to assist the process in achieving that target. Ontology as one of the knowledge representation methods has been becoming popular to assist knowledge sharing in the organization. Previous reviews have mainly focused on general KM issues, with little emphasis on the use of ontology in knowledge sharing. Thus, this article reviews several ontology-based KM tools that can support knowledge-sharing activities to provide some insight into future research in this area. Thirteen ontology-based KM tools were reviewed using ten elements’ comparison criteria: the motivation, domain, source of knowledge, type of knowledge, knowledge extraction, knowledge input process, knowledge retrieval process, knowledge sharing technology, source of ontology component, and ontology methodology. The review found that several elements can be further studied to improve KM implementation in the organization, especially on the knowledge sharing dimension. This includes simplifying the knowledge extraction and retrieval process to explore various knowledge domains from implicit knowledge sources. The review’s outcome also includes proposed components and functions of an ideal ontology-based KM tool.",
+      "doi": "10.1109/ACCESS.2022.3163758",
+      "url": "https://www.semanticscholar.org/paper/dc94f21122be14a71842e50d5d0a404bf77faf64",
+      "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09745581.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "9599dc414924a39087803293b50e7d75fbdae1a8",
+      "title": "Ontology-based knowledge representation of urban heat island mitigation strategies",
+      "authors": [
+        "Jinda Qi",
+        "L. Ding",
+        "Samsung Lim"
+      ],
+      "year": 2020,
+      "venue": "Sustainable cities and society",
+      "citation_count": 32,
+      "abstract": null,
+      "doi": "10.1016/j.scs.2019.101875",
+      "url": "https://www.semanticscholar.org/paper/9599dc414924a39087803293b50e7d75fbdae1a8",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2020-01-01"
+    },
+    {
+      "id": "710a4d5621231ba98b2c0ec155dc484988f08640",
+      "title": "Cyber Incident Classifications Using Ontology-Based Knowledge Representation for Cybersecurity Insurance in Financial Industry",
+      "authors": [
+        "S. Elnagdy",
+        "Meikang Qiu",
+        "Keke Gai"
+      ],
+      "year": 2016,
+      "venue": "International Conference on Cyber Security and Cloud Computing",
+      "citation_count": 27,
+      "abstract": null,
+      "doi": "10.1109/CSCloud.2016.45",
+      "url": "https://www.semanticscholar.org/paper/710a4d5621231ba98b2c0ec155dc484988f08640",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2016-06-25"
+    },
+    {
+      "id": "1c546a1cd517cf05e23d883a014ec6d7267c636b",
+      "title": "Enhancing Learning Personalization in Educational Environments through Ontology-Based Knowledge Representation",
+      "authors": [
+        "W. Villegas-Ch.",
+        "Joselin García-Ortiz"
+      ],
+      "year": 2023,
+      "venue": "De Computis",
+      "citation_count": 25,
+      "abstract": "In the digital age, the personalization of learning has become a critical priority in education. This article delves into the cutting-edge of educational innovation by exploring the essential role of ontology-based knowledge representation in transforming the educational experience. This research stands out for its significant and distinctive contribution to improving the personalization of learning. For this, concrete examples of use cases are presented in various academic fields, from formal education to corporate training and online learning. It is identified how ontologies capture and organize knowledge semantically, allowing the intelligent adaptation of content, the inference of activity and resource recommendations, and the creation of highly personalized learning paths. In this context, the novelty lies in the innovative approach to designing educational ontologies, which exhaustively considers different use cases and academic scenarios. Additionally, we delve deeper into the design decisions that support the effectiveness and usefulness of these ontologies for effective learning personalization. Through practical examples, it is illustrated how the implementation of ontologies transforms education, offering richer educational experiences adapted to students’ individual needs. This research represents a valuable contribution to personalized education and knowledge management in contemporary educational environments. The novelty of this work lies in its ability to redefine and improve the personalization of learning in a constantly evolving digital world.",
+      "doi": "10.3390/computers12100199",
+      "url": "https://www.semanticscholar.org/paper/1c546a1cd517cf05e23d883a014ec6d7267c636b",
+      "pdf_url": "https://www.mdpi.com/2073-431X/12/10/199/pdf?version=1696400448",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-10-04"
+    },
+    {
+      "id": "1ce908a4869500ccb0ade8b256fd02e1be146173",
+      "title": "Ontology-based data integration from heterogeneous urban systems: A knowledge representation framework for smart cities",
+      "authors": [
+        "A. Psyllidis"
+      ],
+      "year": 2015,
+      "venue": "",
+      "citation_count": 24,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/1ce908a4869500ccb0ade8b256fd02e1be146173",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2015-07-07"
+    },
+    {
+      "id": "f4d473c97ede0f5e5b8925d2d8dfafbdf43f57f4",
+      "title": "Ontology development is consensus creation, not (merely) representation",
+      "authors": [
+        "Fabian Neuhaus",
+        "Janna Hastings"
+      ],
+      "year": 2022,
+      "venue": "Appl. Ontology",
+      "citation_count": 24,
+      "abstract": "Ontology development methodologies emphasise knowledge gathering from domain experts and documentary resources, and knowledge representation using an ontology language such as OWL or FOL. However, working ontologists are often surprised by how challenging and slow it can be to develop ontologies. Here, with a particular emphasis on the sorts of ontologies that are content-heavy and intended to be shared across a community of users (reference ontologies), we propose that a significant and heretofore under-emphasised contributor of challenges during ontology development is the need to create, or bring about, consensus in the face of disagreement. For this reason reference ontology development cannot be automated, at least within the limitations of existing AI approaches. Further, for the same reason ontologists are required to have specific social-negotiating skills which are currently lacking in most technical curricula.",
+      "doi": "10.3233/AO-220273",
+      "url": "https://www.semanticscholar.org/paper/f4d473c97ede0f5e5b8925d2d8dfafbdf43f57f4",
+      "pdf_url": "https://arxiv.org/pdf/2210.12026",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-10-21"
+    },
+    {
+      "id": "50d58bc0369ad33bc5604f52738904a1ed82cb62",
+      "title": "Adverse Childhood Experiences Ontology for Mental Health Surveillance, Research, and Evaluation: Advanced Knowledge Representation and Semantic Web Techniques",
+      "authors": [
+        "J. H. Brenas",
+        "Eun Kyong Shin",
+        "Arash Shaban-Nejad"
+      ],
+      "year": 2019,
+      "venue": "JMIR Mental Health",
+      "citation_count": 23,
+      "abstract": "Background Adverse Childhood Experiences (ACEs), a set of negative events and processes that a person might encounter during childhood and adolescence, have been proven to be linked to increased risks of a multitude of negative health outcomes and conditions when children reach adulthood and beyond. Objective To better understand the relationship between ACEs and their relevant risk factors with associated health outcomes and to eventually design and implement preventive interventions, access to an integrated coherent dataset is needed. Therefore, we implemented a formal ontology as a resource to allow the mental health community to facilitate data integration and knowledge modeling and to improve ACEs’ surveillance and research. Methods We use advanced knowledge representation and semantic Web tools and techniques to implement the ontology. The current implementation of the ontology is expressed in the description logic ALCRIQ(D), a sublogic of Web Ontology Language (OWL 2). Results The ACEs Ontology has been implemented and made available to the mental health community and the public via the BioPortal repository. Moreover, multiple use-case scenarios have been introduced to showcase and evaluate the usability of the ontology in action. The ontology was created to be used by major actors in the ACEs community with different applications, from the diagnosis of individuals and predicting potential negative outcomes that they might encounter to the prevention of ACEs in a population and designing interventions and policies. Conclusions The ACEs Ontology provides a uniform and reusable semantic network and an integrated knowledge structure for mental health practitioners and researchers to improve ACEs’ surveillance and evaluation.",
+      "doi": "10.2196/13498",
+      "url": "https://www.semanticscholar.org/paper/50d58bc0369ad33bc5604f52738904a1ed82cb62",
+      "pdf_url": "https://mental.jmir.org/2019/5/e13498/PDF",
+      "fields_of_study": [
+        "Computer Science",
+        "Psychology",
+        "Medicine"
+      ],
+      "publication_date": "2019-01-25"
+    },
+    {
+      "id": "24a75f119fc25431b2ec3fc7d35e639fc50b2d28",
+      "title": "Ontology-based knowledge representation for malware individuals and families",
+      "authors": [
+        "Yuxin Ding",
+        "Rui Wu",
+        "Xiao Zhang"
+      ],
+      "year": 2019,
+      "venue": "Computers & security",
+      "citation_count": 21,
+      "abstract": null,
+      "doi": "10.1016/J.COSE.2019.101574",
+      "url": "https://www.semanticscholar.org/paper/24a75f119fc25431b2ec3fc7d35e639fc50b2d28",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2019-11-01"
+    },
+    {
+      "id": "37dacfac399df3e66cf70c6292900ba6e8ab209b",
+      "title": "Standpoint Logic: Multi-Perspective Knowledge Representation",
+      "authors": [
+        "Lucía Gómez Álvarez",
+        "S. Rudolph"
+      ],
+      "year": 2021,
+      "venue": "Formal Ontology in Information Systems",
+      "citation_count": 21,
+      "abstract": "Ontologies and knowledge bases encode, to a certain extent, the standpoints or perspectives of their creators. As differences and conflicts between standpoints should be expected in multi-agent scenarios, this will pose challenges for shared creation and usage of knowledge sources. Our work pursues the idea that, in some cases, a framework that can handle diverse and possibly conflicting standpoints is more useful and versatile than forcing their unification, and avoids common compromises required for their merge. Moreover, in analogy to the notion of family resemblance concepts, we propose that a collection of standpoints can provide a simpler yet more faithful and nuanced representation of some domains. To this end, we present standpoint logic, a multi-modal framework that is suitable for expressing information with semantically heterogeneous vocabularies, where a standpoint is a partial and acceptable interpretation of the domain. Standpoints can be organised hierarchically and combined, and complex correspondences can be established between them. We provide a formal syntax and semantics, outline the complexity for the propositional case, and explore the representational capacities of the framework in relation to standard techniques in ontology integration, with some examples in the Bio-Ontology domain.",
+      "doi": "10.3233/faia210367",
+      "url": "https://www.semanticscholar.org/paper/37dacfac399df3e66cf70c6292900ba6e8ab209b",
+      "pdf_url": "https://doi.org/10.3233/faia210367",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2021-12-23"
+    },
+    {
+      "id": "415364b7544e62d4a52402c00aa3dc4eab385ca5",
+      "title": "A Semantic Approach for Building System Operations: Knowledge Representation and Reasoning",
+      "authors": [
+        "Parastoo Delgoshaei",
+        "Mohammad Heidarinejad",
+        "M. Austin"
+      ],
+      "year": 2022,
+      "venue": "Sustainability",
+      "citation_count": 20,
+      "abstract": "Artificial intelligence is set to transform the next generation of intelligent buildings through the application of information and semantic data models and machine learning algorithms. Semantic data models enable the understanding of real-world data for building automation, integration and control applications. This article explored the use of semantic models, a subfield of artificial intelligence, for knowledge representation and reasoning (KRR) across a wide variety of applications in building control, automation and analytics. These KRR-enabled applications include context-aware control of mechanical systems, building energy auditing and commissioning, indoor air monitoring, fault detection and diagnostics (FDD) of mechanical equipment and systems and building-to-grid integration. To this end, this work employed the Apache Jena Application Programming Interface (API) to develop KRR and integrate it with some domain-specific ontologies expressed in the Resource Description Framework (RDF) and Web Ontology Language (OWL). The ontology-driven rules were represented using Jena rule formalisms to enable the inference of implicit information from data asserted in the ontologies. Moreover, SPARQL (SPARQL Query Language for RDF) was used to query the knowledge graph and obtain useful information for a variety of building applications. This approach enhances building analytics through multi-domain knowledge integration; spatial and temporal reasoning for monitoring building operations, and control systems and devices; and the performance of compliance checking. We show that existing studies have not leveraged state-of-the-art ontologies to infer information from different domains. While the proposed semantic infrastructure and methods in this study demonstrated benefits for different building applications applicable to mechanical systems, the approach also has great potential for lighting, shading and security applications. Multi-domain knowledge integration that includes spatial and temporal reasoning allows the optimization of the performance of building equipment and systems.",
+      "doi": "10.3390/su14105810",
+      "url": "https://www.semanticscholar.org/paper/415364b7544e62d4a52402c00aa3dc4eab385ca5",
+      "pdf_url": "https://www.mdpi.com/2071-1050/14/10/5810/pdf?version=1652263038",
+      "fields_of_study": null,
+      "publication_date": "2022-05-11"
+    },
+    {
+      "id": "5098ddf280a835f94fb4f050dcd03cbb979f6a31",
+      "title": "Uncertainty Analysis in Ontology-Based Knowledge Representation",
+      "authors": [
+        "S. Anand",
+        "Suresh Kumar"
+      ],
+      "year": 2022,
+      "venue": "New generation computing",
+      "citation_count": 19,
+      "abstract": null,
+      "doi": "10.1007/s00354-022-00162-6",
+      "url": "https://www.semanticscholar.org/paper/5098ddf280a835f94fb4f050dcd03cbb979f6a31",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-03-17"
+    },
+    {
+      "id": "f3da3926885a57e6f9853d2a9529fa7c3f029716",
+      "title": "An Ontology-Based Knowledge Representation of MCDA Methods",
+      "authors": [
+        "J. Wątróbski",
+        "Jarosław Jankowski"
+      ],
+      "year": 2016,
+      "venue": "Asian Conference on Intelligent Information and Database Systems",
+      "citation_count": 15,
+      "abstract": null,
+      "doi": "10.1007/978-3-662-49381-6_6",
+      "url": "https://www.semanticscholar.org/paper/f3da3926885a57e6f9853d2a9529fa7c3f029716",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2016-03-14"
+    },
+    {
+      "id": "d388adee21353646d12a1485085faaf895a8a210",
+      "title": "Ontology COKB for Knowledge Representation and Reasoning in Designing Knowledge-Based Systems",
+      "authors": [
+        "N. Do"
+      ],
+      "year": 2014,
+      "venue": "New Trends in Software Methodologies, Tools and Techniques",
+      "citation_count": 13,
+      "abstract": null,
+      "doi": "10.1007/978-3-319-17530-0_8",
+      "url": "https://www.semanticscholar.org/paper/d388adee21353646d12a1485085faaf895a8a210",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2014-09-22"
+    },
+    {
+      "id": "fd9f374f5c79bc1d670ce8cfe72bfa995ab3d4b2",
+      "title": "Knowledge Representation with Ontology",
+      "authors": [
+        "Sarika Jain",
+        "Sanju Mishra"
+      ],
+      "year": 2014,
+      "venue": "",
+      "citation_count": 12,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/fd9f374f5c79bc1d670ce8cfe72bfa995ab3d4b2",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2014-03-04"
+    },
+    {
+      "id": "bb6b35c5699d0bb1fa7662b81284396823112183",
+      "title": "Protégé-Based Ontology Knowledge Representation for MIS Courses",
+      "authors": [
+        "Z. Yao",
+        "Quang Zhang"
+      ],
+      "year": 2009,
+      "venue": "2009 International Conference on Web Information Systems and Mining",
+      "citation_count": 11,
+      "abstract": null,
+      "doi": "10.1109/WISM.2009.163",
+      "url": "https://www.semanticscholar.org/paper/bb6b35c5699d0bb1fa7662b81284396823112183",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2009-11-07"
+    },
+    {
+      "id": "50a6544a244efabb57b4ed486d50f0b5e45ef060",
+      "title": "A Description Logic Based Ontology for Knowledge Representation in Process Planning for Laser Powder Bed Fusion",
+      "authors": [
+        "Zuyu Li",
+        "Meifa Huang",
+        "Y. Zhong",
+        "Yuchu Qin"
+      ],
+      "year": 2022,
+      "venue": "Applied Sciences",
+      "citation_count": 8,
+      "abstract": "Laser powder bed fusion (LPBF) provides a rapid and cost-effective solution for fabricating metallic parts with near full density and high precision, strength, and stiffness directly from metallic powders. In LPBF, process variables are widely recognised as fundamental factors that have important effect on the quality of the built parts. However, activity of designing process variables for LPBF, i.e., process planning for LPBF, still heavily depends on knowledge from domain experts. This necessitates a knowledge base that enables the capture, representation, inference, and reuse of existing knowledge. In this paper, a description logic (DL) based ontology for knowledge representation in process planning for LPBF is presented. Firstly, a set of top-level DL entities and specific DL entities and semantic web rule language (SWRL) rules for part orientation, support generation, model slicing, and path planning are created to construct the ontology. The application of the ontology is then illustrated via process planning on an LPBF part. Finally, the benefits of the ontology are demonstrated through a few examples. The demonstration results show that the ontology has rigorous computer-interpretable semantics, which provides a semantic enrichment model for LPBF process planning knowledge and enables automatic consistency checking of the ontology, knowledge reasoning on the ontology, and semantic query from the ontology. This would lay solid foundation for development of a process planning tool with autonomous decision-making capability.",
+      "doi": "10.3390/app12094612",
+      "url": "https://www.semanticscholar.org/paper/50a6544a244efabb57b4ed486d50f0b5e45ef060",
+      "pdf_url": "https://www.mdpi.com/2076-3417/12/9/4612/pdf?version=1651905219",
+      "fields_of_study": null,
+      "publication_date": "2022-05-04"
+    },
+    {
+      "id": "dae4422f939c08be044518b315154a23c92e7f9d",
+      "title": "Reducing the Complexities in the Cognition of Ontology Knowledge Representation",
+      "authors": [
+        "Sivakumar",
+        "Arivoli"
+      ],
+      "year": 2011,
+      "venue": "",
+      "citation_count": 3,
+      "abstract": null,
+      "doi": "10.5121/IJIST.2011.1302",
+      "url": "https://www.semanticscholar.org/paper/dae4422f939c08be044518b315154a23c92e7f9d",
+      "pdf_url": "https://doi.org/10.5121/ijist.2011.1302",
+      "fields_of_study": [
+        "Mathematics"
+      ],
+      "publication_date": "2011-11-30"
+    },
+    {
+      "id": "fe7b70852828f2dbabb38905eac510a6980ae36d",
+      "title": "Development of Fuzzy Rough Features in Ontology Knowledge Representation",
+      "authors": [
+        "Nilavu Devadoss",
+        "Sivakumar Ramakrishnan"
+      ],
+      "year": 2015,
+      "venue": "",
+      "citation_count": 2,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/fe7b70852828f2dbabb38905eac510a6980ae36d",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "7c4358f7945df40eb01496dd1cfc22c0c4c21356",
+      "title": "Workshop on Terminology, Ontology & Knowledge Representation",
+      "authors": [],
+      "year": 2003,
+      "venue": "Information Research",
+      "citation_count": 0,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/7c4358f7945df40eb01496dd1cfc22c0c4c21356",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    }
+  ]
+}

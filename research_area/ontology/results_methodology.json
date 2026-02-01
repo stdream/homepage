@@ -1,0 +1,617 @@
+{
+  "query": "ontology engineering methodology",
+  "timestamp": "2026-01-25T11:44:17.946563",
+  "count": 30,
+  "papers": [
+    {
+      "id": "723209fa4c360a8af1ff1094ce2c280d65e4dffd",
+      "title": "The NeOn Methodology for Ontology Engineering",
+      "authors": [
+        "M. Suárez-Figueroa",
+        "Asunción Gómez-Pérez",
+        "M. Fernández-López"
+      ],
+      "year": 2012,
+      "venue": "Ontology Engineering in a Networked World",
+      "citation_count": 451,
+      "abstract": null,
+      "doi": "10.1007/978-3-642-24794-1_2",
+      "url": "https://www.semanticscholar.org/paper/723209fa4c360a8af1ff1094ce2c280d65e4dffd",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "ccbd8fdd446ee049f7449a0787a99d69854841f3",
+      "title": "Ontology Engineering Methodology",
+      "authors": [
+        "York Sure-Vetter",
+        "Steffen Staab",
+        "R. Studer"
+      ],
+      "year": 2009,
+      "venue": "Handbook on Ontologies",
+      "citation_count": 147,
+      "abstract": null,
+      "doi": "10.1007/978-3-540-92673-3_6",
+      "url": "https://www.semanticscholar.org/paper/ccbd8fdd446ee049f7449a0787a99d69854841f3",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "b81c2fc19820e9800f4874692a08ba969a279cd4",
+      "title": "A lightweight methodology for rapid ontology engineering",
+      "authors": [
+        "Antonio De Nicola",
+        "M. Missikoff"
+      ],
+      "year": 2016,
+      "venue": "Communications of the ACM",
+      "citation_count": 125,
+      "abstract": null,
+      "doi": "10.1145/2818359",
+      "url": "https://www.semanticscholar.org/paper/b81c2fc19820e9800f4874692a08ba969a279cd4",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2016-02-25"
+    },
+    {
+      "id": "461a4e621439a7f930ab93c81f89fb221ac61041",
+      "title": "Ontology engineering methodologies for the evolution of living and reused ontologies: status, trends, findings and recommendations",
+      "authors": [
+        "Konstantinos I. Kotis",
+        "G. Vouros",
+        "D. Spiliotopoulos"
+      ],
+      "year": 2020,
+      "venue": "Knowledge engineering review (Print)",
+      "citation_count": 75,
+      "abstract": "Abstract The aim of this critical review paper is threefold: (a) to provide an insight on the impact of ontology engineering methodologies (OEMs) to the evolution of living and reused ontologies, (b) to update the ontology engineering (OE) community on the status and trends in OEMs and of their use in practice and (c) to propose a set of recommendations for working ontologists to consider during the life cycle of living, evolved and reused ontologies. The work outlined in this critical review paper has been motivated by the need to address critical issues on keeping ontologies alive and evolving while these are shared in wide communities. It is argued that the engineering of ontologies must follow a well-defined methodology, addressing practical aspects that would allow (sometimes wide) communities of experts and ontologists to reach consensus on developments and keep the evolution of ontologies ‘in track’. In doing so, specific collaborative and iterative tool-supported tasks and phases within a complete and evaluated ontology life cycle are necessary. This way the engineered ontologies can be considered ‘shared, commonly agreed and continuously evolved “live” conceptualizations’ of domains of discourse. Today, in the era of Linked Data and Knowledge Graphs, it is more necessary than ever not to neglect to consider the recommendations that OEMs explicitly and implicitly introduce and their implications to the evolution of living ontologies. This paper reports on the status of OEMs, identifies trends and provides recommendations based on the findings of an analysis that concerns the impact of OEMs to the status of well-known, widely used and representative ontologies.",
+      "doi": "10.1017/S0269888920000065",
+      "url": "https://www.semanticscholar.org/paper/461a4e621439a7f930ab93c81f89fb221ac61041",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7A2D8D844EE0369C24967E156910AB50/S0269888920000065a.pdf/div-class-title-ontology-engineering-methodologies-for-the-evolution-of-living-and-reused-ontologies-status-trends-findings-and-recommendations-div.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2020-01-31"
+    },
+    {
+      "id": "e2025b8fbb15a0ff4bbf10cf21608e9aac051b25",
+      "title": "An ontology engineering methodology for DOGMA",
+      "authors": [
+        "Peter Spyns",
+        "Yan Tang",
+        "R. Meersman"
+      ],
+      "year": 2008,
+      "venue": "Appl. Ontology",
+      "citation_count": 28,
+      "abstract": null,
+      "doi": "10.3233/AO-2008-0047",
+      "url": "https://www.semanticscholar.org/paper/e2025b8fbb15a0ff4bbf10cf21608e9aac051b25",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2008-02-01"
+    },
+    {
+      "id": "99f7c57922db78f8b304271be505ceb01708eb5d",
+      "title": "Participatory Design of a Continuous Care Ontology - Towards a User-driven Ontology Engineering Methodology",
+      "authors": [
+        "F. Ongenae",
+        "Lizzy Bleumers",
+        "Nicky Sulmon",
+        "Mathijs Verstraete",
+        "M. V. Gils",
+        "An Jacobs",
+        "Saar De Zutter",
+        "P. Verhoeve",
+        "A. Ackaert",
+        "F. Turck"
+      ],
+      "year": 2011,
+      "venue": "International Conference on Knowledge Engineering and Ontology Development",
+      "citation_count": 27,
+      "abstract": null,
+      "doi": "10.5220/0003654700810090",
+      "url": "https://www.semanticscholar.org/paper/99f7c57922db78f8b304271be505ceb01708eb5d",
+      "pdf_url": "https://biblio.ugent.be/publication/1965779/file/2952298.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2011-10-01"
+    },
+    {
+      "id": "4bb58bbaa78533204a4520073559a6570fbfa09f",
+      "title": "A novel agile ontology engineering methodology for supporting organizations in collaborative ontology development",
+      "authors": [
+        "Daniele Spoladore",
+        "E. Pessot",
+        "A. Trombetta"
+      ],
+      "year": 2023,
+      "venue": "Computers in industry (Print)",
+      "citation_count": 24,
+      "abstract": null,
+      "doi": "10.1016/j.compind.2023.103979",
+      "url": "https://www.semanticscholar.org/paper/4bb58bbaa78533204a4520073559a6570fbfa09f",
+      "pdf_url": "https://doi.org/10.1016/j.compind.2023.103979",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-10-01"
+    },
+    {
+      "id": "f1c4bcc2ac9f8c9a7114132da279b0de1e03692f",
+      "title": "Ontology Development Methodology: A Systematic Review and Case Study",
+      "authors": [
+        "Yousef H. Alfaifi"
+      ],
+      "year": 2022,
+      "venue": "2022 2nd International Conference on Computing and Information Technology (ICCIT)",
+      "citation_count": 23,
+      "abstract": "Ontology development methodologies are widely used to guide the process of constructing, deploying and maintaining ontologies. Several methodologies exist for this purpose, meaning the ontology developer must choose a suitable methodology. The process of choosing the best or most suitable methodology can itself be confusing and daunting to ontology developers. This paper aims to present and compare the five most representative existing methodologies of ontology development and provide an assessment that can be referenced by developers and researchers. Furthermore, this paper includes a case study in which an ontology is developed for the Department of Information Technology at the University of Tabuk using the Simple Knowledge-Engineering Methodology; this ontology is known as TITO. We propose future work that includes evaluating TITO using state of the art techniques such as competency questions and domain experts, and extending TITO to include the other departments.",
+      "doi": "10.1109/ICCIT52419.2022.9711664",
+      "url": "https://www.semanticscholar.org/paper/f1c4bcc2ac9f8c9a7114132da279b0de1e03692f",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2022-01-25"
+    },
+    {
+      "id": "1d603e32ad2b2ce5bcc119ac76c3c762bd744f7d",
+      "title": "Design and Implementation of E-Campus Ontology with a Hybrid Software Engineering Methodology",
+      "authors": [
+        "Karwan Jacksi"
+      ],
+      "year": 2019,
+      "venue": "Science Journal of University of Zakho",
+      "citation_count": 21,
+      "abstract": "Semantic Web according to the vision of the W3C is the future of WWW (or Web). It is an extension of the current Web through standards by the W3C. Data of the Semantic Web has well-defined meanings, can be understood by devices and allows machines and people to work in collaboration. Ontologies are vital components of the Semantic Web infrastructure and are more often recognized as the backbone of the Semantic Web. Although numerous developments occur in the field of developing ontologies along the lines with the Semantic Web implementation, but standardizing the process models, tools and methodologies need to be improved in the future. In literature, experts in ontology engineering have stated that setting a methodology for developing ontology applications with support of integrated tools is an essential task for ontology engineering to be succeeded. In this paper, an e-campus ontology for educational purposes is designed and implemented, and mainly focused on the learning hierarchy of C-sharp programming language. A hybrid methodology based on software engineering approaches for developing ontologies is presented. Finally, the developed methodology is applied on the implemented ontology.",
+      "doi": "10.25271/sjuoz.2019.7.3.613",
+      "url": "https://www.semanticscholar.org/paper/1d603e32ad2b2ce5bcc119ac76c3c762bd744f7d",
+      "pdf_url": "https://sjuoz.uoz.edu.krd/index.php/sjuoz/article/download/613/411",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2019-09-30"
+    },
+    {
+      "id": "eb7f9208b3d7bb8e0b3b24c27050569c05e7a72b",
+      "title": "Ontology engineering step in design science research methodology: a technique to gather and reuse knowledge",
+      "authors": [
+        "L. Ostrowski",
+        "M. Helfert",
+        "Nelson Gama"
+      ],
+      "year": 2013,
+      "venue": "Behavior and Information Technology",
+      "citation_count": 20,
+      "abstract": "Design science (DS) is an emerging research paradigm in the information systems field. One of its challenges is to systematically structure knowledge for business solution artefacts. In this paper, we address this challenge by presenting an ontology engineering process. It structures gathered knowledge based on domain-specific concepts and relations. Application of the process results in an improvement in DS artefacts in terms of representational information quality. The goal of the paper is to place the ontology engineering process in the DS research methodology and provide pragmatic steps to follow the process.",
+      "doi": "10.1080/0144929X.2013.815276",
+      "url": "https://www.semanticscholar.org/paper/eb7f9208b3d7bb8e0b3b24c27050569c05e7a72b",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2013-08-15"
+    },
+    {
+      "id": "1a3e91eb513c3ec6e221dfa8b1e764ad0d54c649",
+      "title": "An Ontology Development Methodology Based on Ontology-Driven Conceptual Modeling and Natural Language Processing: Tourism Case Study",
+      "authors": [
+        "S. Haridy",
+        "R. Ismail",
+        "N. Badr",
+        "M. Hashem"
+      ],
+      "year": 2023,
+      "venue": "Big Data and Cognitive Computing",
+      "citation_count": 17,
+      "abstract": "Ontologies provide a powerful method for representing, reusing, and sharing domain knowledge. They are extensively used in a wide range of disciplines, including artificial intelligence, knowledge engineering, biomedical informatics, and many more. For several reasons, developing domain ontologies is a challenging task. One of these reasons is that it is a complicated and time-consuming process. Multiple ontology development methodologies have already been proposed. However, there is room for improvement in terms of covering more activities during development (such as enrichment) and enhancing others (such as conceptualization). In this research, an enhanced ontology development methodology (ON-ODM) is proposed. Ontology-driven conceptual modeling (ODCM) and natural language processing (NLP) serve as the foundation of the proposed methodology. ODCM is defined as the utilization of ontological ideas from various areas to build engineering artifacts that improve conceptual modeling. NLP refers to the scientific discipline that employs computer techniques to analyze human language. The proposed ON-ODM is applied to build a tourism ontology that will be beneficial for a variety of applications, including e-tourism. The produced ontology is evaluated based on competency questions (CQs) and quality metrics. It is verified that the ontology answers SPARQL queries covering all CQ groups specified by domain experts. Quality metrics are used to compare the produced ontology with four existing tourism ontologies. For instance, according to the metrics related to conciseness, the produced ontology received a first place ranking when compared to the others, whereas it received a second place ranking regarding understandability. These results show that utilizing ODCM and NLP could facilitate and improve the development process, respectively.",
+      "doi": "10.3390/bdcc7020101",
+      "url": "https://www.semanticscholar.org/paper/1a3e91eb513c3ec6e221dfa8b1e764ad0d54c649",
+      "pdf_url": "https://www.mdpi.com/2504-2289/7/2/101/pdf?version=1684663003",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-05-21"
+    },
+    {
+      "id": "d3bacd9a916f589e60bc2389aee8c632f3a2556d",
+      "title": "Fine-Tuning Large Language Models for Ontology Engineering: A Comparative Analysis of GPT-4 and Mistral",
+      "authors": [
+        "Dimitrios Doumanas",
+        "Andreas Soularidis",
+        "D. Spiliotopoulos",
+        "C. Vassilakis",
+        "Konstantinos Kotis"
+      ],
+      "year": 2025,
+      "venue": "Applied Sciences",
+      "citation_count": 16,
+      "abstract": "Ontology engineering (OE) plays a critical role in modeling and managing structured knowledge across various domains. This study examines the performance of fine-tuned large language models (LLMs), specifically GPT-4 and Mistral 7B, in efficiently automating OE tasks. Foundational OE textbooks are used as the basis for dataset creation and for feeding the LLMs. The methodology involved segmenting texts into manageable chapters, generating question–answer pairs, and translating visual elements into description logic to curate fine-tuned datasets in JSONL format. This research aims to enhance the models’ abilities to generate domain-specific ontologies, with hypotheses asserting that fine-tuned LLMs would outperform base models, and that domain-specific datasets would significantly improve their performance. Comparative experiments revealed that GPT-4 demonstrated superior accuracy and adherence to ontology syntax, albeit with higher computational costs. Conversely, Mistral 7B excelled in speed and cost efficiency but struggled with domain-specific tasks, often generating outputs that lacked syntactical precision and relevance. The presented results highlight the necessity of integrating domain-specific datasets to improve contextual understanding and practical utility in specialized applications, such as Search and Rescue (SAR) missions in wildfire incidents. Both models, despite their limitations, exhibited potential in understanding OE principles. However, their performance underscored the importance of aligning training data with domain-specific knowledge to emulate human expertise effectively. This study, based on and extending our previous work on the topic, concludes that fine-tuned LLMs with targeted datasets enhance their utility in OE, offering insights into improving future models for domain-specific applications. The findings advocate further exploration of hybrid solutions to balance accuracy and efficiency.",
+      "doi": "10.3390/app15042146",
+      "url": "https://www.semanticscholar.org/paper/d3bacd9a916f589e60bc2389aee8c632f3a2556d",
+      "pdf_url": "https://doi.org/10.3390/app15042146",
+      "fields_of_study": null,
+      "publication_date": "2025-02-18"
+    },
+    {
+      "id": "3ad97cb06ff47c943ea19c2d7db494288ab74293",
+      "title": "IOEM - Ontology Engineering Methodology for Large Systems",
+      "authors": [
+        "J. Sliwa",
+        "K. Gleba",
+        "W. Chmiel",
+        "P. Szwed",
+        "Andrzej Glowacz"
+      ],
+      "year": 2011,
+      "venue": "International Conference on Computational Collective Intelligence",
+      "citation_count": 15,
+      "abstract": null,
+      "doi": "10.1007/978-3-642-23935-9_59",
+      "url": "https://www.semanticscholar.org/paper/3ad97cb06ff47c943ea19c2d7db494288ab74293",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2011-09-21"
+    },
+    {
+      "id": "5cfa70f85e4440afc93fd4fc366dd173abdb0a02",
+      "title": "An Ontology-based Engineering methodology applied to aerospace Reconfigurable Manufacturing Systems design",
+      "authors": [
+        "Rebeca Arista",
+        "F. Mas",
+        "D. Morales-Palma",
+        "C. Vallellano"
+      ],
+      "year": 2023,
+      "venue": "International Journal of Production Research",
+      "citation_count": 13,
+      "abstract": "Reconfigurable Manufacturing Systems (RMS) have gained attention in the aerospace industry in the past years, as post-pandemic context shows drastic production capacity changes and new environmental regulations to which it must adapt quicker than before to maintain competitiveness. Nevertheless, current RMS design methods have not thoroughly considered this industry specificities, nor industrial resources requirements in the current concurrent design practice. These limitations have been identified in several recent research works. Ontology-based Engineering (OBE) systems can stand overly complex collaborative design processes involving multidisciplinary stakeholders and various digital tools, integrating different levels of decision. Models for Manufacturing (MfM) is an OBE methodology aiming to enable industrial design and decision-making in manufacturing by preserving the company knowledge in ontology models, usable as knowledge base to generate and integrate the aircraft and manufacturing systems design. This paper presents an MfM application for RMS design in aerospace, introducing innovative design concepts that allow implementing RMS in a collaborative engineering process of an aerospace product. An implementation is shown designing the RMS of a model aircraft family to illustrate the concepts introduced and considerations are given to transfer this knowledge base into an OBE system to support complex real-life applications.",
+      "doi": "10.1080/00207543.2023.2217296",
+      "url": "https://www.semanticscholar.org/paper/5cfa70f85e4440afc93fd4fc366dd173abdb0a02",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-06-02"
+    },
+    {
+      "id": "9afd435b266b999ce9ca7ea3ae4303c406c0aae4",
+      "title": "From Human- to LLM-Centered Collaborative Ontology Engineering",
+      "authors": [
+        "Dimitrios Doumanas",
+        "Georgios Bouchouras",
+        "Andreas Soularidis",
+        "Konstantinos Kotis",
+        "G. Vouros"
+      ],
+      "year": 2024,
+      "venue": "Appl. Ontology",
+      "citation_count": 7,
+      "abstract": "In the continuously evolving landscape of knowledge engineering, the symbiosis and teaming of humans and machines emerge as a pivotal new domain. This article explores the multifaceted realms of human and machine collaborative ontology engineering (OE). The goal of the presented work is to explore the potential of Large Language Models (LLMs) to speed up and automate the processes of collaborative OE, experimenting with different levels of LLM involvement. The proposed approach is based on a human-centered approach, that is, the HCOME approach to collaborative OE, and follows a process of exploring the declining involvement of humans and the parallel increase of LLM involvement, concluding at a level of automation where the OE is exclusively performed by LLMs. This experimentation is organized based on a series of human/LLM collaboration levels (a spectrum of OE), each one aligned to a specific OE methodology, that is, Level-0 HCOME (Human), Level-1 X-HCOME (Human and LLMs), Level-2 SimX-HCOME (LLMs and Human), and Level-3 Sim-HCOME (LLMs). The evaluation of these methodologies (one per level) is performed by measuring the similarity of the generated ontologies against “reference” ontologies (precision, recall, and F1-score of reference-to-LLM-generated ontological mappings). The results presented in this paper demonstrate that while LLMs significantly expedite the OE process, the accuracy and completeness of the resulting ontologies are notably enhanced by maintaining a high level of human involvement. This study is expected to contribute to a deeper understanding of evolving dynamics in LLM-based/enhanced OE, paving the way for future advancements toward more effective collaborative OE frameworks.",
+      "doi": "10.1177/15705838241305067",
+      "url": "https://www.semanticscholar.org/paper/9afd435b266b999ce9ca7ea3ae4303c406c0aae4",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-11-01"
+    },
+    {
+      "id": "7284207b0195185d42c4aa6dbcb3b3dfd992f767",
+      "title": "Develop a Formal Ontology Engineering Methodology for Technical Knowledge Definition in R&D Knowledge Management",
+      "authors": [
+        "Ching-Jen Huang",
+        "A. Trappey",
+        "Chun-Yi Wu"
+      ],
+      "year": 2008,
+      "venue": "",
+      "citation_count": 7,
+      "abstract": null,
+      "doi": "10.1007/978-1-84800-972-1_46",
+      "url": "https://www.semanticscholar.org/paper/7284207b0195185d42c4aa6dbcb3b3dfd992f767",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "bdc6d5d534c8a316687354292c76f9cb0a530edd",
+      "title": "Toward to operationalization of socio-technical ontology engineering methodology",
+      "authors": [
+        "D. Sensuse",
+        "Y. G. Sucahyo",
+        "Mesnan Silalahi",
+        "I. A. Wulandari",
+        "I. F. Akmaliah",
+        "Handrie Noprisson"
+      ],
+      "year": 2017,
+      "venue": "2017 5th International Conference on Cyber and IT Service Management (CITSM)",
+      "citation_count": 6,
+      "abstract": null,
+      "doi": "10.1109/CITSM.2017.8089256",
+      "url": "https://www.semanticscholar.org/paper/bdc6d5d534c8a316687354292c76f9cb0a530edd",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2017-08-01"
+    },
+    {
+      "id": "8ca327130983ed00ee904bd06822d8346ab55be0",
+      "title": "Towards a methodology for systems engineering ontology development — An ontology for system life cycle processes",
+      "authors": [
+        "Lan Yang",
+        "K. Cormican",
+        "Ming Yu"
+      ],
+      "year": 2017,
+      "venue": "Information Security Solutions Europe",
+      "citation_count": 6,
+      "abstract": null,
+      "doi": "10.1109/SYSENG.2017.8088299",
+      "url": "https://www.semanticscholar.org/paper/8ca327130983ed00ee904bd06822d8346ab55be0",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2017-10-01"
+    },
+    {
+      "id": "de693580b14dbee49125f86e7288602144dd0a64",
+      "title": "Towards a Knowledge Engineering Methodology for Flexible Robot Manipulation in Everyday Tasks",
+      "authors": [
+        "Michaela Kümpel",
+        "Jan-Philipp Töberg",
+        "Vanessa Hassouna",
+        "Philipp Cimiano",
+        "Michael Beetz"
+      ],
+      "year": 2024,
+      "venue": "ESWC Workshops",
+      "citation_count": 5,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/de693580b14dbee49125f86e7288602144dd0a64",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "4c2ce1bd83a847fa80ff0c97057c43f9be829d32",
+      "title": "Applications of an Ontology Engineering Methodology",
+      "authors": [
+        "Daniel Sonntag",
+        "P. Wennerberg",
+        "S. Zillner"
+      ],
+      "year": 2010,
+      "venue": "AAAI Spring Symposium: Linked Data Meets Artificial Intelligence",
+      "citation_count": 5,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/4c2ce1bd83a847fa80ff0c97057c43f9be829d32",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2010-03-23"
+    },
+    {
+      "id": "1358a412b3eb933a17656ead535656b65002dabd",
+      "title": "A model theory inspired ontology engineering methodology",
+      "authors": [
+        "Peter Spyns",
+        "Yan Tang",
+        "R. Meersman"
+      ],
+      "year": 2008,
+      "venue": "",
+      "citation_count": 5,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/1358a412b3eb933a17656ead535656b65002dabd",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "1f0b2fa152fd00658f387e2d8f2e33f8a6c1e62e",
+      "title": "Hyperelastic-Based Adaptive Dynamics Methodology in Knowledge Acquisition for Computational Intelligence on Ontology Engineering of Evolving Folksonomy Driven Environment",
+      "authors": [
+        "M. Mas"
+      ],
+      "year": 2016,
+      "venue": "Sentiment Analysis and Ontology Engineering",
+      "citation_count": 5,
+      "abstract": null,
+      "doi": "10.1007/978-3-319-30319-2_7",
+      "url": "https://www.semanticscholar.org/paper/1f0b2fa152fd00658f387e2d8f2e33f8a6c1e62e",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "5acb5005f63543eb4acc593c83d81c7c74642915",
+      "title": "Towards a Methodology for Reusable Ontology Engineering: Application to the Process Engineering Domain",
+      "authors": [
+        "Nikolaos Trokanas",
+        "Linsey Koo",
+        "F. Cecelja"
+      ],
+      "year": 2015,
+      "venue": "",
+      "citation_count": 4,
+      "abstract": null,
+      "doi": "10.1016/B978-0-444-64235-6.50084-X",
+      "url": "https://www.semanticscholar.org/paper/5acb5005f63543eb4acc593c83d81c7c74642915",
+      "pdf_url": "https://openresearch.surrey.ac.uk/view/delivery/44SUR_INST/12139037370002346/13140513300002346",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2015-06-01"
+    },
+    {
+      "id": "3ab0e9689e694a0ab2ae3958330ec625878efc67",
+      "title": "Insights from an OTTR-centric Ontology Engineering Methodology",
+      "authors": [
+        "Moritz Blum",
+        "Basil Ell",
+        "P. Cimiano"
+      ],
+      "year": 2023,
+      "venue": "WOP@ISWC",
+      "citation_count": 3,
+      "abstract": "OTTR is a language for representing ontology modeling patterns, which enables to build ontologies or knowledge bases by instantiating templates. Thereby, particularities of the ontological representation language are hidden from the domain experts, and it enables ontology engineers to, to some extent, separate the processes of deciding about what information to model from deciding about how to model the information, e.g., which design patterns to use. Certain decisions can thus be postponed for the benefit of focusing on one of these processes. To date, only few works on ontology engineering where ontology templates are applied are described in the literature. In this paper, we outline our methodology and report findings from our ontology engineering activities in the domain of Material Science. In these activities, OTTR templates play a key role. Our ontology engineering process is bottom-up, as we begin modeling activities from existing data that is then, via templates, fed into a knowledge graph, and it is top-down, as we first focus on which data to model and postpone the decision of how to model the data. We find, among other things, that OTTR templates are especially useful as a means of communication with domain experts. Furthermore, we find that because OTTR templates encapsulate modeling decisions, the engineering process becomes flexible, meaning that design decisions can be changed at little cost.",
+      "doi": "10.48550/arXiv.2309.13130",
+      "url": "https://www.semanticscholar.org/paper/3ab0e9689e694a0ab2ae3958330ec625878efc67",
+      "pdf_url": "https://arxiv.org/pdf/2309.13130",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-09-22"
+    },
+    {
+      "id": "447058cb448648af0adbd34db3feaddcaeba625a",
+      "title": "A Methodology for Extracting Knowledge about Controlled Vocabularies from Textual Data using FCA-Based Ontology Engineering",
+      "authors": [
+        "Simin Jabbari",
+        "K. Stoffel"
+      ],
+      "year": 2018,
+      "venue": "IEEE International Conference on Bioinformatics and Biomedicine",
+      "citation_count": 3,
+      "abstract": "We introduce an end-to-end methodology (from text processing to querying a knowledge graph) for the sake of knowledge extraction from text corpora with a focus on a list of vocabularies of interest. We propose a pipeline that incorporates Natural Language Processing (NLP), Formal Concept Analysis (FCA), and Ontology Engineering techniques to build an ontology from textual data. We then extract the knowledge about controlled vocabularies by querying that knowledge graph, i.e., the engineered ontology. We demonstrate the significance of the proposed methodology by using it for knowledge extraction from a text corpus that consists of 800 news articles and reports about companies and products in the IT and pharmaceutical domain, where the focus is on a given list of 250 controlled vocabularies.",
+      "doi": "10.1109/BIBM.2018.8621239",
+      "url": "https://www.semanticscholar.org/paper/447058cb448648af0adbd34db3feaddcaeba625a",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2018-12-01"
+    },
+    {
+      "id": "8a7a9e731c8f65c48b7f60aec002140b42c8ebac",
+      "title": "LLMs for the Engineering of a Parkinson Disease Monitoring and Alerting Ontology",
+      "authors": [
+        "Georgios Bouchouras",
+        "Pavlos Bitilis",
+        "Konstantinos Kotis",
+        "G. Vouros"
+      ],
+      "year": 2024,
+      "venue": "ESWC Workshops",
+      "citation_count": 3,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/8a7a9e731c8f65c48b7f60aec002140b42c8ebac",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "5ec54d51f895a117b50edd16f05348f16d6c70e7",
+      "title": "A Methodology for Engineering Domain Ontology using Entity Relationship Model",
+      "authors": [
+        "M. A. Raza",
+        "M. Rahmah",
+        "S. Raza",
+        "A. Noraziah",
+        "R. Hamid"
+      ],
+      "year": 2019,
+      "venue": "International Journal of Advanced Computer Science and Applications",
+      "citation_count": 3,
+      "abstract": "Ontology engineering is an important aspect of semantic web vision to attain the meaningful representation of data. Although various techniques exist for the creation of ontology, most of the methods involve the number of complex phases, scenario-dependent ontology development, and poor validation of ontology. This research work presents a lightweight approach to build domain ontology using Entity Relationship (ER) model. Firstly, a detailed analysis of intended domain is performed to develop the ER model. In the next phase, ER to ontology (EROnt) conversion rules are outlined, and finally the system prototype is developed to construct the ontology. The proposed approach investigates the domain of information technology curriculum for the successful interpretation of concepts, attributes, relationships of concepts and constraints among the concepts of the ontology. The experts’ evaluation of accurate identification of ontology vocabulary shows that the method performed well on curriculum data with 95.75% average precision and 90.75% average recall.",
+      "doi": "10.14569/ijacsa.2019.0100842",
+      "url": "https://www.semanticscholar.org/paper/5ec54d51f895a117b50edd16f05348f16d6c70e7",
+      "pdf_url": "https://doi.org/10.14569/ijacsa.2019.0100842",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "cd67c4bd16caaf2bc4ba6ab5cb323fc8c4bb54b0",
+      "title": "F-ONTOCOM: A Fuzzified Cost Estimation Approach for Ontology Engineering",
+      "authors": [
+        "Sonika Malik",
+        "Sarika Jain"
+      ],
+      "year": 2021,
+      "venue": "Journal of Web Engineering",
+      "citation_count": 2,
+      "abstract": "Estimating effort is an essential prerequisite for the wide-scale dispersal of ontologies. Not much attention has yet been paid to this essential aspect of ontology building. To date, ONTOCOM is the most prominent model for ontology cost estimation. Many factors influencing the building cost of an ontology are depicted by linguistic terms like Very High, High, . . . and so on; making them vague and indistinct. This fuzziness is quite uncertain and must be taken into consideration. The available effort estimation models do not consider the uncertainty of fuzziness. In this work, we propose an effort estimation methodology for ontology engineering using Fuzzy Logic i.e. F-ONTOCOM (Fuzzy-ONTOCOM) to overcome of uncertainty and imprecision. We have defined the corresponding Fuzzy sets for each effort multiplier and its associated linguistic value, and represented the same by triangular membership functions. F-ONTOCOM is applied to a dataset of 148 ontology projects and evaluated over various evaluation criteria. FONTOCOM outperforms the existing effort-estimation models; it has been concluded that F-ONTOCOM improves the cost estimation accuracy and estimated cost is very close to actual cost.",
+      "doi": "10.13052/jwe1540-9589.2076",
+      "url": "https://www.semanticscholar.org/paper/cd67c4bd16caaf2bc4ba6ab5cb323fc8c4bb54b0",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2021-11-16"
+    },
+    {
+      "id": "2939f01fced14f4cc60a45ce9c0a01cb7ef44f3c",
+      "title": "Towards a Socio-technical Ontology Engineering Methodology",
+      "authors": [
+        "D. Sensuse",
+        "Mesnan Silalahi",
+        "I. Budi"
+      ],
+      "year": 2014,
+      "venue": "",
+      "citation_count": 1,
+      "abstract": null,
+      "doi": "10.14355/IJCSA.2014.0303.02",
+      "url": "https://www.semanticscholar.org/paper/2939f01fced14f4cc60a45ce9c0a01cb7ef44f3c",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2014-08-01"
+    },
+    {
+      "id": "d216b31247bb55873121d6fb7b0a758adaa9824c",
+      "title": "AutOnto: Towards A Semi-Automated Ontology Engineering Methodology",
+      "authors": [
+        "Kiara M. Ascencion Arevalo",
+        "Shruti Ambre",
+        "Rene Dorsch"
+      ],
+      "year": 2024,
+      "venue": "Iberoamerican Conference on Knowledge Graphs and Semantic Web",
+      "citation_count": 0,
+      "abstract": null,
+      "doi": "10.1007/978-3-031-81221-7_16",
+      "url": "https://www.semanticscholar.org/paper/d216b31247bb55873121d6fb7b0a758adaa9824c",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    }
+  ]
+}

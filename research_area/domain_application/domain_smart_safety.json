@@ -1,0 +1,619 @@
+{
+  "query": "ontology knowledge graph safety security smart city",
+  "timestamp": "2026-01-25T14:35:35.981115",
+  "count": 30,
+  "papers": [
+    {
+      "id": "b7afcd6131d7b93b876d5c508ecdfb82c9ae575e",
+      "title": "OntoSmartDCU: A Multi-Agent Microservice Based Automated, Dynamic Ontology and Knowledge Graph Creation Framework From Real-Time Sensor Data for the Smart DCU Digital Twin",
+      "authors": [
+        "Sukanya Mandal",
+        "Noel E. O'Connor"
+      ],
+      "year": 2024,
+      "venue": "World Forum on Internet of Things",
+      "citation_count": 2,
+      "abstract": "This paper presents OntoSmartDCU, a novel Multi-Agent Microservice (MAMS) based framework for automated and dynamic Ontology and Knowledge Graph (KG) creation from real-time sensor data. Designed specifically for the Smart Dublin City University (DCU) Digital Twin (DT), OntoSmartDCU facilitates the continuous acquisition, interpretation, and integration of sensor data streams into an evolving knowledge representation. The architecture consists of interconnected microservices and autonomous agents, each responsible for specific tasks such as data gathering and processing, ontology creation, and KG population. These agents act as intelligent microservices, operating in parallel and communicating to achieve a common goal. This modular design facilitates scalability, flexibility, and adaptability to heterogeneous sensor environments. The dynamic nature of OntoSmartDCU will enable the DT to accurately reflect the real-time operational state of the university campus, serving as the foundation for various applied use cases. OntoSmartDCU offers a significant advancement in DT technology, providing a robust and scalable solution for real-time knowledge representation and data integration in complex cyber-physical systems.",
+      "doi": "10.1109/WF-IoT62078.2024.10811412",
+      "url": "https://www.semanticscholar.org/paper/b7afcd6131d7b93b876d5c508ecdfb82c9ae575e",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-11-10"
+    },
+    {
+      "id": "9523630c0afad00be35d9c33c49979a10a3d3a46",
+      "title": "Detect Defects of Solidity Smart Contract Based on the Knowledge Graph",
+      "authors": [
+        "Tianyuan Hu",
+        "Bixin Li",
+        "Zhenyu Pan",
+        "Chen Qian"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Reliability",
+      "citation_count": 26,
+      "abstract": "Smart contract security is one of the core issues in any application based on blockchain. There are many techniques focusing on smart contract security, however, due to the diversity of Solidity versions and limitations of detection time, it is difficult for them to comprehensively localize defects in different versions of smart contracts. In this article, we propose a static defect detection method based on the knowledge graph of the Solidity language and present a defect detection tool called <italic>SoliDetector</italic>. First, we define the ontology layer of the knowledge graph and construct the instance layer in which syntactic and logical relationships are captured. Second, we introduce the defect pattern to describe each defect and design inference rules to infer complex relationships and judge whether a defect exists. Finally, we localize defects by executing SPARQL queries. <italic>SoliDetector</italic> can support the detection of 20 kinds of defects and the automatic SPARQL query generation. We conducted several experiments on multiple datasets. <italic>SoliDetector</italic> obtains a high <italic>F-score</italic> (i.e., 92.97% on Dataset1 and 91.54% on the SmartBug dataset). To compare <italic>SoliDetector</italic> with <italic>SmartCheck</italic>, <italic>Slither</italic>, and <italic>Mythril</italic>, we conducted experiments on a labeled benchmark Dataset3 and real-world contracts. <italic>SoliDetector</italic> has a high <italic>F-score</italic> of 94.04% and is faster than other tools with an average time of 0.37 s for each contract.",
+      "doi": "10.1109/TR.2023.3233999",
+      "url": "https://www.semanticscholar.org/paper/9523630c0afad00be35d9c33c49979a10a3d3a46",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-03-01"
+    },
+    {
+      "id": "f75ab4b84517c61cff0dfe3ffde84bcc75b7260b",
+      "title": "A Survey on Knowledge Graph Related Research in Smart City Domain",
+      "authors": [
+        "Zhu Wang",
+        "Fengxia Han",
+        "Shengjie Zhao"
+      ],
+      "year": 2024,
+      "venue": "ACM Transactions on Knowledge Discovery from Data",
+      "citation_count": 5,
+      "abstract": "Knowledge graph employs the specific graph structure to store knowledge in the form of entities, relations, attributes, and so forth, which can effectively represent correlations among data and has been applied in many fields, including search engine optimization, intelligent question answering, and recommendation systems. In this article, we mainly focus on the research and application of the domain-specific knowledge graph in the field of the smart city, which has not been fully paid attention to. Currently, the major problem faced by the smart city lies in data mining and proper application. On the one hand, data are usually stored by government management departments, which creates challenges such as high data storing overhead and inefficient data usage. On the other hand, data cannot be coordinated and collaborated between different city management systems, because data silos exist. By constructing the corresponding knowledge graph, the data of urban traffic, services, and public resources are integrated to provide help for city builders and managers to make important decisions. Therefore, we will review the related literature on the knowledge graph existing in the smart city domain to expore reasearch scopes. Specifically, we will analyze and summarize knowledge graph construction research in the field of smart cities from four perspectives, i.e., smart city ontology, urban data processing, urban knowledge graph construction, and their application. Finally, the research limitations and prospects of the urban knowledge graph are provided.",
+      "doi": "10.1145/3672615",
+      "url": "https://www.semanticscholar.org/paper/f75ab4b84517c61cff0dfe3ffde84bcc75b7260b",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-07-19"
+    },
+    {
+      "id": "3232e5ce0d10adff3660664d599e12b680e3e023",
+      "title": "Improving three-dimensional security for surveillance systems in smart cities using graph neural network model, Barcelona and Singapore as examples",
+      "authors": [
+        "Sanaa ahmed Kadhim",
+        "Shatha H. Jafer",
+        "Saad Abdual azize Abdual rahman"
+      ],
+      "year": 2025,
+      "venue": "EUREKA: Physics and Engineering",
+      "citation_count": 0,
+      "abstract": "This research investigates the implementation and enhancement of Three-Dimensional (3D) Security and surveillance system within the context of smart cities, by speeding up the defendable security actions and threat detection. These systems are integral components for achieving comprehensive urban safety through integrating spatial data analysis with other city infrastructures. \nA major challenge in smart city development is ensuring real-time, accurate threat detection and coordinated emergency responses. Existing surveillance systems lack the multidimensional capabilities and integration flexibility needed to adapt to complex urban environments. \nThe study proposed upgrading surveillance technologies by incorporating a Graph Neural Network (GNN) algorithm into traffic monitoring system. Simulations demonstrated that GNN-enhanced system achieved higher prediction accuracy (1–3%), improved inference speed (5 to 10 km/h), and reduce error rates (1-3%) compared to traditional methods. \nThe improved performance is attributed to the ability of GNNs to effectively model relationships within spatial and traffic network data, allowing for more accurate and context-aware decision-making process (speeding up to 60%) in real time. The enhanced system offers data processing using 3D spatial analysis, real-time threat detection, integration with urban systems like traffic control, and learning adaptability via GNNs – together addressing delays and inefficiencies of earlier methods (in Barcelona from 45 minutes to 30 minutes and in Singapore from 30 to 20 minutes). \nThe results are applicable in urban surveillance areas with established digital infrastructure, where spatial data, system integration (e.g. traffic, emergency systems), and computational resources are available. These systems are especially valuable in large areas, critical zones, and event-based surveillance needs, where proactive and precise security management is essential. Defendable security actions speed up to 60% by faster predictions and decision-making process",
+      "doi": "10.21303/2461-4262.2025.003949",
+      "url": "https://www.semanticscholar.org/paper/3232e5ce0d10adff3660664d599e12b680e3e023",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-09-09"
+    },
+    {
+      "id": "c167f831288664cffe0f5c0ebc9846836adb1957",
+      "title": "Cyber-Physical System Security Surveillance using Knowledge Graph based Digital Twins - A Smart Farming Usecase",
+      "authors": [
+        "Sai Sree Laya Chukkapalli",
+        "Nisha Pillai",
+        "Sudip Mittal",
+        "A. Joshi"
+      ],
+      "year": 2021,
+      "venue": "Intelligence and Security Informatics",
+      "citation_count": 18,
+      "abstract": "Rapid advancements in Cyber-Physical System (CPS) capabilities have motivated farmers to deploy this ecosystem on their farms. However, there is a growing concern among users regarding the security risks associated with CPS. Especially with rising number of cyber-attacks on CPS, such as modifying sensor readings, interrupting operations, etc. Therefore, this paper describes a security surveillance framework to detect deviations in the ecosystem by incorporating a digital twin supported anomaly detection model. The reason for incorporating digital twins is that they add value by enabling real-time monitoring of connected smart farms. We pre-process the collected data from sensors deployed on the smart farm setup. The pre-processed data is fused with our smart farm ontology to populate a knowledge graph. The generated graph is further queried to extract the necessary sensor data. We utilize the extracted normal data to train the anomaly detection model. Further, we tested our model if it identifies abnormal values from sensors by simulating anomalous use case scenarios specific to our ecosystem.",
+      "doi": "10.13016/M2XUYO-LZ8V",
+      "url": "https://www.semanticscholar.org/paper/c167f831288664cffe0f5c0ebc9846836adb1957",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2021-08-31"
+    },
+    {
+      "id": "b529fc4cd63d5ae50172ef8746b3effd388383c9",
+      "title": "Smart City Ontology Framework for Urban Data Integration and Application",
+      "authors": [
+        "Xiaolong He",
+        "X. Kuai",
+        "Xinyue Li",
+        "Zihao Qiu",
+        "Biao He",
+        "Renzhong Guo"
+      ],
+      "year": 2025,
+      "venue": "Smart Cities",
+      "citation_count": 2,
+      "abstract": "Rapid urbanization and the proliferation of heterogeneous urban data have intensified the challenges of semantic interoperability and integrated urban governance. To address this, we propose the Smart City Ontology Framework (SMOF), a standards-driven ontology that unifies Building Information Modeling (BIM), Geographic Information Systems (GIS), Internet of Things (IoT), and relational data. SMOF organizes five core modules and eleven major entity categories, with universal and extensible attributes and relations to support cross-domain data integration. SMOF was developed through competency questions, authoritative knowledge sources, and explicit design principles, ensuring methodological rigor and alignment with real governance needs. Its evaluation combined three complementary approaches against baseline models: quantitative metrics demonstrated higher attribute richness and balanced hierarchy; LLM as judge assessments confirmed conceptual completeness, consistency, and scalability; and expert scoring highlighted superior scenario fitness and clarity. Together, these results indicate that SMOF achieves both structural soundness and practical adaptability. Beyond structural evaluation, SMOF was validated in two representative urban service scenarios, demonstrating its capacity to integrate heterogeneous data, support graph-based querying and enable ontology-driven reasoning. In sum, SMOF offers a robust and scalable solution for semantic data integration, advancing smart city governance and decision-making efficiency.",
+      "doi": "10.3390/smartcities8050165",
+      "url": "https://www.semanticscholar.org/paper/b529fc4cd63d5ae50172ef8746b3effd388383c9",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-10-03"
+    },
+    {
+      "id": "2eae8caafde8f0b9295f3309b2a9cfc9dd192d78",
+      "title": "Multi-domain fusion for cargo UAV fault diagnosis knowledge graph construction",
+      "authors": [
+        "Ao Xiao",
+        "Wei Yan",
+        "Xumei Zhang",
+        "Ying Liu",
+        "Hua Zhang",
+        "Qi Liu"
+      ],
+      "year": 2024,
+      "venue": "Autonomous Intelligent Systems",
+      "citation_count": 7,
+      "abstract": "The fault diagnosis of cargo UAVs (Unmanned Aerial Vehicles) is crucial to ensure the safety of logistics distribution. In the context of smart logistics, the new trend of utilizing knowledge graph (KG) for fault diagnosis is gradually emerging, bringing new opportunities to improve the efficiency and accuracy of fault diagnosis in the era of Industry 4.0. The operating environment of cargo UAVs is complex, and their faults are typically closely related to it. However, the available data only considers faults and maintenance data, making it difficult to diagnose faults accurately. Moreover, the existing KG suffers from the problem of confusing entity boundaries during the extraction process, which leads to lower extraction efficiency. Therefore, a fault diagnosis knowledge graph (FDKG) for cargo UAVs constructed based on multi-domain fusion and incorporating an attention mechanism is proposed. Firstly, the multi-domain ontology modeling is realized based on the multi-domain fault diagnosis concept analysis expression model and multi-dimensional similarity calculation method for cargo UAVs. Secondly, a multi-head attention mechanism is added to the BERT-BILSTM-CRF network model for entity extraction, relationship extraction is performed through ERNIE, and the extracted triples are stored in the Neo4j graph database. Finally, the DJI cargo UAV failure is taken as an example for validation, and the results show that the new model based on multi-domain fusion data is better than the traditional model, and the precision rate, recall rate, and F1 value can reach 87.52%, 90.47%, and 88.97%, respectively.",
+      "doi": "10.1007/s43684-024-00072-y",
+      "url": "https://www.semanticscholar.org/paper/2eae8caafde8f0b9295f3309b2a9cfc9dd192d78",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s43684-024-00072-y.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-06-21"
+    },
+    {
+      "id": "bdb4704f8d5b2fd000b808f588e6dc21145b71df",
+      "title": "A deep learning-based vulnerability detection in blockchain smart contracts using masked attention and control flow graph analysis",
+      "authors": [
+        "Maëlle Gautrin",
+        "Arash Habibi Lashkari",
+        "Sepideh HajiHossein Khani"
+      ],
+      "year": 2025,
+      "venue": "International Journal of Information Security",
+      "citation_count": 0,
+      "abstract": null,
+      "doi": "10.1007/s10207-025-01156-3",
+      "url": "https://www.semanticscholar.org/paper/bdb4704f8d5b2fd000b808f588e6dc21145b71df",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-11-15"
+    },
+    {
+      "id": "483e7da41aa5f1ad2f9ce6455cba023dfbac8b89",
+      "title": "Preliminary exploration on the construction and application of knowledge graph for security control strategy",
+      "authors": [
+        "B. Wen",
+        "Yongxin Chen",
+        "Junhao Zhang",
+        "Qingqing Han"
+      ],
+      "year": 2022,
+      "venue": "Cyber ..",
+      "citation_count": 0,
+      "abstract": "The security and stability control system are the guarantees the safety of the power grid, and the security and stability control strategy plays an important role in ensuring the stable operation of security and stability control equipment and system. To better management of strategy and realize the function of fast search, combing with artificial intelligence technology to model, manage, and apply security and stability control strategy is a new development direction. This paper put forward a framework of knowledge-graph-based security and stability control strategy, benefits from the regularity of the components of most security control strategies, by sorting out the relationship between the elements of security control strategy, and designing a structured knowledge network that can be presented and operated. The ontology model of the knowledge graph is divided into two parts: the strategy table and the complete strategy, the first is to analyze the strategy table the most important part of the strategy, based on the completed ontology design of the strategy table, perfect the logical relationship to realize the model of the complete strategy. Finally, on the Neo4j, finish the construction of the knowledge graph of that security and stability control strategy, and achieve the purpose of strategy management and rapid retrieval of the security control strategy.",
+      "doi": "10.1109/CYBER55403.2022.9907492",
+      "url": "https://www.semanticscholar.org/paper/483e7da41aa5f1ad2f9ce6455cba023dfbac8b89",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2022-07-27"
+    },
+    {
+      "id": "d7aed3defc16ca549cba557f47bc0b3a20ddb2ba",
+      "title": "Application of Knowledge Graphs for Creating a Library of Reusable Knowledge in the Smart City Domain",
+      "authors": [
+        "D. Kudryavtsev",
+        "Natalia Chichkova"
+      ],
+      "year": 2022,
+      "venue": "Conference on Digital Curation Technologies",
+      "citation_count": 0,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/d7aed3defc16ca549cba557f47bc0b3a20ddb2ba",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "fb8708cf728795473fe7cca6cd282419355dbe0f",
+      "title": "Graph-Based Cross-Domain Knowledge Distillation for Cross-Dataset Text-to-Image Person Retrieval",
+      "authors": [
+        "Bingjun Luo",
+        "Jinpeng Wang",
+        "Zewen Wang",
+        "Junjie Zhu",
+        "Xibin Zhao"
+      ],
+      "year": 2025,
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "citation_count": 5,
+      "abstract": "Video surveillance systems are crucial components for ensuring public safety and management in smart city. As a fundamental task in video surveillance, text-to-image person retrieval aims to retrieve the target person from an image gallery that best matches the given text description. Most existing text-to-image person retrieval methods are trained in a supervised manner that requires sufficient labeled data in the target domain. However, it is common in practice that only unlabeled data is available in the target domain due to the difficulty and cost of data annotation, which limits the generalization of existing methods in practical application scenarios. To address this issue, we propose a novel unsupervised domain adaptation method, termed Graph-Based Cross-Domain Knowledge Distillation (GCKD), to learn the cross-modal feature representation for text-to-image person retrieval in a cross-dataset scenario. The proposed GCKD method consists of two main components. Firstly, a graph-based multi-modal propagation module is designed to bridge the cross-domain correlation among the visual and textual samples. Secondly, a contrastive momentum knowledge distillation module is proposed to learn the cross-modal feature representation using the online knowledge distillation strategy. By jointly optimizing the two modules, the proposed method is able to achieve efficient performance for cross-dataset text-to-image person retrieval. Extensive experiments on three publicly available text-to-image person retrieval datasets demonstrate the effectiveness of the proposed GCKD method, which consistently outperforms the state-of-the-art baselines.",
+      "doi": "10.48550/arXiv.2501.15052",
+      "url": "https://www.semanticscholar.org/paper/fb8708cf728795473fe7cca6cd282419355dbe0f",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-01-25"
+    },
+    {
+      "id": "ae33f3c3ecfcb8c3ff3c44abd97658486d13fb25",
+      "title": "A Smart City Is a Safe City: Analysis and Evaluation of the State of Crime and Safety in Polish Cities",
+      "authors": [
+        "M. Tutak",
+        "Jarosław Brodny"
+      ],
+      "year": 2023,
+      "venue": "Smart Cities",
+      "citation_count": 17,
+      "abstract": "The concept of a smart city is based on the extensive multidimensional use of information and communication technologies to create the most favorable living conditions for residents and visitors. It is also important to create favorable conditions for economic activity while respecting the environment. One of the most important dimensions of this concept is security in the broadest sense, particularly that which concerns urban residents. This article addresses this subject by analyzing crime and determining the state of safety in 16 Polish provincial cities between 2013–2022. The measure of this state was chosen to be a set of indicators characterizing a number of registered criminal and economic offenses in the studied cities. On this basis, values of the indices of the dynamics of change for these offenses in individual cities in the analyzed period were determined. In the next stage, the number of offenses was compared to the number of residents of the cities under study and the indices of concentration for total offenses (LQT) and for individual types of offenses (LQn) were determined. Based on these results, the studied cities were divided into four concentration levels. Afterward, these results were used for a multi-criteria analysis of the safety of studied cities, which was carried out using the TOPSIS method. The calculated values of the safety index (Pi) formed the basis for creating a ranking and specifying security levels of studied cities. The results indicate a wide variation among the cities in terms of safety levels. Gdańsk, Bydgoszcz, Olsztyn and Zielona Góra were found to be the safest cities, while Szczecin was found to be the least safe. The methodology developed and the results obtained show the validity of conducting comparative research in areas relevant to the implementation of the smart cities concept. The knowledge gained can be used to build strategies and conduct policies with regard to improving safety in cities, especially those aspiring to be smart cities.",
+      "doi": "10.3390/smartcities6060149",
+      "url": "https://www.semanticscholar.org/paper/ae33f3c3ecfcb8c3ff3c44abd97658486d13fb25",
+      "pdf_url": "https://www.mdpi.com/2624-6511/6/6/149/pdf?version=1701252261",
+      "fields_of_study": null,
+      "publication_date": "2023-11-29"
+    },
+    {
+      "id": "c47cbdf343b86d7f10bf126b799d127f9e1656a5",
+      "title": "Datasets of Mystery Stories for Knowledge Graph Reasoning Challenge",
+      "authors": [
+        "Kouji Kozaki",
+        "S. Egami",
+        "Kyoumoto Matsushita",
+        "Takanori Ugai",
+        "Takahiro Kawamura",
+        "Ken Fukuda"
+      ],
+      "year": 2023,
+      "venue": "ESWC Workshops",
+      "citation_count": 2,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/c47cbdf343b86d7f10bf126b799d127f9e1656a5",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "0b132c62e0b50399ee4a7e0b4652f3f037dab970",
+      "title": "Scientific Knowledge Graph of Urban Resilience Governance Research from the Perspective of Public Safety",
+      "authors": [
+        "G. Wan"
+      ],
+      "year": 2023,
+      "venue": "Yixin Publisher",
+      "citation_count": 0,
+      "abstract": "At present, the world's urban development is facing many security challenges, and how to improve the level of urban resilience through resilient governance is the research trend to cope with urban disaster risks. Based on bibliometric analysis methods, this paper analyzes the knowledge graph of journal papers with the theme of “Urban Resilience Governance” from 2010 to 2023 using the Chinese CSSCI database and the English WOS database as the literature sources. The analysis found that: (1) The number of Chinese and English publications increased steadily and slowly in the early stage, and the number of publications soared after a certain year, and relevant research is still growing. (2) Foreign research results on urban resilience have been very rich, and there are many introductions and imitations in China. (3) Domestic and foreign research initially paid more attention to urban planning and design, and in terms of specific disaster types, the West paid more attention to climate disasters, while China paid more attention to social security incidents. (4) In terms of urban resilience governance, there is a lot of research on government-led collaborative governance in China, while foreign countries focus on the use of various social and individual capitals. Finally, the research, analysis and governance of cities as complex giant systems is a major trend in current research.",
+      "doi": "10.59825/jhss.2023.1.1.181",
+      "url": "https://www.semanticscholar.org/paper/0b132c62e0b50399ee4a7e0b4652f3f037dab970",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2023-07-31"
+    },
+    {
+      "id": "b47db92ed699b784bf5dbebf42acc32c0528713c",
+      "title": "Knowledge graph-enhanced fault diagnosis: a bibliometric review of AI applications in sensor management (1998–2024)",
+      "authors": [
+        "Qiang Li",
+        "Zijing Wu"
+      ],
+      "year": 2025,
+      "venue": "Discover Artificial Intelligence",
+      "citation_count": 0,
+      "abstract": null,
+      "doi": "10.1007/s44163-025-00688-w",
+      "url": "https://www.semanticscholar.org/paper/b47db92ed699b784bf5dbebf42acc32c0528713c",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-11-27"
+    },
+    {
+      "id": "5d018daff04737faea102657724f0406f4b5a761",
+      "title": "Exploiting Smart City Ontology and Citizens' Profiles for Urban Data Exploration",
+      "authors": [
+        "D. Bianchini",
+        "V. D. Antonellis",
+        "Massimiliano Garda",
+        "M. Melchiori"
+      ],
+      "year": 2018,
+      "venue": "OTM Conferences",
+      "citation_count": 8,
+      "abstract": null,
+      "doi": "10.1007/978-3-030-02610-3_21",
+      "url": "https://www.semanticscholar.org/paper/5d018daff04737faea102657724f0406f4b5a761",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2018-10-22"
+    },
+    {
+      "id": "92e84f851aa8293b70166c559d8bdc500b9f9ee9",
+      "title": "From Data to City Indicators: A Knowledge Graph for Supporting Automatic Generation of Dashboards",
+      "authors": [
+        "Henrique Santos",
+        "Victor Dantas",
+        "Vasco Furtado",
+        "Paulo Pinheiro da Silva",
+        "Deborah L. McGuinness"
+      ],
+      "year": 2017,
+      "venue": "Extended Semantic Web Conference",
+      "citation_count": 44,
+      "abstract": "In the context of Smart Cities, indicator definitions have been used to calculate values that enable the comparison among different cities. The calculation of an indicator values has challenges as the calculation may need to combine some aspects of quality while addressing different levels of abstraction. Knowledge graphs (KGs) have been used successfully to support flexible representation, which can support improved understanding and data analysis in similar settings. This paper presents an operational description for a city KG, an indicator ontology that support indicator discovery and data visualization and an application capable of performing metadata analysis to automatically build and display dashboards according to discovered indicators. We describe our implementation in an urban mobility setting.",
+      "doi": "10.1007/978-3-319-58451-5_7",
+      "url": "https://www.semanticscholar.org/paper/92e84f851aa8293b70166c559d8bdc500b9f9ee9",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2017-04-06"
+    },
+    {
+      "id": "76f5fb130c384c910509387fb7bcf3e2a1b86678",
+      "title": "Efficient and Scalable Semantic Data Ingestion for Smart City Digital Twin Platforms",
+      "authors": [
+        "P. Bellini",
+        "Enrico Collini",
+        "M. Fanfani",
+        "P. Nesi",
+        "Christian Panconi"
+      ],
+      "year": 2025,
+      "venue": "International Conference on Big Data Computing Service and Applications",
+      "citation_count": 0,
+      "abstract": "Smart City Digital Twins are becoming fundamental tools to support decision-makers in facing challenges spanning in multiple domains of the urban environment. By mirroring the real city into a digital counterpart, and thanks to data and visual analytics, digital twins allow operators to perform analysis, predictions, and simulations to better plan the urban development. To achieve such goal, ingest and model semantically enriched Big Data is the first building block required to develop a digital twin and obtain a faithful replica of the city. Ontologies play a fundamental role in this regard; however, graph databases exploiting ontologies to set up knowledge bases are inefficient in handling big data time series and multiple formats. NoSQL solutions excel in storing big data. In this paper, a novel semantic driven process is proposed capable to store, enrich, and forward data messages providing support for semantic data retrieval taking into account relational, temporal, and geographic/spatial queries and real time event driven data. The solution is at the core of the open source Snap4City Digital Twin platform which is currently in use in the context of the Italian National Center for Sustainable Mobility, and for the national center on HPC in Italy.",
+      "doi": "10.1109/BigDataService65758.2025.00012",
+      "url": "https://www.semanticscholar.org/paper/76f5fb130c384c910509387fb7bcf3e2a1b86678",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-07-21"
+    },
+    {
+      "id": "3bac2a3f33e650a10238546fc6fdbd4e466cb853",
+      "title": "Federated Learning in Large Model Era: Vision-Language Model for Smart City Safety Operation Management",
+      "authors": [
+        "Zengxiang Li",
+        "Zhaoxiang Hou",
+        "Hui Liu",
+        "Tongzhi Li",
+        "Che-Sheng Yang",
+        "Ying Wang",
+        "Chao Shi",
+        "Long-Xiang Xie",
+        "Weishan Zhang",
+        "Liang Xu",
+        "Zelei Liu"
+      ],
+      "year": 2024,
+      "venue": "The Web Conference",
+      "citation_count": 11,
+      "abstract": "With the tremendous success of large language models such as ChatGPT, artificial intelligence has entered a new era of large models. Multimodal data, which can comprehensively perceive and recognize the physical world, has become an essential path towards general artificial intelligence. However, multimodal large models trained on public datasets often underperform in specific industrial domains. In this paper, we tackle the problem of building large vision-language intelligent models for specific industrial domains by leveraging the general large models and federated learning. We compare the challenges faced by federated learning in the era of small models and large models from different dimensions, and propose a technical framework for federated learning in the era of large models.Specifically, our framework mainly considers three aspects: heterogeneous model fusion, flexible aggregation methods, and data quality improvement. Based on this framework, we conduct a case study of leading enterprises contributing vision-language data and expert knowledge to city safety operation management. The preliminary experiments show that enterprises can enhance and accumulate their intelligence capabilities through federated learning, and jointly create an intelligent city model that provides high-quality intelligent services covering energy infrastructure security, residential community security and urban operation management.",
+      "doi": "10.1145/3589335.3651939",
+      "url": "https://www.semanticscholar.org/paper/3bac2a3f33e650a10238546fc6fdbd4e466cb853",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3589335.3651939",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-05-13"
+    },
+    {
+      "id": "0339cdff76516e9d7912a537c3eea950b2953c13",
+      "title": "Research on construction method of knowledge graph in the civil aviation security field",
+      "authors": [
+        "Yinqian Cheng",
+        "Yang Jiao",
+        "Wei Wei",
+        "Zhiyuan Wu"
+      ],
+      "year": 2019,
+      "venue": "2019 IEEE 1st International Conference on Civil Aviation Safety and Information Technology (ICCASIT)",
+      "citation_count": 5,
+      "abstract": "The knowledge graph of the civil aviation safety domain can visually display the complex network relationship between civil aviation safety-related factors, and facilitate effective analysis of potential security risks from the relationship between complex and multi-dimensional security factors, providing in-depth risk analysis and decision support to the field. In this paper, the knowledge system of the civil aviation safety field was firstly combed, and the ontology model suitable for the civil aviation security field has been constructed. Then knowledge was extracted from structured, semi-structured and unstructured data sources in the civil aviation security field. On this basis, entity recognition of unstructured text has been done by using a machine-learning correlation model algorithm, and the entity-relationship in the civil aviation security field has been extracted by using a deep convolutional neural network model combined with keyword features. Finally, the map database Neo4j was used to store the knowledge of the civil aviation safety field, and the knowledge map of the civil aviation safety field has been initially constructed.",
+      "doi": "10.1109/ICCASIT48058.2019.8973190",
+      "url": "https://www.semanticscholar.org/paper/0339cdff76516e9d7912a537c3eea950b2953c13",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2019-10-01"
+    },
+    {
+      "id": "1d30fc6bdcd565df400ee1a377ca0a1d06012750",
+      "title": "Design of an Efficient Model for Enhanced IoT Security and Maintenance in Smart Cities",
+      "authors": [
+        "Saurav Bhandari",
+        "S. Chaudhary",
+        "Himadri Vaidya",
+        "Ujjwal Kumar",
+        "Madhu Kirola",
+        "Harishchander Anandaram"
+      ],
+      "year": 2024,
+      "venue": "2024 First International Conference on Technological Innovations and Advance Computing (TIACOMP)",
+      "citation_count": 0,
+      "abstract": "It is of the utmost importance to ensure robust security and effective device maintenance in the rapidly changing landscape of smart city infrastructures. Be that as it may, existing procedures frequently miss the mark in tending to the dynamic and different difficulties presented by emerging dangers and the perplexing exchange of IoT environments. This paper presents a clever way to deal with these issues through three inventive strategies: Adaptive Reinforcement Learning for IoT Security (ARLIS), Graph-Analytics-Based Anomaly Detection (GABAD), and Predictive Maintenance using Time Series Forecasting (PMTSF). Customary safety efforts frequently battle to adjust to the advancing danger scene, prompting weaknesses and likely breaks. ARLIS tends to this constraint by loading the force of support figuring out how to progressively change security conventions in view of ongoing IoT information and organization conditions. ARLIS continuously learns from feedback to improve security measures, which reduces response times to security threats and improves overall security efficacy. Also, irregularity location in IoT networks is tested by the sheer volume and complexity of information produced by interconnected gadgets. GABAD beats this obstacle by utilizing diagram examination to recognize oddities in device connections and ways of behaving inside smart city organizations. By building an exhaustive chart model and applying progressed oddity identification calculations, GABAD accomplishes unequaled precision in peculiarity location while limiting misleading up-sides. In addition, optimizing system reliability and minimizing service disruptions require proactive maintenance of IoT devices. PMTSF alters upkeep methodologies by utilizing time series to foresee gadget disappointments before they happen. By examining gadget execution measurements and ecological variables, PMTSF empowers convenient support mediations, prompting a significant decrease in spontaneous margin time and further developed framework dependability. The proposed techniques address the obstacles of existing methodologies as well as make room for improved security and support in brilliant city frameworks and situations. By utilizing progressed procedures, this work vows to essentially ease security chances, further develop oddity location precision, and streamline upkeep tasks, at last adding to the headway of versatile and effective shrewd city biological systems.",
+      "doi": "10.1109/TIACOMP64125.2024.00058",
+      "url": "https://www.semanticscholar.org/paper/1d30fc6bdcd565df400ee1a377ca0a1d06012750",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-06-29"
+    },
+    {
+      "id": "9154a160fff496bf49be5b7a15a4e410546ea144",
+      "title": "Exploring Knowledge Domain of Intelligent Safety and Security Studies by Bibliometric Analysis",
+      "authors": [
+        "Ting Mei",
+        "Hui Liu",
+        "Bingrui Tong",
+        "Chaozhen Tong",
+        "Junjie Zhu",
+        "Yuxuan Wang",
+        "Mengyao Kou"
+      ],
+      "year": 2025,
+      "venue": "Sustainability",
+      "citation_count": 0,
+      "abstract": "Intelligent safety and security is significant for preventing risks, ensuring information security and promoting sustainable social development, making it an indispensable part of modern society. Current research primarily focuses on the knowledge base and research hotspots in the field of intelligent safety and security. However, a comprehensive mapping of its overall knowledge structure remains lacking. A total of 1400 publications from the Web of Science Core Collection (2013–2023) are analyzed using VOSviewer and CiteSpace, through which co-occurrence analysis, keyword burst detection, and co-citation analysis are conducted. Through this approach, this analysis systematically uncovers the core themes, evolutionary trajectories, and emerging trends in intelligent safety and security research. Unlike previous bibliometric studies, this study is the first to integrate multiple visualization techniques to construct a holistic framework of the intelligent safety and security knowledge system. Additionally, it offers an in-depth analysis of key topics such as IoT security, intelligent transportation systems, smart cities, and smart grids, providing quantitative insights to guide future research directions. The results show that the most significant number of publications are from China; the top position on the list of papers published by related institutions is occupied by King Saud University from Saudi Arabia. Renewable and Sustainable Energy Reviews, Sustainable Cities and Society, and IEEE Transactions on Intelligent Transportation Systems are identified as the leading publications in this field. The decentralization of blockchain technology, the security and challenges of the Internet of Things (IoT), and research on intelligent cities and smart homes have formed the knowledge base for innovative security research. The four key directions of intelligent safety and security research mainly comprise IoT security, intelligent transportation systems, traffic safety and its far-reaching impact, and the utilization of smart grids and renewable energy. Research on IoT technology, security, and limitations is at the forefront of interest in this area.",
+      "doi": "10.3390/su17041475",
+      "url": "https://www.semanticscholar.org/paper/9154a160fff496bf49be5b7a15a4e410546ea144",
+      "pdf_url": "https://doi.org/10.3390/su17041475",
+      "fields_of_study": null,
+      "publication_date": "2025-02-11"
+    },
+    {
+      "id": "5a8709806f4ea1fe35e08529df20d78d0573020c",
+      "title": "Construction and Intelligent Application of Map Projection Knowledge Graph",
+      "authors": [
+        "Jun Ma",
+        "Guangxia Wang"
+      ],
+      "year": 2022,
+      "venue": "International Conference on Intelligent Transportation, Big Data and Smart City",
+      "citation_count": 0,
+      "abstract": "The Map Projection module is indispensable in the research process of Intelligent Transportation and Smart City related projects. Aiming at the problems of inconvenient query of Map Projection knowledge, poor intelligent selection effect and less research results of Map Projection knowledge map at present, a method for constructing a Map Projection Knowledge Graph based on domain ontology for multi-source data is proposed. This article has defined the concept of Map Projection Knowledge Graph, explained the basic process and key technologies of this method in detail, and verified the feasibility of this method in practice through experiments. This method has been proved that it is more intuitive and clear than traditional methods in visualization, and as a new method in Knowledge Query and Map Projection Intelligent Selection for this area at the same time by experiment in this article.",
+      "doi": "10.1109/ICITBS55627.2022.00026",
+      "url": "https://www.semanticscholar.org/paper/5a8709806f4ea1fe35e08529df20d78d0573020c",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2022-03-01"
+    },
+    {
+      "id": "2214dd2e2487df782d67af8a6c65d56e13619c92",
+      "title": "Multiple Objects Association System for the Smart City",
+      "authors": [
+        "A. Popov",
+        "Stanislav V. Ibragimov",
+        "S. A. Malyshev",
+        "Rufina A. Abdurakhmanova"
+      ],
+      "year": 2021,
+      "venue": "IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering",
+      "citation_count": 1,
+      "abstract": "The increase of population in large cities require safety systems improvement for urban environment. The traditional Smart City security systems are highly centralized to process a large number of video streams in the massive-parallel data centers. As a result, this requires an expensive network infrastructure and makes it available only for large metropolitan areas. In this paper, we propose a distributed system for analyzing the luggage and people relations in crowded places. The system processes video on the camera’s nodes and detects dependent tracks for objects moving. Then we form a combined scene in the central node to accurately represent the association of people and luggage. In this research stage, we present the basics concepts of multiple object re-identification and association measurement, as well as knowledge graph constructing. We describe the methodology of data obtaining and show experimental results of visual object recognition on camera nodes.",
+      "doi": "10.1109/ElConRus51938.2021.9396415",
+      "url": "https://www.semanticscholar.org/paper/2214dd2e2487df782d67af8a6c65d56e13619c92",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2021-01-26"
+    },
+    {
+      "id": "2ed987d644fc0e597a2685253dd66f0e5e2b33cb",
+      "title": "Ontology Construction and Knowledge Base Feeding and Cleaning for Smart-city Services",
+      "authors": [
+        "P. Bellini",
+        "P. Nesi",
+        "Nadia Rauch"
+      ],
+      "year": 2014,
+      "venue": "",
+      "citation_count": 6,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/2ed987d644fc0e597a2685253dd66f0e5e2b33cb",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "7d0df5c8d86d3d821692a7e0827b74cdde41b422",
+      "title": "A Digital Twin Model of High-Pile Docks’ Structures based on Neo4j Knowledge Graph",
+      "authors": [
+        "Shan Lu",
+        "Yaqi Jie",
+        "Xinyi Xu",
+        "Jiale Tong"
+      ],
+      "year": 2024,
+      "venue": "Journal of Physics: Conference Series",
+      "citation_count": 3,
+      "abstract": "High-pile docks plays a vital role in modern civil engineering field. The operational efficiency and structural safety of these docks are paramount. However, structural damage to high-pile docks can lead to economic and human losses. To effectively manage structural health monitoring information for high-pile docks, this research utilizes knowledge graph technology to construct a visual knowledge repository for high-pile docks, named as the High-Pile Dock Knowledge Graph (DKG-Neo4j). For the construction of DKG-Neo4j, a plethora of literature, news, and standards related to health monitoring in the field of high-pile docks were gathered. Then, the collected information was organized hierarchically and categorized into tables, with CSV files exported using Python. Finally, this aggregated information was integrated into the Neo4j graph database to establish a comprehensive knowledge graph. The proposed High-Pile Dock Knowledge Graph (DKG-Neo4j) not only reflects the current state of the docks but also captures the connections between issues and maintenance strategies, empowering experts to engage in structural health monitoring and risk analysis. The DKG-Neo4j model boasts structural flexibility and scalability, contributing to smart cities and providing new approaches for the sustainable development of high-pile docks and the digital management of civil engineering.",
+      "doi": "10.1088/1742-6596/2736/1/012010",
+      "url": "https://www.semanticscholar.org/paper/7d0df5c8d86d3d821692a7e0827b74cdde41b422",
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1742-6596/2736/1/012010/pdf",
+      "fields_of_study": [
+        "Physics"
+      ],
+      "publication_date": "2024-03-01"
+    },
+    {
+      "id": "16021989cf760bbfe2c61194e07c40ef4699ab54",
+      "title": "Semantic Knowledge Based Graph Model in Smart Cities",
+      "authors": [
+        "Saqib Ali",
+        "Guojun Wang",
+        "Komal Fatima",
+        "Pin Liu"
+      ],
+      "year": 2019,
+      "venue": "International Conference on Smart City and Informatization",
+      "citation_count": 6,
+      "abstract": null,
+      "doi": "10.1007/978-981-15-1301-5_22",
+      "url": "https://www.semanticscholar.org/paper/16021989cf760bbfe2c61194e07c40ef4699ab54",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2019-11-12"
+    },
+    {
+      "id": "5fc9b4c4da1c078dc47afb96ffb93a252dfdd1b9",
+      "title": "Cybersecurity policy on smart city infrastructure: a mapping of new threats and protections",
+      "authors": [
+        "Herman Lawelai",
+        "Eko Priyo Purnomo",
+        "Achmad Nurmandi",
+        "Hazel D. Jovita",
+        "Elaine Baulete"
+      ],
+      "year": 2025,
+      "venue": "Journal of Science and Technology Policy Management",
+      "citation_count": 4,
+      "abstract": "\nPurpose\nThis study aims to identify and map new cybersecurity threats and protection strategies associated with smart city infrastructures. The rapid adoption of smart city technologies has introduced significant vulnerabilities, necessitating comprehensive cybersecurity policies.\n\n\nDesign/methodology/approach\nThis study uses a qualitative approach to analyze existing literature, the Scopus database and case studies to identify cybersecurity threats and protect smart city infrastructures. It examines cybersecurity frameworks from various countries and their effectiveness. The research uses bibliometric analysis and visualization tools, such as VOSviewer, RStudio-Bibloshiny and CiteSpace, to map the research landscape, identify key themes and detect emerging trends in the field.\n\n\nFindings\nThe findings reveal that smart city technologies are highly susceptible to cyber intrusions, data theft and privacy breaches. Key vulnerabilities include integrating artificial intelligence and Internet of Things systems and exposing critical public safety and energy systems to hacking and malicious attacks. Effective mitigation strategies, such as security-by-design and continuous security patching, are essential to counter these threats. A comprehensive approach that includes threat analysis and data security improvements significantly reduces cybersecurity risks.\n\n\nPractical implications\nThe study emphasizes the need for a robust cybersecurity policy framework tailored to smart city infrastructures. Policymakers must focus on implementing effective security measures and privacy protection policies to ensure the safety and resilience of smart cities. Cybersecurity risk assessments and threat modeling methodologies are also recommended to proactively identify and address potential threats.\n\n\nOriginality/value\nThis study contributes to the existing body of knowledge by providing a detailed mapping of cybersecurity threats and protection strategies specific to smart city infrastructures. It underscores the importance of developing a comprehensive cybersecurity policy framework, informed by global best practices, to safeguard technological advancements and public services in smart cities.\n",
+      "doi": "10.1108/jstpm-09-2024-0359",
+      "url": "https://www.semanticscholar.org/paper/5fc9b4c4da1c078dc47afb96ffb93a252dfdd1b9",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-06-24"
+    },
+    {
+      "id": "1e2509f83893ec96215c335b916dea53aafb50ca",
+      "title": "Toward integrated smart city: a new model for implementation and design challenges",
+      "authors": [
+        "H. Attaran",
+        "Nahid Kheibari",
+        "D. Bahrepour"
+      ],
+      "year": 2022,
+      "venue": "GeoJournal",
+      "citation_count": 64,
+      "abstract": "In smart city architecture, information and communication technologies are used to improve living standards and its management by citizens and government. Most researchers have divided this structure into six main components: smart people, the smart government, smart environment, smart transportation, smart economy, and smart life. Due to the connection between smart cities and the challenges resulting from their implementation and especially its integration, there exists no perfect solution for the concept of an integrated smart city so far according to our studies. Some more general concepts such as security, ICT infrastructure, and knowledge are not seen integrative in these structures. Therefore, it seems that new sub-components and general extra-components should be added to the existing models to form an integrated structure in such a way that the executive projects are located in their proper place in this structure and create and guarantee the integration of the smart city. Therefore, the requirements engineering of the smart city can also be explained more precisely. This study presents a model of an integrated graph in such a way that besides maintaining and improving the model of the smart city and existing models, it will fully cover the integration and requirements engineering and methodologies of the smart city in the future. The present paper offers an upgraded model of a six-component smart city structure as a flexible integrated dynamic graph so that beside maintaining the features of existing smart city models, it ensures its integrity, dynamism, flexibility and performance and prevents the failure of smart operations. Due to its flexibility, adaptability and localization, the proposed model presented in this paper can create an integrated solution and facilitating the life cycle of executive systems and enable governments and communities to predict and prevent sudden events such as natural disasters, pandemics like Covid-19 and the like as well as managing and leading their target community in the best way.",
+      "doi": "10.1007/s10708-021-10560-w",
+      "url": "https://www.semanticscholar.org/paper/1e2509f83893ec96215c335b916dea53aafb50ca",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10708-021-10560-w.pdf",
+      "fields_of_study": [
+        "Medicine"
+      ],
+      "publication_date": "2022-01-20"
+    },
+    {
+      "id": "f3df1358a6be90dcab8fff977d75e0ce578dbd90",
+      "title": "Detecting Smart Home Automation Application Interferences with Domain Knowledge",
+      "authors": [
+        "Tao Wang",
+        "Wei Chen",
+        "Liwei Liu",
+        "Guoquan Wu",
+        "Jun Wei",
+        "Tao Huang"
+      ],
+      "year": 2023,
+      "venue": "International Conference on Automated Software Engineering",
+      "citation_count": 1,
+      "abstract": "Trigger-action programming (TAP) is a widely used development paradigm that simplifies the Internet of Things (loT) automation. However, the exceptional interactions between automation applications may result in interferences, such as conflicts and infinite loops, which cause undesirable consequences and even security and safety risks. While several techniques have been proposed to address this problem, they are often restricted in handling explicit and simple conflicts without considering contextual influences. In addition, they suffer from performance issues when applying to large-scale applications. To address these challenges, we design an effective and practical tool KnowDetector with comprehensive domain knowledge to detect application interferences. To detect application interferences, KnowDetector constructs an automation graph with 1) events, conditions, and actions from automation applications, 2) vertices representing physical environment channels, and 3) edges derived from potential semantic relations between the vertices. In order to make the graph extensively capture the interactions between automation applications, we propose a knowledge model named KnowloT that accurately characterizes loT devices with command-level loT services and the intricate relations between these services and the contextual environment. We abstract the interference detection into a graph pattern-matching problem and summarize ten application interference patterns of four types. Finally, KnowDetector can efficiently detect application interferences by searching for sub-graphs matching the patterns within the automation graph. We evaluated KnowDetector on three real-world datasets. The results demonstrated that it outperformed the other state-of-the-art tools with the highest precision, recall, and F-measure. In addition, KnowDetector is scalable to detect application interferences within a large number of applications with a minimal time overhead.",
+      "doi": "10.1109/ASE56229.2023.00070",
+      "url": "https://www.semanticscholar.org/paper/f3df1358a6be90dcab8fff977d75e0ce578dbd90",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-09-11"
+    }
+  ]
+}

@@ -1,0 +1,633 @@
+{
+  "query": "ontology knowledge graph manufacturing industry 4.0",
+  "timestamp": "2026-01-25T14:27:30.487877",
+  "count": 30,
+  "papers": [
+    {
+      "id": "1593b0ba5c3e6b706695fca287ee057fafef2421",
+      "title": "OmEGa(Ω): Ontology-based information extraction framework for constructing task-centric knowledge graph from manufacturing documents with large language model",
+      "authors": [
+        "Midan Shim",
+        "Hyojun Choi",
+        "Heeyeon Koo",
+        "Kaehyun Um",
+        "Kyong-Ho Lee",
+        "Sanghyun Lee"
+      ],
+      "year": 2025,
+      "venue": "Advanced Engineering Informatics",
+      "citation_count": 7,
+      "abstract": null,
+      "doi": "10.1016/j.aei.2024.103001",
+      "url": "https://www.semanticscholar.org/paper/1593b0ba5c3e6b706695fca287ee057fafef2421",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-03-01"
+    },
+    {
+      "id": "8e90a06a983fc12e15988fcfdb2f185ad536a28c",
+      "title": "Knowledge Graph-Based Framework to Support Human-Centered Collaborative Manufacturing in Industry 5.0",
+      "authors": [
+        "László Nagy",
+        "János Abonyi",
+        "Tamás Ruppert"
+      ],
+      "year": 2024,
+      "venue": "Applied Sciences",
+      "citation_count": 8,
+      "abstract": "The importance of highly monitored and analyzed processes, linked by information systems such as knowledge graphs, is growing. In addition, the integration of operators has become urgent due to their high costs and from a social point of view. An appropriate framework for implementing the Industry 5.0 approach requires effective data exchange in a highly complex manufacturing network to utilize resources and information. Furthermore, the continuous development of collaboration between human and machine actors is fundamental for industrial cyber-physical systems, as the workforce is one of the most agile and flexible manufacturing resources. This paper introduces the human-centric knowledge graph framework by adapting ontologies and standards to model the operator-related factors such as monitoring movements, working conditions, or collaborating with robots. It also presents graph-based data querying, visualization, and analysis through an industrial case study. The main contribution of this work is a knowledge graph-based framework that focuses on the work performed by the operator, including the evaluation of movements, collaboration with machines, ergonomics, and other conditions. In addition, the use of the framework is demonstrated in a complex use case based on an assembly line, with examples of resource allocation and comprehensive support in terms of the collaboration aspect between shop-floor workers.",
+      "doi": "10.3390/app14083398",
+      "url": "https://www.semanticscholar.org/paper/8e90a06a983fc12e15988fcfdb2f185ad536a28c",
+      "pdf_url": "https://www.mdpi.com/2076-3417/14/8/3398/pdf?version=1713362625",
+      "fields_of_study": null,
+      "publication_date": "2024-04-17"
+    },
+    {
+      "id": "eb1e23f56b59263319888c4ed201903aeb016efe",
+      "title": "A benchmark dataset with Knowledge Graph generation for Industry 4.0 production lines",
+      "authors": [
+        "Muhammad Yahya",
+        "Aabid Ali",
+        "Qaiser Mehmood",
+        "Lan Yang",
+        "J. Breslin",
+        "M. Ali"
+      ],
+      "year": 2023,
+      "venue": "Semantic Web",
+      "citation_count": 4,
+      "abstract": "Industry 4.0 (I4.0) is a new era in the industrial revolution that emphasizes machine connectivity, automation, and data analytics. The I4.0 pillars such as autonomous robots, cloud computing, horizontal and vertical system integration, and the industrial internet of things have increased the performance and efficiency of production lines in the manufacturing industry. Over the past years, efforts have been made to propose semantic models to represent the manufacturing domain knowledge, one such model is Reference Generalized Ontological Model (RGOM).11 https://w3id.org/rgom However, its adaptability like other models is not ensured due to the lack of manufacturing data. In this paper, we aim to develop a benchmark dataset for knowledge graph generation in Industry 4.0 production lines and to show the benefits of using ontologies and semantic annotations of data to showcase how the I4.0 industry can benefit from KGs and semantic datasets. This work is the result of collaboration with the production line managers, supervisors, and engineers in the football industry to acquire realistic production line data22 https://github.com/MuhammadYahta/ManufacturingProductionLineDataSetGeneration-Football,.33 https://zenodo.org/record/7779522 Knowledge Graphs (KGs) or Knowledge Graph (KG) have emerged as a significant technology to store the semantics of the domain entities. KGs have been used in a variety of industries, including banking, the automobile industry, oil and gas, pharmaceutical and health care, publishing, media, etc. The data is mapped and populated to the RGOM classes and relationships using an automated solution based on JenaAPI, producing an I4.0 KG. It contains more than 2.5 million axioms and about 1 million instances. This KG enables us to demonstrate the adaptability and usefulness of the RGOM. Our research helps the production line staff to take timely decisions by exploiting the information embedded in the KG. In relation to this, the RGOM adaptability is demonstrated with the help of a use case scenario to discover required information such as current temperature at a particular time, the status of the motor, tools deployed on the machine, etc.",
+      "doi": "10.3233/sw-233431",
+      "url": "https://www.semanticscholar.org/paper/eb1e23f56b59263319888c4ed201903aeb016efe",
+      "pdf_url": "https://content.iospress.com:443/download/semantic-web/sw233431?id=semantic-web%2Fsw233431",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-06-13"
+    },
+    {
+      "id": "22d89aa137dd7572e57110df65cdedb48b380738",
+      "title": "MetalMind: A knowledge graph-driven human-centric knowledge system for metal additive manufacturing",
+      "authors": [
+        "Haolin Fan",
+        "Zhen Fan",
+        "Chenshu Liu",
+        "Jianhao Zhu",
+        "Tom Gibbs",
+        "J. Y. Fuh",
+        "Wen Feng Lu",
+        "Bingbing Li"
+      ],
+      "year": 2025,
+      "venue": "npj Advanced Manufacturing",
+      "citation_count": 2,
+      "abstract": null,
+      "doi": "10.1038/s44334-025-00038-9",
+      "url": "https://www.semanticscholar.org/paper/22d89aa137dd7572e57110df65cdedb48b380738",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-06-16"
+    },
+    {
+      "id": "1e0e008c589e4d600b8c8128917d6a076b61d145",
+      "title": "KG-ID: Knowledge Graph-Based Intrusion Detection on In-Vehicle Network",
+      "authors": [
+        "Heng Sun",
+        "Jingzhu Wang",
+        "Jian Weng",
+        "Weihua Tan"
+      ],
+      "year": 2025,
+      "venue": "IEEE transactions on intelligent transportation systems (Print)",
+      "citation_count": 12,
+      "abstract": "The Controller Area Network (CAN) is a widely adopted communication protocol in the automotive industry, facilitating connectivity among various electronic control units inside vehicles. However, with the growing intelligence and connectivity of modern vehicles, the in-vehicle network (IVN) faces significant security challenges due to the lack of inherent security mechanisms in the CAN protocol. Therefore, it is necessary to develop a monitoring and protection scheme for IVN. In this article, we propose a novel knowledge graph-based intrusion detection methodology, referred to as KG-ID. The proposed KG-ID methodology leverages a knowledge graph to analyze CAN frame and signal features for detecting several types of attacks. To the best of our knowledge, this is the first application of knowledge graph technology for intrusion detection in the IVN. Subsequently, the selection of CAN signal feature, construction of in-vehicle ontology model, knowledge extraction, and robustness against various attacks are explained in detail. In addition, a series of experiments demonstrate that the proposed methodology can accurately detect fabrication, masquerade, and fuzzy attacks. In particular, the time overhead of intrusion detection in a real vehicle supported by XPeng is only 0.031 ms for KG-ID. The code for the methodology proposed in this article is available at: https://github.com/jingzhuwang/KG-ID.",
+      "doi": "10.1109/TITS.2025.3530155",
+      "url": "https://www.semanticscholar.org/paper/1e0e008c589e4d600b8c8128917d6a076b61d145",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-04-01"
+    },
+    {
+      "id": "0efe84463ffa1a485c0dddc847abcb253c2a3ffc",
+      "title": "KARMEN: Redefining collaboration and expertise sharing through an innovative knowledge graph framework: a case study in additive manufacturing",
+      "authors": [
+        "Jean René Camara",
+        "E. Yahia",
+        "Philippe Véron",
+        "Antoine Mallet",
+        "Benjamin Deguilhem",
+        "Frédéric Segonds"
+      ],
+      "year": 2024,
+      "venue": "International Journal on Interactive Design and Manufacturing (IJIDeM)",
+      "citation_count": 3,
+      "abstract": null,
+      "doi": "10.1007/s12008-024-02015-6",
+      "url": "https://www.semanticscholar.org/paper/0efe84463ffa1a485c0dddc847abcb253c2a3ffc",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-08-10"
+    },
+    {
+      "id": "545cc2b12ccecde743e7b04b2c57cab18a20d52e",
+      "title": "The nexus among industry 4.0 technologies, knowledge management activities and manufacturing industry’s performance: insights and implications",
+      "authors": [
+        "Jian-Huan Zhang",
+        "Terefe Alemu Telila",
+        "Augustine Appiah",
+        "Syed Ali Taqi",
+        "Md. Belal Hossain",
+        "Ruonan Sun"
+      ],
+      "year": 2025,
+      "venue": "Journal of Manufacturing Technology Management",
+      "citation_count": 0,
+      "abstract": "\n \n This study aims to investigate the nexus among I4.0 Technologies (I4.0 Ts), knowledge management activities (KMA) and the manufacturing industry’s performance (MIP).\n \n \n \n We utilized survey data from 268 respondents across various manufacturing industries and authorities in Ethiopia. The study used Partial Least Squares Structural Equation Modeling (PLS-SEM) as the analytical tool to evaluate the constructs and their relationships.\n \n \n \n The results indicate that I4.0Ts have a positive impact on MIP. Specifically, elements of I4.0T, such as autonomous robotics (AR), additive manufacturing (AM) and the Internet of Things (IoT), show notable correlations with MIP. However, big data analytics (BDA) did not significantly impact MIP statistically. KMA is identified as a significant mediator between I4.0 T and MIP, stressing its role in improving the effectiveness of I4.0T implementation.\n \n \n \n Based on the RBV framework, this research enriches the literature on I4.0 T, KMA and MIP by exploring their effects and connections. Concurrently, it proffers practical suggestions for industry managers, policymakers and stakeholders, facilitating the cultivation of KMA and the strategic utilization of I4.0 T to enhance manufacturing performance.\n",
+      "doi": "10.1108/jmtm-12-2024-0682",
+      "url": "https://www.semanticscholar.org/paper/545cc2b12ccecde743e7b04b2c57cab18a20d52e",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-07-25"
+    },
+    {
+      "id": "d1819f982fefd06d119d9819d2c23a6255d83e4b",
+      "title": "Optimizing knowledge management integrated with Industry 4.0: a comprehensive case study of smart manufacturing transformation",
+      "authors": [
+        "Kamyab Karimi",
+        "A. Ghodratnama",
+        "R. Tavakkoli-Moghaddam",
+        "Zahra Ahmadirad"
+      ],
+      "year": 2025,
+      "venue": "VINE Journal of Information and Knowledge Management Systems",
+      "citation_count": 2,
+      "abstract": "\n \n This paper aims to show how combining Industry 4.0 (I4.0) technologies with knowledge management (KM) systems can transform manufacturing. By integrating digital tools with effective knowledge-sharing practices, organizations can enhance their performance, become more sustainable and gain a competitive edge. The research highlights how KM is essential for making the most of I4.0’s potential to improve manufacturing processes, collaboration and decision-making.\n \n \n \n This study uses a robust mixed-methods approach, combining data from a 51-item survey of 120 participants with in-depth interviews conducted with six industry experts. Key I4.0 technologies are examined for their role in enhancing KM and overall organizational outcomes, with reliability ensured by the content validity index (CVI) and Cronbach’s alpha.\n \n \n \n The results demonstrate that I4.0-KM integration drives remarkable gains in operational efficiency, product customization and environmental sustainability. Widely adopted technologies, while the seamless flow of knowledge enabled by IoT and AI, enhance customization and support advanced analytics. The findings underscore the importance of investing in digital skills and prioritizing data-driven technologies for an accelerated transformation.\n \n \n \n This study offers actionable insights for manufacturers seeking a competitive advantage through Industry 4.0 (I4.0). Focusing on KM systems, digital skill development and strategic technology investment can facilitate a successful shift toward smart manufacturing.\n \n \n \n Offering a unique perspective, this study confirms the powerful impact of I4.0-KM integration on organizational excellence. It demonstrates how advanced knowledge-driven processes directly contribute to performance, sustainability and innovation, providing a valuable roadmap for the future of smart manufacturing.\n",
+      "doi": "10.1108/vjikms-10-2024-0388",
+      "url": "https://www.semanticscholar.org/paper/d1819f982fefd06d119d9819d2c23a6255d83e4b",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-11-04"
+    },
+    {
+      "id": "28f7329a5f1c5a9c3fda32ae79a820a1ec835204",
+      "title": "Towards a knowledge graph framework for ad hoc analysis in manufacturing",
+      "authors": [
+        "B. Meyers",
+        "Hans Vangheluwe",
+        "Pieter Lietaert",
+        "Geert Vanderhulst",
+        "Johan Van Noten",
+        "Michel Schaffers",
+        "Davy Maes",
+        "Klaas Gadeyne"
+      ],
+      "year": 2024,
+      "venue": "Journal of Intelligent Manufacturing",
+      "citation_count": 8,
+      "abstract": "The development of artificial intelligence models for data driven decision making has a lot of potential for the manufacturing sector. Nevertheless, applications in industry are currently limited to the actionable insights one can discover from the available data and knowledge of a manufacturing system. We call the process to obtain such insights “ad hoc analysis”. Ad hoc analysis at system level is very complex in an industrial setting due to the inherent heterogeneity of data and existence of data silos, the lack of information and knowledge formalization, and the inability to meaningfully and efficiently reason about the data, information and knowledge. In this paper, we provide and outline a framework for ad hoc analysis in manufacturing based on knowledge graphs and influenced by the metamodelling paradigm. We derive its requirements and key elements from an analysis of several industry application cases. We show how manufacturing data, information and knowledge can be combined and made actionable using this framework. The framework supports workflows and tools for the data consumer (i.e., data scientist), and for the knowledge engineer. Furthermore, we show how the framework is integrated with existing data sources. Then, we discuss how we applied the framework to several application cases. We discuss how the framework contributes when applied, and what challenges still remain.",
+      "doi": "10.1007/s10845-023-02319-6",
+      "url": "https://www.semanticscholar.org/paper/28f7329a5f1c5a9c3fda32ae79a820a1ec835204",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10845-023-02319-6.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-02-29"
+    },
+    {
+      "id": "43807212006fa45386f2a9a12fb1696788f96388",
+      "title": "RDF Knowledge Graphs Designed with Axiomatic Methodology to Enhance Industry 4.0",
+      "authors": [
+        "F. Rolli",
+        "C. Parretti",
+        "Riccardo Barbieri",
+        "Alessandro Polidoro",
+        "B. Bindi"
+      ],
+      "year": 2025,
+      "venue": "Machines",
+      "citation_count": 2,
+      "abstract": "Industry 4.0 has introduced a data-driven model of production and management of goods and services. This manufacturing paradigm leverages the potential of the Internet of Things (IoT), but finding the information necessary to drive manufacturing processes can be challenging. In this context, the authors propose an innovative approach based on axiomatic design to design RDF knowledge graphs from which to extract the information needed by decision makers. This approach derives from the possibility of providing RDF knowledge graphs with an equivalent matrix representation based on axiomatic design. It allows the selection of the most reliable data sources, thereby optimizing the knowledge graph construction process using matrix algebra, minimizing redundancy and improving the efficiency of query response. The goal of the presented methodology is to address the five critical aspects of Big Data (volume, velocity, variety, value, and veracity) by preordering the knowledge graph according to the information needs of business decision makers, thereby optimizing the use of the immense wealth of information made available by the Web in design.",
+      "doi": "10.3390/machines13010058",
+      "url": "https://www.semanticscholar.org/paper/43807212006fa45386f2a9a12fb1696788f96388",
+      "pdf_url": "https://doi.org/10.3390/machines13010058",
+      "fields_of_study": null,
+      "publication_date": "2025-01-16"
+    },
+    {
+      "id": "154d2d4c9300f1c9c39d41fe08be0656029c5966",
+      "title": "Enhancing Knowledge Graph Generation with Ontology Reshaping - Bosch Case",
+      "authors": [
+        "Dongzhuoran Zhou",
+        "Baifan Zhou",
+        "Zhuoxun Zheng",
+        "Egor V. Kostylev",
+        "Gong Cheng",
+        "Ernesto Jiménez-Ruiz",
+        "A. Soylu",
+        "E. Kharlamov"
+      ],
+      "year": 2022,
+      "venue": "Extended Semantic Web Conference",
+      "citation_count": 20,
+      "abstract": null,
+      "doi": "10.1007/978-3-031-11609-4_45",
+      "url": "https://www.semanticscholar.org/paper/154d2d4c9300f1c9c39d41fe08be0656029c5966",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "cc71ce65b950ffc3dc471a459da5ce9d7fbb432e",
+      "title": "Towards Generalized Welding Ontology in Line with ISO and Knowledge Graph Construction",
+      "authors": [
+        "Muhammad Yahya",
+        "Baifan Zhou",
+        "Zhuoxun Zheng",
+        "Dongzhuoran Zhou",
+        "J. Breslin",
+        "M. Ali",
+        "E. Kharlamov"
+      ],
+      "year": 2022,
+      "venue": "Extended Semantic Web Conference",
+      "citation_count": 16,
+      "abstract": null,
+      "doi": "10.1007/978-3-031-11609-4_16",
+      "url": "https://www.semanticscholar.org/paper/cc71ce65b950ffc3dc471a459da5ce9d7fbb432e",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "e344729921496a45c7173e246342f485599984c5",
+      "title": "Dynamic knowledge graph modeling method for customized furniture panel production process",
+      "authors": [
+        "Bingsheng Liu",
+        "Cunji Zhang"
+      ],
+      "year": 2025,
+      "venue": "International Conference on Mechanical Engineering, Intelligent Manufacturing, and Mechatronics",
+      "citation_count": 0,
+      "abstract": "Compared with traditional batch production models, customized furniture panel production generates vast heterogeneous data throughout the order life cycle, including order processing, process design, and manufacturing execution. This data exhibits strong dynamics and complex relationships. However, conventional relational databases used to store life-cycle data suffer from high redundancy, weak connectivity, and limited scalability. To address these issues, this paper proposes a dynamic knowledge graph modeling method for customized furniture panel production. First, we outline the production workflow and define node attributes and relationships. Next, we develop an ontology-based knowledge model using enterprise production data. Then, we design a knowledge graph construction algorithm leveraging an ALBERT–BiLSTM–Attention–CRF entity extraction model. Finally, we validate our approach through a case study at a customized furniture factory, demonstrating improved knowledge management and decision-making efficiency. The comprehensive knowledge ontology for customized furniture panel production processes constructed in this study comprises 413,251 nodes and encompasses 10 distinct relationship types. This demonstrates the effectiveness of the proposed approach in enhancing knowledge management and decision-making efficiency. This work holds significant implications for advancing the development and application of knowledge graph technologies within the smart manufacturing domain, particularly by offering new perspectives and solutions for the intelligent optimization of manufacturing workflows.",
+      "doi": "10.1117/12.3076262",
+      "url": "https://www.semanticscholar.org/paper/e344729921496a45c7173e246342f485599984c5",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Engineering"
+      ],
+      "publication_date": "2025-09-18"
+    },
+    {
+      "id": "e3dc740964679a14a62e0a9706fd2b7ea79e3eaa",
+      "title": "Assessing Industry 4.0 implementation maturity in manufacturing MSMEs – a graph theory and matrix-based approach",
+      "authors": [
+        "Pulok Ranjan Mohanta",
+        "Biswajit Mahanty"
+      ],
+      "year": 2024,
+      "venue": "The TQM Journal",
+      "citation_count": 2,
+      "abstract": "PurposeIn this paper, a graph theory-based maturity model to comprehensively assess the Industry 4.0 maturity level by means of a multidimensional Industry 4.0 maturity score (MIMS) is proposed.Design/methodology/approachThe proposed maturity assessment model is based on (1) the identification of the maturity dimensions and assessment parameters from existing literature and expert opinion and (2) the development of the assessment model based on graph theory and matrix-based approach. The illustrative application of the developed model in two case enterprises is also included.FindingsThe model is configured to include six dimensions having 30 constituent attributes. Unlike the case with many of the previously published models, the proposed model does not evaluate the progress in specific Industry 4.0 enabling technologies, rather the assessment parameters are associated with the functional areas.Practical implicationsWhile the configuration of the proposed model enables a comprehensive maturity assessment, it facilitates the identification of contextual dimensional attributes and assists the enterprises in developing the roadmap for Industry 4.0 implementation aligning to the diverse organizational strategies.Originality/valueDistinctively, the proposed model apprehends the interdependency between the maturity assessment dimensions and their constituent attributes. Also, the maturity model incorporates the assessment of the maturity in the dimension of inbound and outbound integration. While these two dimensions are crucial in the Industry 4.0 ecosystem, to the best of our knowledge, these are not considered by any of the assessment models published so far.",
+      "doi": "10.1108/tqm-03-2024-0128",
+      "url": "https://www.semanticscholar.org/paper/e3dc740964679a14a62e0a9706fd2b7ea79e3eaa",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-08-09"
+    },
+    {
+      "id": "77d4c644ef09478cc45be03242dc7d2c5dfaf0a6",
+      "title": "Adding Context to Industry 4.0 Analytics: A New Document Driven Knowledge Graph Construction and Contextualization Approach",
+      "authors": [
+        "Christian Weber",
+        "Hasan Abu-Rasheed",
+        "M. Fathi"
+      ],
+      "year": 2022,
+      "venue": "IEEE International Conference on Electro/Information Technology",
+      "citation_count": 3,
+      "abstract": "Throughout the ripples of digitization, companies and organizations are becoming smarter and equally dependent on information. Information is integrated along the value chain of organizations, while through industrial analytics and smart algorithms, information can be harnessed for manufacturing and business decisions. Together this shapes the idea of industry 4.0 – the organization as an interconnected world. However, analytical support is generated in the context of its recording and creation. So, to harness outcomes from different sources, it not only needs an information integration but furthermore an integration of context, into a representation strict enough for utilization and flexible enough to bridge the understanding across the organization. This work in progress introduces knowledge graphs as tools for contextualization and how to extract graphs from repositories of documents, as a representation of organizational knowledge. The graph will be harness in an industrial example to contextualize analytical solutions throughout teams and departments.",
+      "doi": "10.1109/eit53891.2022.9813992",
+      "url": "https://www.semanticscholar.org/paper/77d4c644ef09478cc45be03242dc7d2c5dfaf0a6",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-05-19"
+    },
+    {
+      "id": "4b8c855908b32c61aac03da56bc19ac56e6d1e2a",
+      "title": "Ontology based knowledge graph for information and knowledge management in factory planning",
+      "authors": [
+        "Simon Knollmeyer",
+        "Björn Mroß",
+        "Ralph Klaus Müller",
+        "Daniel Großmann"
+      ],
+      "year": 2023,
+      "venue": "IEEE International Conference on Emerging Technologies and Factory Automation",
+      "citation_count": 2,
+      "abstract": "The amount of necessary information and knowledge to fulfill the tasks within the factory planning domain is rapidly growing. Currently, data and documents containing relevant information are stored as single artifacts in various established systems which makes information gathering time-consuming. Therefore it would be helpful to connect the existing artifacts so that it is possible to get all information of different origins at a glance. As Semantic Web technologies are recently evolving from academic research to industry applications, Knowledge Graphs (KG) as one of their specific implementations seem to be a suitable option to manage and connect these information artifacts in a sustainable matter. This can effectively support knowledge management in factory planning and provides machine-readable access to domain information that can be used by currently emerging Artificial Intelligence (AI) applications. This paper focuses on the conceptual challenges related to the creation of a knowledge graph within the factory planning domain and proposes a concept for a platform to collect and access existing information and experiences from domain experts.",
+      "doi": "10.1109/ETFA54631.2023.10275409",
+      "url": "https://www.semanticscholar.org/paper/4b8c855908b32c61aac03da56bc19ac56e6d1e2a",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-09-12"
+    },
+    {
+      "id": "7912e6ac397b6c6fb5fc21be97b5c8f26301a2e9",
+      "title": "An Intelligent Manufacturing Models Recommendation Model Based on Knowledge Graph and Recommendation Algorithms",
+      "authors": [
+        "Liwei Zhang",
+        "Kaixuan Hou"
+      ],
+      "year": 2023,
+      "venue": "Journal of Physics: Conference Series",
+      "citation_count": 5,
+      "abstract": "With the concept of intelligent manufacturing, a variety of intelligent manufacturing models emerge. But companies don’t have enough knowledge to choose the suitable intelligent manufacturing model. To solve this problem, based on lean design principles, combined with expert knowledge and expertise, we propose an Intelligent Manufacturing Models Recommendation Model (referred to as IMMR Model). First, we categorize customer requirements into real need, customer preference and customer expectation to accurately identify customer requirements. Then, we use knowledge graph to build a professional knowledge base for intelligent manufacturing, and form customized intelligent manufacturing models based on lean design. Finally, a recommendation system is constructed by combining an ontology rule-based recommendation algorithm and a similarity-based recommendation algorithm to recommend suitable intelligent manufacturing models for different customer requirements.",
+      "doi": "10.1088/1742-6596/2665/1/012009",
+      "url": "https://www.semanticscholar.org/paper/7912e6ac397b6c6fb5fc21be97b5c8f26301a2e9",
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/1742-6596/2665/1/012009/pdf",
+      "fields_of_study": [
+        "Physics"
+      ],
+      "publication_date": "2023-12-01"
+    },
+    {
+      "id": "6b6c4aaac76430150d081caf6752a8adf52d1166",
+      "title": "Aic: an industrial knowledge graph with Abstraction-Instance-Capability reasoning abilities for personalized customization",
+      "authors": [
+        "Kai Zhang",
+        "Zhiying Tu",
+        "Dianhui Chu",
+        "Xiao-dan Lu",
+        "Lucheng Chen"
+      ],
+      "year": 2023,
+      "venue": "Journal of Intelligent Manufacturing",
+      "citation_count": 13,
+      "abstract": null,
+      "doi": "10.1007/s10845-023-02216-y",
+      "url": "https://www.semanticscholar.org/paper/6b6c4aaac76430150d081caf6752a8adf52d1166",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-09-30"
+    },
+    {
+      "id": "53fd8e22de7665656a836d06aef75b350ea3f0e6",
+      "title": "Implementing Manufacturing Execution Systems (MES) for Industry 4.0: Overcoming buyer-provider information asymmetries through knowledge sharing dynamics",
+      "authors": [
+        "Verônica Tabim",
+        "Néstor Fabián Ayala",
+        "G. Marodin",
+        "Guilherme B. Benitez",
+        "A. Frank"
+      ],
+      "year": 2024,
+      "venue": "Computers & industrial engineering",
+      "citation_count": 16,
+      "abstract": null,
+      "doi": "10.1016/j.cie.2024.110483",
+      "url": "https://www.semanticscholar.org/paper/53fd8e22de7665656a836d06aef75b350ea3f0e6",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-08-01"
+    },
+    {
+      "id": "95c251952755e710d0eb56f1f498a51f62fb526e",
+      "title": "Knowledge graph with deep reinforcement learning for intelligent generation of machining process design",
+      "authors": [
+        "Yiwei Hua",
+        "Ru Wang",
+        "Zuoxu Wang",
+        "Guoxin Wang",
+        "Yan Yan"
+      ],
+      "year": 2024,
+      "venue": "Journal of engineering design",
+      "citation_count": 14,
+      "abstract": "In the manufacturing industry, the design of machining processes plays a pivotal role in determining the quality, efficiency, and cost of product manufacturing. Machining process design is progressing towards intelligence to meet the high demands for efficiency and effectiveness in smart manufacturing. Building upon traditional computer-aided process planning, intelligent technologies, such as machine learning and knowledge graphs, have emerged as key drivers in advancing intelligent process design. To address knowledge accumulation, inflexible reuse, and fragmented reasoning in machining process design, this paper organically integrates the structured representation characteristics of the knowledge graph and the perceptual reasoning capabilities of deep reinforcement learning. It introduces an intelligent generation method for machining process design based on knowledge graph and deep reinforcement learning, aiming to achieve unified representation and reasoning reuse for historical process cases and general process rules. The effectiveness of the proposed method is validated through a case study involving the generation of machining process solutions for a specific model of diesel engine components. This research contributes valuable insights to overcoming the limitations of traditional methods and enhancing the efficiency of the machining process design.",
+      "doi": "10.1080/09544828.2024.2338342",
+      "url": "https://www.semanticscholar.org/paper/95c251952755e710d0eb56f1f498a51f62fb526e",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-04-09"
+    },
+    {
+      "id": "801bc7233b6b720e92ee764f92c7a82bcad28e80",
+      "title": "Ontology-Based Development of Industry 4.0 and 5.0 Solutions for Smart Manufacturing and Production",
+      "authors": [
+        "János Abonyi",
+        "László Nagy",
+        "Tamás Ruppert"
+      ],
+      "year": 2024,
+      "venue": "Springer Series in Advanced Manufacturing",
+      "citation_count": 3,
+      "abstract": null,
+      "doi": "10.1007/978-3-031-47444-6",
+      "url": "https://www.semanticscholar.org/paper/801bc7233b6b720e92ee764f92c7a82bcad28e80",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "8b63a676b6ca5dbd55c5abe8dab8eb9df5bfba5f",
+      "title": "Leveraging Graph Theory Approach for Managing Design Principles for Sustainable Manufacturing of Industry 4.0: A Case Study of Electrical Equipment Manufacturing Industry",
+      "authors": [
+        "Mehayrun Nesa Shupti",
+        "N. Hossain",
+        "S. Fazio",
+        "Jahid Hasan Ashik"
+      ],
+      "year": 2024,
+      "venue": "Sustainable Manufacturing and Service Economics",
+      "citation_count": 1,
+      "abstract": null,
+      "doi": "10.1016/j.smse.2024.100027",
+      "url": "https://www.semanticscholar.org/paper/8b63a676b6ca5dbd55c5abe8dab8eb9df5bfba5f",
+      "pdf_url": "https://doi.org/10.1016/j.smse.2024.100027",
+      "fields_of_study": null,
+      "publication_date": "2024-07-01"
+    },
+    {
+      "id": "f55bf7f3e780860798612c13eefc0cadffe8d9e1",
+      "title": "A Knowledge Graph for Industry 4.0",
+      "authors": [
+        "Sebastian R. Bader",
+        "Irlán Grangel-González",
+        "P. Nanjappa",
+        "Maria-Esther Vidal",
+        "M. Maleshkova"
+      ],
+      "year": 2020,
+      "venue": "Extended Semantic Web Conference",
+      "citation_count": 56,
+      "abstract": "One of the most crucial tasks for today’s knowledge workers is to get and retain a thorough overview on the latest state of the art. Especially in dynamic and evolving domains, the amount of relevant sources is constantly increasing, updating and overruling previous methods and approaches. For instance, the digital transformation of manufacturing systems, called Industry 4.0, currently faces an overwhelming amount of standardization efforts and reference initiatives, resulting in a sophisticated information environment. We propose a structured dataset in the form of a semantically annotated knowledge graph for Industry 4.0 related standards, norms and reference frameworks. The graph provides a Linked Data-conform collection of annotated, classified reference guidelines supporting newcomers and experts alike in understanding how to implement Industry 4.0 systems. We illustrate the suitability of the graph for various use cases, its already existing applications, present the maintenance process and evaluate its quality.",
+      "doi": "10.1007/978-3-030-49461-2_27",
+      "url": "https://www.semanticscholar.org/paper/f55bf7f3e780860798612c13eefc0cadffe8d9e1",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-030-49461-2_27.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2020-05-07"
+    },
+    {
+      "id": "a44f7b474f5e40df67aa3de42e1b9893927cd432",
+      "title": "Challenges and Role of Ontology Engineering in Creating the Knowledge Industry: A Research-Related Design Perspective",
+      "authors": [
+        "O. Palagin",
+        "M. Petrenko",
+        "K. Malakhov"
+      ],
+      "year": 2024,
+      "venue": "Cybernetics and Systems Analysis",
+      "citation_count": 8,
+      "abstract": null,
+      "doi": "10.1007/s10559-024-00702-6",
+      "url": "https://www.semanticscholar.org/paper/a44f7b474f5e40df67aa3de42e1b9893927cd432",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-07-01"
+    },
+    {
+      "id": "2eae8caafde8f0b9295f3309b2a9cfc9dd192d78",
+      "title": "Multi-domain fusion for cargo UAV fault diagnosis knowledge graph construction",
+      "authors": [
+        "Ao Xiao",
+        "Wei Yan",
+        "Xumei Zhang",
+        "Ying Liu",
+        "Hua Zhang",
+        "Qi Liu"
+      ],
+      "year": 2024,
+      "venue": "Autonomous Intelligent Systems",
+      "citation_count": 7,
+      "abstract": "The fault diagnosis of cargo UAVs (Unmanned Aerial Vehicles) is crucial to ensure the safety of logistics distribution. In the context of smart logistics, the new trend of utilizing knowledge graph (KG) for fault diagnosis is gradually emerging, bringing new opportunities to improve the efficiency and accuracy of fault diagnosis in the era of Industry 4.0. The operating environment of cargo UAVs is complex, and their faults are typically closely related to it. However, the available data only considers faults and maintenance data, making it difficult to diagnose faults accurately. Moreover, the existing KG suffers from the problem of confusing entity boundaries during the extraction process, which leads to lower extraction efficiency. Therefore, a fault diagnosis knowledge graph (FDKG) for cargo UAVs constructed based on multi-domain fusion and incorporating an attention mechanism is proposed. Firstly, the multi-domain ontology modeling is realized based on the multi-domain fault diagnosis concept analysis expression model and multi-dimensional similarity calculation method for cargo UAVs. Secondly, a multi-head attention mechanism is added to the BERT-BILSTM-CRF network model for entity extraction, relationship extraction is performed through ERNIE, and the extracted triples are stored in the Neo4j graph database. Finally, the DJI cargo UAV failure is taken as an example for validation, and the results show that the new model based on multi-domain fusion data is better than the traditional model, and the precision rate, recall rate, and F1 value can reach 87.52%, 90.47%, and 88.97%, respectively.",
+      "doi": "10.1007/s43684-024-00072-y",
+      "url": "https://www.semanticscholar.org/paper/2eae8caafde8f0b9295f3309b2a9cfc9dd192d78",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s43684-024-00072-y.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-06-21"
+    },
+    {
+      "id": "f7f03f88bd314905c0f7cc3ba5aac3df14f408a0",
+      "title": "A data-driven method combining knowledge graph with deep learning for constructing machining process knowledge base",
+      "authors": [
+        "Liping Ma",
+        "Xitian Tian",
+        "Lijiang Huang",
+        "Fan Yang",
+        "Xiaolin Shi"
+      ],
+      "year": 2024,
+      "venue": "Proceedings of the Institution of mechanical engineers. Part B, journal of engineering manufacture",
+      "citation_count": 4,
+      "abstract": "Under the paradigm of intelligent manufacturing, web-based intelligent CAPP will become the trend of machining process planning. Machining process knowledge base is the foundation for implementing web-based intelligent CAPP. Massive historical machining process planning data accumulated in different sources become the main carrier of machining process knowledge. Hence, web-based intelligent CAPP puts forward the demand for data-driven construction of machining process knowledge base. Heterogeneous knowledge and unstructured data pose challenges for data-driven construction of machining process knowledge base. This article proposes a data-driven method combining knowledge graph with deep learning for constructing machining process knowledge base to provide more effective support for web-based intelligent CAPP. Firstly, a unified ontology model of machining process knowledge which integrates multi-domain machining process knowledge at the fine-grained semantic level is proposed, providing a unified semantic structure for the acquisition and organization of machining process knowledge based on distributed and unstructured process data. Secondly, a deep learning model consisting of Bert, Bi-LSTM, and CRF models deployed within the federated learning framework is proposed to automatically extract structured machining process knowledge from unstructured process texts with improved performance. Eventually, the prototype system for machining process knowledge graph construction can verify the effectiveness of the proposed method.",
+      "doi": "10.1177/09544054241272920",
+      "url": "https://www.semanticscholar.org/paper/f7f03f88bd314905c0f7cc3ba5aac3df14f408a0",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-10-03"
+    },
+    {
+      "id": "e0bd97de601edafb4401f1022800ab68375dd417",
+      "title": "A unified industrial large knowledge model framework in Industry 4.0 and smart manufacturing",
+      "authors": [
+        "Jay Lee",
+        "Hanqi Su"
+      ],
+      "year": 2023,
+      "venue": "International Journal of AI for Materials and Design",
+      "citation_count": 48,
+      "abstract": "The recent emergence of large language models (LLMs) demonstrates the potential for artificial general intelligence, revealing new opportunities in Industry 4.0 and smart manufacturing. However, a notable gap exists in applying these LLMs in industry, primarily due to their training on general knowledge rather than domain-specific knowledge. Such specialized domain knowledge is vital for effectively addressing the complex needs of industrial applications. To bridge this gap, this paper proposes a unified industrial large knowledge model (ILKM) framework, emphasizing its potential to revolutionize future industries. In addition, ILKMs and LLMs are compared from eight perspectives. Finally, the “6S Principle” is proposed as the guideline for ILKM development, and several potential opportunities are highlighted for ILKM deployment in Industry 4.0 and smart manufacturing.",
+      "doi": "10.36922/ijamd.3681",
+      "url": "https://www.semanticscholar.org/paper/e0bd97de601edafb4401f1022800ab68375dd417",
+      "pdf_url": "https://doi.org/10.36922/ijamd.3681",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-12-22"
+    },
+    {
+      "id": "bc7ce68215e54de724974353064a17eb2789ea9f",
+      "title": "Reinforcement learning-based distant supervision relation extraction for fault diagnosis knowledge graph construction under industry 4.0",
+      "authors": [
+        "C. Chen",
+        "Tao Wang",
+        "Yuanyuan Zheng",
+        "Y. Liu",
+        "Haojia Xie",
+        "Jianfeng Deng",
+        "Lianglun Cheng"
+      ],
+      "year": 2023,
+      "venue": "Advanced Engineering Informatics",
+      "citation_count": 45,
+      "abstract": null,
+      "doi": "10.1016/j.aei.2023.101900",
+      "url": "https://www.semanticscholar.org/paper/bc7ce68215e54de724974353064a17eb2789ea9f",
+      "pdf_url": "https://orca.cardiff.ac.uk/id/eprint/156397/1/Liu%20Y.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-01-01"
+    },
+    {
+      "id": "e113ad6b4227cfd959d2f33524d812899b6e2031",
+      "title": "Research on Knowledge Graph Construction Methods for News Domain",
+      "authors": [
+        "Peiyi Yang",
+        "Bin Song",
+        "Zhiyong Zhang"
+      ],
+      "year": 2024,
+      "venue": "Academic Journal of Science and Technology",
+      "citation_count": 5,
+      "abstract": "With the rapid development of the Internet and artificial intelligence technology, massive text data is growing exponentially, and the news industry is generating massive text data every moment. Most of the existing knowledge graphs focus on tourism, healthcare, finance and other fields, while there are relatively few in the news field, which is not well constructed. Aiming at the above problems, this paper firstly devotes to the construction of ontology library in news domain, and precisely defines 8 types of entities and 9 types of relations, which lays a solid foundation for the construction of news knowledge graph. Subsequently, with the help of web crawler technology, we extensively collected news text and image data, and carried out rigorous knowledge cleaning, extraction and fusion processing on these data to ensure the accuracy and completeness of the data. Finally, with the help of Neo4j graph database, the effective storage of news knowledge is realised, and the news domain knowledge graph is successfully constructed. It provides new ideas and means for information mining and utilisation in the news industry, and also provides rich, high-quality data support for downstream applications, which is expected to promote the intelligent development of the news field.",
+      "doi": "10.54097/dfdnfs56",
+      "url": "https://www.semanticscholar.org/paper/e113ad6b4227cfd959d2f33524d812899b6e2031",
+      "pdf_url": "https://drpress.org/ojs/index.php/ajst/article/download/21756/21278",
+      "fields_of_study": null,
+      "publication_date": "2024-05-21"
+    },
+    {
+      "id": "362d758c57dc89344a86565d9b73b6c41bd7a861",
+      "title": "A kind of intelligent dynamic industrial event knowledge graph and its application in process stability evaluation",
+      "authors": [
+        "Qingzong Li",
+        "Pingyu Jiang",
+        "Jianwei Wang",
+        "Maolin Yang",
+        "Yuqian Yang"
+      ],
+      "year": 2024,
+      "venue": "Journal of Intelligent Manufacturing",
+      "citation_count": 7,
+      "abstract": null,
+      "doi": "10.1007/s10845-024-02325-2",
+      "url": "https://www.semanticscholar.org/paper/362d758c57dc89344a86565d9b73b6c41bd7a861",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-03-03"
+    }
+  ]
+}

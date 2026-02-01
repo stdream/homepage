@@ -1,0 +1,609 @@
+{
+  "query": "ontology knowledge graph business process enterprise",
+  "timestamp": "2026-01-25T14:34:35.315474",
+  "count": 30,
+  "papers": [
+    {
+      "id": "3768774027b340bb2145036c7b278a3c4900495f",
+      "title": "ERP objects become “social”: a process model for the identification of social business objects for an enterprise knowledge graph",
+      "authors": [
+        "Berit Gebel-Sauer",
+        "P. Schubert"
+      ],
+      "year": 2019,
+      "venue": "",
+      "citation_count": 1,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/3768774027b340bb2145036c7b278a3c4900495f",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "f4338089e6dd7bfcd2203abab0938621e6929ae2",
+      "title": "Construction and Applications of Billion-Scale Pre-Trained Multimodal Business Knowledge Graph",
+      "authors": [
+        "Shumin Deng",
+        "Chengming Wang",
+        "Zhoubo Li",
+        "Ningyu Zhang",
+        "Zelin Dai",
+        "Hehong Chen",
+        "Feiyu Xiong",
+        "Ming Yan",
+        "Qiang Chen",
+        "Mosha Chen",
+        "Jiaoyan Chen",
+        "Jeff Z. Pan",
+        "Bryan Hooi",
+        "Huajun Chen"
+      ],
+      "year": 2022,
+      "venue": "IEEE International Conference on Data Engineering",
+      "citation_count": 27,
+      "abstract": "Business Knowledge Graphs (KGs) are important to many enterprises today, providing factual knowledge and structured data that steer many products and make them more intelligent. Despite their promising benefits, building business KG necessitates solving prohibitive issues of deficient structure and multiple modalities. In this paper, we advance the understanding of the practical challenges related to building KG in non-trivial real-world systems. We introduce the process of building an open business knowledge graph (OpenBG) derived from a well-known enterprise, Alibaba Group. Specifically, we define a core ontology to cover various abstract products and consumption demands, with fine-grained taxonomy and multimodal facts in deployed applications. OpenBG is an open business KG of unprecedented scale: 2.6 billion triples with more than 88 million entities covering over 1 million core classes/concepts and 2,681 types of relations. We release all the open resources (OpenBG benchmarks) derived from it for the community and report experimental results of KG-centric tasks. We also run up an online competition based on OpenBG benchmarks, and has attracted thousands of teams. We further pre-train OpenBG and apply it to many KG-enhanced downstream tasks in business scenarios, demonstrating the effectiveness of billion-scale multimodal knowledge for e-commerce. All the resources with codes have been released at https://github.com/OpenBGBenchmark/OpenBG.",
+      "doi": "10.1109/ICDE55515.2023.00229",
+      "url": "https://www.semanticscholar.org/paper/f4338089e6dd7bfcd2203abab0938621e6929ae2",
+      "pdf_url": "https://arxiv.org/pdf/2209.15214",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-09-30"
+    },
+    {
+      "id": "ec3c1ba06113635cf56e7b6fbeab7546b398f4ab",
+      "title": "Construction and Applications of Open Business Knowledge Graph",
+      "authors": [
+        "Shumin Deng",
+        "Hui Chen",
+        "Zhoubo Li",
+        "Feiyu Xiong",
+        "Qiang Chen",
+        "Mosha Chen",
+        "Xiangwen Liu",
+        "Jiaoyan Chen",
+        "Jeff Z. Pan",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "year": 2022,
+      "venue": "",
+      "citation_count": 3,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/ec3c1ba06113635cf56e7b6fbeab7546b398f4ab",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "1f5955321f7c2b3bbf9f23a567330c7a9033f684",
+      "title": "Procedure Model for Building Knowledge Graphs for Industry Applications",
+      "authors": [
+        "Sascha Meckler"
+      ],
+      "year": 2024,
+      "venue": "arXiv.org",
+      "citation_count": 1,
+      "abstract": "Enterprise knowledge graphs combine business data and organizational knowledge by means of a semantic network of concepts, properties, individuals and relationships. The graph-based integration of previously unconnected information with domain knowledge provides new insights and enables intelligent business applications. However, knowledge graph construction is a large investment which requires a joint effort of domain and technical experts. This paper presents a practical step-by-step procedure model for building an RDF knowledge graph that interconnects heterogeneous data and expert knowledge for an industry use case. The self-contained process adapts the\"Cross Industry Standard Process for Data Mining\"and uses competency questions throughout the entire development cycle. The procedure model starts with business and data understanding, describes tasks for ontology modeling and the graph setup, and ends with process steps for evaluation and deployment.",
+      "doi": "10.48550/arXiv.2409.13425",
+      "url": "https://www.semanticscholar.org/paper/1f5955321f7c2b3bbf9f23a567330c7a9033f684",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-09-20"
+    },
+    {
+      "id": "4a1e73928e7c3872a0a6661c3630413a59ea025e",
+      "title": "The Change Impact Analysis in BPM Based Software Applications: A Graph Rewriting and Ontology Based Approach",
+      "authors": [
+        "M. Bouneffa",
+        "Adeel Ahmad"
+      ],
+      "year": 2013,
+      "venue": "International Conference on Enterprise Information Systems",
+      "citation_count": 8,
+      "abstract": null,
+      "doi": "10.1007/978-3-319-09492-2_17",
+      "url": "https://www.semanticscholar.org/paper/4a1e73928e7c3872a0a6661c3630413a59ea025e",
+      "pdf_url": "https://hal.archives-ouvertes.fr/hal-03108763/file/article_ext_ICEIS2014.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2013-07-04"
+    },
+    {
+      "id": "8a51beda1e756fdf252709a780e5ccf40c86a49d",
+      "title": "Ensuring the relevance of enterprise business process knowledge based on an ontological model",
+      "authors": [
+        "V. V. Antonov",
+        "K. Konev",
+        "E. Palchevsky",
+        "L. Rodionova",
+        "L. I. Baimurzina"
+      ],
+      "year": 2024,
+      "venue": "Ontology of Designing",
+      "citation_count": 1,
+      "abstract": "The problem of ensuring the relevance of knowledge about the business process of an enterprise based on its ontologi-cal model is considered. The obsolescence of enterprise business process models leads to the need to redesign solutions for their automation. Approaches to solving the problem of maintaining the relevance of the business process model are presented. The regulatory basis of the business process of an enterprise was examined for its similarity to models developed to solve automation problems, and a conclusion was made that they have a common basis. This makes it possible to consider the regulatory basis as a metamodel and store data using linguistic variables. Ontological models built according to the IDEF5 standard for the most common regulatory documents of a business process are consid-ered. It was been revealed that one of the most important elements of managing an industrial enterprise and its busi-ness processes is maintaining the relevance of all components, including the situational ontological model. A method-ology is proposed for integrating an ontological model into the process of updating enterprise regulatory documents, preserving knowledge about the business process and retrieving it to generate changes to regulatory documents and models used to automate business processes. An example of using the technique for planning equipment repairs carried out outside the main work plan is considered.",
+      "doi": "10.18287/2223-9537-2024-14-1-107-118",
+      "url": "https://www.semanticscholar.org/paper/8a51beda1e756fdf252709a780e5ccf40c86a49d",
+      "pdf_url": "https://doi.org/10.18287/2223-9537-2024-14-1-107-118",
+      "fields_of_study": null,
+      "publication_date": "2024-03-01"
+    },
+    {
+      "id": "e07e0f4d6842804afac64bc5e0a7a76ea08bd6f8",
+      "title": "sBPMN: A Framework for Capturing Business Process Semantics in Dynamic Knowledge Graphs",
+      "authors": [
+        "Franz Krause",
+        "Heiko Paulheim",
+        "Amparo Vázquez",
+        "Alejandro Espert"
+      ],
+      "year": 2025,
+      "venue": "International Conference on Knowledge Capture",
+      "citation_count": 0,
+      "abstract": "Business process models are widely used in enterprises to orchestrate workflows involving events, tasks, and agents. BPMN provides a standardized syntax to capture structural semantics, yet domain-level semantics often remain implicit, typically expressed through descriptive annotations. Thus, integrating BPMN processes with external data is challenging, limiting semantic interoperability. Building on the principles of Linked Data, several approaches have been proposed to embed BPMN processes within ontologies and knowledge graphs to overcome this limitation. However, current approaches are restricted to abstract process models, with limited or no support for dynamic runtime executions. Therefore, we introduce semantic BPMN (sBPMN), a framework for representing BPMN process models in a modular ontology directly derived from the official BPMN 2.0 XML schema, and their execution traces in a dynamic knowledge graph. Both static and dynamic fragments can then be easily linked to external sources. We demonstrate a system architecture compatible with state-of-the-art BPMN orchestration engines, showing that sBPMN enables semantic linking of process elements and external data as well as validation of process instances against formal constraints. Finally, we showcase the applicability of sBPMN in an industrial use case, where human–AI processes are modeled via BPMN and semantically enriched with domain data to facilitate standardization and semantic downstream analysis.",
+      "doi": "10.1145/3731443.3771361",
+      "url": "https://www.semanticscholar.org/paper/e07e0f4d6842804afac64bc5e0a7a76ea08bd6f8",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-12-10"
+    },
+    {
+      "id": "0d08313b92b2633d32db4f049874bd5277157c81",
+      "title": "Knowledge Map and Enterprise Ontology for Enhancing Business Process Reengineering In Healthcare: A Case of Radiology Department",
+      "authors": [
+        "M. Musa",
+        "M. Othman"
+      ],
+      "year": 2016,
+      "venue": "International Journal of Enterprise Information Systems",
+      "citation_count": 3,
+      "abstract": null,
+      "doi": "10.4018/IJEIS.2016040103",
+      "url": "https://www.semanticscholar.org/paper/0d08313b92b2633d32db4f049874bd5277157c81",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2016-04-01"
+    },
+    {
+      "id": "c4a53f4a12207ecce4ea5102fb0a05d8f8984561",
+      "title": "From human experts to machines: An LLM supported approach to ontology and knowledge graph construction",
+      "authors": [
+        "Vamsi Krishna Kommineni",
+        "B. König-Ries",
+        "Sheeba Samuel"
+      ],
+      "year": 2024,
+      "venue": "arXiv.org",
+      "citation_count": 78,
+      "abstract": "The conventional process of building Ontologies and Knowledge Graphs (KGs) heavily relies on human domain experts to define entities and relationship types, establish hierarchies, maintain relevance to the domain, fill the ABox (or populate with instances), and ensure data quality (including amongst others accuracy and completeness). On the other hand, Large Language Models (LLMs) have recently gained popularity for their ability to understand and generate human-like natural language, offering promising ways to automate aspects of this process. This work explores the (semi-)automatic construction of KGs facilitated by open-source LLMs. Our pipeline involves formulating competency questions (CQs), developing an ontology (TBox) based on these CQs, constructing KGs using the developed ontology, and evaluating the resultant KG with minimal to no involvement of human experts. We showcase the feasibility of our semi-automated pipeline by creating a KG on deep learning methodologies by exploiting scholarly publications. To evaluate the answers generated via Retrieval-Augmented-Generation (RAG) as well as the KG concepts automatically extracted using LLMs, we design a judge LLM, which rates the generated content based on ground truth. Our findings suggest that employing LLMs could potentially reduce the human effort involved in the construction of KGs, although a human-in-the-loop approach is recommended to evaluate automatically generated KGs.",
+      "doi": "10.48550/arXiv.2403.08345",
+      "url": "https://www.semanticscholar.org/paper/c4a53f4a12207ecce4ea5102fb0a05d8f8984561",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-03-13"
+    },
+    {
+      "id": "399d9f1d81b858571245f85452f298bf42edf00b",
+      "title": "Make soil healthy again: Construction of ontology-compliant soil health knowledge graph with large language models",
+      "authors": [
+        "Beichen Wang",
+        "L. D. de Sousa",
+        "Anna Fensel"
+      ],
+      "year": 2025,
+      "venue": "International Conference on Knowledge Capture",
+      "citation_count": 0,
+      "abstract": "Soil health is fundamental to environmental sustainability and food security, yet relevant knowledge remains fragmented across diverse sources, hindering its effective application. Knowledge graphs (KGs) offer a robust solution by integrating disparate information into a structured, semantically rich format. Addressing this need, this paper presents an ontology-compliant soil health KG derived from domain literature, and the semi-automated, human-in-the-loop pipeline developed to construct it. Our pipeline leverages large language models to accelerate knowledge extraction, while incorporating expert oversight to ensure ontological compliance and accuracy. The resulting KG integrates unstructured knowledge into 11,715 RDF triples representing 2,018 entities, including 1,786 soil-related concepts. The KG’s fidelity was confirmed by soil scientists through a validation process involving competency questions. The KG, supporting ontology, and the source code of the pipeline are made publicly available.",
+      "doi": "10.1145/3731443.3771730",
+      "url": "https://www.semanticscholar.org/paper/399d9f1d81b858571245f85452f298bf42edf00b",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-12-10"
+    },
+    {
+      "id": "8a42da08ddda5cd108d312a7b2204e478bb328fc",
+      "title": "Grid Financial Risk Assessment Based on Fusion Knowledge Graph and Bayesian Networks",
+      "authors": [
+        "Yanan Chen",
+        "Weilan Wang",
+        "Riyong Zhu",
+        "Yichen Liu",
+        "Han Chen"
+      ],
+      "year": 2025,
+      "venue": "Proceedings of the 9th International Conference on Electronic Information Technology and Computer Engineering",
+      "citation_count": 0,
+      "abstract": "With the continuous expansion of the asset scale of power grid enterprises and the in-depth promotion of market-oriented reform, financial risk management plays a more and more critical role in guaranteeing the sustainable development of enterprises. The traditional financial risk assessment methods are difficult to adapt to the complex and changing financial environment due to the problems of isolated indicators, unclear causality, and low degree of intelligence. For this reason, this paper proposes a grid financial risk assessment method that integrates knowledge mapping and Bayesian network. Firstly, based on the financial data and business process information of power grid enterprises, a financial risk ontology is designed, and a domain knowledge graph for power grid finance is constructed. Subsequently, a Bayesian network risk inference model is constructed to effectively model the causal relationships and probabilistic dependencies between various risk factors. Finally, empirical analyses are carried out through the actual data of a regional power grid company to verify the advantages of the proposed model in terms of risk identification accuracy, reasoning interpretability and warning timeliness.",
+      "doi": "10.1145/3766671.3766864",
+      "url": "https://www.semanticscholar.org/paper/8a42da08ddda5cd108d312a7b2204e478bb328fc",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-06-13"
+    },
+    {
+      "id": "6e5f3017be2526a57518ccb0f849ed9f244a23ec",
+      "title": "On the Use of Knowledge Graph Completion Methods for Activity Recommendation in Business Process Modeling",
+      "authors": [
+        "Diana Sola",
+        "Christian Meilicke",
+        "Han van der Aa",
+        "H. Stuckenschmidt"
+      ],
+      "year": 2021,
+      "venue": "Business Process Management Workshops",
+      "citation_count": 7,
+      "abstract": null,
+      "doi": "10.1007/978-3-030-94343-1_1",
+      "url": "https://www.semanticscholar.org/paper/6e5f3017be2526a57518ccb0f849ed9f244a23ec",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "cf07dffeb71bd1d43d87c5be3e5be8d00b3a3423",
+      "title": "A Knowledge Graph-Enhanced Multimodal AI Framework for Intelligent Tax Data Integration and Compliance Enhancement",
+      "authors": [
+        "Tiantian Zhang"
+      ],
+      "year": 2025,
+      "venue": "Frontiers in Business and Finance",
+      "citation_count": 5,
+      "abstract": "Tax administration in the era of digital transformation confronts substantial challenges in integrating and interpreting heterogeneous, multimodal data at enterprise scale. This study proposes a knowledge graph-based multimodal artificial intelligence framework that combines computer vision, natural language processing, and tabular modeling to deliver end-to-end analysis of invoice images, financial texts, and transactional records. At its core, the framework builds a tax-specific knowledge graph that connects transaction entities, voucher attributes, and regulatory terms, and applies graph neural networks for semantic alignment and reasoning. To address privacy and governance constraints, the framework integrates federated learning and differential privacy to protect sensitive financial data while enabling collaborative model improvement. Explainable AI methods generate warning signals and traceable evidence chains for auditors and accountants. We validate the framework using a simulated audit scenario of a medium-sized manufacturing enterprise in a remote, underdeveloped region of the United States that processes over 100,000 invoices annually. The results demonstrate automated linkage of invoice-level details to relevant regulations (for example, value-added tax deduction rules where applicable), extraction of textual anomalies such as duplicate deductions, detection of approximately 15 percent potential compliance risks under privacy protection, and visualized evidence traceability. Preliminary experiments show a 70 percent reduction in processing time and an error rate below 2 percent, indicating significant audit efficiency gains and the potential to reduce labor costs and disputes. The approach offers scalable implications for national tax administration and can be adapted to other industries to advance intelligent tax governance.",
+      "doi": "10.71465/fbf384",
+      "url": "https://www.semanticscholar.org/paper/cf07dffeb71bd1d43d87c5be3e5be8d00b3a3423",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-09-14"
+    },
+    {
+      "id": "587c344e12173e8e3333a00cf75625240f449fac",
+      "title": "Knowledge Graph Extraction of Business Interactions from News Text for Business Networking Analysis",
+      "authors": [
+        "Didier Gohourou",
+        "Kazuhiro Kuwabara"
+      ],
+      "year": 2024,
+      "venue": "Machine Learning and Knowledge Extraction",
+      "citation_count": 2,
+      "abstract": "Network representation of data is key to a variety of fields and their applications including trading and business. A major source of data that can be used to build insightful networks is the abundant amount of unstructured text data available through the web. The efforts to turn unstructured text data into a network have spawned different research endeavors, including the simplification of the process. This study presents the design and implementation of TraCER, a pipeline that turns unstructured text data into a graph, targeting the business networking domain. It describes the application of natural language processing techniques used to process the text, as well as the heuristics and learning algorithms that categorize the nodes and the links. The study also presents some simple yet efficient methods for the entity-linking and relation classification steps of the pipeline.",
+      "doi": "10.3390/make6010007",
+      "url": "https://www.semanticscholar.org/paper/587c344e12173e8e3333a00cf75625240f449fac",
+      "pdf_url": "https://www.mdpi.com/2504-4990/6/1/7/pdf?version=1704692150",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-01-07"
+    },
+    {
+      "id": "624b77455c33d0be29783847f2158e81c3f67de9",
+      "title": "Research on enterprise risk knowledge graph based on multi-source data fusion",
+      "authors": [
+        "Bo Yang",
+        "Y. Liao"
+      ],
+      "year": 2021,
+      "venue": "Neural computing & applications (Print)",
+      "citation_count": 56,
+      "abstract": null,
+      "doi": "10.1007/s00521-021-05985-w",
+      "url": "https://www.semanticscholar.org/paper/624b77455c33d0be29783847f2158e81c3f67de9",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2021-04-20"
+    },
+    {
+      "id": "c35de57067afe61f1b92e3747a42eed355e74285",
+      "title": "Extensible ontology-based views for business process models",
+      "authors": [
+        "M. Adams",
+        "Andreas V. Hense",
+        "A. T. Hofstede"
+      ],
+      "year": 2021,
+      "venue": "Knowledge and Information Systems",
+      "citation_count": 4,
+      "abstract": null,
+      "doi": "10.1007/s10115-021-01604-1",
+      "url": "https://www.semanticscholar.org/paper/c35de57067afe61f1b92e3747a42eed355e74285",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2021-09-23"
+    },
+    {
+      "id": "e9d71abd1c14008cd4a0362643f2192c228c154e",
+      "title": "LIS: A Knowledge Graph-Based Line Information System",
+      "authors": [
+        "Irlán Grangel-González",
+        "M. Rickart",
+        "Oliver Rudolph",
+        "Fasal Shah"
+      ],
+      "year": 2023,
+      "venue": "Extended Semantic Web Conference",
+      "citation_count": 2,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/e9d71abd1c14008cd4a0362643f2192c228c154e",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "35d4959e8ff70d8c52a1d86b7c24a478238c094a",
+      "title": "Enterprise Knowledge Graph From Specific Business Task to Enterprise Knowledge Management",
+      "authors": [
+        "Rong Duan",
+        "Yanghua Xiao"
+      ],
+      "year": 2019,
+      "venue": "International Conference on Information and Knowledge Management",
+      "citation_count": 5,
+      "abstract": "Data driven Knowledge Graph is rapidly adapted by different societies. Many open domain and specific domain knowledge graphs have been constructed, and many industries have benefited from knowledge graph. Currently, enterprise related knowledge graph is classified as specific domain, but the applications span from solving a narrow specific problem to Enterprise Knowledge Management system. With the digital transform of traditional industry, Enterprise knowledge becomes more and more complicated, it involves knowledge from common domain, multiple specific domains, and corporate-specific in general. This tutorial provides an overview of current Enterprise Knowledge Graph(EKG). It distinguishes the EKG from specific domain according to the knowledge it covers, and provides the examples to illustrate the difference between EKG and specific domain KG. The tutorial further summarizes EKG into three types: Specific Business Task Enterprise KG, Specific Business Unit Enterprise KG and Cross Business Unit Enterprise KG, and illustrates the characteristics, steps, challenges, and future research in constructing and consuming of each of these three types of EKG .",
+      "doi": "10.1145/3357384.3360314",
+      "url": "https://www.semanticscholar.org/paper/35d4959e8ff70d8c52a1d86b7c24a478238c094a",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2019-11-03"
+    },
+    {
+      "id": "154d2d4c9300f1c9c39d41fe08be0656029c5966",
+      "title": "Enhancing Knowledge Graph Generation with Ontology Reshaping - Bosch Case",
+      "authors": [
+        "Dongzhuoran Zhou",
+        "Baifan Zhou",
+        "Zhuoxun Zheng",
+        "Egor V. Kostylev",
+        "Gong Cheng",
+        "Ernesto Jiménez-Ruiz",
+        "A. Soylu",
+        "E. Kharlamov"
+      ],
+      "year": 2022,
+      "venue": "Extended Semantic Web Conference",
+      "citation_count": 20,
+      "abstract": null,
+      "doi": "10.1007/978-3-031-11609-4_45",
+      "url": "https://www.semanticscholar.org/paper/154d2d4c9300f1c9c39d41fe08be0656029c5966",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "327d92d0da8b95d6c4eaf3f08089c7242e8fb98a",
+      "title": "Consistency, complementalness or conflictation of enterprise ontology and normalized systems business process guidelines",
+      "authors": [
+        "Philip Huysmans",
+        "D. V. Nuffel",
+        "Peter De Bruyn"
+      ],
+      "year": 2016,
+      "venue": "International Symposium on Business Modeling and Software Design",
+      "citation_count": 0,
+      "abstract": "Both Enterprise Ontology and Normalized Systems can be cons idered as design theories, which provide prescriptive guidelines to design systems. Enterprise Ontolo gy explicitly focuses on the design of organizations as being social systems. Originally, Normalized Systems focu sed on the design of evolvable software systems. However, it has been shown that, building on the Normalized S ystems design knowledge, prescriptions for other domains, such as the business process domain, can be pr oposed as well. This domain seems to overlap at least partially with the domain of Enterprise Ontology, w hich is used to establish claims concerning process design in various publications. However, both theorie s ar based on completely different kernel theories. Therefore, this paper analyzes to which extent the guidelin es proposed for the Normalized Systems Business Processes are consistent, complementing or conflicting wit h prescriptions from Enterprise Ontology. A consistent set of prescriptions could lead to a more integrated pproach for designing integrated organizations, business processes and software systems.",
+      "doi": "10.5220/0004774000540063",
+      "url": "https://www.semanticscholar.org/paper/327d92d0da8b95d6c4eaf3f08089c7242e8fb98a",
+      "pdf_url": "https://doi.org/10.5220/0004774000540063",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2016-11-27"
+    },
+    {
+      "id": "ea96f38b90c645b01beaafd26bfc0c5cad87714d",
+      "title": "Decision support system for the business process of internal audit of enterprise quality",
+      "authors": [
+        "V. Antonov",
+        "K. Konev"
+      ],
+      "year": 2022,
+      "venue": "Ontology of Designing",
+      "citation_count": 0,
+      "abstract": "An approach to the application of a situational-ontological methodology for building a decision support system for the subject area of internal audit of enterprise quality is outlined. The problem associated with high requirements for the competence of specialists in this field is noted. For the subject area of internal quality audit, a conceptual model has been developed in the form of its functional diagram. Using the IDEF5 standard, an ontological model of one of the main functions of the quality audit business process has been developed, and an approach to organizing the storage of business process information in a database has been proposed. For the function of classifying the causes of inconsist-encies in quality audit, an example of setting up a solver of an intelligent component of a decision support system is given. Significant decision-making points in the business process of quality audit are identified, and the structure of interaction of its participants with the intellectual subsystem of the decision support system is formed. The structure of the intellectual subsystem of the decision support system used in the process of quality audit at the enterprise is pro-posed.",
+      "doi": "10.18287/2223-9537-2022-12-1-106-116",
+      "url": "https://www.semanticscholar.org/paper/ea96f38b90c645b01beaafd26bfc0c5cad87714d",
+      "pdf_url": "https://doi.org/10.18287/2223-9537-2022-12-1-106-116",
+      "fields_of_study": null,
+      "publication_date": "2022-03-31"
+    },
+    {
+      "id": "70a75b05a9410198fd71c3a0fe937a77d15d6bc8",
+      "title": "Text2KGBench: A Benchmark for Ontology-Driven Knowledge Graph Generation from Text",
+      "authors": [
+        "Nandana Mihindukulasooriya",
+        "S. Tiwari",
+        "Carlos F. Enguix",
+        "K. Lata"
+      ],
+      "year": 2023,
+      "venue": "International Workshop on the Semantic Web",
+      "citation_count": 97,
+      "abstract": "The recent advances in large language models (LLM) and foundation models with emergent capabilities have been shown to improve the performance of many NLP tasks. LLMs and Knowledge Graphs (KG) can complement each other such that LLMs can be used for KG construction or completion while existing KGs can be used for different tasks such as making LLM outputs explainable or fact-checking in Neuro-Symbolic manner. In this paper, we present Text2KGBench, a benchmark to evaluate the capabilities of language models to generate KGs from natural language text guided by an ontology. Given an input ontology and a set of sentences, the task is to extract facts from the text while complying with the given ontology (concepts, relations, domain/range constraints) and being faithful to the input sentences. We provide two datasets (i) Wikidata-TekGen with 10 ontologies and 13,474 sentences and (ii) DBpedia-WebNLG with 19 ontologies and 4,860 sentences. We define seven evaluation metrics to measure fact extraction performance, ontology conformance, and hallucinations by LLMs. Furthermore, we provide results for two baseline models, Vicuna-13B and Alpaca-LoRA-13B using automatic prompt generation from test cases. The baseline results show that there is room for improvement using both Semantic Web and Natural Language Processing techniques.",
+      "doi": "10.48550/arXiv.2308.02357",
+      "url": "https://www.semanticscholar.org/paper/70a75b05a9410198fd71c3a0fe937a77d15d6bc8",
+      "pdf_url": "https://arxiv.org/pdf/2308.02357",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-08-04"
+    },
+    {
+      "id": "54ad812971dfeb3bad787226dab82d9da63da3d7",
+      "title": "Towards a Gateway for Knowledge Graph Schemas Collection, Analysis, and Embedding",
+      "authors": [
+        "Mattia Fumagalli",
+        "Marco Boffo",
+        "D. Shi",
+        "Mayukh Bagchi",
+        "Fausto Giunchiglia"
+      ],
+      "year": 2023,
+      "venue": "Joint Ontology Workshops",
+      "citation_count": 2,
+      "abstract": "One of the significant barriers to the training of statistical models on knowledge graphs is the difficulty that scientists have in finding the best input data to address their prediction goal. In addition to this, a key challenge is to determine how to manipulate these relational data, which are often in the form of particular triples (i.e., subject, predicate, object), to enable the learning process. Currently, many high-quality catalogs of knowledge graphs, are available. However, their primary goal is the re-usability of these resources, and their interconnection, in the context of the Semantic Web. This paper describes the LiveSchema initiative, namely, a first version of a gateway that has the main scope of leveraging the gold mine of data collected by many existing catalogs collecting relational data like ontologies and knowledge graphs. At the current state, LiveSchema contains - 1000 datasets from 4 main sources and offers some key facilities, which allow to: i) evolving LiveSchema, by aggregating other source catalogs and repositories as input sources; ii) querying all the collected resources; iii) transforming each given dataset into formal concept analysis matrices that enable analysis and visualization services; iv) generating models and tensors from each given dataset.",
+      "doi": "10.48550/arXiv.2311.12465",
+      "url": "https://www.semanticscholar.org/paper/54ad812971dfeb3bad787226dab82d9da63da3d7",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-11-21"
+    },
+    {
+      "id": "ffc553d6063330a4068b2a934adeb2c798a83b92",
+      "title": "Using intelligent ontology technology to extract knowledge from successful project in IoT enterprise systems",
+      "authors": [
+        "Jinfeng Ding",
+        "Tian Tang",
+        "Yaqin Zhang",
+        "Wi Chi"
+      ],
+      "year": 2021,
+      "venue": "Enterprise Information Systems",
+      "citation_count": 12,
+      "abstract": "ABSTRACT Learning from success projects to build business process for customer requirements change is critical successful factor for other project in IoT enterprise systems. We proposed an ontology-based technology to mine the core knowledge of successful projects. From precious experiences of each successful projects, two ways of ontology-based domain knowledge pattern will be defined, first is for application project management, and second is for software engineering process. To decompose the project knowledge from the same application domain with tree structures. The results of this paper reduce development and requirement cost, and user satifaction is better than without ontology.",
+      "doi": "10.1080/17517575.2021.1913240",
+      "url": "https://www.semanticscholar.org/paper/ffc553d6063330a4068b2a934adeb2c798a83b92",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2021-04-15"
+    },
+    {
+      "id": "700cf4fd78e40ec78e4a9f66e35e9bc2f95917d5",
+      "title": "Interpretability of Knowledge Graph-based Explainable Process Analysis",
+      "authors": [
+        "Anne Füßl",
+        "V. Nissen"
+      ],
+      "year": 2022,
+      "venue": "International Conference on Artificial Intelligence and Knowledge Engineering",
+      "citation_count": 7,
+      "abstract": "The last decade produced rapid developments and powerful new technologies that are creating a huge upsurge in artificial intelligence research. However, for critical operational decisions (e.g., consulting services), the need for explanations and interpretable results are becoming a necessity. The integration of knowledge graphs that provide relevant background knowledge in machine-readable form, and machine learning methods represents a new form of hybrid intelligent systems that benefit from each other's strengths. Our research aims at an explainable system with a specific knowledge graph architecture that can generate human-understandable results even when no suitable domain experts are available. Against this background, the interpretability of a knowledge graph-based explainable artificial intelligence approach for business process analysis is focused. We design a framework of interpretation, and show how interpretable models are generated. Result paths on weaknesses and improvement measures related to a business process are used to produce stochastic decision trees, which improve the interpretability of results. This can lead to interesting consulting self-services for clients or be applied as a device for accelerating classical consulting projects.",
+      "doi": "10.1109/AIKE55402.2022.00008",
+      "url": "https://www.semanticscholar.org/paper/700cf4fd78e40ec78e4a9f66e35e9bc2f95917d5",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-09-01"
+    },
+    {
+      "id": "011820c2b3ae6aa6b7461c5e0facd3d5b7a611be",
+      "title": "A method for integrated business process modeling and ontology development",
+      "authors": [
+        "Ahmet Coşkunçay",
+        "Onur Demirörs"
+      ],
+      "year": 2022,
+      "venue": "Business Process Management Journal",
+      "citation_count": 1,
+      "abstract": "PurposeFrom knowledge management point of view, business process models and ontologies are two essential knowledge artifacts for organizations that consume similar information sources. In this study, the PROMPTUM method for integrated process modeling and ontology development that adheres to well-established practices is presented. The method is intended to guide practitioners who develop both ontologies and business process models in the same or similar domains.Design/methodology/approachThe method is supported by a recently developed toolset, which supports the modeling of relations between the ontologies and the labels within the process model collections. This study introduces the method and its companion toolset. An explanatory study, that includes two case studies, is designed and conducted to reveal and validate the benefits of using the method. Then, a follow-up semi-structured interview identifies the perceived benefits of the method.FindingsApplication of the method revealed several benefits including the improvements observed in the consistency and completeness of the process models and ontologies. The method is bringing the best practices in two domains together and guiding the use of labels within process model collections in ontology development and ontology resources in business process modeling.Originality/valueThe proposed method with its tool support is a pioneer in enabling to manage the labels and terms within the labels in process model collections consistently with ontology resources. Establishing these relations enables the definition and management of process model elements as resources in domain ontologies. Once the PROMPTUM method is utilized, a related resource is managed as a single resource representing the same real-world object in both artifacts. An explanatory study has shown that improvement in consistency and completeness of process models and ontologies is possible with integrated process modeling and ontology development.",
+      "doi": "10.1108/bpmj-10-2020-0443",
+      "url": "https://www.semanticscholar.org/paper/011820c2b3ae6aa6b7461c5e0facd3d5b7a611be",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-04-07"
+    },
+    {
+      "id": "855160d4cc3c05164e58ba43cf234d92ba2a8473",
+      "title": "The Covid-19 CODO Development Process: an Agile Approach to Knowledge Graph Development",
+      "authors": [
+        "Michael DeBellis",
+        "Biswanath Dutta"
+      ],
+      "year": 2021,
+      "venue": "Iberoamerican Conference on Knowledge Graphs and Semantic Web",
+      "citation_count": 2,
+      "abstract": null,
+      "doi": "10.1007/978-3-030-91305-2_12",
+      "url": "https://www.semanticscholar.org/paper/855160d4cc3c05164e58ba43cf234d92ba2a8473",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "d22fdcc22e9b071d052352465e9fcbf860313b1a",
+      "title": "Knowledge Management as A Catalyst for Business Process Digitalisation",
+      "authors": [],
+      "year": 2022,
+      "venue": "International Journal of Education and Knowledge Management",
+      "citation_count": 4,
+      "abstract": "Abstract: \nDigital transformations challenge enterprises' adaptability, development, technology integration, and resilience to evolve their business models. Accelerated by the COVID-19 pandemic, businesses are increasingly characterised by a pervasive role of business digitalisation redefining organisations' management of customer experience efficiencies. It redefines value creation strategies. This paper argues that enterprises should rethink the creation and delivery of value to their customers, not based on technologies but on knowledge management strategies instead. As technologies transform business processes, KM is a catalyst in the evolving nature, knowledge assets, and transformation preparedness of enterprises' value drivers. Integrating Osterwalder and Pigneur's Business Model Canvas, Parmar et al.'s five patterns for value creation, and Goncalves' cloud enterprise transcoding proxy, a few cases are briefly discussed. Digital transformation drivers and the role of KM for strategic relevance are underlined through digitalised knowledge processes and customer-centric global marketing strategies to access and manage resources, core competencies, and dynamic capabilities. This research raises awareness of adopting KM as a catalyst for digital business transformation's role as a strategy to respond to the acceleration of digitalization during and after the COVID-19 pandemic, along with knowledge management principles. \nKeywords: Knowledge management, Digital transformation, Digital technologies, Deep learning, Digital wallets, COVID-19",
+      "doi": "10.37227/ijekm-2022-02-1178",
+      "url": "https://www.semanticscholar.org/paper/d22fdcc22e9b071d052352465e9fcbf860313b1a",
+      "pdf_url": "https://rpajournals.com/wp-content/uploads/2022/05/IJEKM-2022-02-1178.pdf",
+      "fields_of_study": null,
+      "publication_date": "2022-05-07"
+    },
+    {
+      "id": "b66c5d17424b37c46980d50bd2796c568e1e926f",
+      "title": "A Benchmark to Understand the Role of Knowledge Graphs on Large Language Model's Accuracy for Question Answering on Enterprise SQL Databases",
+      "authors": [
+        "Juan Sequeda",
+        "D. Allemang",
+        "Bryon Jacob"
+      ],
+      "year": 2023,
+      "venue": "GRADES/NDA",
+      "citation_count": 47,
+      "abstract": "Enterprise applications of Large Language Models (LLMs) hold promise for question answering on enterprise SQL databases. However, the extent to which LLMs can accurately respond to enterprise questions in such databases remains unclear, given the absence of suitable Text-to-SQL benchmarks tailored to enterprise settings. Additionally, the potential of Knowledge Graphs (KGs) to enhance LLM-based question answering by providing business context is not well understood. This study aims to evaluate the accuracy of LLM-powered question answering systems in the context of enterprise questions and SQL databases, while also exploring the role of knowledge graphs in improving accuracy. To achieve this, we introduce a benchmark comprising an enterprise SQL schema in the insurance domain, a range of enterprise queries encompassing reporting to metrics, and a contextual layer incorporating an ontology and mappings that define a knowledge graph. Our primary finding reveals that question answering using GPT-4, with zero-shot prompts directly on SQL databases, achieves an accuracy of 16%. Notably, this accuracy increases to 54% when questions are posed over a Knowledge Graph representation of the enterprise SQL database. Therefore, investing in Knowledge Graph provides higher accuracy for LLM powered question answering systems.",
+      "doi": "10.1145/3661304.3661901",
+      "url": "https://www.semanticscholar.org/paper/b66c5d17424b37c46980d50bd2796c568e1e926f",
+      "pdf_url": "https://arxiv.org/pdf/2311.07509",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-11-13"
+    },
+    {
+      "id": "ffe87c0b525cecfbf9d5e1fe50921d5f17d28e86",
+      "title": "Deigmata: A User-Centered Visualization Tool for Knowledge Graph Exploration",
+      "authors": [
+        "Rafael null Rocha",
+        "Gercina Ângela de null Lima"
+      ],
+      "year": 2025,
+      "venue": "Knowledge organization",
+      "citation_count": 0,
+      "abstract": "In the field of Information Science, Knowledge Graphs (KG) have emerged as a prominent approach to Knowledge Organization (KO) and Knowledge Representation (KR), supported by Knowledge Organization Systems (KOS) such as taxonomies and thesauri. KGs provide scalable, ontology-enriched structures for managing large volumes of data. Despite criticisms concerning limited semantic expressiveness and modeling quality, KGs remain essential in big-data contexts, where exploratory analysis and visualization are fundamental to identifying patterns and generating insights. Scientific literature indicates that many visualization approaches are algorithm-centered or tool-oriented, often neglecting user-centered design and cognitive ergonomics. To address these limitations, this study aims to identify and evaluate visualization techniques that support user-centered design, focusing on cognitive and usability needs in exploratory and interactive analysis. The methodological approach is based on Design Science Research (DSR), combining a Systematic Literature Review (SLR) and semi-structured interviews to identify user requirements and inform the design of visualization solutions. As a result, the Deigmata system was developed—a user-centered KG visualization tool that facilitates collaborative analysis across multiple user profiles. The tool integrates interactive process triggers that reduce exploration barriers, particularly for non-expert users.",
+      "doi": "10.31083/ko46137",
+      "url": "https://www.semanticscholar.org/paper/ffe87c0b525cecfbf9d5e1fe50921d5f17d28e86",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-12-19"
+    }
+  ]
+}

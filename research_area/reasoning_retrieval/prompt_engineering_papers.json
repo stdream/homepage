@@ -1,0 +1,823 @@
+{
+  "query": "prompt engineering LLM reasoning",
+  "timestamp": "2026-01-25T13:19:20.603079",
+  "count": 40,
+  "papers": [
+    {
+      "id": "a77d28e13ff34f34b8d1114e603bff074ee2b056",
+      "title": "Concise Thoughts: Impact of Output Length on LLM Reasoning and Cost",
+      "authors": [
+        "Sania Nayab",
+        "Giulio Rossolini",
+        "Giorgio Buttazzo",
+        "Nicolamaria Manes",
+        "F. Giacomelli"
+      ],
+      "year": 2024,
+      "venue": "arXiv.org",
+      "citation_count": 80,
+      "abstract": "Today's large language models (LLMs) can solve challenging question-answering tasks, and prompt engineering techniques, such as chain-of-thought (CoT), have gained attention for enhancing the explanation and correctness of outputs. However, many models and techniques tend to produce excessively verbose and lengthy answers, leading to issues with both conciseness and generation time. To address this, this paper analyzes the impact of output lengths on LLM inference pipelines by introducing and proposing novel metrics to evaluate the \\textit{correct conciseness} of a model and related prompting techniques. Then, we examine the impact of controlling output length through a refined prompt engineering strategy, Constrained-CoT (CCoT), which encourages the model to produce more concise outputs. To better understand the effects of such a prompt, we also introduce two additional scores for analyzing the conciseness, measured in terms of redundancy and information flow in generated answers. Experiments on pretrained LLMs and multiple datasets demonstrate the benefits of the proposed metrics and the effectiveness of CCoT across different models.",
+      "doi": "10.48550/arXiv.2407.19825",
+      "url": "https://www.semanticscholar.org/paper/a77d28e13ff34f34b8d1114e603bff074ee2b056",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-07-29"
+    },
+    {
+      "id": "4f0e4a313a3f777b4b6aab4f364b9bc51a6aacc9",
+      "title": "Unlocking Efficient Long-to-Short LLM Reasoning with Model Merging",
+      "authors": [
+        "Han Wu",
+        "Yuxuan Yao",
+        "Shuqi Liu",
+        "Zehua Liu",
+        "Xiaojin Fu",
+        "Xiongwei Han",
+        "Xing Li",
+        "Hui-Ling Zhen",
+        "Tao Zhong",
+        "Mingxuan Yuan"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 38,
+      "abstract": "The transition from System 1 to System 2 reasoning in large language models (LLMs) has marked significant advancements in handling complex tasks through deliberate, iterative thinking. However, this progress often comes at the cost of efficiency, as models tend to overthink, generating redundant reasoning steps without proportional improvements in output quality. Long-to-Short (L2S) reasoning has emerged as a promising solution to this challenge, aiming to balance reasoning depth with practical efficiency. While existing approaches, such as supervised fine-tuning (SFT), reinforcement learning (RL), and prompt engineering, have shown potential, they are either computationally expensive or unstable. Model merging, on the other hand, offers a cost-effective and robust alternative by integrating the quick-thinking capabilities of System 1 models with the methodical reasoning of System 2 models. In this work, we present a comprehensive empirical study on model merging for L2S reasoning, exploring diverse methodologies, including task-vector-based, SVD-based, and activation-informed merging. Our experiments reveal that model merging can reduce average response length by up to 55% while preserving or even improving baseline performance. We also identify a strong correlation between model scale and merging efficacy with extensive evaluations on 1.5B/7B/14B/32B models. Furthermore, we investigate the merged model's ability to self-critique and self-correct, as well as its adaptive response length based on task complexity. Our findings highlight model merging as a highly efficient and effective paradigm for L2S reasoning, offering a practical solution to the overthinking problem while maintaining the robustness of System 2 reasoning. This work can be found on Github https://github.com/hahahawu/Long-to-Short-via-Model-Merging.",
+      "doi": "10.48550/arXiv.2503.20641",
+      "url": "https://www.semanticscholar.org/paper/4f0e4a313a3f777b4b6aab4f364b9bc51a6aacc9",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-03-26"
+    },
+    {
+      "id": "900c054f3e50f1cc183125b063e2ecf60eec41e0",
+      "title": "Benchmarking Prompt Engineering Techniques for Secure Code Generation with GPT Models",
+      "authors": [
+        "Marc Bruni",
+        "Fabio Gabrielli",
+        "Mohammad Ghafari",
+        "Martin Kropp"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE/ACM Second International Conference on AI Foundation Models and Software Engineering (Forge)",
+      "citation_count": 15,
+      "abstract": "Prompt engineering reduces reasoning mistakes in Large Language Models (LLMs). However, its effectiveness in mitigating vulnerabilities in LLM-generated code remains underexplored. To address this gap, we implemented a benchmark to automatically assess the impact of various prompt engineering strategies on code security. Our benchmark leverages two peer-reviewed prompt datasets and employs static scanners to evaluate code security at scale. We tested multiple prompt engineering techniques on GPT-3.5-turbo, GPT-4o, and GPT-4o-mini. Our results show that for GPT-4o and GPT-4o-mini, a security-focused prompt prefix can reduce the occurrence of security vulnerabilities by up to 56%. Additionally, all tested models demonstrated the ability to detect and repair between 41.9% and 68.7% of vulnerabilities in previously generated code when using iterative prompting techniques. Finally, we introduce a \"prompt agent\" that demonstrates how the most effective techniques can be applied in real-world development workflows.",
+      "doi": "10.1109/Forge66646.2025.00018",
+      "url": "https://www.semanticscholar.org/paper/900c054f3e50f1cc183125b063e2ecf60eec41e0",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-02-09"
+    },
+    {
+      "id": "8f2f568ddc0adefb142de3dce65276062aadd0e9",
+      "title": "Large Language Models for Wireless Networks: An Overview from the Prompt Engineering Perspective",
+      "authors": [
+        "Hao Zhou",
+        "Chengming Hu",
+        "Dun Yuan",
+        "Ye Yuan",
+        "Di Wu",
+        "Xi Chen",
+        "Hina Tabassum",
+        "Xue Liu"
+      ],
+      "year": 2024,
+      "venue": "IEEE wireless communications",
+      "citation_count": 15,
+      "abstract": "Recently, large language models (LLMs) have been successfully applied to many fields, showing outstanding comprehension and reasoning capabilities. Despite their great potential, LLMs usually require dedicated pretraining and fine-tuning for domain-specific applications such as wireless networks. These adaptations can be extremely demanding for computational resources and datasets, while most network devices have limited computation power, and there are a limited number of high-quality networking datasets. To this end, this work explores LLM-enabled wireless networks from the prompt engineering perspective, that is, designing prompts to guide LLMs to generate desired output without updating LLM parameters. Compared with other LLM-driven methods, prompt engineering can better align with the demands of wireless network devices, for example, higher deployment flexibility, rapid response time, and lower requirements on computation power. In particular, this work first introduces LLM fundamentals and compares different prompting techniques such as in-context learning, chain-of-thought, and self-refinement. Then we propose two novel prompting schemes for network applications: iterative prompting for network optimization, and self-refined prompting for network prediction. The case studies show that the proposed schemes can achieve comparable performance as conventional machine learning techniques, and our proposed prompting-based methods avoid the complexity of dedicated model training and fine-tuning, which is one of the key bottlenecks of existing machine learning techniques.",
+      "doi": "10.1109/MWC.001.2400384",
+      "url": "https://www.semanticscholar.org/paper/8f2f568ddc0adefb142de3dce65276062aadd0e9",
+      "pdf_url": "http://arxiv.org/pdf/2411.04136",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-10-27"
+    },
+    {
+      "id": "a5da3328e211035c006f40bd26f37f57f766c5df",
+      "title": "Incorporating Dialect Understanding Into LLM Using RAG and Prompt Engineering Techniques for Causal Commonsense Reasoning",
+      "authors": [
+        "Benedikt Perak",
+        "Slobodan Beliga",
+        "A. Meštrović"
+      ],
+      "year": 2024,
+      "venue": "Workshop on NLP for Similar Languages, Varieties and Dialects",
+      "citation_count": 14,
+      "abstract": "The choice of plausible alternatives (COPA) task requires selecting the most plausible outcome from two choices based on understanding the causal relationships presented in a given text.This paper outlines several approaches and model adaptation strategies to the VarDial 2024 DIALECT-COPA shared task, focusing on causal commonsense reasoning in South-Slavic dialects. We utilize and evaluate the GPT-4 model in combination with various prompts engineering and the Retrieval-Augmented Generation (RAG) technique. Initially, we test and compare the performance of GPT-4 with simple and advanced prompts on the COPA task across three dialects: Cerkno, Chakavian and Torlak. Next, we enhance prompts using the RAG technique specifically for the Chakavian and Cerkno dialect. This involves creating an extended Chakavian-English and Cerkno-Slovene lexical dictionary and integrating it into the prompts. Our findings indicate that the most complex approach, which combines an advanced prompt with an injected dictionary, yields the highest performance on the DIALECT-COPA task.",
+      "doi": "10.18653/v1/2024.vardial-1.19",
+      "url": "https://www.semanticscholar.org/paper/a5da3328e211035c006f40bd26f37f57f766c5df",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "4628f1e00a1a2a074a7865cd52efbde1f7ec0ae2",
+      "title": "Can LLM be a Good Path Planner based on Prompt Engineering? Mitigating the Hallucination for Path Planning",
+      "authors": [
+        "Hourui Deng",
+        "Hongjie Zhang",
+        "Jie Ou",
+        "Chaosheng Feng"
+      ],
+      "year": 2024,
+      "venue": "International Conference on Intelligent Computing",
+      "citation_count": 13,
+      "abstract": "Spatial reasoning in Large Language Models (LLMs) is the foundation for embodied intelligence. However, even in simple maze environments, LLMs still encounter challenges in long-term path-planning, primarily influenced by their spatial hallucination and context inconsistency hallucination by long-term reasoning. To address this challenge, this study proposes an innovative model, Spatial-to-Relational Transformation and Curriculum Q-Learning (S2RCQL). To address the spatial hallucination of LLMs, we propose the Spatial-to-Relational approach, which transforms spatial prompts into entity relations and paths representing entity relation chains. This approach fully taps the potential of LLMs in terms of sequential thinking. As a result, we design a path-planning algorithm based on Q-learning to mitigate the context inconsistency hallucination, which enhances the reasoning ability of LLMs. Using the Q-value of state-action as auxiliary information for prompts, we correct the hallucinations of LLMs, thereby guiding LLMs to learn the optimal path. Finally, we propose a reverse curriculum learning technique based on LLMs to further mitigate the context inconsistency hallucination. LLMs can rapidly accumulate successful experiences by reducing task difficulty and leveraging them to tackle more complex tasks. We performed comprehensive experiments based on Baidu's self-developed LLM: ERNIE-Bot 4.0. The results showed that our S2RCQL achieved a 23%--40% improvement in both success and optimality rates compared with advanced prompt engineering.",
+      "doi": "10.48550/arXiv.2408.13184",
+      "url": "https://www.semanticscholar.org/paper/4628f1e00a1a2a074a7865cd52efbde1f7ec0ae2",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-08-23"
+    },
+    {
+      "id": "8f5222a2471e9f559b84a4c250a1cf86dd10130e",
+      "title": "Leveraging Graph-RAG and Prompt Engineering to Enhance LLM-Based Automated Requirement Traceability and Compliance Checks",
+      "authors": [
+        "Arsalan Masoudifard",
+        "Mohammad Mowlavi Sorond",
+        "Moein Madadi",
+        "Mohammad Sabokrou",
+        "Elahe Habibi"
+      ],
+      "year": 2024,
+      "venue": "arXiv.org",
+      "citation_count": 9,
+      "abstract": "Ensuring that Software Requirements Specifications (SRS) align with higher-level organizational or national requirements is vital, particularly in regulated environments such as finance and aerospace. In these domains, maintaining consistency, adhering to regulatory frameworks, minimizing errors, and meeting critical expectations are essential for the reliable functioning of systems. The widespread adoption of large language models (LLMs) highlights their immense potential, yet there remains considerable scope for improvement in retrieving relevant information and enhancing reasoning capabilities. This study demonstrates that integrating a robust Graph-RAG framework with advanced prompt engineering techniques, such as Chain of Thought and Tree of Thought, can significantly enhance performance. Compared to baseline RAG methods and simple prompting strategies, this approach delivers more accurate and context-aware results. While this method demonstrates significant improvements in performance, it comes with challenges. It is both costly and more complex to implement across diverse contexts, requiring careful adaptation to specific scenarios. Additionally, its effectiveness heavily relies on having complete and accurate input data, which may not always be readily available, posing further limitations to its scalability and practicality.",
+      "doi": "10.48550/arXiv.2412.08593",
+      "url": "https://www.semanticscholar.org/paper/8f5222a2471e9f559b84a4c250a1cf86dd10130e",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-12-11"
+    },
+    {
+      "id": "55adbe4a6511a9c036024c6e2a637782d53289f4",
+      "title": "Mitigating spatial hallucination in large language models for path planning via prompt engineering",
+      "authors": [
+        "Hongjie Zhang",
+        "Hourui Deng",
+        "Jie Ou",
+        "Chaosheng Feng"
+      ],
+      "year": 2025,
+      "venue": "Scientific Reports",
+      "citation_count": 8,
+      "abstract": "Spatial reasoning in Large Language Models (LLMs) serves as a foundation for embodied intelligence. However, even in simple maze environments, LLMs often struggle to plan correct paths due to hallucination issues. To address this, we propose S2ERS, an LLM-based technique that integrates entity and relation extraction with the on-policy reinforcement learning algorithm Sarsa for optimal path planning. We introduce three key improvements: (1) To tackle the hallucination of spatial, we extract a graph structure of entities and relations from the text-based maze description, aiding LLMs in accurately comprehending spatial relationships. (2) To prevent LLMs from getting trapped in dead ends due to context inconsistency hallucination by long-term reasoning, we insert the state-action value function Q into the prompts, guiding the LLM’s path planning. (3) To reduce the token consumption of LLMs, we utilize multi-step reasoning, dynamically inserting local Q-tables into the prompt to assist the LLM in outputting multiple steps of actions at once. Our comprehensive experimental evaluation, conducted using closed-source LLMs ChatGPT 3.5, ERNIE-Bot 4.0 and open-source LLM ChatGLM-6B, demonstrates that S2ERS significantly mitigates the spatial hallucination issues in LLMs, and improves the success rate and optimal rate by approximately 29% and 19%, respectively, in comparison to the SOTA CoT methods.",
+      "doi": "10.1038/s41598-025-93601-5",
+      "url": "https://www.semanticscholar.org/paper/55adbe4a6511a9c036024c6e2a637782d53289f4",
+      "pdf_url": "https://doi.org/10.1038/s41598-025-93601-5",
+      "fields_of_study": [
+        "Medicine"
+      ],
+      "publication_date": "2025-03-14"
+    },
+    {
+      "id": "471e270a6e1943c9bf1472dfdd4c9df7671344e6",
+      "title": "Large Language Models (LLMs) for Wireless Networks: An Overview from the Prompt Engineering Perspective",
+      "authors": [
+        "Hao Zhou",
+        "Chengming Hu",
+        "Dun Yuan",
+        "Ye Yuan",
+        "Di Wu",
+        "Xi Chen",
+        "Hina Tabassum",
+        "Xue Liu"
+      ],
+      "year": 2024,
+      "venue": "arXiv.org",
+      "citation_count": 7,
+      "abstract": null,
+      "doi": "10.48550/arXiv.2411.04136",
+      "url": "https://www.semanticscholar.org/paper/471e270a6e1943c9bf1472dfdd4c9df7671344e6",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "e384224d841be009da20969f0ca9b4b471e291ee",
+      "title": "Prompt Fix: Vulnerability Automatic Repair Technology Based on Prompt Engineering",
+      "authors": [
+        "Peng Liu",
+        "He Wang",
+        "Chen Zheng",
+        "Yuqing Zhang"
+      ],
+      "year": 2024,
+      "venue": "International Conference on Computing, Networking and Communications",
+      "citation_count": 7,
+      "abstract": "With the emergence of large-scale language models (LLM), the powerful capabilities of LLM in natural language processing have attracted attention. Based on programming language LLM (Programming Language Model, PLM), we use prompt templates to explore its potential in the field of automatic vulnerability repair, and combine it with a special workflow to improve its efficiency in automatic vulnerability repair tasks. Specifically, we design four prompt templates for handling vulner-able code, and design an iterative reasoning method to improve the efficiency of vulnerability fixing. We selected multiple typical LLMs for evaluation on multiple data sets. The results show that reasonable prompt templates can effectively improve the efficiency of automatic vulnerability repair, which is significantly improved compared with neural machine translation technology. In addition, we also discussed previous bug fixing related work and our work, and pointed out some of our shortcomings and directions for future improvements.",
+      "doi": "10.1109/ICNC59896.2024.10556123",
+      "url": "https://www.semanticscholar.org/paper/e384224d841be009da20969f0ca9b4b471e291ee",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-02-19"
+    },
+    {
+      "id": "b9ebf505879ea2c4809881c68b7328d26e359442",
+      "title": "SU-FMI at SemEval-2024 Task 5: From BERT Fine-Tuning to LLM Prompt Engineering - Approaches in Legal Argument Reasoning",
+      "authors": [
+        "Kristiyan Krumov",
+        "S. Boytcheva",
+        "Ivan Koytchev"
+      ],
+      "year": 2024,
+      "venue": "International Workshop on Semantic Evaluation",
+      "citation_count": 5,
+      "abstract": "This paper presents our approach and findings for SemEval-2024 Task 5, focusing on legal argument reasoning. We explored the effectiveness of fine-tuning pre-trained BERT models and the innovative application of large language models (LLMs) through prompt engineering in the context of legal texts. Our methodology involved a combination of techniques to address the challenges posed by legal language processing, including handling long texts and optimizing natural language understanding (NLU) capabilities for the legal domain. Our contributions were validated by achieving a third-place ranking on the SemEval 2024 Task 5 Leaderboard. The results underscore the potential of LLMs and prompt engineering in enhancing legal reasoning tasks, offering insights into the evolving landscape of NLU technologies within the legal field.",
+      "doi": "10.18653/v1/2024.semeval-1.235",
+      "url": "https://www.semanticscholar.org/paper/b9ebf505879ea2c4809881c68b7328d26e359442",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "857f3522ac09ba41428aa90e9b97e3d635d615b0",
+      "title": "\"Well, Keep Thinking\": Enhancing LLM Reasoning with Adaptive Injection Decoding",
+      "authors": [
+        "Hyunbin Jin",
+        "J. Yeom",
+        "Seunghyun Bae",
+        "Taesup Kim"
+      ],
+      "year": 2025,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "citation_count": 5,
+      "abstract": "Large language models (LLMs) exhibit strong reasoning abilities, often attributed to few-shot or zero-shot chain-of-thought (CoT) prompting. While effective, these methods require labor-intensive prompt engineering, raising the question of whether reasoning can be induced without reliance on explicit prompts. In this work, we unlock the reasoning capabilities of LLMs without explicit prompting. Inspired by zero-shot CoT and CoT-decoding, we propose a novel decoding strategy that systematically nudges LLMs to continue reasoning, thereby preventing immature reasoning processes. Specifically, we monitor the model's generation and inject a designated phrase whenever it is likely to conclude its response prematurely, before completing the reasoning process. Our experimental evaluations on diverse reasoning benchmarks demonstrate that our proposed strategy substantially improves LLM reasoning capabilities, highlighting the potential of decoding-based interventions as an alternative to traditional prompting techniques.",
+      "doi": "10.48550/arXiv.2503.10167",
+      "url": "https://www.semanticscholar.org/paper/857f3522ac09ba41428aa90e9b97e3d635d615b0",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-03-13"
+    },
+    {
+      "id": "a558b5d94a387ba3bb3996307d2dd3c08dc4f708",
+      "title": "Prompt Engineering ChatGPT for Codenames",
+      "authors": [
+        "Matthew Sidji",
+        "Matthew Stephenson"
+      ],
+      "year": 2024,
+      "venue": "2024 IEEE Conference on Games (CoG)",
+      "citation_count": 5,
+      "abstract": "The word association game Codenames challenges the AI community with its requirements for multimodal language understanding, theory of mind, and epistemic reasoning. Previous attempts to develop AI agents for the game have focused on word embedding techniques, which while good with other models using the same technique, can sometimes suffer from brittle performance when paired with other models. Recently, Large Language Models (LLMs) have demonstrated enhanced capabilities, excelling in complex cognitive tasks, including symbolic and common sense reasoning. In this paper, we compare a range of recent prompt engineering techniques for GPT-based Codenames agents. While there was no significant game score improvement over the baseline agent, we did observe qualitative changes in agents’ strategies suggesting that further refinement has potential for score improvement. We also propose a revised Codenames AI competition specifically focusing on the use of LLM agents.",
+      "doi": "10.1109/CoG60054.2024.10645591",
+      "url": "https://www.semanticscholar.org/paper/a558b5d94a387ba3bb3996307d2dd3c08dc4f708",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-08-05"
+    },
+    {
+      "id": "f2f2cefe9a233ca8b909cae56b60bfe0dc4234cc",
+      "title": "Improving LLM Reasoning through Interpretable Role-Playing Steering",
+      "authors": [
+        "Anyi Wang",
+        "Dong Shu",
+        "Yifan Wang",
+        "Yunpu Ma",
+        "Mengnan Du"
+      ],
+      "year": 2025,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "citation_count": 4,
+      "abstract": "Role-playing has emerged as an effective technique for enhancing the reasoning capabilities of large language models (LLMs). However, existing methods primarily rely on prompt engineering, which often lacks stability and interpretability. In this paper, we introduce Sparse Autoencoder Role-Playing Steering (SRPS), a novel framework that identifies and manipulates internal model features associated with role-playing behavior. Our approach extracts latent representations from role-play prompts, selects the most relevant features based on activation patterns, and constructs a steering vector that can be injected into the model's residual stream with controllable intensity. Our method enables fine-grained control over role-specific behavior and offers insights into how role information influences internal model activations. Extensive experiments across various reasoning benchmarks and model sizes demonstrate consistent performance gains. Notably, in the zero-shot chain-of-thought (CoT) setting, the accuracy of Llama3.1-8B on CSQA improves from 31.86% to 39.80%, while Gemma2-9B on SVAMP increases from 37.50% to 45.10%. These results highlight the potential of SRPS to enhance reasoning ability in LLMs, providing better interpretability and stability compared to traditional prompt-based role-playing.",
+      "doi": "10.48550/arXiv.2506.07335",
+      "url": "https://www.semanticscholar.org/paper/f2f2cefe9a233ca8b909cae56b60bfe0dc4234cc",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-06-09"
+    },
+    {
+      "id": "0c7801a4833759fb47fae54334420d6467ee0059",
+      "title": "Prompt Engineering: How Prompt Vocabulary affects Domain Knowledge",
+      "authors": [
+        "Dimitri Schreiter"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 3,
+      "abstract": "Prompt engineering has emerged as a critical component in optimizing large language models (LLMs) for domain-specific tasks. However, the role of prompt specificity, especially in domains like STEM (physics, chemistry, biology, computer science and mathematics), medicine, and law, remains underexplored. This thesis addresses the problem of whether increasing the specificity of vocabulary in prompts improves LLM performance in domain-specific question-answering and reasoning tasks. We developed a synonymization framework to systematically substitute nouns, verbs, and adjectives with varying specificity levels, measuring the impact on four LLMs: Llama-3.1-70B-Instruct, Granite-13B-Instruct-V2, Flan-T5-XL, and Mistral-Large 2, across datasets in STEM, law, and medicine. Our results reveal that while generally increasing the specificity of prompts does not have a significant impact, there appears to be a specificity range, across all considered models, where the LLM performs the best. Identifying this optimal specificity range offers a key insight for prompt design, suggesting that manipulating prompts within this range could maximize LLM performance and lead to more efficient applications in specialized domains.",
+      "doi": "10.48550/arXiv.2505.17037",
+      "url": "https://www.semanticscholar.org/paper/0c7801a4833759fb47fae54334420d6467ee0059",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-05-10"
+    },
+    {
+      "id": "3a36e444c21000e90ea0a750eca2612f47e8ef23",
+      "title": "Realizing the possibilities of the large language models: Strategies for prompt engineering in educational inquiries",
+      "authors": [
+        "Ana-Paula Correia",
+        "Sean Hickey",
+        "Fan Xu"
+      ],
+      "year": 2025,
+      "venue": "Theory and Practice",
+      "citation_count": 3,
+      "abstract": "ABSTRACT This article examines the potential of Large Language Models (LLMs) to transform educational inquiries, emphasizing effective prompt engineering strategies. It begins by introducing LLMs and applications of generative AI tools in education. The article explores the fundamental principles of prompt engineering and LLMs, outlining strategies for educators to interact effectively with these models. It emphasizes the vital role of teacher-LLM interactions, highlighting the need for carefully crafted prompts to elicit high quality and pedagogically valuable responses. We discuss chain-of-thought prompting as a method for promoting deeper reasoning in LLM outputs. We offer other practical strategies for effective prompt engineering, providing actionable insights for teachers to enhance their professional practices. We also address ethical and practical considerations, including bias in AI responses and the importance of teacher autonomy and professional judgment.",
+      "doi": "10.1080/00405841.2025.2528545",
+      "url": "https://www.semanticscholar.org/paper/3a36e444c21000e90ea0a750eca2612f47e8ef23",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-07-09"
+    },
+    {
+      "id": "981196b2a6e691673ca6f0249e770c2801070d7f",
+      "title": "Performance Analysis of Prompt-Engineering Techniques for Large Language Model",
+      "authors": [
+        "Minjun Son",
+        "Sungjin Lee"
+      ],
+      "year": 2025,
+      "venue": "IEEE International Conference on Consumer Electronics",
+      "citation_count": 3,
+      "abstract": "In this paper, we analyze the performance of three large language models (LLMs) - Llama3, Gemma2, and Mistral - using various combinations of prompt engineering techniques, focusing on the TruthfulQA and Winogrande datasets. In TruthfulQA, which emphasizes evaluating the truthfulness and cognitive errors of language models, the Chain of Thought (CoT) and Retrieval-Augmented Generation (RAG) techniques demonstrated superior performance. On the other hand, in Wino-grande, which assesses contextual reasoning abilities based on common-sense knowledge, CoT and In-Context Learning (ICL) were found to be effective. The performance analysis by model revealed that Llama3 exhibited the most significant improvement when prompt engineering techniques were applied. Meanwhile, Gemma2 achieved the highest overall performance across all evaluation metrics. This study highlights the importance of selecting appropriate prompt engineering techniques tailored to each model to maximize LLM performance, demonstrating that effective combinations of techniques can substantially enhance the models' reasoning abilities and accuracy.",
+      "doi": "10.1109/ICCE63647.2025.10930066",
+      "url": "https://www.semanticscholar.org/paper/981196b2a6e691673ca6f0249e770c2801070d7f",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-01-11"
+    },
+    {
+      "id": "e02864ff6afa0e509a708b68b8dfa5ec1b825a0d",
+      "title": "Prompt engineering for accurate statistical reasoning with large language models in medical research",
+      "authors": [
+        "S. Vilakati"
+      ],
+      "year": 2025,
+      "venue": "Frontiers Artif. Intell.",
+      "citation_count": 2,
+      "abstract": "Background The integration of generative artificial intelligence (AI), particularly large language models (LLMs), into medical statistics offers transformative potential. However, it also introduces risks of erroneous responses, especially in tasks requiring statistical rigor. Objective To evaluate the effectiveness of various prompt engineering strategies in guiding LLMs toward accurate and interpretable statistical reasoning in biomedical research. Methods Four prompting strategies: zero-shot, explicit instruction, chain-of-thought, and hybrid were assessed using artificial datasets involving descriptive and inferential statistical tasks. Outputs from GPT-4.1 and Claude 3.7 Sonnet were evaluated using Microsoft Copilot as an LLM-as-a-judge, with human oversight. Results Zero-shot prompting was sufficient for basic descriptive tasks but failed in inferential contexts due to lack of assumption checking. Hybrid prompting, which combines explicit instructions, reasoning scaffolds, and format constraints, consistently produced the most accurate and interpretable results. Evaluation scores across four criteria–assumption checking, test selection, output completeness, and interpretive quality confirmed the superiority of structured prompts. Conclusion Prompt design is a critical determinant of output quality in AI-assisted statistical analysis. Hybrid prompting strategies should be adopted as best practice in medical research to ensure methodological rigor and reproducibility. Additional testing with newer models, including Claude 4 Sonnet, Claude 4 Opus, o3 mini, and o4 mini, confirmed the consistency of results, supporting the generalizability of findings across both Anthropic and OpenAI model families. This study highlights prompt engineering as a core competency in AI-assisted medical research and calls for the development of standardized prompt templates, evaluation rubrics, and further studies across diverse statistical domains to support robust and reproducible scientific inquiry.",
+      "doi": "10.3389/frai.2025.1658316",
+      "url": "https://www.semanticscholar.org/paper/e02864ff6afa0e509a708b68b8dfa5ec1b825a0d",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science",
+        "Medicine"
+      ],
+      "publication_date": "2025-10-13"
+    },
+    {
+      "id": "cff4c0ca07f0b9e41838c52e7532232ca3253e3e",
+      "title": "Enhancing Large Language Model Comprehension of Material Phase Diagrams through Prompt Engineering and Benchmark Datasets",
+      "authors": [
+        "Yang Zha",
+        "Ying Li",
+        "Xiao-Gang Lu"
+      ],
+      "year": 2024,
+      "venue": "Mathematics",
+      "citation_count": 2,
+      "abstract": "Large Language Models (LLMs) excel in fields such as natural language understanding, generation, complex reasoning, and biomedicine. With advancements in materials science, traditional manual annotation methods for phase diagrams have become inadequate due to their time-consuming nature and limitations in updating thermodynamic databases. To overcome these challenges, we propose a framework based on instruction tuning, utilizing LLMs for automated end-to-end annotation of phase diagrams. High-quality phase diagram images and expert descriptions are collected from handbooks and then preprocessed to correct errors, remove redundancies, and enhance information. These preprocessed data form a golden dataset, from which a subset are used to train LLMs through hierarchical sampling. The fine-tuned LLM is then tested for automated phase diagram annotation. Results show that the fine-tuned model achieves a cosine similarity of 0.8737, improving phase diagram comprehension accuracy by 7% compared to untuned LLMs. To the best of our knowledge, this is the first paper to propose using LLMs for the automated annotation of phase diagrams, replacing traditional manual annotation methods and significantly enhancing efficiency and accuracy.",
+      "doi": "10.3390/math12193141",
+      "url": "https://www.semanticscholar.org/paper/cff4c0ca07f0b9e41838c52e7532232ca3253e3e",
+      "pdf_url": "https://doi.org/10.3390/math12193141",
+      "fields_of_study": null,
+      "publication_date": "2024-10-08"
+    },
+    {
+      "id": "1600f96cb9d67221b3a55de817182a718d67942f",
+      "title": "HW-TSC at SemEval-2024 Task 9: Exploring Prompt Engineering Strategies for Brain Teaser Puzzles Through LLMs",
+      "authors": [
+        "Yinglu Li",
+        "Yanqing Zhao",
+        "Min Zhang",
+        "Yadong Deng",
+        "Aiju Geng",
+        "Xiaoqin Liu",
+        "Mengxin Ren",
+        "Yuang Li",
+        "Chang Su",
+        "Xiaofeng Zhao"
+      ],
+      "year": 2024,
+      "venue": "International Workshop on Semantic Evaluation",
+      "citation_count": 2,
+      "abstract": "Large Language Models (LLMs) have demonstrated impressive performance on many Natural Language Processing (NLP) tasks. However, their ability to solve more creative, lateral thinking puzzles remains relatively unexplored. In this work, we develop methods to enhance the lateral thinking and puzzle-solving capabilities of LLMs. We curate a dataset of word-type and sentence-type brain teasers requiring creative problem-solving abilities beyond commonsense reasoning. We first evaluate the zero-shot performance of models like GPT-3.5 and GPT-4 on this dataset. To improve their puzzle-solving skills, we employ prompting techniques like providing reasoning clues and chaining multiple examples to demonstrate the desired thinking process. We also fine-tune the state-of-the-art Mixtral 7x8b LLM on ourdataset. Our methods enable the models to achieve strong results, securing 2nd and 3rd places in the brain teaser task. Our work highlights the potential of LLMs in acquiring complex reasoning abilities with the appropriate training. The efficacy of our approaches opens up new research avenues into advancing lateral thinking and creative problem-solving with AI systems.",
+      "doi": "10.18653/v1/2024.semeval-1.234",
+      "url": "https://www.semanticscholar.org/paper/1600f96cb9d67221b3a55de817182a718d67942f",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "179ec0a37dea6e6de2f1240a0b0fbd3be17c3336",
+      "title": "Enhancing information extraction from long document: utilizing LLM's prompt engineering for long document set generation",
+      "authors": [
+        "Liyong Xiao",
+        "Xiaoli Cao",
+        "Can Tang",
+        "Xuan Lai",
+        "Xiuling Zhu",
+        "Zhiqiang Han"
+      ],
+      "year": 2024,
+      "venue": "Other Conferences",
+      "citation_count": 1,
+      "abstract": "Large Language Models (LLMs) face challenges such as outdated knowledge, generation illusions, and opaque reasoning processes. To address these challenges, Retrieval-Augmented Generation (RAG) has emerged as a solution by integrating external knowledge bases. However, traditional RAG encounters bottlenecks when dealing with long documents, such as information loss, incoherence, and low query precision at the granularity level. To tackle these issues, a novel method based on prompt engineering for efficient extraction of information from long documents is proposed. Firstly, a prompt engineering-based document segmentation algorithm is introduced to enhance the model’s capability to handle long document inputs. Then, utilizing prompt engineering, long documents are transformed into structured long document datasets with hierarchical summaries, including titles, headings, abstracts, and keywords, highlighting key information points to enhance document understanding and retrieval matching efficiency. Experimental results demonstrate that this method significantly improves the quality and precision of information extraction from long documents, outperforming traditional retrievalaugmented generation paradigms, thus paving the way for the development of interactive question-answering systems tailored for multi-document, multi-knowledge point scenarios. This method efficiently locates relevant content in long document sets based on query semantics, providing precise responses.",
+      "doi": "10.1117/12.3049923",
+      "url": "https://www.semanticscholar.org/paper/179ec0a37dea6e6de2f1240a0b0fbd3be17c3336",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Engineering"
+      ],
+      "publication_date": "2024-10-28"
+    },
+    {
+      "id": "bc5cac87205c9854c57a694987786a862517c445",
+      "title": "Expanding Horizons in Prompt Engineering: Techniques, Frameworks, and Challenges",
+      "authors": [
+        "Nan Wu"
+      ],
+      "year": 2025,
+      "venue": "INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
+      "citation_count": 1,
+      "abstract": "Abstract—Prompt engineering is a critical method\nfor guiding large language models (LLMs) to perform\ndiverse tasks effectively. This paper reviews prompt\nengineering techniques, including example-driven\napproaches, logic steps, and modular frameworks,\nhighlighting their adaptability and limitations. It\nemphasizes the need for robust evaluation metrics,\naddressing gaps in reasoning quality and task\nadherence. By proposing novel evaluation approaches\nsuch as token-level entropy, this study advances\nunderstanding of prompt effectiveness, paving the\nway for more reliable, ethical, and domain-specific\nLLM applications.\nKeywords—prompt engineering, language models,\nchain of thought, AI benchmark",
+      "doi": "10.55041/ijsrem40635",
+      "url": "https://www.semanticscholar.org/paper/bc5cac87205c9854c57a694987786a862517c445",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-01-13"
+    },
+    {
+      "id": "94018aa81f702518b393ff03202c6d0101ce1f55",
+      "title": "Inclusive prompt engineering for large language models: a modular framework for ethical, structured, and adaptive AI",
+      "authors": [
+        "M. Torkestani",
+        "Ali Alameer",
+        "Shivakumara Palaiahnakote",
+        "Taha Manosuri"
+      ],
+      "year": 2025,
+      "venue": "Artificial Intelligence Review",
+      "citation_count": 1,
+      "abstract": null,
+      "doi": "10.1007/s10462-025-11330-7",
+      "url": "https://www.semanticscholar.org/paper/94018aa81f702518b393ff03202c6d0101ce1f55",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-08-21"
+    },
+    {
+      "id": "054378abd808fd0efebc13360f6dee99cfdd20e4",
+      "title": "LLMs as Method Actors: A Model for Prompt Engineering and Architecture",
+      "authors": [
+        "Colin Doyle"
+      ],
+      "year": 2024,
+      "venue": "arXiv.org",
+      "citation_count": 1,
+      "abstract": "We introduce\"Method Actors\"as a mental model for guiding LLM prompt engineering and prompt architecture. Under this mental model, LLMs should be thought of as actors; prompts as scripts and cues; and LLM responses as performances. We apply this mental model to the task of improving LLM performance at playing Connections, a New York Times word puzzle game that prior research identified as a challenging benchmark for evaluating LLM reasoning. Our experiments with GPT-4o show that a\"Method Actors\"approach can significantly improve LLM performance over both a vanilla and\"Chain of Thoughts\"approach. A vanilla approach solves 27% of Connections puzzles in our dataset and a\"Chain of Thoughts\"approach solves 41% of puzzles, whereas our strongest\"Method Actor\"approach solves 86% of puzzles. We also test OpenAI's newest model designed specifically for complex reasoning tasks, o1-preview. When asked to solve a puzzle all at once, o1-preview solves 79% of Connections puzzles in our dataset, and when allowed to build puzzle solutions one guess at a time over multiple API calls, o1-preview solves 100% of the puzzles. Incorporating a\"Method Actor\"prompt architecture increases the percentage of puzzles that o1-preview solves perfectly from 76% to 87%.",
+      "doi": "10.48550/arXiv.2411.05778",
+      "url": "https://www.semanticscholar.org/paper/054378abd808fd0efebc13360f6dee99cfdd20e4",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-11-08"
+    },
+    {
+      "id": "7e2fc1014c999e42d2eb442e4a8d0aca52563b66",
+      "title": "Navigating the Evolution of Large Language Models in Business Analysis: A Comparative Study of RAG, Prompt Engineering, and Fine-Tuning Techniques",
+      "authors": [
+        "Andrea Alberici",
+        "Nevila Baci"
+      ],
+      "year": 2024,
+      "venue": "International Scientific Conference EMAN – Economics and Management: How to Cope with Disrupted Times",
+      "citation_count": 1,
+      "abstract": "The rapid advancements in large language models (LLMs) could prove to have significantly impacted the field of business analysis, particu­larly in the development of domain-specific languages (DSLs) tailored to de­scribe business requirements with precision and flexibility. The study high­lights the substantial progress in LLM capabilities, including extended con­text understanding, enhanced reasoning, and mathematical function­alities, which collectively facilitate deeper integration of domain-specific knowledge into business analysis processes.\n\nThe authors critically assess the relevance of Retrieval Augmented Gener­ative techniques that offer advanced knowledge injection methods, along with prompt engineering reasoning techniques, as opposed to fine-tun­ing LLMs. Furthermore, the research evaluates the strategic decision-mak­ing process for business analysts in adopting these technological advance­ments. The paper discusses whether business analysts should take a proac­tive or cautious approach when incorporating these AI-driven methodolo­gies into their analytical frameworks, or just wait for the next turn of LLM’s improvements.\n\nBy examining various case studies and conducting interviews with experts, this study provides insights into how the deliberate application of advanced LLM techniques can offset the services brought by RAG/Prompt engineer­ing techniques. The text also provides guidance for navigating the techno­logical landscape, indicating that it is important to stay updated with rap­id advancements. A strategic combination of RAG, prompt engineering, and fine-tuning can provide a balanced and effective approach to creating in­tentional frameworks that meet the evolving needs of businesses today.",
+      "doi": "10.31410/eman.s.p.2024.121",
+      "url": "https://www.semanticscholar.org/paper/7e2fc1014c999e42d2eb442e4a8d0aca52563b66",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "2bb2e8eb9c63ba246dfc919776871a7009114a3e",
+      "title": "Does Reasoning Help LLM Agents Play Dungeons and Dragons? A Prompt Engineering Experiment",
+      "authors": [
+        "Patricia Delafuente",
+        "Arya Honraopatil",
+        "Lara J. Martin"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 0,
+      "abstract": "This paper explores the application of Large Language Models (LLMs) and reasoning to predict Dungeons&Dragons (DnD) player actions and format them as Avrae Discord bot commands. Using the FIREBALL dataset, we evaluated a reasoning model, DeepSeek-R1-Distill-LLaMA-8B, and an instruct model, LLaMA-3.1-8B-Instruct, for command generation. Our findings highlight the importance of providing specific instructions to models, that even single sentence changes in prompts can greatly affect the output of models, and that instruct models are sufficient for this task compared to reasoning models.",
+      "doi": "10.48550/arXiv.2510.18112",
+      "url": "https://www.semanticscholar.org/paper/2bb2e8eb9c63ba246dfc919776871a7009114a3e",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-10-20"
+    },
+    {
+      "id": "e1bd4e25c16e29d53b5086eb02f288eb850d8e45",
+      "title": "CO-STEP: A Prompt Engineering Framework Improving LLM's Response",
+      "authors": [
+        "Tuan Pham",
+        "Cuong Doan Cao"
+      ],
+      "year": 2025,
+      "venue": "2025 10th International Conference on Applying New Technology in Green Buildings (ATiGB)",
+      "citation_count": 0,
+      "abstract": null,
+      "doi": "10.1109/ATiGB66719.2025.11142099",
+      "url": "https://www.semanticscholar.org/paper/e1bd4e25c16e29d53b5086eb02f288eb850d8e45",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-07-25"
+    },
+    {
+      "id": "2e6a67c3e50304ae2852accfa27843696033f603",
+      "title": "LLM Prompt Engineering for IEEE 802.11 DCF Optimization",
+      "authors": [
+        "Jingyi Zuo",
+        "Qiao Lan",
+        "Ziyang Guo",
+        "Peng Liu",
+        "Jian Song"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE International Conference on Communications Workshops (ICC Workshops)",
+      "citation_count": 0,
+      "abstract": "The emergence of large-language models (LLMs) has catalyzed paradigm shifts in addressing engineering challenges. Although initial attempts have explored LLMs in wireless communications, existing approaches primarily focus on naïve prompts or fine-tuning for specific tasks such as protocol comprehension and resource allocation. In this paper, we introduce the first LLM reasoning framework specifically designed for optimizing the Distributed Coordination Function (DCF) in Wi-Fi networks. Our framework leverages inference-time computing to exploit the reasoning capabilities of LLMs, eliminating the need for task-specific fine-tuning. We instantiate our design in the context of low-delay channel access for next-generation Wireless Local Area Networks (WLANs), implementing reasoning pipelines with varying computational costs, including zero-shot, in-context learning (ICL) and chain-of-thought (CoT) techniques. Experimental results using leading LLMs, specifically Qwen2.5 and DeepSeek-R1, demonstrate the framework’s superiority over traditional protocol benchmarks, achieving an 89.76% reduction in tail delay with CoT prompting. We further analyze the scaling law and the trade-off between computational cost and reasoning performance, providing practical insights for future research in this domain.",
+      "doi": "10.1109/ICCWorkshops67674.2025.11162196",
+      "url": "https://www.semanticscholar.org/paper/2e6a67c3e50304ae2852accfa27843696033f603",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-06-08"
+    },
+    {
+      "id": "005a25e2cea853a849693a7850c64205bb1b9076",
+      "title": "Conceptual Design of an LLM-Based Tech Product Recommendation System Using LangChain, LangGraph, Firecrawl, and n8n with RAG, Fine-Tuning, Prompt Engineering, and KNN with Cosine Similarity",
+      "authors": [
+        "Mrs. Abha Pathak",
+        "Mrs. Tejaswini Mali",
+        "Mr. Sanket Rathod",
+        "Mr. Niraj Rane",
+        "Ms. Aditi Rakh",
+        "Ms. Swapnali Pimpare"
+      ],
+      "year": 2025,
+      "venue": "International Journal of Advanced Research in Science, Communication and Technology",
+      "citation_count": 0,
+      "abstract": "Choosing the right technology product has become increasingly difficult for consumers due to limited technical knowledge, rapidly evolving specifications, and the overwhelming number of available options. Traditional recommendation systems rely on static filters or keyword-based searches, often producing incomplete or context-insensitive results. This paper proposes a conceptual design for an AI-driven recommendation framework that leverages Large Language Models (LLMs) to deliver accurate, explainable, and personalized product suggestions. The system integrates LangChain and LangGraph to manage reasoning, tool orchestration, and multi-step control flow, while product similarity is computed using K-Nearest Neighbors (KNN) with cosine similarity. To ensure factual grounding and reduce hallucination, the design incorporates Retrieval-Augmented Generation (RAG), complemented by fine-tuning and prompt engineering for domain-specific alignment. A continuously updated product knowledge base, maintained through automated web scraping using Firecrawl and workflow synchronization via n8n, supports real-time data accuracy. The proposed framework enables natural-language interaction and aims to provide reliable recommendations for devices such as smartphones, laptops, and wearables, offering a scalable and modular foundation for next-generation tech product advisory systems",
+      "doi": "10.48175/ijarsct-29973",
+      "url": "https://www.semanticscholar.org/paper/005a25e2cea853a849693a7850c64205bb1b9076",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-11-21"
+    },
+    {
+      "id": "f52f3707aa84546ecbfebee4426d12919196340a",
+      "title": "Context-Aware Prompt Engineering and Time-Aware LLM Architecture for Radiology Report Generation",
+      "authors": [
+        "Medini Mariem",
+        "Bouslimi Riadh",
+        "Kaouther Nouira Ferchichi"
+      ],
+      "year": 2025,
+      "venue": "ACS/IEEE International Conference on Computer Systems and Applications",
+      "citation_count": 0,
+      "abstract": "Recent advances in large language models (LLMs) have enabled new possibilities for automated radiology reporting, yet key challenges remain, including lack of contextualization, absence of longitudinal reasoning, and risk of clinically inaccurate content. We propose a lightweight, modular architecture that combines a pre-trained LLM with a context-aware Prompt Constructor and a temporal reasoning engine. Prompts are dynamically adapted based on imaging modality, clinical indication, and prior reports, supported by a fuzzy logic-driven rule base and a temporal summarizer to ensure clinical nuance and continuity. Our system is evaluated through realistic case scenarios across multiple imaging types and externally validated on 250 cases from the MIMIC-CXR dataset. Results demonstrate significant gains in BLEU, ROUGE, and BERTScore over baseline prompting, with expert review confirming improved structure, diagnostic alignment, and reduced hallucinations. These findings support the practical integration of explainable and configurable LLMbased systems into real-world radiology workflows.",
+      "doi": "10.1109/AICCSA66935.2025.11315213",
+      "url": "https://www.semanticscholar.org/paper/f52f3707aa84546ecbfebee4426d12919196340a",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-10-19"
+    },
+    {
+      "id": "8044e3c1efabf08ff1f8c5c80e7e3c14d1abc600",
+      "title": "Pro Prompt-Dynamic persona-aware Prompt Construction for Robust LLM Reasoning Pipelines",
+      "authors": [
+        "Dr C Lakshmi",
+        "Pavan M R",
+        "Tousif Ahmedd",
+        "Punyashree C M",
+        "Basavaraj S A"
+      ],
+      "year": 2026,
+      "venue": "International Journal of Innovative Research in Engineering",
+      "citation_count": 0,
+      "abstract": "Integrating Large language models (LLMs) within modern software engineering workflows offers significant opportunities to accelerate the production of source code and make developer workflows more efficient. Realization of this potential is, however frequently obstructed by systemic impediments in the form of insecure and buggy code generation, inefficient resource use because of monolithic reasoning mechanisms and contradictory decline in developer productivity. This report introduces a new, multi-step prompt engineering framework that aims to overcome this limitation and fulfil the vision of fast, high-quality code generation. The framework’s key contribution is an Uncertainty -Guided Code First chain-of-thought (CoT) strategy that dynamically engages in sophisticated reasoning only when it is required, thus saving computational resources and enhancing accuracy. By combining this adaptive mechanism with a self-correction loop, the system comprehensively tackles common LLM-specific weaknesses including bug propagation and the appearance of non-prompted features. Simulation experimental analysis shows that this adaptive strategy extensively improves code quality and efficiency on common benchmarks, proposing a new, more efficient paradigm for human-AI collaboration in software development. The result demonstrate that a principled dynamic prompting strategy is vital to taking LLM- assisted development from a position of untapped potential to real-world and scalable effectiveness",
+      "doi": "10.59256/ijire.20250606012",
+      "url": "https://www.semanticscholar.org/paper/8044e3c1efabf08ff1f8c5c80e7e3c14d1abc600",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2026-01-01"
+    },
+    {
+      "id": "5860698406f0488ff05c52fda0be54f161591db0",
+      "title": "Prompt Engineering in Large Language Models: A Systematic Survey of Optimization Techniques and Real-World Applications",
+      "authors": [
+        "Susmith Barigidad"
+      ],
+      "year": 2025,
+      "venue": "Nanotechnology Perceptions",
+      "citation_count": 0,
+      "abstract": "Consequently, over the past decade, prompt engineering as a transformal technique has emerged to optimally facilitate large language models (LLMs) and vision language models (VLMs) for their transferable usage in various fields without the requirement of model retraining. The focus of this paper is on a thorough analysis of the optimization techniques available in prompt engineering field such as Zero Shot, Few Shot prompting, Chain of Thought, Auto CoT, Logical CoT (LogiCoT) and Retrieval augmented generation (RAG). These techniques boost the performance of LLMs on real-world use cases such as natural language understanding, commonsense reasoning and general solving sophisticated problems across domains in healthcare, finance, education and legal system.Additionally, this paper studies the biases, fairnes, and hallucination problems in LLM outputs and thus highlights how optimized prompt strategies can resolve them and facilitate the model generalization. It also explains the importance of interpretability in AI systems and what current limitations are, as well as the need to use transparent prompt engineering approaches.Some novel research directions suggested in the paper are meta learning for dynamic prompt adaptation, hybrid models that combine few of the techniques for optimized task performance, and the feasibility of an autonomous prompt engineering system. This research push forward to understanding these optimization techniques and in doing so, will help put forward more efficient and equitable LLM deployment across different applications. The conlcusion of the study is that putting the effort into prompt engineering will greatly push AI capabilities, while developing fair and interpretable systems.",
+      "doi": "10.62441/nano-ntp.v21is1.5134",
+      "url": "https://www.semanticscholar.org/paper/5860698406f0488ff05c52fda0be54f161591db0",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-01-05"
+    },
+    {
+      "id": "5c609f9ab78b9a5a56c4cddfb074b172275b3330",
+      "title": "You Don't Need Prompt Engineering Anymore: The Prompting Inversion",
+      "authors": [
+        "Imran Khan"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 0,
+      "abstract": "Prompt engineering, particularly Chain-of-Thought (CoT) prompting, significantly enhances LLM reasoning capabilities. We introduce\"Sculpting,\"a constrained, rule-based prompting method designed to improve upon standard CoT by reducing errors from semantic ambiguity and flawed common sense. We evaluate three prompting strategies (Zero Shot, standard CoT, and Sculpting) across three OpenAI model generations (gpt-4o-mini, gpt-4o, gpt-5) using the GSM8K mathematical reasoning benchmark (1,317 problems). Our findings reveal a\"Prompting Inversion\": Sculpting provides advantages on gpt-4o (97% vs. 93% for standard CoT), but becomes detrimental on gpt-5 (94.00% vs. 96.36% for CoT on full benchmark). We trace this to a\"Guardrail-to-Handcuff\"transition where constraints preventing common-sense errors in mid-tier models induce hyper-literalism in advanced models. Our detailed error analysis demonstrates that optimal prompting strategies must co-evolve with model capabilities, suggesting simpler prompts for more capable models.",
+      "doi": "10.48550/arXiv.2510.22251",
+      "url": "https://www.semanticscholar.org/paper/5c609f9ab78b9a5a56c4cddfb074b172275b3330",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-10-25"
+    },
+    {
+      "id": "430ae2530eaf9e6f7fa63c2f89a76d58fd0e6de4",
+      "title": "A comprehensive framework for legal dispute analysis integrating prompt engineering and multi-dimensional knowledge graphs",
+      "authors": [
+        "Mingda Zhang",
+        "Na Zhao",
+        "Jianglong Qin",
+        "Qing Xu",
+        "Kaiwen Pan",
+        "Ting Luo"
+      ],
+      "year": 2025,
+      "venue": "Scientific Reports",
+      "citation_count": 0,
+      "abstract": "Legal dispute analysis is crucial for intelligent legal assistance systems. However, current Large Language Models (LLMs) face challenges in understanding complex legal concepts, maintaining reasoning consistency, and accurately citing legal sources. This study presents a framework combining prompt engineering with multi-dimensional knowledge graphs to improve LLM capabilities for legal dispute analysis. The framework comprises a three-stage hierarchical prompt structure (task definition, knowledge background, reasoning guidance) and a three-layer knowledge graph (legal classification ontology layer, representation layer, instance layer). Additionally, four supporting methods enable legal concept retrieval: direct code matching, semantic vector similarity, ontology path reasoning, and professional terminology matching. Systematic testing on 500 test samples integrated from six internationally recognized legal AI benchmark datasets demonstrates performance improvements for mainstream models: F1 score increased from 0.356 to 0.714, BLEU-4 reached 0.451, ROUGE-L F1 improved from 0.34 to 0.71, and legal professional content quality scores increased by 18-20 points (on a 100-point scale). This framework provides a technical approach for legal analysis, contributing to the advancement of intelligent legal assistance systems.",
+      "doi": "10.1038/s41598-025-30306-9",
+      "url": "https://www.semanticscholar.org/paper/430ae2530eaf9e6f7fa63c2f89a76d58fd0e6de4",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Medicine"
+      ],
+      "publication_date": "2025-12-18"
+    },
+    {
+      "id": "b7f191c8fe437892fc8721af68a85a0268bf2f1a",
+      "title": "Ethical implications of using general-purpose LLMs in clinical settings: a comparative analysis of prompt engineering strategies and their impact on patient safety",
+      "authors": [
+        "Pouyan Esmaeilzadeh"
+      ],
+      "year": 2025,
+      "venue": "BMC Medical Informatics and Decision Making",
+      "citation_count": 0,
+      "abstract": "The rapid integration of large language models (LLMs) into healthcare raises critical ethical concerns regarding patient safety, reliability, transparency, and equitable care delivery. Despite not being trained explicitly on medical data, individuals increasingly use general-purpose LLMs to address medical questions and clinical scenarios. While prompt engineering can optimize LLM performance, its ethical implications for clinical decision-making remain underexplored. This study aimed to evaluate the ethical dimensions of prompt engineering strategies in the clinical applications of LLMs, focusing on safety, bias, transparency, and their implications for the responsible implementation of AI in healthcare. We conducted an ethics-focused analysis of three advanced and reasoning-capable LLMs (OpenAI O3, Claude Sonnet 4, Google Gemini 2.5 Pro) across six prompt engineering strategies and five clinical scenarios of varying ethical complexity. Six expert clinicians evaluated 90 responses using domains that included diagnostic accuracy, safety assessment, communication, empathy, and ethical reasoning. We specifically analyzed safety incidents, bias patterns, and transparency of reasoning processes. Significant ethical concerns emerged across all models and scenarios. Critical safety issues occurred in 12.2% of responses, with concentration in complex ethical scenarios (Level 5: 23.1% vs. Level 1: 2.3%, p < 0.001). Meta-cognitive prompting demonstrated superior ethical reasoning (mean ethics score: 78.3 ± 9.1), while safety-first prompting reduced safety incidents by 45% compared to zero-shot approaches (8.9% vs. 16.2%). However, all models showed concerning deficits in communication empathy (mean 54% of maximum) and exhibited potential bias in complex multi-cultural scenarios. Transparency varied significantly by prompt strategy, with meta-cognitive approaches providing the clearest reasoning pathways (4.2 vs. 1.8 explicit reasoning steps), which are essential for clinical accountability. The study highlighted critical gaps in ethical decision-making transparency, with meta-cognitive approaches providing 4.2 explicit reasoning steps compared to 1.8 in zero-shot methods (p < 0.001). Bias patterns disproportionately affected vulnerable populations, with systematic underestimation of treatment appropriateness in elderly patients and inadequate cultural considerations in end-of-life scenarios. Current clinical applications of general-purpose LLMs present substantial ethical challenges requiring urgent attention. While structured prompt engineering demonstrated measurable improvements in some domains, with meta-cognitive approaches showing 13.0% performance gains and safety-first prompting reducing critical incidents by 45%, substantial limitations persist across all strategies. Even optimized approaches achieved inadequate performance in communication and empathy (≤ 54% of maximum), retained residual bias patterns (11.7% in safety-first conditions), and exhibited concerning safety deficits, indicating that current prompt engineering methods provide only marginal improvements, which are insufficient for reliable clinical deployment. These findings highlight significant ethical challenges that necessitate further investigation into the development of appropriate guidelines and regulatory frameworks for the clinical use of general-purpose AI models.",
+      "doi": "10.1186/s12911-025-03182-6",
+      "url": "https://www.semanticscholar.org/paper/b7f191c8fe437892fc8721af68a85a0268bf2f1a",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Medicine",
+        "Computer Science"
+      ],
+      "publication_date": "2025-09-29"
+    },
+    {
+      "id": "5df67a58b7280bd7e847f0be1084e01bbf23f650",
+      "title": "AI Prompt Engineering for Neurologists and Trainees",
+      "authors": [
+        "Valdery Moura Junior",
+        "P. Hadar",
+        "Shawn N Murphy",
+        "L. Moura"
+      ],
+      "year": 2025,
+      "venue": "Seminars in neurology",
+      "citation_count": 0,
+      "abstract": "Abstract Large language models (LLMs) have transformative potential in neurology, impacting clinical decision-making, medical training, and research. Prompt engineering, the strategic design of inputs to optimize LLM performance, is essential for neurologists and trainees seeking to effectively integrate these powerful tools into practice. Carefully crafted prompts enable LLMs to summarize complex patient narratives, generate differential diagnoses, and support patient education. In training, structured prompts enhance diagnostic reasoning, board preparation, and interactive case-based learning. Neurological research also benefits, with LLMs aiding in data extraction, computed phenotype generation, and literature synthesis. Despite their promise, challenges remain, including hallucinations, data bias, privacy concerns, and regulatory complexities. This review synthesizes current advances and highlights best practices, including two structured prompt engineering frameworks tailored to neurology: Role-Task-Format (RTF) for routine use and our newly developed BRAIN (Background, Role, Aim, Instructions, Next steps) for complex tasks. We offer practical guidance to maximize accuracy, safety, and equity in LLM outputs, ensuring reliable support for neurologists and trainees.",
+      "doi": "10.1055/a-2742-2349",
+      "url": "https://www.semanticscholar.org/paper/5df67a58b7280bd7e847f0be1084e01bbf23f650",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Medicine"
+      ],
+      "publication_date": "2025-07-26"
+    },
+    {
+      "id": "f5cb1bbb0cb501553938f2e1beea37729f3f85e1",
+      "title": "Improving Alignment Between Human and Machine Codes: An Empirical Assessment of Prompt Engineering for Construct Identification in Psychology",
+      "authors": [
+        "Kylie L. Anglin",
+        "Stephanie Milan",
+        "Brittney Hernandez",
+        "Claudia Ventura"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 0,
+      "abstract": "Due to their architecture and vast pre-training data, large language models (LLMs) demonstrate strong text classification performance. However, LLM output - here, the category assigned to a text - depends heavily on the wording of the prompt. While literature on prompt engineering is expanding, few studies focus on classification tasks, and even fewer address domains like psychology, where constructs have precise, theory-driven definitions that may not be well represented in pre-training data. We present an empirical framework for optimizing LLM performance for identifying constructs in texts via prompt engineering. We experimentally evaluate five prompting strategies --codebook-guided empirical prompt selection, automatic prompt engineering, persona prompting, chain-of-thought reasoning, and explanatory prompting - with zero-shot and few-shot classification. We find that persona, chain-of-thought, and explanations do not fully address performance loss accompanying a badly worded prompt. Instead, the most influential features of a prompt are the construct definition, task framing, and, to a lesser extent, the examples provided. Across three constructs and two models, the classifications most aligned with expert judgments resulted from a few-shot prompt combining codebook-guided empirical prompt selection with automatic prompt engineering. Based on our findings, we recommend that researchers generate and evaluate as many prompt variants as feasible, whether human-crafted, automatically generated, or ideally both, and select prompts and examples based on empirical performance in a training dataset, validating the final approach in a holdout set. This procedure offers a practical, systematic, and theory-driven method for optimizing LLM prompts in settings where alignment with expert judgment is critical.",
+      "doi": "10.48550/arXiv.2512.03818",
+      "url": "https://www.semanticscholar.org/paper/f5cb1bbb0cb501553938f2e1beea37729f3f85e1",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-12-03"
+    },
+    {
+      "id": "2a3db75084161cd416cb9be30c8452049d26480e",
+      "title": "Beyond Prompt Engineering: Neuro-Symbolic-Causal Architecture for Robust Multi-Objective AI Agents",
+      "authors": [
+        "Gokturk Aytug Akarlar"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 0,
+      "abstract": "Large language models show promise as autonomous decision-making agents, yet their deployment in high-stakes domains remains fraught with risk. Without architectural safeguards, LLM agents exhibit catastrophic brittleness: identical capabilities produce wildly different outcomes depending solely on prompt framing. We present Chimera, a neuro-symbolic-causal architecture that integrates three complementary components - an LLM strategist, a formally verified symbolic constraint engine, and a causal inference module for counterfactual reasoning. We benchmark Chimera against baseline architectures (LLM-only, LLM with symbolic constraints) across 52-week simulations in a realistic e-commerce environment featuring price elasticity, trust dynamics, and seasonal demand. Under organizational biases toward either volume or margin optimization, LLM-only agents fail catastrophically (total loss of \\$99K in volume scenarios) or destroy brand trust (-48.6% in margin scenarios). Adding symbolic constraints prevents disasters but achieves only 43-87% of Chimera's profit. Chimera consistently delivers the highest returns (\\$1.52M and \\$1.96M respectively, some cases +\\$2.2M) while improving brand trust (+1.8% and +10.8%, some cases +20.86%), demonstrating prompt-agnostic robustness. Our TLA+ formal verification proves zero constraint violations across all scenarios. These results establish that architectural design not prompt engineering determines the reliability of autonomous agents in production environments. We provide open-source implementations and interactive demonstrations for reproducibility.",
+      "doi": "10.48550/arXiv.2510.23682",
+      "url": "https://www.semanticscholar.org/paper/2a3db75084161cd416cb9be30c8452049d26480e",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-10-27"
+    },
+    {
+      "id": "872713026b10ea980e512c9fe87a88c58f523c88",
+      "title": "Prompt Less, Smile More: MTP with Semantic Engineering in Lieu of Prompt Engineering",
+      "authors": [
+        "Jayanaka L. Dantanarayana",
+        "Savini Kashmira",
+        "Thakee Nathees",
+        "Zichen Zhang",
+        "K. Flautner",
+        "Lingjia Tang",
+        "Jason Mars"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 0,
+      "abstract": "AI-Integrated programming is emerging as a foundational paradigm for building intelligent systems with large language models (LLMs). Recent approaches such as Meaning Typed Programming (MTP) automate prompt generation by leveraging the semantics already present in code. However, many real-world applications depend on contextual cues, developer intent, and domain-specific reasoning that extend beyond what static code semantics alone can express. To address this limitation, we introduce Semantic Engineering, a lightweight method for enriching program semantics so that LLM-based systems can more accurately reflect developer intent without requiring full manual prompt design. We present Semantic Context Annotations (SemTexts), a language-level mechanism that allows developers to embed natural-language context directly into program constructs. Integrated into the Jac programming language, Semantic Engineering extends MTP to incorporate these enriched semantics during prompt generation. We further introduce a benchmark suite designed to reflect realistic AI-Integrated application scenarios. Our evaluation shows that Semantic Engineering substantially improves prompt fidelity, achieving performance comparable to Prompt Engineering while requiring significantly less developer effort.",
+      "doi": "10.48550/arXiv.2511.19427",
+      "url": "https://www.semanticscholar.org/paper/872713026b10ea980e512c9fe87a88c58f523c88",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-11-24"
+    },
+    {
+      "id": "63b817255c7c8c16dd7e25fc37ba7324f65c52ab",
+      "title": "Prompt engineering does not universally improve Large Language Model performance across clinical decision-making tasks",
+      "authors": [
+        "Mengdi Chai",
+        "Ali R. Zomorrodi"
+      ],
+      "year": 2025,
+      "venue": "",
+      "citation_count": 0,
+      "abstract": "Large Language Models (LLMs) have demonstrated promise in medical knowledge assessments, yet their practical utility in real-world clinical decision-making remains underexplored. In this study, we evaluated the performance of three state-of-the-art LLMs-ChatGPT-4o, Gemini 1.5 Pro, and LIama 3.3 70B-in clinical decision support across the entire clinical reasoning workflow of a typical patient encounter. Using 36 case studies, we first assessed LLM's out-of-the-box performance across five key sequential clinical decision-making tasks under two temperature settings (default vs. zero): differential diagnosis, essential immediate steps, relevant diagnostic testing, final diagnosis, and treatment recommendation. All models showed high variability by task, achieving near-perfect accuracy in final diagnosis, poor performance in relevant diagnostic testing, and moderate performance in remaining tasks. Furthermore, ChatGPT performed better under the zero temperature, whereas LIama showed stronger performance under the default temperature. Next, we assessed whether prompt engineering could enhance LLM performance by applying variations of the MedPrompt framework, incorporating targeted and random dynamic few-shot learning. The results demonstrate that prompt engineering is not a one-size-fit-all solution. While it significantly improved the performance on the task with lowest baseline accuracy (relevant diagnostic testing), it was counterproductive for others. Another key finding was that the targeted dynamic few-shot prompting did not consistently outperform random selection, indicating that the presumed benefits of closely matched examples may be counterbalanced by loss of broader contextual diversity. These findings suggest that the impact of prompt engineering is highly model and task-dependent, highlighting the need for tailored, context-aware strategies for integrating LLMs into healthcare.",
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/63b817255c7c8c16dd7e25fc37ba7324f65c52ab",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-12-28"
+    }
+  ]
+}

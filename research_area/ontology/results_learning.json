@@ -1,0 +1,421 @@
+{
+  "query": "ontology learning extraction",
+  "timestamp": "2026-01-25T11:46:00.649302",
+  "count": 20,
+  "papers": [
+    {
+      "id": "78b1601c013769294a1927d43e50dfa81d6af75f",
+      "title": "LLMs4OL: Large Language Models for Ontology Learning",
+      "authors": [
+        "Hamed Babaei Giglou",
+        "J. D’Souza",
+        "S. Auer"
+      ],
+      "year": 2023,
+      "venue": "International Workshop on the Semantic Web",
+      "citation_count": 136,
+      "abstract": "We propose the LLMs4OL approach, which utilizes Large Language Models (LLMs) for Ontology Learning (OL). LLMs have shown significant advancements in natural language processing, demonstrating their ability to capture complex language patterns in different knowledge domains. Our LLMs4OL paradigm investigates the following hypothesis: \\textit{Can LLMs effectively apply their language pattern capturing capability to OL, which involves automatically extracting and structuring knowledge from natural language text?} To test this hypothesis, we conduct a comprehensive evaluation using the zero-shot prompting method. We evaluate nine different LLM model families for three main OL tasks: term typing, taxonomy discovery, and extraction of non-taxonomic relations. Additionally, the evaluations encompass diverse genres of ontological knowledge, including lexicosemantic knowledge in WordNet, geographical knowledge in GeoNames, and medical knowledge in UMLS.",
+      "doi": "10.48550/arXiv.2307.16648",
+      "url": "https://www.semanticscholar.org/paper/78b1601c013769294a1927d43e50dfa81d6af75f",
+      "pdf_url": "https://arxiv.org/pdf/2307.16648",
+      "fields_of_study": [
+        "Computer Science",
+        "Mathematics"
+      ],
+      "publication_date": "2023-07-31"
+    },
+    {
+      "id": "e4b6f20f18ab3fc93f4ab51946e62830924fac84",
+      "title": "Do LLMs Really Adapt to Domains? An Ontology Learning Perspective",
+      "authors": [
+        "Huu Tan Mai",
+        "Cuong Xuan Chu",
+        "Heiko Paulheim"
+      ],
+      "year": 2024,
+      "venue": "International Workshop on the Semantic Web",
+      "citation_count": 24,
+      "abstract": "Large Language Models (LLMs) have demonstrated unprecedented prowess across various natural language processing tasks in various application domains. Recent studies show that LLMs can be leveraged to perform lexical semantic tasks, such as Knowledge Base Completion (KBC) or Ontology Learning (OL). However, it has not effectively been verified whether their success is due to their ability to reason over unstructured or semi-structured data, or their effective learning of linguistic patterns and senses alone. This unresolved question is particularly crucial when dealing with domain-specific data, where the lexical senses and their meaning can completely differ from what a LLM has learned during its training stage. This paper investigates the following question: Do LLMs really adapt to domains and remain consistent in the extraction of structured knowledge, or do they only learn lexical senses instead of reasoning? To answer this question and, we devise a controlled experiment setup that uses WordNet to synthesize parallel corpora, with English and gibberish terms. We examine the differences in the outputs of LLMs for each corpus in two OL tasks: relation extraction and taxonomy discovery. Empirical results show that, while adapting to the gibberish corpora, off-the-shelf LLMs do not consistently reason over semantic relationships between concepts, and instead leverage senses and their frame. However, fine-tuning improves the performance of LLMs on lexical semantic tasks even when the domain-specific terms are arbitrary and unseen during pre-training, hinting at the applicability of pre-trained LLMs for OL.",
+      "doi": "10.48550/arXiv.2407.19998",
+      "url": "https://www.semanticscholar.org/paper/e4b6f20f18ab3fc93f4ab51946e62830924fac84",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-07-29"
+    },
+    {
+      "id": "6c40cb1e7e06225f5c228f7d44c10f819eaec235",
+      "title": "LLMs4OL 2024 Datasets: Toward Ontology Learning with Large Language Models",
+      "authors": [
+        "Hamed Babaei Giglou",
+        "Jennifer D’Souza",
+        "Sameer Sadruddin",
+        "S. Auer"
+      ],
+      "year": 2024,
+      "venue": "LLMs4OL@ISWC",
+      "citation_count": 16,
+      "abstract": "Ontology learning (OL) from unstructured data has evolved significantly, with recent advancements integrating large language models (LLMs) to enhance various aspects of the process. The paper introduces the LLMs4OL 2024 datasets, developed to benchmark and advance research in OL using LLMs. The LLMs4OL 2024 dataset as a key component of the LLMs4OL Challenge, targets three primary OL tasks: Term Typing, Taxonomy Discovery, and Non-Taxonomic Relation Extraction. It encompasses seven domains, i.e. lexosemantics and biological functions, offering a comprehensive resource for evaluating LLM-based OL approaches Each task within the dataset is carefully crafted to facilitate both Few-Shot (FS) and Zero-Shot (ZS) evaluation scenarios, allowing for robust assessment of model performance across different knowledge domains to address a critical gap in the field by offering standardized benchmarks for fair comparison for evaluating LLM applications in OL.",
+      "doi": "10.52825/ocp.v4i.2480",
+      "url": "https://www.semanticscholar.org/paper/6c40cb1e7e06225f5c228f7d44c10f819eaec235",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-10-02"
+    },
+    {
+      "id": "061ec64edce2632870bdf72d33ddc5c046193e0a",
+      "title": "SUSIE: Pharmaceutical CMC ontology-based information extraction for drug development using machine learning",
+      "authors": [
+        "Vipul Mann",
+        "Shekhar Viswanath",
+        "Shankar Vaidyaraman",
+        "Jeya Balakrishnan",
+        "V. Venkatasubramanian"
+      ],
+      "year": 2023,
+      "venue": "Computers and Chemical Engineering",
+      "citation_count": 15,
+      "abstract": null,
+      "doi": "10.1016/j.compchemeng.2023.108446",
+      "url": "https://www.semanticscholar.org/paper/061ec64edce2632870bdf72d33ddc5c046193e0a",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-10-01"
+    },
+    {
+      "id": "c56aea470c3a41eb8b1dacf7784c8e8478c60b2c",
+      "title": "Preface for LLMs4OL 2024: The 1st Large Language Models for Ontology Learning Challenge at the 23rd ISWC",
+      "authors": [
+        "Hamed Babaei Giglou",
+        "Jennifer D’Souza",
+        "S. Auer"
+      ],
+      "year": 2024,
+      "venue": "LLMs4OL@ISWC",
+      "citation_count": 14,
+      "abstract": " \nWe are pleased to present the proceedings of the “1st Large Language Models for Ontology Learning Challenge (LLMs4OL 2024)”, held at the 23rd International Semantic Web Conference (ISWC). This challenge marks a significant a dvancement in utilizing Large Language Models (LLMs) for Ontology Learning (OL)—a key Semantic Web component that facilitates the automatic extraction of structured knowledge from unstructured data. The challenge features three main tasks: Term Typing (identifying categories for terms), Taxonomy Discovery (uncovering hierarchical relationships), and Non-Taxonomic Relation Extraction (identifying other meaningful relationships between terms). Each task is designed to test different facets of ontology construction and to encourage the exploration of innovative techniques. This challenge seeks to foster collaboration, inspire innovation, and expand the capabilities of LLMs in OL. The proceedings include a collection of innovative solutions and insights from global participants, highlighting the crucial role of LLMs in enhancing the web with structured knowledge. We believe the outcomes of this challenge will propel further advancements in OL and its applications on the semantic web. We would like to extend our gratitude to all the participants for their invaluable contributions, which their solutions and dedication have greatly enriched this challenge. Our sincere thanks also go to the conference organizers and committee for their efforts in hosting this event. We are deeply appreciative of the reviewers for their evaluations and feedback. Their reviews have been instrumental in enhancing the quality of the submissions. We would like to specifically acknowledge:\n\n Dr. Amin Keshavarzi (Postdoctoral Researcher, L3S & TIB, Germany)\n Mostafa Rahgouy (Lead Project Coordinator, Auburn University, USA)\n Sahar Tahmasebi (Doctoral Researcher, TIB, Germany)\n Milad Molazadeh Oskuee (Lead NLP Researcher, Iran)\n Aida Usmanova (Doctoral Researcher, Leuphana Universit ¨ at L¨uneburg, Germany)\n Emetis Niazmand (Doctoral Researcher, TIB, Germany)\n\nLastly, we would like to express our gratitude to ”Xenia Felice van Edig” and ”Karolina Linerová” from the TIB Open Publishing, for their support in bringing these proceedings online.\nWe also would like to acknowledge that the 1st LLMs4OL Challenge @ ISWC 2024 jointly supported by the NFDI4DataScience initiative (DFG, German Research Foundation, Grant ID: 460234259) and the SCINEXT project (BMBF, German Federal Ministry of Education and Research, Grant ID: 01lS22070).",
+      "doi": "10.52825/ocp.v4i.2472",
+      "url": "https://www.semanticscholar.org/paper/c56aea470c3a41eb8b1dacf7784c8e8478c60b2c",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-10-02"
+    },
+    {
+      "id": "0572345cd64163f7e2507fec739d5577dd106504",
+      "title": "An Accurate and Efficient Approach to Knowledge Extraction from Scientific Publications Using Structured Ontology Models, Graph Neural Networks, and Large Language Models",
+      "authors": [
+        "T. V. Ivanisenko",
+        "P. Demenkov",
+        "V. Ivanisenko"
+      ],
+      "year": 2024,
+      "venue": "International Journal of Molecular Sciences",
+      "citation_count": 14,
+      "abstract": "The rapid growth of biomedical literature makes it challenging for researchers to stay current. Integrating knowledge from various sources is crucial for studying complex biological systems. Traditional text-mining methods often have limited accuracy because they don’t capture semantic and contextual nuances. Deep-learning models can be computationally expensive and typically have low interpretability, though efforts in explainable AI aim to mitigate this. Furthermore, transformer-based models have a tendency to produce false or made-up information—a problem known as hallucination—which is especially prevalent in large language models (LLMs). This study proposes a hybrid approach combining text-mining techniques with graph neural networks (GNNs) and fine-tuned large language models (LLMs) to extend biomedical knowledge graphs and interpret predicted edges based on published literature. An LLM is used to validate predictions and provide explanations. Evaluated on a corpus of experimentally confirmed protein interactions, the approach achieved a Matthews correlation coefficient (MCC) of 0.772. Applied to insomnia, the approach identified 25 interactions between 32 human proteins absent in known knowledge bases, including regulatory interactions between MAOA and 5-HT2C, binding between ADAM22 and 14-3-3 proteins, which is implicated in neurological diseases, and a circadian regulatory loop involving RORB and NR1D1. The hybrid GNN-LLM method analyzes biomedical literature efficiency to uncover potential molecular interactions for complex disorders. It can accelerate therapeutic target discovery by focusing expert verification on the most relevant automatically extracted information.",
+      "doi": "10.3390/ijms252111811",
+      "url": "https://www.semanticscholar.org/paper/0572345cd64163f7e2507fec739d5577dd106504",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Medicine"
+      ],
+      "publication_date": "2024-11-01"
+    },
+    {
+      "id": "851e0996d2178c1dd1be8f039f438a935bce1e5a",
+      "title": "Semantic Relations Extraction and Ontology Learning from Arabic Texts—A Survey",
+      "authors": [
+        "Aya M. Al-Zoghby",
+        "Aya Elshiwi",
+        "A. Atwan"
+      ],
+      "year": 2018,
+      "venue": "",
+      "citation_count": 12,
+      "abstract": null,
+      "doi": "10.1007/978-3-319-67056-0_11",
+      "url": "https://www.semanticscholar.org/paper/851e0996d2178c1dd1be8f039f438a935bce1e5a",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "b90ae514a4486e298de19da4e539a86df761c0da",
+      "title": "DeepCause: Hypothesis Extraction from Information Systems Papers with Deep Learning for Theory Ontology Learning",
+      "authors": [
+        "Roland M. Müller",
+        "Sardor Abdullaev"
+      ],
+      "year": 2019,
+      "venue": "Hawaii International Conference on System Sciences",
+      "citation_count": 11,
+      "abstract": null,
+      "doi": "10.24251/HICSS.2019.752",
+      "url": "https://www.semanticscholar.org/paper/b90ae514a4486e298de19da4e539a86df761c0da",
+      "pdf_url": "http://scholarspace.manoa.hawaii.edu/bitstream/10125/60059/1/0619.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2019-01-08"
+    },
+    {
+      "id": "dc187b6809362c4101c91f10158df400228b1ec7",
+      "title": "Ontology Learning Based on Word Embeddings for Text Big Data Extraction",
+      "authors": [
+        "Nesma Mahmoud",
+        "Heba Elbeh",
+        "Hatem M. Abdlkader"
+      ],
+      "year": 2018,
+      "venue": "International Computer Engineering Conference",
+      "citation_count": 8,
+      "abstract": "Big Data term describes data that exists everywhere in humongous volumes, raw forms, and heterogenous types. Unstructured and uncategorized data forms 95% of big data. Text big data lacks to efficiently extract domain-relevant data in a suitable time. Thus, text big data stills a barrier for big data integration and subsequently big data analytics. Because big data integration can’t consider text big data in its process of preparing data for big data analytics. On the other side, ontology represents information and knowledge in a graph schema that provides a shareable, reusing and domain-specific data. Thus, ontology fits text big data needs of extracting domain relevant data. So, this paper proposes an ontology learning (OL) methodology for text big data extraction. OL aims to provides algorithms, techniques, and tools for automatic ontology construction from the text. The proposed OL method exploits a deep learning approach i.e., word embeddings, and advanced hierarchical clustering i.e., BIRCH. The utilization of the word embeddings and the advanced hierarchical clustering improve OL quality in text big data extraction and reduce the processing time. Also, deep learning unsupervisory learns from a massive amount of unlabeled and uncategorized raw data. This great big benefit solves analytical challenge of the text big data. In evaluation, precision, recall, and f – value for the work quality and the running time for performance are measured. The quality of work is evaluated by comparing its results with gold standard datasets results. Experimental results and evaluation demonstrate that the proposed OL methodology efficiently suitable for text big data extraction.",
+      "doi": "10.1109/ICENCO.2018.8636154",
+      "url": "https://www.semanticscholar.org/paper/dc187b6809362c4101c91f10158df400228b1ec7",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2018-12-01"
+    },
+    {
+      "id": "42e5861b8768be0bb6951eff502cea66539c85c3",
+      "title": "A Short Review for Ontology Learning: Stride to Large Language Models Trend",
+      "authors": [
+        "Rick Du",
+        "Huilong An",
+        "Keyu Wang",
+        "Weidong Liu"
+      ],
+      "year": 2024,
+      "venue": "",
+      "citation_count": 7,
+      "abstract": "Ontologies provide formal representation of knowledge shared within Semantic Web applications. Ontology learning involves the construction of ontologies from a given corpus. In the past years, ontology learning has traversed through shallow learning and deep learning methodologies, each offering distinct advantages and limitations in the quest for knowledge extraction and representation. A new trend of these approaches is relying on large language models (LLMs) to enhance ontology learning. This paper gives a review in approaches and challenges of ontology learning. It analyzes the methodologies and limitations of shallow-learning-based and deep-learning-based techniques for ontology learning, and provides comprehensive knowledge for the frontier work of using LLMs to enhance ontology learning. In addition, it proposes several noteworthy future directions for further exploration into the integration of LLMs with ontology learning tasks.",
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/42e5861b8768be0bb6951eff502cea66539c85c3",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-04-23"
+    },
+    {
+      "id": "f3407b01f9addf10da2567d0098ed3285894d585",
+      "title": "Iterative Approach for Information Extraction and Ontology Learning from Textual Aviation Safety Reports",
+      "authors": [
+        "Lama Saeeda"
+      ],
+      "year": 2017,
+      "venue": "Extended Semantic Web Conference",
+      "citation_count": 7,
+      "abstract": null,
+      "doi": "10.1007/978-3-319-58451-5_18",
+      "url": "https://www.semanticscholar.org/paper/f3407b01f9addf10da2567d0098ed3285894d585",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2017-05-28"
+    },
+    {
+      "id": "2bbaaa8f95c365fd517b3db77a941961e7688941",
+      "title": "Enhancing relevant concepts extraction for ontology learning using domain time relevance",
+      "authors": [
+        "Fatima N. Al-Aswadi",
+        "H. Chan",
+        "Gan Keng Hoon",
+        "W. Alma’aitah"
+      ],
+      "year": 2023,
+      "venue": "Information Processing & Management",
+      "citation_count": 5,
+      "abstract": null,
+      "doi": "10.1016/j.ipm.2022.103140",
+      "url": "https://www.semanticscholar.org/paper/2bbaaa8f95c365fd517b3db77a941961e7688941",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-01-01"
+    },
+    {
+      "id": "e530aca4b385ff1ad455d22c01313f1572d68495",
+      "title": "Utilizing Deep Reinforcement Learning for Advanced Pattern Extraction in Big Data Analytics and Ontology Systems",
+      "authors": [
+        "A. Karthik",
+        "A. V",
+        "Garima Bhardwaj",
+        "Ginni Nijhawan",
+        "Irfan Khan",
+        "Nabaa M. Bader"
+      ],
+      "year": 2024,
+      "venue": "2024 International Conference on Trends in Quantum Computing and Emerging Business Technologies",
+      "citation_count": 5,
+      "abstract": "The development of big data has provided unparalleled prospects for uncovering novel patterns and insights in several domains. However, the complex structure and volume of data need the use of advanced methods to successfully extract significant information. This research presents a new framework that utilizes Deep Reinforcement Learning (DRL) to improve pattern extraction in big data analytics and ontology systems. DRL, which combines deep learning with reinforcement learning, excels at dealing with data spaces that have a large number of dimensions. This makes it a good option for effectively exploring and analyzing complex datasets. The suggested framework effectively utilizes sophisticated ontological structures to integrate DRL, enabling it to accurately identify and extract complex patterns that may be overlooked by standard approaches. The study showcases the effectiveness of the framework by conducting extensive tests on diverse big datasets, demonstrating that the DRL-enhanced system surpasses previous methods in terms of both accuracy and speed. The study also addresses architectural design, the choice of reinforcement learning methods, and the found implementation issues. Moreover, it delves into the consequences of these discoveries for subsequent investigations and real-world implementations, emphasizing the capacity of DRL to transform the identification of patterns in large-scale data settings. This work enhances the area of big data analytics by offering a strong technique for extracting complex patterns, which in turn enables better informed decision-making and discovery in scientific and commercial sectors.",
+      "doi": "10.1109/TQCEBT59414.2024.10545117",
+      "url": "https://www.semanticscholar.org/paper/e530aca4b385ff1ad455d22c01313f1572d68495",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-03-22"
+    },
+    {
+      "id": "2002b02c93cc635d268253688c271301c9e8d2a1",
+      "title": "PolyNERE: A Novel Ontology and Corpus for Named Entity Recognition and Relation Extraction in Polymer Science Domain",
+      "authors": [
+        "Van-Thuy Phi",
+        "Hiroki Teranishi",
+        "Yuji Matsumoto",
+        "Hiroyuki Oka",
+        "M. Ishii"
+      ],
+      "year": 2024,
+      "venue": "International Conference on Language Resources and Evaluation",
+      "citation_count": 4,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/2002b02c93cc635d268253688c271301c9e8d2a1",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "a7d4875a31d72cd4ac279d5ade531d8c8cd940a7",
+      "title": "The Combination of YAKE and Language Processing for Unsupervised Term Extraction Ontology Learning",
+      "authors": [
+        "R. A. Yunmar",
+        "Andika Setiawan",
+        "H. Tantriawan"
+      ],
+      "year": 2020,
+      "venue": "IOP Conference Series: Earth and Environment",
+      "citation_count": 3,
+      "abstract": "Information that is spread on the internet is available in the form of unstructured texts that can only be understood by humans, but difficult for machines to understand. Ontology learning is a method that can transform information in unstructured forms, into information that can be understood by machines, namely ontology. In ontology learning, the extraction term is one of the stages that must be passed. This stage produces important terms related to a topic before finally being grouped in certain classes. In this study, the term extraction method used is YAKE. The contribution of this research is to investigate the effects of language processing such as stemming and stopword removal when combined with the YAKE method at the term extraction stage. The language processing technique is then applied to the corpus of the test, after that it is as the input to the YAKE term extraction. Testing is conducted with several scenarios, namely: plain YAKE, stemming+YAKE, stopword removal+YAKE, or a combination three of them. These extraction scenario are evaluated by expert for measure the term correctness. The research shows that the combination of stopword removal+YAKE provide the best accuracy of 48%.",
+      "doi": "10.1088/1755-1315/537/1/012023",
+      "url": "https://www.semanticscholar.org/paper/a7d4875a31d72cd4ac279d5ade531d8c8cd940a7",
+      "pdf_url": "https://doi.org/10.1088/1755-1315/537/1/012023",
+      "fields_of_study": [
+        "Physics",
+        "Computer Science"
+      ],
+      "publication_date": "2020-08-11"
+    },
+    {
+      "id": "0002562e8bc897a84ec1d92d1787c74ca614230b",
+      "title": "Dialogue Ontology Relation Extraction via Constrained Chain-of-Thought Decoding",
+      "authors": [
+        "Renato Vukovic",
+        "David Arps",
+        "Carel van Niekerk",
+        "Benjamin Matthias Ruppik",
+        "Hsien-Chin Lin",
+        "Michael Heck",
+        "Milica Gavsi'c"
+      ],
+      "year": 2024,
+      "venue": "SIGDIAL Conferences",
+      "citation_count": 3,
+      "abstract": "State-of-the-art task-oriented dialogue systems typically rely on task-specific ontologies for fulfilling user queries. The majority of task-oriented dialogue data, such as customer service recordings, comes without ontology and annotation. Such ontologies are normally built manually, limiting the application of specialised systems. Dialogue ontology construction is an approach for automating that process and typically consists of two steps: term extraction and relation extraction. In this work, we focus on relation extraction in a transfer learning set-up. To improve the generalisation, we propose an extension to the decoding mechanism of large language models. We adapt Chain-of-Thought (CoT) decoding, recently developed for reasoning problems, to generative relation extraction. Here, we generate multiple branches in the decoding space and select the relations based on a confidence threshold. By constraining the decoding to ontology terms and relations, we aim to decrease the risk of hallucination. We conduct extensive experimentation on two widely used datasets and find improvements in performance on target ontology for source fine-tuned and one-shot prompted large language models.",
+      "doi": "10.48550/arXiv.2408.02361",
+      "url": "https://www.semanticscholar.org/paper/0002562e8bc897a84ec1d92d1787c74ca614230b",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-08-05"
+    },
+    {
+      "id": "3bfbc340238909e58664045c5163950a508cd053",
+      "title": "Semi-automatic extraction and validation of concepts in ontology learning from texts in Spanish",
+      "authors": [
+        "Manuela Gómez-Suta",
+        "J. Echeverry-Correa",
+        "José A. Soto Mejía"
+      ],
+      "year": 2020,
+      "venue": "Web Intelligence, Mining and Semantics",
+      "citation_count": 2,
+      "abstract": "The construction of ontologies from texts in Spanish is a challenge since this language lacks conceptual databases to validate abstract ontology structures as concepts and relations between them. The preceding generates the necessity of using manual evaluation by human experts; carrying high expenses that limit the calibration of algorithm parameters and large-scale evaluations. This document presents a proposal to evaluate abstract ontology structures through the task of semantic clustering of documents, without the expensive necessity of using manual evaluation or conceptual databases. The proposal is not only affordable but also applicable to model data and domains that lack structured knowledge resources. The experiments lead to the extraction and validation of the ontology structures from texts in Spanish regarding the domain of the Colombian armed conflict.",
+      "doi": "10.1145/3405962.3405977",
+      "url": "https://www.semanticscholar.org/paper/3bfbc340238909e58664045c5163950a508cd053",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2020-06-30"
+    },
+    {
+      "id": "9fabecef8589c3ca27b99155a3647253855e7de3",
+      "title": "Using online update of distributional semantics models for decision-making support for concepts extraction in the domain ontology learning task",
+      "authors": [
+        "A. Anikin",
+        "A. Katyshev",
+        "M. Denisov",
+        "V. Smirnov",
+        "D. Litovkin"
+      ],
+      "year": 2019,
+      "venue": "IOP Conference Series: Materials Science and Engineering",
+      "citation_count": 2,
+      "abstract": "Most of the information processed by computer systems is presented in the form of text corpuses. The number of such texts (as well as the corpus as a whole) only increases with time, and therefore the word processing tasks remain relevant to this day. Ontology allows to describe semantics using domain concepts and relations between them [1, 2]. In the ontology learning task, the ontology is dependent on quality of corpus which may not be readily available. There are different approaches to creating ontologies (including the use of different tools and frameworks). This paper discusses the use of word2vec (group of related models that are used to produce word embeddings) using online vocabulary update and extension of the original data corpus with additional training for the domain concepts extraction to automate the domain ontology creation.",
+      "doi": "10.1088/1757-899X/483/1/012073",
+      "url": "https://www.semanticscholar.org/paper/9fabecef8589c3ca27b99155a3647253855e7de3",
+      "pdf_url": "https://doi.org/10.1088/1757-899x/483/1/012073",
+      "fields_of_study": [
+        "Computer Science",
+        "Physics"
+      ],
+      "publication_date": "2019-03-20"
+    },
+    {
+      "id": "e3abb026f8e402da16c4c95fe6ecf3a764328ab8",
+      "title": "Concepts extraction in ontology learning using language patterns for better accuracy",
+      "authors": [
+        "Rohana Ismail",
+        "Nurazzah Abd Rahman",
+        "Z. Bakar",
+        "M. Makhtar"
+      ],
+      "year": 2018,
+      "venue": "International Conference on Computing: Theory and Applications",
+      "citation_count": 2,
+      "abstract": null,
+      "doi": "10.1109/CATA.2018.8398668",
+      "url": "https://www.semanticscholar.org/paper/e3abb026f8e402da16c4c95fe6ecf3a764328ab8",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2018-06-27"
+    },
+    {
+      "id": "2b17c90a543b36f4aca6069763b9607762367da9",
+      "title": "Phoenixes at LLMs4OL 2025 Task A: Ontology Learning With Large Language Models Reasoning",
+      "authors": [
+        "Alireza Esmaeili Fridouni",
+        "Mahsa Sanaei"
+      ],
+      "year": 2025,
+      "venue": "LLMs4OL@ISWC",
+      "citation_count": 1,
+      "abstract": "Recent advances in large language models (LLMs) have demonstrated remarkable capabilities in various natural language understanding tasks, including Ontology Learning (OL), where they automatically or semi-automatically extract knowledge from unstructured data. This work presents our contribution to the LLMs4OL Challenge at the ISWC 2025 conference, focusing on Task A, which comprises two subtasks: term extraction (SubTask A1) and type extraction (SubTask A2). We evaluate three state-of-the-art LLMs — Qwen2.5-72B-Instruct, Mistral-Small-24B-Instruct-2501, and LLaMA-3.3-70B-Instruct — across three domain-specific datasets: Ecology, Scholarly, and Engineering. In this paper, we adopt a Chain-of-Thought (CoT) Few-Shot Prompting strategy to guide the models in identifying relevant domain terms and assigning their appropriate ontology types. CoT prompting enables LLMs to generate intermediate reasoning steps before producing final predictions, which is particularly beneficial for ontology learning tasks that require contextual reasoning beyond surface-level term matching. Model performance is evaluated using the official precision, recall, and F1-score metrics provided by the challenge organizers. The results reveal important insights into the strengths and limitations of LLMs in ontology learning tasks.",
+      "doi": "10.52825/ocp.v6i.2888",
+      "url": "https://www.semanticscholar.org/paper/2b17c90a543b36f4aca6069763b9607762367da9",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-10-01"
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "query": "ontology engineering",
+  "timestamp": "2026-01-25T11:45:24.961582",
+  "count": 30,
+  "papers": [
+    {
+      "id": "321f29324168a56f1b587c4177a14a290eeee583",
+      "title": "LOT: An industrial oriented ontology engineering framework",
+      "authors": [
+        "M. Poveda-Villalón",
+        "Alba Fernández-Izquierdo",
+        "M. Fernández-López",
+        "R. García-Castro"
+      ],
+      "year": 2022,
+      "venue": "Engineering applications of artificial intelligence",
+      "citation_count": 146,
+      "abstract": null,
+      "doi": "10.1016/j.engappai.2022.104755",
+      "url": "https://www.semanticscholar.org/paper/321f29324168a56f1b587c4177a14a290eeee583",
+      "pdf_url": "https://doi.org/10.1016/j.engappai.2022.104755",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-05-01"
+    },
+    {
+      "id": "c4922aa7f90d164e37cc38db6a3c3c3fa71cdcee",
+      "title": "Ontology engineering with Large Language Models",
+      "authors": [
+        "Patricia Mateiu",
+        "Adrian Groza"
+      ],
+      "year": 2023,
+      "venue": "Symposium on Symbolic and Numeric Algorithms for Scientific Computing",
+      "citation_count": 49,
+      "abstract": "We tackle the task of enriching ontologies by automatically translating natural language (NL) into Description Logic (DL). Since Large Language Models (LLMs) are the best tools for translations, we fine-tuned a GPT-3 model to convert NL into OWL Functional Syntax. For fine-tuning, we designed pairs of sentences in NL and the corresponding translations. This training pairs cover various aspects from ontology engineering: instances, class subsumption, domain and range of relations, object properties relationships, disjoint classes, complements, or cardinality restrictions. The resulted axioms are used to enrich an ontology, in a human supervised manner. The developed tool is publicly provided as a Protégé plugin.",
+      "doi": "10.1109/SYNASC61333.2023.00038",
+      "url": "https://www.semanticscholar.org/paper/c4922aa7f90d164e37cc38db6a3c3c3fa71cdcee",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-07-31"
+    },
+    {
+      "id": "a2d765c0563aaf802cf3b70bb69fe6361bb9e316",
+      "title": "DeepOnto: A Python Package for Ontology Engineering with Deep Learning",
+      "authors": [
+        "Yuan He",
+        "Jiaoyan Chen",
+        "Hang Dong",
+        "Ian Horrocks",
+        "Carlo Allocca",
+        "Taehun Kim",
+        "B. Sapkota"
+      ],
+      "year": 2023,
+      "venue": "Semantic Web",
+      "citation_count": 39,
+      "abstract": "Integrating deep learning techniques, particularly language models (LMs), with knowledge representation techniques like ontologies has raised widespread attention, urging the need of a platform that supports both paradigms. Although packages such as OWL API and Jena offer robust support for basic ontology processing features, they lack the capability to transform various types of information within ontologies into formats suitable for downstream deep learning-based applications. Moreover, widely-used ontology APIs are primarily Java-based while deep learning frameworks like PyTorch and Tensorflow are mainly for Python programming. To address the needs, we present DeepOnto, a Python package designed for ontology engineering with deep learning. The package encompasses a core ontology processing module founded on the widely-recognised and reliable OWL API, encapsulating its fundamental features in a more “Pythonic” manner and extending its capabilities to incorporate other essential components including reasoning, verbalisation, normalisation, taxonomy, projection, and more. Building on this module, DeepOnto offers a suite of tools, resources, and algorithms that support various ontology engineering tasks, such as ontology alignment and completion, by harnessing deep learning methods, primarily pre-trained LMs. In this paper, we also demonstrate the practical utility of DeepOnto through two use-cases: the Digital Health Coaching in Samsung Research UK and the Bio-ML track of the Ontology Alignment Evaluation Initiative (OAEI).",
+      "doi": "10.48550/arXiv.2307.03067",
+      "url": "https://www.semanticscholar.org/paper/a2d765c0563aaf802cf3b70bb69fe6361bb9e316",
+      "pdf_url": "https://arxiv.org/pdf/2307.03067",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-07-06"
+    },
+    {
+      "id": "8cfd371938caa9e74e381d381ad3ade176de5057",
+      "title": "OntoChat: a Framework for Conversational Ontology Engineering using Language Models",
+      "authors": [
+        "Bohui Zhang",
+        "Valentina Anita Carriero",
+        "Katrin Schreiberhuber",
+        "Stefani Tsaneva",
+        "Luc'ia S'anchez Gonz'alez",
+        "Jongmo Kim",
+        "Jacopo de Berardinis"
+      ],
+      "year": 2024,
+      "venue": "ESWC Satellite Events",
+      "citation_count": 29,
+      "abstract": "Ontology engineering (OE) in large projects poses a number of challenges arising from the heterogeneous backgrounds of the various stakeholders, domain experts, and their complex interactions with ontology designers. This multi-party interaction often creates systematic ambiguities and biases from the elicitation of ontology requirements, which directly affect the design, evaluation and may jeopardise the target reuse. Meanwhile, current OE methodologies strongly rely on manual activities (e.g., interviews, discussion pages). After collecting evidence on the most crucial OE activities, we introduce \\textbf{OntoChat}, a framework for conversational ontology engineering that supports requirement elicitation, analysis, and testing. By interacting with a conversational agent, users can steer the creation of user stories and the extraction of competency questions, while receiving computational support to analyse the overall requirements and test early versions of the resulting ontologies. We evaluate OntoChat by replicating the engineering of the Music Meta Ontology, and collecting preliminary metrics on the effectiveness of each component from users. We release all code at https://github.com/King-s-Knowledge-Graph-Lab/OntoChat.",
+      "doi": "10.48550/arXiv.2403.05921",
+      "url": "https://www.semanticscholar.org/paper/8cfd371938caa9e74e381d381ad3ade176de5057",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-03-09"
+    },
+    {
+      "id": "4bb58bbaa78533204a4520073559a6570fbfa09f",
+      "title": "A novel agile ontology engineering methodology for supporting organizations in collaborative ontology development",
+      "authors": [
+        "Daniele Spoladore",
+        "E. Pessot",
+        "A. Trombetta"
+      ],
+      "year": 2023,
+      "venue": "Computers in industry (Print)",
+      "citation_count": 24,
+      "abstract": null,
+      "doi": "10.1016/j.compind.2023.103979",
+      "url": "https://www.semanticscholar.org/paper/4bb58bbaa78533204a4520073559a6570fbfa09f",
+      "pdf_url": "https://doi.org/10.1016/j.compind.2023.103979",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-10-01"
+    },
+    {
+      "id": "cdc5aea6fbd8578b0642d65453891f99329b7bc9",
+      "title": "Accelerating Knowledge Graph and Ontology Engineering with Large Language Models",
+      "authors": [
+        "C. Shimizu",
+        "Pascal Hitzler"
+      ],
+      "year": 2024,
+      "venue": "Journal of Web Semantics",
+      "citation_count": 23,
+      "abstract": "Large Language Models bear the promise of significant acceleration of key Knowledge Graph and Ontology Engineering tasks, including ontology modeling, extension, modification, population, alignment, as well as entity disambiguation. We lay out LLM-based Knowledge Graph and Ontology Engineering as a new and coming area of research, and argue that modular approaches to ontologies will be of central importance.",
+      "doi": "10.48550/arXiv.2411.09601",
+      "url": "https://www.semanticscholar.org/paper/cdc5aea6fbd8578b0642d65453891f99329b7bc9",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-11-14"
+    },
+    {
+      "id": "2cbbbf92e948c9a020929f4bcdceb23d3c98f315",
+      "title": "OntoGenix: Leveraging Large Language Models for enhanced ontology engineering from datasets",
+      "authors": [
+        "Mikel Val-Calvo",
+        "Mikel Egaña Aranguren",
+        "Juan M. Martínez-Hernández",
+        "Ginés Almagro-Hernández",
+        "Prashant Deshmukh",
+        "José Antonio Bernabé-Díaz",
+        "Paola Espinoza-Arias",
+        "José Luis Sánchez-Fernández",
+        "Juergen Mueller",
+        "J. Fernández-breis"
+      ],
+      "year": 2025,
+      "venue": "Information Processing & Management",
+      "citation_count": 18,
+      "abstract": null,
+      "doi": "10.1016/j.ipm.2024.104042",
+      "url": "https://www.semanticscholar.org/paper/2cbbbf92e948c9a020929f4bcdceb23d3c98f315",
+      "pdf_url": "https://doi.org/10.1016/j.ipm.2024.104042",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-05-01"
+    },
+    {
+      "id": "ca25d5ef61d19ff19c44f8edc6782703ee38372f",
+      "title": "Use of Competency Questions in Ontology Engineering: A Survey",
+      "authors": [
+        "Glaice K. S. Quirino",
+        "J. S. Salamon",
+        "M. Barcellos"
+      ],
+      "year": 2023,
+      "venue": "International Conference on Conceptual Modeling",
+      "citation_count": 17,
+      "abstract": null,
+      "doi": "10.1007/978-3-031-47262-6_3",
+      "url": "https://www.semanticscholar.org/paper/ca25d5ef61d19ff19c44f8edc6782703ee38372f",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "d3bacd9a916f589e60bc2389aee8c632f3a2556d",
+      "title": "Fine-Tuning Large Language Models for Ontology Engineering: A Comparative Analysis of GPT-4 and Mistral",
+      "authors": [
+        "Dimitrios Doumanas",
+        "Andreas Soularidis",
+        "D. Spiliotopoulos",
+        "C. Vassilakis",
+        "Konstantinos Kotis"
+      ],
+      "year": 2025,
+      "venue": "Applied Sciences",
+      "citation_count": 16,
+      "abstract": "Ontology engineering (OE) plays a critical role in modeling and managing structured knowledge across various domains. This study examines the performance of fine-tuned large language models (LLMs), specifically GPT-4 and Mistral 7B, in efficiently automating OE tasks. Foundational OE textbooks are used as the basis for dataset creation and for feeding the LLMs. The methodology involved segmenting texts into manageable chapters, generating question–answer pairs, and translating visual elements into description logic to curate fine-tuned datasets in JSONL format. This research aims to enhance the models’ abilities to generate domain-specific ontologies, with hypotheses asserting that fine-tuned LLMs would outperform base models, and that domain-specific datasets would significantly improve their performance. Comparative experiments revealed that GPT-4 demonstrated superior accuracy and adherence to ontology syntax, albeit with higher computational costs. Conversely, Mistral 7B excelled in speed and cost efficiency but struggled with domain-specific tasks, often generating outputs that lacked syntactical precision and relevance. The presented results highlight the necessity of integrating domain-specific datasets to improve contextual understanding and practical utility in specialized applications, such as Search and Rescue (SAR) missions in wildfire incidents. Both models, despite their limitations, exhibited potential in understanding OE principles. However, their performance underscored the importance of aligning training data with domain-specific knowledge to emulate human expertise effectively. This study, based on and extending our previous work on the topic, concludes that fine-tuned LLMs with targeted datasets enhance their utility in OE, offering insights into improving future models for domain-specific applications. The findings advocate further exploration of hybrid solutions to balance accuracy and efficiency.",
+      "doi": "10.3390/app15042146",
+      "url": "https://www.semanticscholar.org/paper/d3bacd9a916f589e60bc2389aee8c632f3a2556d",
+      "pdf_url": "https://doi.org/10.3390/app15042146",
+      "fields_of_study": null,
+      "publication_date": "2025-02-18"
+    },
+    {
+      "id": "81f158a26ea066898d7b31c18c4a3a8b397c7384",
+      "title": "On the Roles of Competency Questions in Ontology Engineering",
+      "authors": [
+        "C. Keet",
+        "Z. Khan"
+      ],
+      "year": 2024,
+      "venue": "International Conference Knowledge Engineering and Knowledge Management",
+      "citation_count": 9,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/81f158a26ea066898d7b31c18c4a3a8b397c7384",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "2c2de8c83406e3173ab414bec1aabad69c7dc74c",
+      "title": "A RAG Approach for Generating Competency Questions in Ontology Engineering",
+      "authors": [
+        "Xueli Pan",
+        "J. V. Ossenbruggen",
+        "Victor de Boer",
+        "Zhisheng Huang"
+      ],
+      "year": 2024,
+      "venue": "International Conference on Metadata and Semantics Research",
+      "citation_count": 8,
+      "abstract": "Competency question (CQ) formulation is central to several ontology development and evaluation methodologies. Traditionally, the task of crafting these competency questions heavily relies on the effort of domain experts and knowledge engineers which is often time-consuming and labor-intensive. With the emergence of Large Language Models (LLMs), there arises the possibility to automate and enhance this process. Unlike other similar works which use existing ontologies or knowledge graphs as input to LLMs, we present a retrieval-augmented generation (RAG) approach that uses LLMs for the automatic generation of CQs given a set of scientific papers considered to be a domain knowledge base. We investigate its performance and specifically, we study the impact of different number of papers to the RAG and different temperature setting of the LLM. We conduct experiments using GPT-4 on two domain ontology engineering tasks and compare results against ground-truth CQs constructed by domain experts. Empirical assessments on the results, utilizing evaluation metrics (precision and consistency), reveal that compared to zero-shot prompting, adding relevant domain knowledge to the RAG improves the performance of LLMs on generating CQs for concrete ontology engineering tasks.",
+      "doi": "10.48550/arXiv.2409.08820",
+      "url": "https://www.semanticscholar.org/paper/2c2de8c83406e3173ab414bec1aabad69c7dc74c",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-09-13"
+    },
+    {
+      "id": "a44f7b474f5e40df67aa3de42e1b9893927cd432",
+      "title": "Challenges and Role of Ontology Engineering in Creating the Knowledge Industry: A Research-Related Design Perspective",
+      "authors": [
+        "O. Palagin",
+        "M. Petrenko",
+        "K. Malakhov"
+      ],
+      "year": 2024,
+      "venue": "Cybernetics and Systems Analysis",
+      "citation_count": 8,
+      "abstract": null,
+      "doi": "10.1007/s10559-024-00702-6",
+      "url": "https://www.semanticscholar.org/paper/a44f7b474f5e40df67aa3de42e1b9893927cd432",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-07-01"
+    },
+    {
+      "id": "9afd435b266b999ce9ca7ea3ae4303c406c0aae4",
+      "title": "From Human- to LLM-Centered Collaborative Ontology Engineering",
+      "authors": [
+        "Dimitrios Doumanas",
+        "Georgios Bouchouras",
+        "Andreas Soularidis",
+        "Konstantinos Kotis",
+        "G. Vouros"
+      ],
+      "year": 2024,
+      "venue": "Appl. Ontology",
+      "citation_count": 7,
+      "abstract": "In the continuously evolving landscape of knowledge engineering, the symbiosis and teaming of humans and machines emerge as a pivotal new domain. This article explores the multifaceted realms of human and machine collaborative ontology engineering (OE). The goal of the presented work is to explore the potential of Large Language Models (LLMs) to speed up and automate the processes of collaborative OE, experimenting with different levels of LLM involvement. The proposed approach is based on a human-centered approach, that is, the HCOME approach to collaborative OE, and follows a process of exploring the declining involvement of humans and the parallel increase of LLM involvement, concluding at a level of automation where the OE is exclusively performed by LLMs. This experimentation is organized based on a series of human/LLM collaboration levels (a spectrum of OE), each one aligned to a specific OE methodology, that is, Level-0 HCOME (Human), Level-1 X-HCOME (Human and LLMs), Level-2 SimX-HCOME (LLMs and Human), and Level-3 Sim-HCOME (LLMs). The evaluation of these methodologies (one per level) is performed by measuring the similarity of the generated ontologies against “reference” ontologies (precision, recall, and F1-score of reference-to-LLM-generated ontological mappings). The results presented in this paper demonstrate that while LLMs significantly expedite the OE process, the accuracy and completeness of the resulting ontologies are notably enhanced by maintaining a high level of human involvement. This study is expected to contribute to a deeper understanding of evolving dynamics in LLM-based/enhanced OE, paving the way for future advancements toward more effective collaborative OE frameworks.",
+      "doi": "10.1177/15705838241305067",
+      "url": "https://www.semanticscholar.org/paper/9afd435b266b999ce9ca7ea3ae4303c406c0aae4",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-11-01"
+    },
+    {
+      "id": "6821461600bcce0231630bc6ca44f0d46f233353",
+      "title": "LLMs for Ontology Engineering: A landscape of Tasks and Benchmarking challenges",
+      "authors": [
+        "Daniel Garijo",
+        "M. Poveda-Villalón",
+        "Elvira Amador-Domínguez",
+        "Ziyuan Wang",
+        "Raúl García-Castro",
+        "Óscar Corcho"
+      ],
+      "year": 2024,
+      "venue": "HGAIS@ISWC",
+      "citation_count": 6,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/6821461600bcce0231630bc6ca44f0d46f233353",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "5281d6501e4c577eb71181c4069fca90936f9aa5",
+      "title": "Investigating Open Source LLMs to Retrofit Competency Questions in Ontology Engineering",
+      "authors": [
+        "Reham Alharbi",
+        "Valentina A. M. Tamma",
+        "Floriana Grasso",
+        "Terry R. Payne"
+      ],
+      "year": 2024,
+      "venue": "Proceedings of the AAAI Symposium Series",
+      "citation_count": 5,
+      "abstract": "Competency Questions (CQs) are essential in ontology engineering; they express an ontology's functional requirements as natural language questions, offer crucial insights into an ontology's scope and are pivotal for various tasks, e.g. ontology reuse, testing, requirement specification, and pattern definition. Despite their importance, the practice of publishing CQs alongside ontological artefacts is not commonly adopted. \nWe propose an approach based on Generative AI, specifically Large Language Models (LLMs) for retrofitting CQs from existing ontologies and we investigate how open LLMs (i.e. Llama-2-70b, Mistral 7B and Flan-T5-xl) perform in generating CQs for existing ontologies. We compare these results with our previous efforts using closed-source LLMs and we reflect on the results.",
+      "doi": "10.1609/aaaiss.v4i1.31793",
+      "url": "https://www.semanticscholar.org/paper/5281d6501e4c577eb71181c4069fca90936f9aa5",
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI-SS/article/download/31793/33960",
+      "fields_of_study": null,
+      "publication_date": "2024-11-08"
+    },
+    {
+      "id": "67b17fe182ed5e180f12dbb443329306886ce245",
+      "title": "Relating Optimal Repairs in Ontology Engineering with Contraction Operations in Belief Change",
+      "authors": [
+        "Franz Baader"
+      ],
+      "year": 2023,
+      "venue": "ACM SIGAPP Applied Computing Review",
+      "citation_count": 5,
+      "abstract": "The question of how a given knowledge base can be modified such that certain unwanted consequences are removed has been investigated in the area of ontology engineering under the name of repair and in the area of belief change under the name of contraction. Whereas in the former area the emphasis was more on designing and implementing concrete repair algorithms, the latter area concentrated on characterizing classes of contraction operations by certain postulates they satisfy. In the classical setting, repairs and contractions are subsets of the knowledge base that no longer have the unwanted consequence. This makes these approaches syntax-dependent and may result in removal of more consequences than necessary. To alleviate this problem, gentle repairs and pseudo-constractions have been introduced in the respective research areas, and their connections have been investigated in recent work. Optimal repairs preserve a maximal amount of consequences, but they may not always exist. We show that, if they exist, then they can be obtained by certain pseudo-contraction operations, and thus they comply with the postulates that these operations satisfy. Conversely, under certain conditions, pseudo-contractions are guaranteed to produce optimal repairs. Recently, contraction operations have also been defined for concepts rather than for whole knowledge bases. We show that there is again a close connection between such operations and optimal repairs of a restricted form of knowledge bases.",
+      "doi": "10.1145/3626307.3626308",
+      "url": "https://www.semanticscholar.org/paper/67b17fe182ed5e180f12dbb443329306886ce245",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2023-09-01"
+    },
+    {
+      "id": "b5d91394c2a50475a02ac6fe1e71c08e3eb834a7",
+      "title": "Ontology engineering of automatic text processing methods",
+      "authors": [
+        "Zhanna B. Sadirmekova",
+        "J. Tussupov",
+        "Aslanbek Murzakhmetov",
+        "G. Zhidekulova",
+        "A. Tungatarova",
+        "M. Tulenbayev",
+        "Shynar Akhmetzhanova",
+        "Zhanar Altynbekova",
+        "G. Borankulova"
+      ],
+      "year": 2023,
+      "venue": "International Journal of Electrical and Computer Engineering (IJECE)",
+      "citation_count": 5,
+      "abstract": "Currently, ontologies are recognized as the most effective means of formalizing and systematizing knowledge and data in scientific subject area (SSA). Practice has shown that using ontology design patterns is effective in developing the ontology of scientific subject areas. This is due to the fact that scientific subject areas ontology, as a rule, contains a large number of typical fragments that are well described by patterns of ontology design. In the paper, we present an approach to ontology engineering of automatic text processing methods based on ontology design patterns. In order to get an ontology that would describe automatic text processing sufficiently fully, it is required to process a large number of scientific publications and information resources containing information from modeling area. It is possible to facilitate and speed up the process of updating ontology with information from such sources by using lexical and syntactic patterns of ontology design. Our ontology of automatic text processing will become the conceptual basis of an intelligent information resource on modern methods of automatic text processing, which will provide systematization of all information on these methods, its integration into a single information space, convenient navigation through it, as well as meaningful access to it.",
+      "doi": "10.11591/ijece.v13i6.pp6620-6628",
+      "url": "https://www.semanticscholar.org/paper/b5d91394c2a50475a02ac6fe1e71c08e3eb834a7",
+      "pdf_url": "https://ijece.iaescore.com/index.php/IJECE/article/download/32662/16986",
+      "fields_of_study": null,
+      "publication_date": "2023-12-01"
+    },
+    {
+      "id": "f3e4e5d78161bcf4227cb843002df47a0e6199f1",
+      "title": "Comprehensive Review on Semantic Information Retrieval and Ontology Engineering",
+      "authors": [
+        "Sumit Sharma",
+        "Sarika Jain"
+      ],
+      "year": 2023,
+      "venue": "arXiv.org",
+      "citation_count": 5,
+      "abstract": "Situation awareness is a crucial cognitive skill that enables individuals to perceive, comprehend, and project the current state of their environment accurately. It involves being conscious of relevant information, understanding its meaning, and using that understanding to make well-informed decisions. Awareness systems often need to integrate new knowledge and adapt to changing environments. Ontology reasoning facilitates knowledge integration and evolution, allowing for seamless updates and expansions of the ontology. With the consideration of above, we are providing a quick review on semantic information retrieval and ontology engineering to understand the emerging challenges and future research. In the review we have found that the ontology reasoning addresses the limitations of traditional systems by providing a formal, flexible, and scalable framework for knowledge representation, reasoning, and inference.",
+      "doi": "10.48550/arXiv.2307.13427",
+      "url": "https://www.semanticscholar.org/paper/f3e4e5d78161bcf4227cb843002df47a0e6199f1",
+      "pdf_url": "https://arxiv.org/pdf/2307.13427",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-07-25"
+    },
+    {
+      "id": "3ab0e9689e694a0ab2ae3958330ec625878efc67",
+      "title": "Insights from an OTTR-centric Ontology Engineering Methodology",
+      "authors": [
+        "Moritz Blum",
+        "Basil Ell",
+        "P. Cimiano"
+      ],
+      "year": 2023,
+      "venue": "WOP@ISWC",
+      "citation_count": 3,
+      "abstract": "OTTR is a language for representing ontology modeling patterns, which enables to build ontologies or knowledge bases by instantiating templates. Thereby, particularities of the ontological representation language are hidden from the domain experts, and it enables ontology engineers to, to some extent, separate the processes of deciding about what information to model from deciding about how to model the information, e.g., which design patterns to use. Certain decisions can thus be postponed for the benefit of focusing on one of these processes. To date, only few works on ontology engineering where ontology templates are applied are described in the literature. In this paper, we outline our methodology and report findings from our ontology engineering activities in the domain of Material Science. In these activities, OTTR templates play a key role. Our ontology engineering process is bottom-up, as we begin modeling activities from existing data that is then, via templates, fed into a knowledge graph, and it is top-down, as we first focus on which data to model and postpone the decision of how to model the data. We find, among other things, that OTTR templates are especially useful as a means of communication with domain experts. Furthermore, we find that because OTTR templates encapsulate modeling decisions, the engineering process becomes flexible, meaning that design decisions can be changed at little cost.",
+      "doi": "10.48550/arXiv.2309.13130",
+      "url": "https://www.semanticscholar.org/paper/3ab0e9689e694a0ab2ae3958330ec625878efc67",
+      "pdf_url": "https://arxiv.org/pdf/2309.13130",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-09-22"
+    },
+    {
+      "id": "36b317a6d3e2ac6ea66a646afa9cce326aa02623",
+      "title": "Optimal Repairs in Ontology Engineering as Pseudo-Contractions in Belief Change",
+      "authors": [
+        "F. Baader"
+      ],
+      "year": 2023,
+      "venue": "ACM Symposium on Applied Computing",
+      "citation_count": 3,
+      "abstract": "The question of how a given knowledge base can be modified such that certain unwanted consequences are removed has been investigated in the area of knowledge engineering under the name of repair and in the area of belief change under the name of contraction. Whereas in the former area the emphasis was more on designing and implementing concrete repair algorithms, the latter area concentrated on characterizing classes of contraction operations by certain postulates they satisfy. In the classical setting, repairs and contractions are subsets of the knowledge base that no longer have the unwanted consequence. This makes these approaches syntax-dependent and may result in removal of more consequences than necessary. To alleviate this problem, gentle repairs and pseudo-constractions have been introduced in the respective research areas, and their connections have been investigated in recent work. Optimal repairs preserve a maximal amount of consequences, but they may not always exist. We show that, if they exist, then they can be obtained by certain pseudo-contraction operations, and thus they comply with the postulates that these operations satisfy. Conversely, under certain conditions, pseudo-contractions are guaranteed to produce optimal repairs.",
+      "doi": "10.1145/3555776.3577719",
+      "url": "https://www.semanticscholar.org/paper/36b317a6d3e2ac6ea66a646afa9cce326aa02623",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-03-27"
+    },
+    {
+      "id": "c7de7d0d0f66e642a5f94a054e1a4591f32bcb2f",
+      "title": "Ontology engineering and the FAIR principles: A gap analysis",
+      "authors": [
+        "M. Poveda-Villalón",
+        "Daniel Garijo",
+        "Alejandra N. González-Beltrán",
+        "Clement Jonquet",
+        "Yann Le Franc"
+      ],
+      "year": 2024,
+      "venue": "Joint Ontology Workshops",
+      "citation_count": 2,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/c7de7d0d0f66e642a5f94a054e1a4591f32bcb2f",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "48fb8e3d9ca4011e1645f00eef58775ae9567b90",
+      "title": "Ontology Engineering to Model the European Cultural Heritage: The Case of Cultural Gems",
+      "authors": [
+        "Valentina Alberti",
+        "Cinzia Cocco",
+        "Sergio Consoli",
+        "Valentina Montalto",
+        "Francesco Panella"
+      ],
+      "year": 2024,
+      "venue": "arXiv.org",
+      "citation_count": 2,
+      "abstract": "Cultural gems is a web application conceived by the European Commission's Joint Research Centre (DG JRC), which aims at engaging people and organisations across Europe to create a unique repository of cultural and creative places. The main goal is to provide a vision of European culture in order to strengthen a sense of identity within a single European cultural realm. Cultural gems maps more than 130,000 physical places in over 300 European cities and towns, and since 2020 it also lists online cultural initiatives. The new release aims, among other, to increase the interoperability of the application. At this purpose, we provide an overview on the current development of an ontology for Cultural gems used to map cultural heritage in European cities by using Linked Open Data (LOD) standards, and making the data FAIR, that is Findable, Accessible, Interoperable, and Reusable. We provide an overview of the methodology, presenting the structure of the ontology, and the services and tools we are currently building on top.",
+      "doi": "10.1007/978-981-99-3236-8_1",
+      "url": "https://www.semanticscholar.org/paper/48fb8e3d9ca4011e1645f00eef58775ae9567b90",
+      "pdf_url": "https://doi.org/10.1007/978-981-99-3236-8_1",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-02-12"
+    },
+    {
+      "id": "45b46b7cef6625ade02e16c7cc038ffdf095b544",
+      "title": "Minimal Macro-Based Rewritings of Formal Languages: Theory and Applications in Ontology Engineering (and beyond)",
+      "authors": [
+        "Christian Kindermann",
+        "Anne-Marie George",
+        "B. Parsia",
+        "U. Sattler"
+      ],
+      "year": 2023,
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "citation_count": 2,
+      "abstract": "In this paper, we introduce the problem of rewriting finite formal languages using syntactic macros such that the rewriting is minimal in size. We present polynomial-time algorithms to solve variants of this problem and show their correctness. To demonstrate the practical relevance of the proposed problems and the feasibility and effectiveness of our algorithms in practice, we apply these to biomedical ontologies authored in OWL. We find that such rewritings can significantly reduce the size of ontologies by capturing repeated expressions with macros. This approach not only offers valuable assistance in enhancing ontology quality and comprehension but can also be seen as a general methodology for evaluating features of rewriting systems (including syntactic macros, templates, or other forms of rewriting rules), which can be analyzed in terms of their influence on computational problems.",
+      "doi": "10.48550/arXiv.2312.10857",
+      "url": "https://www.semanticscholar.org/paper/45b46b7cef6625ade02e16c7cc038ffdf095b544",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-12-18"
+    },
+    {
+      "id": "82c6429b1bd56413584d3687416acaceb91bf1b2",
+      "title": "OWLAPY: A Pythonic Framework for OWL Ontology Engineering",
+      "authors": [
+        "Alkid Baci",
+        "Luke Friedrichs",
+        "Caglar Demir",
+        "A. Ngomo"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 1,
+      "abstract": "In this paper, we introduce OWLAPY, a comprehensive Python framework for OWL ontology engineering. OWLAPY streamlines the creation, modification, and serialization of OWL 2 ontologies. It uniquely integrates native Python-based reasoners with support for external Java reasoners, offering flexibility for users. OWLAPY facilitates multiple implementations of core ontology components and provides robust conversion capabilities between OWL class expressions and formats such as Description Logics, Manchester Syntax, and SPARQL. It also allows users to define custom workflows to leverage large language models (LLMs) in ontology generation from natural language text. OWLAPY serves as a well-tested software framework for users seeking a flexible Python library for advanced ontology engineering, including those transitioning from Java-based environments. The project is publicly available on GitHub at https://github.com/dice-group/owlapy and on the Python Package Index (PyPI) at https://pypi.org/project/owlapy/ , with over 50,000 downloads at the time of writing.",
+      "doi": "10.48550/arXiv.2511.08232",
+      "url": "https://www.semanticscholar.org/paper/82c6429b1bd56413584d3687416acaceb91bf1b2",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-11-11"
+    },
+    {
+      "id": "93b8d1c9b07d3bb1e504c7c38343e1a35855a21b",
+      "title": "Enhancing Ontology Engineering with LLMs: From Search to Active Learning Extensions",
+      "authors": [
+        "Ganna Kholmska",
+        "K. Kenda",
+        "Jože M. Rožanec"
+      ],
+      "year": 2024,
+      "venue": "Proceedings of Data Mining and Data Warehauses – Sikdd 2024",
+      "citation_count": 1,
+      "abstract": "This paper explores the application of LLMs to ontology engineering tasks within the HumAIne project. The authors present a methodology for for LLM-driven discovery, analysis, and extension of ontologies related to Data Mining, Machine Learning, and manufacturing domains. LLMs were employed to identify suitable ontologies and extend them with Active Learning concepts. While LLMs significantly streamline ontology-related tasks, challenges remain, including the need for domain-specific validation in pilot case studies.",
+      "doi": "10.70314/is.2024.sikdd.28",
+      "url": "https://www.semanticscholar.org/paper/93b8d1c9b07d3bb1e504c7c38343e1a35855a21b",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "f7490c79be2a66edcab7285f68df859efa27cab8",
+      "title": "The Multiplex Classification Framework: Optimizing Multi-Label Classifiers Through Problem Transformation, Ontology Engineering, and Model Ensembling",
+      "authors": [
+        "Mauro Andrés Nievas Offidani",
+        "Facundo Roffet",
+        "Claudio Delrieux",
+        "María Carolina González Galtier",
+        "Marcos Zarate"
+      ],
+      "year": 2024,
+      "venue": "Appl. Ontology",
+      "citation_count": 1,
+      "abstract": "Classification is a fundamental task in machine learning. While conventional methods—such as binary, multiclass, and multi-label classification—are effective for simpler problems, they may not adequately address the complexities of some real-world scenarios. This article introduces the Multiplex Classification Framework, a novel approach developed to tackle these and similar challenges through the integration of problem transformation, ontology engineering, and model ensembling. The framework offers several advantages, including adaptability to any number of classes and logical constraints, an innovative method for managing class imbalance, the elimination of confidence threshold selection, and a modular structure. Two experiments were conducted to compare the performance of conventional classification models with the multiplex approach. Our results demonstrate that the multiplex approach can improve classification performance significantly (up to 10% gain in overall F1 score), particularly in classification problems with a large number of classes and pronounced class imbalances. However, it also has limitations, as it requires a thorough understanding of the problem domain and some experience with ontology engineering, and it involves training multiple models, which can make the whole process more intricate. Overall, this methodology provides a valuable tool for researchers and practitioners dealing with complex classification problems in machine learning.",
+      "doi": "10.1177/15705838251340362",
+      "url": "https://www.semanticscholar.org/paper/f7490c79be2a66edcab7285f68df859efa27cab8",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-12-18"
+    },
+    {
+      "id": "0fd0c97a7dee4c28497ab953fb4feec1fa175db6",
+      "title": "Automating agentic collaborative ontology engineering with role-playing simulation of LLM-powered agents and RAG technology",
+      "authors": [
+        "Andreas Soularidis",
+        "Dimitrios Doumanas",
+        "Konstantinos Kotis",
+        "G. Vouros"
+      ],
+      "year": 2025,
+      "venue": "Knowledge engineering review (Print)",
+      "citation_count": 0,
+      "abstract": "Abstract Motivated by the astonishing capabilities of large language models (LLMs) in text-generation, reasoning, and simulation of complex human behaviors, in this paper, we propose a novel multi-component LLM-based framework, namely LLM4ACOE, that fully automates the collaborative ontology engineering (COE) process using role-playing simulation of LLM agents and retrieval augmented generation (RAG) technology. The proposed solution enhances the LLM-powered role-playing simulation with RAG ‘feeding’ the LLM with three different types of external knowledge. This knowledge corresponds to the knowledge required by each of the COE roles (agents), using a component-based framework, as follows: (a) domain-specific data-centric documents, (b) OWL documentation, and (c) ReAct guidelines. The aforementioned components are evaluated in combination, with the aim of investigating their impact on the quality of generated ontologies. The aim of this work is twofold, (a) to identify the capacity of LLM-based agents to generate acceptable (by human-experts) ontologies through agentic collaborative ontology engineering (ACOE) role-playing simulation, at specific levels of acceptance (accuracy, validity, and expressiveness of ontologies) without human intervention and (b) to investigate whether and/or to what extent the selected RAG components affect the quality of the generated ontologies. The evaluation of this novel approach is performed using ChatGPT-o in the domain of search and rescue (SAR) missions. To assess the generated ontologies, quantitative and qualitative measures are employed, focusing on coverage, expressiveness, structure, and human involvement.",
+      "doi": "10.1017/S026988892510009X",
+      "url": "https://www.semanticscholar.org/paper/0fd0c97a7dee4c28497ab953fb4feec1fa175db6",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-12-19"
+    },
+    {
+      "id": "5a7cfbf4be89df14933589d04031803963e2d2f0",
+      "title": "Exploring Focus Groups as a Technique for Knowledge Acquisition and Conceptualization Phases in Ontology Engineering",
+      "authors": [
+        "Daniele Spoladore",
+        "Sara Vannelli",
+        "Filippo Visintin",
+        "A. Trombetta"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE International Conference on Metrology for eXtended Reality, Artificial Intelligence and Neural Engineering (MetroXRAINE)",
+      "citation_count": 0,
+      "abstract": null,
+      "doi": "10.1109/MetroXRAINE66377.2025.11340561",
+      "url": "https://www.semanticscholar.org/paper/5a7cfbf4be89df14933589d04031803963e2d2f0",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-10-22"
+    },
+    {
+      "id": "b135b4c1c9bb3e63c27cf7cefb9c204404c4531b",
+      "title": "The Semantic SI Ontology: Engineering, Alignment, and Validation of a Semantic SI Model",
+      "authors": [
+        "Moritz Jordan",
+        "Giacomo Lanza",
+        "S. Schönhals",
+        "Sören Auer"
+      ],
+      "year": 2025,
+      "venue": "International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",
+      "citation_count": 0,
+      "abstract": ": The Semantic SI Ontology (SIS) provides a semantic model for representing the value of a physical quantity, including kind of quantity, International System of Units (SI) measurement unit, and measurement uncertainty, in accordance with the official Bureau International des Poid et Mesures (BIPM) recommendations. Developed as a formal counterpart to the Digital System of Units XML schema definition (D-SI XSD), the ontology enables harmonized, machine-readable, and interoperable representation of metrological data. This paper outlines the design rationale, the transformation methodology from eXtensible Markup Language (XML) Schema to Web Ontology Language (OWL), and its alignment with existing semantic standards such as Quan-tities, Units, Dimensions, and Data Types Ontologies (QUDT) and the SI Reference Point. Core ontology structures - such as QuantityValue and MeasurementUncertainty - are discussed in detail. The paper also presents the validation framework, including a Python toolchain for generating OWL individuals from XML, Shapes Constraint Language (SHACL)-based shape validation, and reasoning with established OWL reasoners. Applications in ongoing projects, such as the Metadata4Ing and the Digital Calibration Certificate (DCC) ontology, demonstrate the practical relevance of the SIS as a foundational component in the digital transformation of metrology.",
+      "doi": "10.5220/0013707600004000",
+      "url": "https://www.semanticscholar.org/paper/b135b4c1c9bb3e63c27cf7cefb9c204404c4531b",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "872d10e3f8d0a75a3885c170d42e98501b9bfd78",
+      "title": "In-house Developed Tools for Ontology Engineering Education",
+      "authors": [
+        "C. Keet"
+      ],
+      "year": 2023,
+      "venue": "Joint Ontology Workshops",
+      "citation_count": 0,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/872d10e3f8d0a75a3885c170d42e98501b9bfd78",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    }
+  ]
+}

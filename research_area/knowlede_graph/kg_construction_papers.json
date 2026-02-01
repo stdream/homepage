@@ -1,0 +1,1115 @@
+{
+  "query": "knowledge graph construction",
+  "timestamp": "2026-01-25T12:40:07.403613",
+  "count": 50,
+  "papers": [
+    {
+      "id": "f48ae425e2567be2d993efcaaf74c2274fc9d7c5",
+      "title": "COMET: Commonsense Transformers for Automatic Knowledge Graph Construction",
+      "authors": [
+        "Antoine Bosselut",
+        "Hannah Rashkin",
+        "Maarten Sap",
+        "Chaitanya Malaviya",
+        "Asli Celikyilmaz",
+        "Yejin Choi"
+      ],
+      "year": 2019,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "citation_count": 987,
+      "abstract": "We present the first comprehensive study on automatic knowledge base construction for two prevalent commonsense knowledge graphs: ATOMIC (Sap et al., 2019) and ConceptNet (Speer et al., 2017). Contrary to many conventional KBs that store knowledge with canonical templates, commonsense KBs only store loosely structured open-text descriptions of knowledge. We posit that an important step toward automatic commonsense completion is the development of generative models of commonsense knowledge, and propose COMmonsEnse Transformers (COMET) that learn to generate rich and diverse commonsense descriptions in natural language. Despite the challenges of commonsense modeling, our investigation reveals promising results when implicit knowledge from deep pre-trained language models is transferred to generate explicit knowledge in commonsense knowledge graphs. Empirical results demonstrate that COMET is able to generate novel knowledge that humans rate as high quality, with up to 77.5% (ATOMIC) and 91.7% (ConceptNet) precision at top 1, which approaches human performance for these resources. Our findings suggest that using generative commonsense models for automatic commonsense KB completion could soon be a plausible alternative to extractive methods.",
+      "doi": "10.18653/v1/P19-1470",
+      "url": "https://www.semanticscholar.org/paper/f48ae425e2567be2d993efcaaf74c2274fc9d7c5",
+      "pdf_url": "https://www.aclweb.org/anthology/P19-1470.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2019-06-12"
+    },
+    {
+      "id": "b21b927c251c415b601b6d7f785a42cc5c292635",
+      "title": "Multi-Task Identification of Entities, Relations, and Coreference for Scientific Knowledge Graph Construction",
+      "authors": [
+        "Yi Luan",
+        "Luheng He",
+        "Mari Ostendorf",
+        "Hannaneh Hajishirzi"
+      ],
+      "year": 2018,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "citation_count": 751,
+      "abstract": "We introduce a multi-task setup of identifying entities, relations, and coreference clusters in scientific articles. We create SciERC, a dataset that includes annotations for all three tasks and develop a unified framework called SciIE with shared span representations. The multi-task setup reduces cascading errors between tasks and leverages cross-sentence relations through coreference links. Experiments show that our multi-task model outperforms previous models in scientific information extraction without using any domain-specific features. We further show that the framework supports construction of a scientific knowledge graph, which we use to analyze information in scientific literature.",
+      "doi": "10.18653/v1/D18-1360",
+      "url": "https://www.semanticscholar.org/paper/b21b927c251c415b601b6d7f785a42cc5c292635",
+      "pdf_url": "https://www.aclweb.org/anthology/D18-1360.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2018-08-29"
+    },
+    {
+      "id": "fa350b1089db1f8ab97bb72287b37ed4748c89cf",
+      "title": "Multi-Modal Knowledge Graph Construction and Application: A Survey",
+      "authors": [
+        "Xiangru Zhu",
+        "Zhixu Li",
+        "Xiaodan Wang",
+        "Xueyao Jiang",
+        "Penglei Sun",
+        "Xuwu Wang",
+        "Yanghua Xiao",
+        "N. Yuan"
+      ],
+      "year": 2022,
+      "venue": "IEEE Transactions on Knowledge and Data Engineering",
+      "citation_count": 236,
+      "abstract": "Recent years have witnessed the resurgence of knowledge engineering which is featured by the fast growth of knowledge graphs. However, most of existing knowledge graphs are represented with pure symbols, which hurts the machine's capability to understand the real world. The multi-modalization of knowledge graphs is an inevitable key step towards the realization of human-level machine intelligence. The results of this endeavor are Multi-modal Knowledge Graphs (MMKGs). In this survey on MMKGs constructed by texts and images, we first give definitions of MMKGs, followed with the preliminaries on multi-modal tasks and techniques. We then systematically review the challenges, progresses and opportunities on the construction and application of MMKGs respectively, with detailed analyses of the strengths and weaknesses of different solutions. We finalize this survey with open research problems relevant to MMKGs.",
+      "doi": "10.1109/TKDE.2022.3224228",
+      "url": "https://www.semanticscholar.org/paper/fa350b1089db1f8ab97bb72287b37ed4748c89cf",
+      "pdf_url": "https://arxiv.org/pdf/2202.05786",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-02-11"
+    },
+    {
+      "id": "9ea5874d261359e287eabb735de38a8edba1e091",
+      "title": "A Comprehensive Survey on Automatic Knowledge Graph Construction",
+      "authors": [
+        "Lingfeng Zhong",
+        "Jia Wu",
+        "Qian Li",
+        "Hao Peng",
+        "Xindong Wu"
+      ],
+      "year": 2023,
+      "venue": "ACM Computing Surveys",
+      "citation_count": 224,
+      "abstract": "Automatic knowledge graph construction aims at manufacturing structured human knowledge. To this end, much effort has historically been spent extracting informative fact patterns from different data sources. However, more recently, research interest has shifted to acquiring conceptualized structured knowledge beyond informative data. In addition, researchers have also been exploring new ways of handling sophisticated construction tasks in diversified scenarios. Thus, there is a demand for a systematic review of paradigms to organize knowledge structures beyond data-level mentions. To meet this demand, we comprehensively survey more than 300 methods to summarize the latest developments in knowledge graph construction. A knowledge graph is built in three steps: knowledge acquisition, knowledge refinement, and knowledge evolution. The processes of knowledge acquisition are reviewed in detail, including obtaining entities with fine-grained types and their conceptual linkages to knowledge graphs; resolving coreferences; and extracting entity relationships in complex scenarios. The survey covers models for knowledge refinement, including knowledge graph completion, and knowledge fusion. Methods to handle knowledge evolution are also systematically presented, including condition knowledge acquisition, condition knowledge graph completion, and knowledge dynamic. We present the paradigms to compare the distinction among these methods along the axis of the data environment, motivation, and architecture. Additionally, we also provide briefs on accessible resources that can help readers to develop practical knowledge graph systems. The survey concludes with discussions on the challenges and possible directions for future exploration.",
+      "doi": "10.1145/3618295",
+      "url": "https://www.semanticscholar.org/paper/9ea5874d261359e287eabb735de38a8edba1e091",
+      "pdf_url": "https://arxiv.org/pdf/2302.05019",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-02-10"
+    },
+    {
+      "id": "35631fd55c2545615811fa8072015356ac8198e7",
+      "title": "LLMs for knowledge graph construction and reasoning: recent capabilities and future opportunities",
+      "authors": [
+        "Yuqi Zhu",
+        "Xiaohan Wang",
+        "Jing Chen",
+        "Shuofei Qiao",
+        "Yixin Ou",
+        "Yunzhi Yao",
+        "Shumin Deng",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "year": 2023,
+      "venue": "World wide web (Bussum)",
+      "citation_count": 216,
+      "abstract": "This paper presents an exhaustive quantitative and qualitative evaluation of Large Language Models (LLMs) for Knowledge Graph (KG) construction and reasoning. We engage in experiments across eight diverse datasets, focusing on four representative tasks encompassing entity and relation extraction, event extraction, link prediction, and question-answering, thereby thoroughly exploring LLMs’ performance in the domain of construction and inference. Empirically, our findings suggest that LLMs, represented by GPT-4, are more suited as inference assistants rather than few-shot information extractors. Specifically, while GPT-4 exhibits good performance in tasks related to KG construction, it excels further in reasoning tasks, surpassing fine-tuned models in certain cases. Moreover, our investigation extends to the potential generalization ability of LLMs for information extraction, leading to the proposition of a Virtual Knowledge Extraction task and the development of the corresponding VINE dataset. Based on these empirical findings, we further propose AutoKG, a multi-agent-based approach employing LLMs and external sources for KG construction and reasoning. We anticipate that this research can provide invaluable insights for future undertakings in the field of knowledge graphs.",
+      "doi": "10.1007/s11280-024-01297-w",
+      "url": "https://www.semanticscholar.org/paper/35631fd55c2545615811fa8072015356ac8198e7",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-05-22"
+    },
+    {
+      "id": "0d9174b6ff46943f8d96cde3668820c95a59f450",
+      "title": "Knowledge graph construction based on ship collision accident reports to improve maritime traffic safety",
+      "authors": [
+        "Langxiong Gan",
+        "Beiyan Ye",
+        "Zhiqiu Huang",
+        "Yi Xu",
+        "Qiaohong Chen",
+        "Y. Shu"
+      ],
+      "year": 2023,
+      "venue": "Ocean &amp; Coastal Management",
+      "citation_count": 128,
+      "abstract": null,
+      "doi": "10.1016/j.ocecoaman.2023.106660",
+      "url": "https://www.semanticscholar.org/paper/0d9174b6ff46943f8d96cde3668820c95a59f450",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2023-06-01"
+    },
+    {
+      "id": "4993af5937aa4074072d802a656e833a08bbeca5",
+      "title": "Generative Knowledge Graph Construction: A Review",
+      "authors": [
+        "Hongbin Ye",
+        "Ningyu Zhang",
+        "Hui Chen",
+        "Huajun Chen"
+      ],
+      "year": 2022,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "citation_count": 99,
+      "abstract": "Generative Knowledge Graph Construction (KGC) refers to those methods that leverage the sequence-to-sequence framework for building knowledge graphs, which is flexible and can be adapted to widespread tasks. In this study, we summarize the recent compelling progress in generative knowledge graph construction. We present the advantages and weaknesses of each paradigm in terms of different generation targets and provide theoretical insight and empirical analysis. Based on the review, we suggest promising research directions for the future. Our contributions are threefold: (1) We present a detailed, complete taxonomy for the generative KGC methods; (2) We provide a theoretical and empirical analysis of the generative KGC methods; (3) We propose several research directions that can be developed in the future.",
+      "doi": "10.48550/arXiv.2210.12714",
+      "url": "https://www.semanticscholar.org/paper/4993af5937aa4074072d802a656e833a08bbeca5",
+      "pdf_url": "https://arxiv.org/pdf/2210.12714",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-10-23"
+    },
+    {
+      "id": "7759144cb77e9d34469e4a19ebad8d40e482956b",
+      "title": "A systematic literature review of knowledge graph construction and application in education",
+      "authors": [
+        "Bilal Abu-Salih",
+        "Salihah Alotaibi"
+      ],
+      "year": 2024,
+      "venue": "Heliyon",
+      "citation_count": 83,
+      "abstract": null,
+      "doi": "10.1016/j.heliyon.2024.e25383",
+      "url": "https://www.semanticscholar.org/paper/7759144cb77e9d34469e4a19ebad8d40e482956b",
+      "pdf_url": "http://www.cell.com/article/S2405844024014142/pdf",
+      "fields_of_study": [
+        "Medicine"
+      ],
+      "publication_date": "2024-02-01"
+    },
+    {
+      "id": "db96e019410006c3ee0ae0184800ab206f8704dd",
+      "title": "Extract, Define, Canonicalize: An LLM-based Framework for Knowledge Graph Construction",
+      "authors": [
+        "Bowen Zhang",
+        "Harold Soh"
+      ],
+      "year": 2024,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "citation_count": 78,
+      "abstract": "In this work, we are interested in automated methods for knowledge graph creation (KGC) from input text. Progress on large language models (LLMs) has prompted a series of recent works applying them to KGC, e.g., via zero/few-shot prompting. Despite successes on small domain-specific datasets, these models face difficulties scaling up to text common in many real-world applications. A principal issue is that, in prior methods, the KG schema has to be included in the LLM prompt to generate valid triplets; larger and more complex schemas easily exceed the LLMs’ context window length. Furthermore, there are scenarios where a fixed pre-defined schema is not available and we would like the method to construct a high-quality KG with a succinct self-generated schema. To address these problems, we propose a three-phase framework named Extract-Define-Canonicalize (EDC): open information extraction followed by schema definition and post-hoc canonicalization. EDC is flexible in that it can be applied to settings where a pre-defined target schema is available and when it is not; in the latter case, it constructs a schema automatically and applies self-canonicalization. To further improve performance, we introduce a trained component that retrieves schema elements relevant to the input text; this improves the LLMs’ extraction performance in a retrieval-augmented generation-like manner. We demonstrate on three KGC benchmarks that EDC is able to extract high-quality triplets without any parameter tuning and with significantly larger schemas compared to prior works. Code for EDC is available at https://github.com/clear-nus/edc.",
+      "doi": "10.48550/arXiv.2404.03868",
+      "url": "https://www.semanticscholar.org/paper/db96e019410006c3ee0ae0184800ab206f8704dd",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-04-05"
+    },
+    {
+      "id": "c4a53f4a12207ecce4ea5102fb0a05d8f8984561",
+      "title": "From human experts to machines: An LLM supported approach to ontology and knowledge graph construction",
+      "authors": [
+        "Vamsi Krishna Kommineni",
+        "B. König-Ries",
+        "Sheeba Samuel"
+      ],
+      "year": 2024,
+      "venue": "arXiv.org",
+      "citation_count": 78,
+      "abstract": "The conventional process of building Ontologies and Knowledge Graphs (KGs) heavily relies on human domain experts to define entities and relationship types, establish hierarchies, maintain relevance to the domain, fill the ABox (or populate with instances), and ensure data quality (including amongst others accuracy and completeness). On the other hand, Large Language Models (LLMs) have recently gained popularity for their ability to understand and generate human-like natural language, offering promising ways to automate aspects of this process. This work explores the (semi-)automatic construction of KGs facilitated by open-source LLMs. Our pipeline involves formulating competency questions (CQs), developing an ontology (TBox) based on these CQs, constructing KGs using the developed ontology, and evaluating the resultant KG with minimal to no involvement of human experts. We showcase the feasibility of our semi-automated pipeline by creating a KG on deep learning methodologies by exploiting scholarly publications. To evaluate the answers generated via Retrieval-Augmented-Generation (RAG) as well as the KG concepts automatically extracted using LLMs, we design a judge LLM, which rates the generated content based on ground truth. Our findings suggest that employing LLMs could potentially reduce the human effort involved in the construction of KGs, although a human-in-the-loop approach is recommended to evaluate automatically generated KGs.",
+      "doi": "10.48550/arXiv.2403.08345",
+      "url": "https://www.semanticscholar.org/paper/c4a53f4a12207ecce4ea5102fb0a05d8f8984561",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-03-13"
+    },
+    {
+      "id": "694d9b45adcffa4bbc130e4ccaa681e275640128",
+      "title": "Enhancing Knowledge Graph Construction Using Large Language Models",
+      "authors": [
+        "Milena Trajanoska",
+        "Riste Stojanov",
+        "D. Trajanov"
+      ],
+      "year": 2023,
+      "venue": "arXiv.org",
+      "citation_count": 76,
+      "abstract": "The growing trend of Large Language Models (LLM) development has attracted significant attention, with models for various applications emerging consistently. However, the combined application of Large Language Models with semantic technologies for reasoning and inference is still a challenging task. This paper analyzes how the current advances in foundational LLM, like ChatGPT, can be compared with the specialized pretrained models, like REBEL, for joint entity and relation extraction. To evaluate this approach, we conducted several experiments using sustainability-related text as our use case. We created pipelines for the automatic creation of Knowledge Graphs from raw texts, and our findings indicate that using advanced LLM models can improve the accuracy of the process of creating these graphs from unstructured text. Furthermore, we explored the potential of automatic ontology creation using foundation LLM models, which resulted in even more relevant and accurate knowledge graphs.",
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/694d9b45adcffa4bbc130e4ccaa681e275640128",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-05-08"
+    },
+    {
+      "id": "6ea3ab49b90d5cad5f9ba17d9b2d85d3b6028225",
+      "title": "LLM-TIKG: Threat intelligence knowledge graph construction utilizing large language model",
+      "authors": [
+        "Yuelin Hu",
+        "Futai Zou",
+        "Jiajia Han",
+        "Xin Sun",
+        "Yilei Wang"
+      ],
+      "year": 2024,
+      "venue": "Computers & security",
+      "citation_count": 65,
+      "abstract": null,
+      "doi": "10.1016/j.cose.2024.103999",
+      "url": "https://www.semanticscholar.org/paper/6ea3ab49b90d5cad5f9ba17d9b2d85d3b6028225",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-07-01"
+    },
+    {
+      "id": "ab7e85dc7f2b454bffda612705d77e9b8f29e429",
+      "title": "Healthcare knowledge graph construction: A systematic review of the state-of-the-art, open issues, and opportunities",
+      "authors": [
+        "Bilal Abu-Salih",
+        "Muhammad Al-Qurishi",
+        "Mohammed Alweshah",
+        "Mohammad Al-Smadi",
+        "Reem Alfayez",
+        "Heba Saadeh"
+      ],
+      "year": 2023,
+      "venue": "Journal of Big Data",
+      "citation_count": 63,
+      "abstract": "The incorporation of data analytics in the healthcare industry has made significant progress, driven by the demand for efficient and effective big data analytics solutions. Knowledge graphs (KGs) have proven utility in this arena and are rooted in a number of healthcare applications to furnish better data representation and knowledge inference. However, in conjunction with a lack of a representative KG construction taxonomy, several existing approaches in this designated domain are inadequate and inferior. This paper is the first to provide a comprehensive taxonomy and a bird’s eye view of healthcare KG construction. Additionally, a thorough examination of the current state-of-the-art techniques drawn from academic works relevant to various healthcare contexts is carried out. These techniques are critically evaluated in terms of methods used for knowledge extraction, types of the knowledge base and sources, and the incorporated evaluation protocols. Finally, several research findings and existing issues in the literature are reported and discussed, opening horizons for future research in this vibrant area.",
+      "doi": "10.1186/s40537-023-00774-9",
+      "url": "https://www.semanticscholar.org/paper/ab7e85dc7f2b454bffda612705d77e9b8f29e429",
+      "pdf_url": "https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-023-00774-9",
+      "fields_of_study": [
+        "Computer Science",
+        "Medicine"
+      ],
+      "publication_date": "2023-05-28"
+    },
+    {
+      "id": "c4e4b72da211dbf2ab2fd5263d453cf22ee0cf44",
+      "title": "CodeKGC: Code Language Model for Generative Knowledge Graph Construction",
+      "authors": [
+        "Zhen Bi",
+        "Jing Chen",
+        "Yinuo Jiang",
+        "Feiyu Xiong",
+        "Wei Guo",
+        "Huajun Chen",
+        "Ningyu Zhang"
+      ],
+      "year": 2023,
+      "venue": "ACM Trans. Asian Low Resour. Lang. Inf. Process.",
+      "citation_count": 62,
+      "abstract": "Current generative knowledge graph construction approaches usually fail to capture structural knowledge by simply flattening natural language into serialized texts or a specification language. However, large generative language model trained on structured data such as code has demonstrated impressive capability in understanding natural language for structural prediction and reasoning tasks. Intuitively, we address the task of generative knowledge graph construction with code language model: given a code-format natural language input, the target is to generate triples which can be represented as code completion tasks. Specifically, we develop schema-aware prompts that effectively utilize the semantic structure within the knowledge graph. As code inherently possesses structure, such as class and function definitions, it serves as a useful model for prior semantic structural knowledge. Furthermore, we employ a rationale-enhanced generation method to boost the performance. Rationales provide intermediate steps, thereby improving knowledge extraction abilities. Experimental results indicate that the proposed approach can obtain better performance on benchmark datasets compared with baselines.1",
+      "doi": "10.1145/3641850",
+      "url": "https://www.semanticscholar.org/paper/c4e4b72da211dbf2ab2fd5263d453cf22ee0cf44",
+      "pdf_url": "https://arxiv.org/pdf/2304.09048",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-04-18"
+    },
+    {
+      "id": "50bdea5132ef4b8cf25b0d9f3ac2ee0d09bf18cb",
+      "title": "Iterative Zero-Shot LLM Prompting for Knowledge Graph Construction",
+      "authors": [
+        "S. Carta",
+        "Alessandro Giuliani",
+        "L. piano",
+        "Alessandro Sebastian Podda",
+        "Livio Pompianu",
+        "Sandro Gabriele Tiddia"
+      ],
+      "year": 2023,
+      "venue": "arXiv.org",
+      "citation_count": 49,
+      "abstract": "In the current digitalization era, capturing and effectively representing knowledge is crucial in most real-world scenarios. In this context, knowledge graphs represent a potent tool for retrieving and organizing a vast amount of information in a properly interconnected and interpretable structure. However, their generation is still challenging and often requires considerable human effort and domain expertise, hampering the scalability and flexibility across different application fields. This paper proposes an innovative knowledge graph generation approach that leverages the potential of the latest generative large language models, such as GPT-3.5, that can address all the main critical issues in knowledge graph building. The approach is conveyed in a pipeline that comprises novel iterative zero-shot and external knowledge-agnostic strategies in the main stages of the generation process. Our unique manifold approach may encompass significant benefits to the scientific community. In particular, the main contribution can be summarized by: (i) an innovative strategy for iteratively prompting large language models to extract relevant components of the final graph; (ii) a zero-shot strategy for each prompt, meaning that there is no need for providing examples for\"guiding\"the prompt result; (iii) a scalable solution, as the adoption of LLMs avoids the need for any external resources or human expertise. To assess the effectiveness of our proposed model, we performed experiments on a dataset that covered a specific domain. We claim that our proposal is a suitable solution for scalable and versatile knowledge graph construction and may be applied to different and novel contexts.",
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/50bdea5132ef4b8cf25b0d9f3ac2ee0d09bf18cb",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-07-03"
+    },
+    {
+      "id": "6837fb40385740828fac2d46a77da13c5db7d8db",
+      "title": "Cross-Data Knowledge Graph Construction for LLM-enabled Educational Question-Answering System: A Case Study at HCMUT",
+      "authors": [
+        "Tuan Bui",
+        "Oanh Tran",
+        "Phuong Nguyen",
+        "Bao Ho",
+        "Long Song Thien Nguyen",
+        "Thang Bui",
+        "Tho Quan"
+      ],
+      "year": 2024,
+      "venue": "AIQAM@ICMR",
+      "citation_count": 41,
+      "abstract": "In today's rapidly evolving landscape of Artificial Intelligence, large language models (LLMs) have emerged as a vibrant research topic. LLMs find applications in various fields and contribute significantly. Despite their powerful language capabilities, similar to pre-trained language models (PLMs), LLMs still face challenges in remembering events, incorporating new information, and addressing domain-specific issues or hallucinations. To overcome these limitations, researchers have proposed Retrieval-Augmented Generation (RAG) techniques, some others have proposed the integration of LLMs with Knowledge Graphs (KGs) to provide factual context, thereby improving performance and delivering more accurate feedback to user queries. Education plays a crucial role in human development and progress. With the technology transformation, traditional education is being replaced by digital or blended education. Therefore, educational data in the digital environment is increasing day by day. Data in higher education institutions are diverse, comprising various sources such as unstructured/structured text, relational databases, web/app-based API access, etc. Constructing a Knowledge Graph from these cross-data sources is not a simple task. This article proposes a method for automatically constructing a Knowledge Graph from multiple data sources and discusses some initial applications (experimental trials) of KG in conjunction with LLMs for question-answering tasks.",
+      "doi": "10.1145/3643479.3662055",
+      "url": "https://www.semanticscholar.org/paper/6837fb40385740828fac2d46a77da13c5db7d8db",
+      "pdf_url": "https://arxiv.org/pdf/2404.09296",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-04-14"
+    },
+    {
+      "id": "09ab5b6c1762e8b782e3fd2f1518606fcc33ed1b",
+      "title": "IDS-KG: An industrial dataspace-based knowledge graph construction approach for smart maintenance",
+      "authors": [
+        "Yanying Wang",
+        "Ying Cheng",
+        "Qinglin Qi",
+        "Fei Tao"
+      ],
+      "year": 2024,
+      "venue": "Journal of Industrial Information Integration",
+      "citation_count": 37,
+      "abstract": null,
+      "doi": "10.1016/j.jii.2024.100566",
+      "url": "https://www.semanticscholar.org/paper/09ab5b6c1762e8b782e3fd2f1518606fcc33ed1b",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-01-01"
+    },
+    {
+      "id": "45bb78112e6bfc9638cda1cbf232e84605af078e",
+      "title": "Scene-Driven Multimodal Knowledge Graph Construction for Embodied AI",
+      "authors": [
+        "Yaoxian Song",
+        "Penglei Sun",
+        "Haoyu Liu",
+        "Zhixu Li",
+        "Wei Song",
+        "Yanghua Xiao",
+        "Xiaofang Zhou"
+      ],
+      "year": 2023,
+      "venue": "IEEE Transactions on Knowledge and Data Engineering",
+      "citation_count": 34,
+      "abstract": "Embodied AI is one of the most popular studies in artificial intelligence and robotics, which can effectively improve the intelligence of real-world agents (i.e. robots) serving human beings. Scene knowledge is important for an agent to understand the surroundings and make correct decisions in the varied open world. Currently, knowledge base for embodied tasks is missing and most existing work use general knowledge base or pre-trained models to enhance the intelligence of an agent. For conventional knowledge base, it is sparse, insufficient in capacity and cost in data collection. For pre-trained models, they face the uncertainty of knowledge and hard maintenance. To overcome the challenges of scene knowledge, we propose a scene-driven multimodal knowledge graph (Scene-MMKG) construction method combining conventional knowledge engineering and large language models. A unified scene knowledge injection framework is introduced for knowledge representation. To evaluate the advantages of our proposed method, we instantiate Scene-MMKG considering typical indoor robotic functionalities (Manipulation and Mobility), named ManipMob-MMKG. Comparisons in characteristics indicate our instantiated ManipMob-MMKG has broad superiority on data-collection efficiency and knowledge quality. Experimental results on typical embodied tasks show that knowledge-enhanced methods using our instantiated ManipMob-MMKG can improve the performance obviously without re-designing model structures complexly.",
+      "doi": "10.1109/TKDE.2024.3399746",
+      "url": "https://www.semanticscholar.org/paper/45bb78112e6bfc9638cda1cbf232e84605af078e",
+      "pdf_url": "https://arxiv.org/pdf/2311.03783",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-11-07"
+    },
+    {
+      "id": "419a4225c05e612c67556c137cfadd33dea4babd",
+      "title": "Traditional Chinese Medicine Knowledge Graph Construction Based on Large Language Models",
+      "authors": [
+        "Yichong Zhang",
+        "Yongtao Hao"
+      ],
+      "year": 2024,
+      "venue": "Electronics",
+      "citation_count": 33,
+      "abstract": "This study explores the use of large language models in constructing a knowledge graph for Traditional Chinese Medicine (TCM) to improve the representation, storage, and application of TCM knowledge. The knowledge graph, based on a graph structure, effectively organizes entities, attributes, and relationships within the TCM domain. By leveraging large language models, we collected and embedded substantial TCM–related data, generating precise representations transformed into a knowledge graph format. Experimental evaluations confirmed the accuracy and effectiveness of the constructed graph, extracting various entities and their relationships, providing a solid foundation for TCM learning, research, and application. The knowledge graph has significant potential in TCM, aiding in teaching, disease diagnosis, treatment decisions, and contributing to TCM modernization. In conclusion, this paper utilizes large language models to construct a knowledge graph for TCM, offering a vital foundation for knowledge representation and application in the field, with potential for future expansion and refinement.",
+      "doi": "10.3390/electronics13071395",
+      "url": "https://www.semanticscholar.org/paper/419a4225c05e612c67556c137cfadd33dea4babd",
+      "pdf_url": "https://www.mdpi.com/2079-9292/13/7/1395/pdf?version=1712555182",
+      "fields_of_study": null,
+      "publication_date": "2024-04-07"
+    },
+    {
+      "id": "a7b6237fe7289a5dfb27df337c7d0dfbe60e75f9",
+      "title": "Fault Knowledge Graph Construction and Platform Development for Aircraft PHM",
+      "authors": [
+        "Xiangzhen Meng",
+        "Bo Jing",
+        "Shenglong Wang",
+        "Jinxin Pan",
+        "Yifeng Huang",
+        "Xiaoxuan Jiao"
+      ],
+      "year": 2023,
+      "venue": "Italian National Conference on Sensors",
+      "citation_count": 25,
+      "abstract": "To tackle the problems of over-reliance on traditional experience, poor troubleshooting robustness, and slow response by maintenance personnel to changes in faults in the current aircraft health management field, this paper proposes the use of a knowledge graph. The knowledge graph represents troubleshooting in a new way. The aim of the knowledge graph is to improve the correlation between fault data by representing experience. The data source for this study consists of the flight control system manual and typical fault cases of a specific aircraft type. A knowledge graph construction approach is proposed to construct a fault knowledge graph for aircraft health management. Firstly, the data are classified using the ERNIE model-based method. Then, a joint entity relationship extraction model based on ERNIE-BiLSTM-CRF-TreeBiLSTM is introduced to improve entity relationship extraction accuracy and reduce the semantic complexity of the text from a linguistic perspective. Additionally, a knowledge graph platform for aircraft health management is developed. The platform includes modules for text classification, knowledge extraction, knowledge auditing, a Q&A system, and graph visualization. These modules improve the management of aircraft health data and provide a foundation for rapid knowledge graph construction and knowledge graph-based fault diagnosis.",
+      "doi": "10.3390/s24010231",
+      "url": "https://www.semanticscholar.org/paper/a7b6237fe7289a5dfb27df337c7d0dfbe60e75f9",
+      "pdf_url": "https://www.mdpi.com/1424-8220/24/1/231/pdf?version=1703951989",
+      "fields_of_study": [
+        "Medicine",
+        "Computer Science"
+      ],
+      "publication_date": "2023-12-30"
+    },
+    {
+      "id": "819cedec3d48674eaa1eb0081e4a0c8651c38644",
+      "title": "CuPe-KG: Cultural perspective-based knowledge graph construction of tourism resources via pretrained language models",
+      "authors": [
+        "Zhanling Fan",
+        "Chongcheng Chen"
+      ],
+      "year": 2024,
+      "venue": "Information Processing & Management",
+      "citation_count": 24,
+      "abstract": null,
+      "doi": "10.1016/j.ipm.2024.103646",
+      "url": "https://www.semanticscholar.org/paper/819cedec3d48674eaa1eb0081e4a0c8651c38644",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-05-01"
+    },
+    {
+      "id": "91a2b5c6d26b028aba2aa0ed5846e3f9db2db0cb",
+      "title": "Large language model assisted fine-grained knowledge graph construction for robotic fault diagnosis",
+      "authors": [
+        "Xingming Liao",
+        "Chong Chen",
+        "Zhuowei Wang",
+        "Ying Liu",
+        "Tao Wang",
+        "Lianglun Cheng"
+      ],
+      "year": 2025,
+      "venue": "Advanced Engineering Informatics",
+      "citation_count": 23,
+      "abstract": null,
+      "doi": "10.1016/j.aei.2025.103134",
+      "url": "https://www.semanticscholar.org/paper/91a2b5c6d26b028aba2aa0ed5846e3f9db2db0cb",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-05-01"
+    },
+    {
+      "id": "f49df3982858150e6ebbb56ac0a23c1a8ccfca92",
+      "title": "Knowledge graph construction for heart failure using large language models with prompt engineering",
+      "authors": [
+        "Tianhan Xu",
+        "Yixun Gu",
+        "Mantian Xue",
+        "Renjie Gu",
+        "Bin Li",
+        "Xiang Gu"
+      ],
+      "year": 2024,
+      "venue": "Frontiers Comput. Neurosci.",
+      "citation_count": 19,
+      "abstract": "Introduction Constructing an accurate and comprehensive knowledge graph of specific diseases is critical for practical clinical disease diagnosis and treatment, reasoning and decision support, rehabilitation, and health management. For knowledge graph construction tasks (such as named entity recognition, relation extraction), classical BERT-based methods require a large amount of training data to ensure model performance. However, real-world medical annotation data, especially disease-specific annotation samples, are very limited. In addition, existing models do not perform well in recognizing out-of-distribution entities and relations that are not seen in the training phase. Method In this study, we present a novel and practical pipeline for constructing a heart failure knowledge graph using large language models and medical expert refinement. We apply prompt engineering to the three phases of schema design: schema design, information extraction, and knowledge completion. The best performance is achieved by designing task-specific prompt templates combined with the TwoStepChat approach. Results Experiments on two datasets show that the TwoStepChat method outperforms the Vanillia prompt and outperforms the fine-tuned BERT-based baselines. Moreover, our method saves 65% of the time compared to manual annotation and is better suited to extract the out-of-distribution information in the real world.",
+      "doi": "10.3389/fncom.2024.1389475",
+      "url": "https://www.semanticscholar.org/paper/f49df3982858150e6ebbb56ac0a23c1a8ccfca92",
+      "pdf_url": "https://doi.org/10.3389/fncom.2024.1389475",
+      "fields_of_study": [
+        "Medicine",
+        "Computer Science"
+      ],
+      "publication_date": "2024-07-02"
+    },
+    {
+      "id": "905d27e361c50da406439bdac25807dd38258fd8",
+      "title": "Knowledge enhanced graph inference network based entity-relation extraction and knowledge graph construction for industrial domain",
+      "authors": [
+        "Zhulin Han",
+        "Jian Wang"
+      ],
+      "year": 2024,
+      "venue": "Frontiers of Engineering Management",
+      "citation_count": 17,
+      "abstract": null,
+      "doi": "10.1007/s42524-023-0273-1",
+      "url": "https://www.semanticscholar.org/paper/905d27e361c50da406439bdac25807dd38258fd8",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-02-08"
+    },
+    {
+      "id": "b8ad0619d58b483836b16f8cce87e0577f015e07",
+      "title": "A survey of LLM-augmented knowledge graph construction and application in complex product design",
+      "authors": [
+        "Xinxin Liang",
+        "Zuoxu Wang",
+        "Mingrui Li",
+        "Zhijie Yan"
+      ],
+      "year": 2024,
+      "venue": "Procedia CIRP",
+      "citation_count": 17,
+      "abstract": null,
+      "doi": "10.1016/j.procir.2024.07.069",
+      "url": "https://www.semanticscholar.org/paper/b8ad0619d58b483836b16f8cce87e0577f015e07",
+      "pdf_url": "https://doi.org/10.1016/j.procir.2024.07.069",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "6f5fc45ba50b67421afe5e22d3ca0b16af3dc197",
+      "title": "UrbanKGent: A Unified Large Language Model Agent Framework for Urban Knowledge Graph Construction",
+      "authors": [
+        "Yansong NING",
+        "Hao Liu"
+      ],
+      "year": 2024,
+      "venue": "Neural Information Processing Systems",
+      "citation_count": 16,
+      "abstract": "Urban knowledge graph has recently worked as an emerging building block to distill critical knowledge from multi-sourced urban data for diverse urban application scenarios. Despite its promising benefits, urban knowledge graph construction (UrbanKGC) still heavily relies on manual effort, hindering its potential advancement. This paper presents UrbanKGent, a unified large language model agent framework, for urban knowledge graph construction. Specifically, we first construct the knowledgeable instruction set for UrbanKGC tasks (such as relational triplet extraction and knowledge graph completion) via heterogeneity-aware and geospatial-infused instruction generation. Moreover, we propose a tool-augmented iterative trajectory refinement module to enhance and refine the trajectories distilled from GPT-4. Through hybrid instruction fine-tuning with augmented trajectories on Llama 2 and Llama 3 family, we obtain UrbanKGC agent family, consisting of UrbanKGent-7/8/13B version. We perform a comprehensive evaluation on two real-world datasets using both human and GPT-4 self-evaluation. The experimental results demonstrate that UrbanKGent family can not only significantly outperform 31 baselines in UrbanKGC tasks, but also surpass the state-of-the-art LLM, GPT-4, by more than 10% with approximately 20 times lower cost. Compared with the existing benchmark, the UrbanKGent family could help construct an UrbanKG with hundreds of times richer relationships using only one-fifth of the data. Our data and code are available at https://github.com/usail-hkust/UrbanKGent.",
+      "doi": "10.48550/arXiv.2402.06861",
+      "url": "https://www.semanticscholar.org/paper/6f5fc45ba50b67421afe5e22d3ca0b16af3dc197",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-02-10"
+    },
+    {
+      "id": "7a52e1ca211ff809209ed2297d707e920b52293c",
+      "title": "Graphusion: A RAG Framework for Scientific Knowledge Graph Construction with a Global Perspective",
+      "authors": [
+        "Rui Yang",
+        "Boming Yang",
+        "Xinjie Zhao",
+        "Fan Gao",
+        "Aosong Feng",
+        "Sixun Ouyang",
+        "Moritz Blum",
+        "Tianwei She",
+        "Yuang Jiang",
+        "Freddy Lécué",
+        "Jinghui Lu",
+        "Irene Li"
+      ],
+      "year": 2024,
+      "venue": "The Web Conference",
+      "citation_count": 16,
+      "abstract": "Knowledge Graphs (KGs) are crucial in the field of artificial intelligence and are widely used in downstream tasks, such as question-answering (QA). The construction of KGs typically requires significant effort from domain experts. Large Language Models (LLMs) have recently been used for Knowledge Graph Construction (KGC). However, most existing approaches focus on a local perspective, extracting knowledge triplets from individual sentences or documents, missing a fusion process to combine the knowledge in a global KG. This work introduces Graphusion, a zero-shot KGC framework from free text. It contains three steps: in Step 1, we extract a list of seed entities using topic modeling to guide the final KG includes the most relevant entities; in Step 2, we conduct candidate triplet extraction using LLMs; in Step 3, we design the novel fusion module that provides a global view of the extracted knowledge, incorporating entity merging, conflict resolution, and novel triplet discovery. Results show that Graphusion achieves scores of 2.92 and 2.37 out of 3 for entity extraction and relation recognition, respectively. Moreover, we showcase how Graphusion could be applied to the Natural Language Processing (NLP) domain and validate it in an educational scenario. Specifically, we introduce TutorQA, a new expert-verified benchmark for QA, comprising six tasks and a total of 1,200 QA pairs. Using the Graphusion-constructed KG, we achieve a significant improvement on the benchmark, for example, a 9.2% accuracy improvement on sub-graph completion.",
+      "doi": "10.1145/3701716.3717821",
+      "url": "https://www.semanticscholar.org/paper/7a52e1ca211ff809209ed2297d707e920b52293c",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-10-23"
+    },
+    {
+      "id": "d4a9d210704e7841184c755da7315b26dbee82b9",
+      "title": "Graphusion: A RAG Framework for Knowledge Graph Construction with a Global Perspective",
+      "authors": [
+        "Rui Yang",
+        "Boming Yang",
+        "Aosong Feng",
+        "Sixun Ouyang",
+        "Moritz Blum",
+        "Tianwei She",
+        "Yuang Jiang",
+        "Freddy Lécué",
+        "Jinghui Lu",
+        "Irene Li"
+      ],
+      "year": 2024,
+      "venue": "arXiv.org",
+      "citation_count": 16,
+      "abstract": null,
+      "doi": "10.48550/arXiv.2410.17600",
+      "url": "https://www.semanticscholar.org/paper/d4a9d210704e7841184c755da7315b26dbee82b9",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "49dc5f75754628d73cb0168dc6fce652f63fb287",
+      "title": "Large Language Model–Driven Knowledge Graph Construction in Sepsis Care Using Multicenter Clinical Databases: Development and Usability Study",
+      "authors": [
+        "Hao Yang",
+        "Jiaxi Li",
+        "Chi Zhang",
+        "A. Sierra",
+        "Bairong Shen"
+      ],
+      "year": 2024,
+      "venue": "Journal of Medical Internet Research",
+      "citation_count": 14,
+      "abstract": "Background Sepsis is a complex, life-threatening condition characterized by significant heterogeneity and vast amounts of unstructured data, posing substantial challenges for traditional knowledge graph construction methods. The integration of large language models (LLMs) with real-world data offers a promising avenue to address these challenges and enhance the understanding and management of sepsis. Objective This study aims to develop a comprehensive sepsis knowledge graph by leveraging the capabilities of LLMs, specifically GPT-4.0, in conjunction with multicenter clinical databases. The goal is to improve the understanding of sepsis and provide actionable insights for clinical decision-making. We also established a multicenter sepsis database (MSD) to support this effort. Methods We collected clinical guidelines, public databases, and real-world data from 3 major hospitals in Western China, encompassing 10,544 patients diagnosed with sepsis. Using GPT-4.0, we used advanced prompt engineering techniques for entity recognition and relationship extraction, which facilitated the construction of a nuanced sepsis knowledge graph. Results We established a sepsis database with 10,544 patient records, including 8497 from West China Hospital, 690 from Shangjin Hospital, and 357 from Tianfu Hospital. The sepsis knowledge graph comprises of 1894 nodes and 2021 distinct relationships, encompassing nine entity concepts (diseases, symptoms, biomarkers, imaging examinations, etc) and 8 semantic relationships (complications, recommended medications, laboratory tests, etc). GPT-4.0 demonstrated superior performance in entity recognition and relationship extraction, achieving an F1-score of 76.76 on a sepsis-specific dataset, outperforming other models such as Qwen2 (43.77) and Llama3 (48.39). On the CMeEE dataset, GPT-4.0 achieved an F1-score of 65.42 using few-shot learning, surpassing traditional models such as BERT-CRF (62.11) and Med-BERT (60.66). Building upon this, we compiled a comprehensive sepsis knowledge graph, comprising of 1894 nodes and 2021 distinct relationships. Conclusions This study represents a pioneering effort in using LLMs, particularly GPT-4.0, to construct a comprehensive sepsis knowledge graph. The innovative application of prompt engineering, combined with the integration of multicenter real-world data, has significantly enhanced the efficiency and accuracy of knowledge graph construction. The resulting knowledge graph provides a robust framework for understanding sepsis, supporting clinical decision-making, and facilitating further research. The success of this approach underscores the potential of LLMs in medical research and sets a new benchmark for future studies in sepsis and other complex medical conditions.",
+      "doi": "10.2196/65537",
+      "url": "https://www.semanticscholar.org/paper/49dc5f75754628d73cb0168dc6fce652f63fb287",
+      "pdf_url": "https://doi.org/10.2196/65537",
+      "fields_of_study": [
+        "Medicine"
+      ],
+      "publication_date": "2024-08-18"
+    },
+    {
+      "id": "64b6fcf3e57d32d8cb14fd87298a8b181eba8a3f",
+      "title": "Knowledge Graph Construction: Extraction, Learning, and Evaluation",
+      "authors": [
+        "Seungmin Choi",
+        "Yuchul Jung"
+      ],
+      "year": 2025,
+      "venue": "Applied Sciences",
+      "citation_count": 13,
+      "abstract": "A Knowledge Graph (KG), which structurally represents entities (nodes) and relationships (edges), offers a powerful and flexible approach to knowledge representation in the field of Artificial Intelligence (AI). KGs have been increasingly applied in various domains—such as natural language processing (NLP), recommendation systems, knowledge search, and medical diagnostics—spurring continuous research on effective methods for their construction and maintenance. Recently, efforts to combine large language models (LLMs), particularly those aimed at managing hallucination symptoms, with KGs have gained attention. Consequently, new approaches have emerged in each phase of KG development, including Extraction, Learning Paradigm, and Evaluation Methodology. In this paper, we focus on major publications released after 2022 to systematically examine the process of KG construction along three core dimensions: Extraction, Learning Paradigm, and Evaluation Methodology. Specifically, we investigate (1) large-scale data preprocessing and multimodal extraction techniques in the KG Extraction domain, (2) the refinement of traditional embedding methods and the application of cutting-edge techniques—such as Graph Neural Networks, Transformers, and LLMs—in the KG Learning domain, and (3) both intrinsic and extrinsic metrics in the KG Evaluation domain, as well as various approaches to ensure interpretability and reliability.",
+      "doi": "10.3390/app15073727",
+      "url": "https://www.semanticscholar.org/paper/64b6fcf3e57d32d8cb14fd87298a8b181eba8a3f",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-03-28"
+    },
+    {
+      "id": "7d03ca6b5062f11d7992f5fb77a6c81a9dbd3029",
+      "title": "AutoSchemaKG: Autonomous Knowledge Graph Construction through Dynamic Schema Induction from Web-Scale Corpora",
+      "authors": [
+        "Jiaxin Bai",
+        "Wei Fan",
+        "Qi Hu",
+        "Qing Zong",
+        "Chunyang Li",
+        "Hong Ting Tsang",
+        "Hongyu Luo",
+        "Yauwai Yim",
+        "Haoyu Huang",
+        "Xiao Zhou",
+        "Feng Qin",
+        "Tianshi ZHENG",
+        "Xi Peng",
+        "Xin Yao",
+        "Huiwen Yang",
+        "Leijie Wu",
+        "Yi Ji",
+        "Gong Zhang",
+        "Renhai Chen",
+        "Yangqiu Song"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 12,
+      "abstract": "We present AutoSchemaKG, a framework for fully autonomous knowledge graph construction that eliminates the need for predefined schemas. Our system leverages large language models to simultaneously extract knowledge triples and induce comprehensive schemas directly from text, modeling both entities and events while employing conceptualization to organize instances into semantic categories. Processing over 50 million documents, we construct ATLAS (Automated Triple Linking And Schema induction), a family of knowledge graphs with 900+ million nodes and 5.9 billion edges. This approach outperforms state-of-the-art baselines on multi-hop QA tasks and enhances LLM factuality. Notably, our schema induction achieves 92\\% semantic alignment with human-crafted schemas with zero manual intervention, demonstrating that billion-scale knowledge graphs with dynamically induced schemas can effectively complement parametric knowledge in large language models.",
+      "doi": "10.48550/arXiv.2505.23628",
+      "url": "https://www.semanticscholar.org/paper/7d03ca6b5062f11d7992f5fb77a6c81a9dbd3029",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-05-29"
+    },
+    {
+      "id": "06b0399f2241dc680c0af9dcba6f3274fa14f6fd",
+      "title": "Aligning Vision to Language: Text-Free Multimodal Knowledge Graph Construction for Enhanced LLMs Reasoning",
+      "authors": [
+        "Junming Liu",
+        "Siyuan Meng",
+        "Yanting Gao",
+        "Song Mao",
+        "Pinlong Cai",
+        "Guohang Yan",
+        "Yirong Chen",
+        "Zilin Bian",
+        "Botian Shi",
+        "Ding Wang"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 12,
+      "abstract": "Multimodal reasoning in Large Language Models (LLMs) struggles with incomplete knowledge and hallucination artifacts, challenges that textual Knowledge Graphs (KGs) only partially mitigate due to their modality isolation. While Multimodal Knowledge Graphs (MMKGs) promise enhanced cross-modal understanding, their practical construction is impeded by semantic narrowness of manual text annotations and inherent noise in visual-semantic entity linkages. In this paper, we propose Vision-align-to-Language integrated Knowledge Graph (VaLiK), a novel approach for constructing MMKGs that enhances LLMs reasoning through cross-modal information supplementation. Specifically, we cascade pre-trained Vision-Language Models (VLMs) to align image features with text, transforming them into descriptions that encapsulate image-specific information. Furthermore, we developed a cross-modal similarity verification mechanism to quantify semantic consistency, effectively filtering out noise introduced during feature alignment. Even without manually annotated image captions, the refined descriptions alone suffice to construct the MMKG. Compared to conventional MMKGs construction paradigms, our approach achieves substantial storage efficiency gains while maintaining direct entity-to-image linkage capability. Experimental results on multimodal reasoning tasks demonstrate that LLMs augmented with VaLiK outperform previous state-of-the-art models. Our code is published at https://github.com/Wings-Of-Disaster/VaLiK.",
+      "doi": "10.48550/arXiv.2503.12972",
+      "url": "https://www.semanticscholar.org/paper/06b0399f2241dc680c0af9dcba6f3274fa14f6fd",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-03-17"
+    },
+    {
+      "id": "7944d7d7e60e381064328a8b3613e36c0c187b5f",
+      "title": "Ontology-guided Knowledge Graph Construction from Maintenance Short Texts",
+      "authors": [
+        "Zeno Cauter",
+        "Nikolay Yakovets"
+      ],
+      "year": 2024,
+      "venue": "KALLM",
+      "citation_count": 12,
+      "abstract": "Large-scale knowledge graph construction remains infeasible since it requires significant human-expert involvement. Further complications arise when building graphs from domain-specific data due to their unique vocabularies and associated contexts. In this work, we demonstrate the ability of open-source large language models (LLMs), such as Llama-2 and Llama-3, to extract facts from domain-specific Maintenance Short Texts (MSTs). We employ an approach which combines ontology-guided triplet extraction and in-context learning. By using only 20 semantically similar examples with the Llama-3-70B-Instruct model, we achieve performance comparable to previous methods that relied on fine-tuning techniques like SpERT and REBEL. This indicates that domain-specific fact extraction can be accomplished through inference alone, requiring minimal labeled data. This opens up possibilities for effective and efficient semi-automated knowledge graph construction for domain-specific data.",
+      "doi": "10.18653/v1/2024.kallm-1.8",
+      "url": "https://www.semanticscholar.org/paper/7944d7d7e60e381064328a8b3613e36c0c187b5f",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "694fc761d52448bbd115fa8f834a2b135bd8e95a",
+      "title": "Towards self-configuring Knowledge Graph Construction Pipelines using LLMs - A Case Study with RML",
+      "authors": [
+        "Marvin Hofer",
+        "Johannes Frey",
+        "Erhard Rahm"
+      ],
+      "year": 2024,
+      "venue": "KGCW@ESWC",
+      "citation_count": 12,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/694fc761d52448bbd115fa8f834a2b135bd8e95a",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "aa75fcc42859511c015d2f44467da432e61245b9",
+      "title": "Multimodal knowledge graph construction for risk identification in water diversion projects",
+      "authors": [
+        "Lihu Wang",
+        "Xuemei Liu",
+        "Yang Liu",
+        "Hairui Li",
+        "Jiaqi Liu",
+        "Libo Yang"
+      ],
+      "year": 2024,
+      "venue": "Journal of Hydrology",
+      "citation_count": 12,
+      "abstract": null,
+      "doi": "10.1016/j.jhydrol.2024.131155",
+      "url": "https://www.semanticscholar.org/paper/aa75fcc42859511c015d2f44467da432e61245b9",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-04-01"
+    },
+    {
+      "id": "8a7f2cda8f95aac35660c60a2f92d81a0e308041",
+      "title": "AttacKG+:Boosting Attack Knowledge Graph Construction with Large Language Models",
+      "authors": [
+        "Yongheng Zhang",
+        "Tingwen Du",
+        "Yunshan Ma",
+        "Xiang Wang",
+        "Yi Xie",
+        "Guozheng Yang",
+        "Yuliang Lu",
+        "Ee-Chien Chang"
+      ],
+      "year": 2024,
+      "venue": "arXiv.org",
+      "citation_count": 10,
+      "abstract": "Attack knowledge graph construction seeks to convert textual cyber threat intelligence (CTI) reports into structured representations, portraying the evolutionary traces of cyber attacks. Even though previous research has proposed various methods to construct attack knowledge graphs, they generally suffer from limited generalization capability to diverse knowledge types as well as requirement of expertise in model design and tuning. Addressing these limitations, we seek to utilize Large Language Models (LLMs), which have achieved enormous success in a broad range of tasks given exceptional capabilities in both language understanding and zero-shot task fulfillment. Thus, we propose a fully automatic LLM-based framework to construct attack knowledge graphs named: AttacKG+. Our framework consists of four consecutive modules: rewriter, parser, identifier, and summarizer, each of which is implemented by instruction prompting and in-context learning empowered by LLMs. Furthermore, we upgrade the existing attack knowledge schema and propose a comprehensive version. We represent a cyber attack as a temporally unfolding event, each temporal step of which encapsulates three layers of representation, including behavior graph, MITRE TTP labels, and state summary. Extensive evaluation demonstrates that: 1) our formulation seamlessly satisfies the information needs in threat event analysis, 2) our construction framework is effective in faithfully and accurately extracting the information defined by AttacKG+, and 3) our attack graph directly benefits downstream security practices such as attack reconstruction. All the code and datasets will be released upon acceptance.",
+      "doi": "10.48550/arXiv.2405.04753",
+      "url": "https://www.semanticscholar.org/paper/8a7f2cda8f95aac35660c60a2f92d81a0e308041",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-05-08"
+    },
+    {
+      "id": "43af0e5d55940c424997fb57530b5c0db43f1657",
+      "title": "reguloGPT: Harnessing GPT for Knowledge Graph Construction of Molecular Regulatory Pathways",
+      "authors": [
+        "Xidong Wu",
+        "Yiming Zeng",
+        "Arun Das",
+        "Sumin Jo",
+        "Tinghe Zhang",
+        "Parth Patel",
+        "Jianqiu Zhang",
+        "Shou-Jiang Gao",
+        "Dexter Pratt",
+        "Yu-Chiao Chiu",
+        "Yufei Huang"
+      ],
+      "year": 2024,
+      "venue": "bioRxiv",
+      "citation_count": 10,
+      "abstract": "Motivation Molecular Regulatory Pathways (MRPs) are crucial for understanding biological functions. Knowledge Graphs (KGs) have become vital in organizing and analyzing MRPs, providing structured representations of complex biological interactions. Current tools for mining KGs from biomedical literature are inadequate in capturing complex, hierarchical relationships and contextual information about MRPs. Large Language Models (LLMs) like GPT-4 offer a promising solution, with advanced capabilities to decipher the intricate nuances of language. However, their potential for end-to-end KG construction, particularly for MRPs, remains largely unexplored. Results We present reguloGPT, a novel GPT-4 based in-context learning prompt, designed for the end-to-end joint name entity recognition, N-ary relationship extraction, and context predictions from a sentence that describes regulatory interactions with MRPs. Our reguloGPT approach introduces a context-aware relational graph that effectively embodies the hierarchical structure of MRPs and resolves semantic inconsistencies by embedding context directly within relational edges. We created a benchmark dataset including 400 annotated PubMed titles on N6-methyladenosine (m6A) regulations. Rigorous evaluation of reguloGPT on the benchmark dataset demonstrated marked improvement over existing algorithms. We further developed a novel G-Eval scheme, leveraging GPT-4 for annotation-free performance evaluation and demonstrated its agreement with traditional annotation-based evaluations. Utilizing reguloGPT predictions on m6A-related titles, we constructed the m6A-KG and demonstrated its utility in elucidating m6A’s regulatory mechanisms in cancer phenotypes across various cancers. These results underscore reguloGPT’s transformative potential for extracting biological knowledge from the literature. Availability and implementation The source code of reguloGPT, the m6A title and benchmark datasets, and m6A-KG are available at: https://github.com/Huang-AI4Medicine-Lab/reguloGPT.",
+      "doi": "10.1101/2024.01.27.577521",
+      "url": "https://www.semanticscholar.org/paper/43af0e5d55940c424997fb57530b5c0db43f1657",
+      "pdf_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10836076",
+      "fields_of_study": [
+        "Medicine",
+        "Biology"
+      ],
+      "publication_date": "2024-01-30"
+    },
+    {
+      "id": "c9d2616f0b49b9842c34309373f7d2b419f2bbcc",
+      "title": "Large language models for intelligent RDF knowledge graph construction: results from medical ontology mapping",
+      "authors": [
+        "A. Mavridis",
+        "Stergios Tegos",
+        "Christos Anastasiou",
+        "Maria Papoutsoglou",
+        "G. Meditskos"
+      ],
+      "year": 2025,
+      "venue": "Frontiers Artif. Intell.",
+      "citation_count": 9,
+      "abstract": "The exponential growth of digital data, particularly in specialized domains like healthcare, necessitates advanced knowledge representation and integration techniques. RDF knowledge graphs offer a powerful solution, yet their creation and maintenance, especially for complex medical ontologies like Systematized Nomenclature of Medicine - Clinical Terms (SNOMED CT), remain challenging. Traditional methods often struggle with the scale, heterogeneity, and semantic complexity of medical data. This paper introduces a methodology leveraging the contextual understanding and reasoning capabilities of Large Language Models (LLMs) to automate and enhance medical ontology mapping for Resource Description Framework (RDF) knowledge graph construction. We conduct a comprehensive comparative analysis of six systems–GPT-4o, Claude 3.5 Sonnet v2, Gemini 1.5 Pro, Llama 3.3 70B, DeepSeek R1, and BERTMap—using a novel evaluation framework that combines quantitative metrics (precision, recall, and F1-score) with qualitative assessments of semantic accuracy. Our approach integrates a data preprocessing pipeline with an LLM-powered semantic mapping engine, utilizing BioBERT embeddings and ChromaDB vector database for efficient concept retrieval. Experimental results on a dataset of 108 medical terms demonstrate the superior performance of modern LLMs, particularly GPT-4o, achieving a precision of 93.75% and an F1-score of 96.26%. These findings highlight the potential of LLMs in bridging the gap between structured medical data and semantic knowledge representation, toward more accurate and interoperable medical knowledge graphs.",
+      "doi": "10.3389/frai.2025.1546179",
+      "url": "https://www.semanticscholar.org/paper/c9d2616f0b49b9842c34309373f7d2b419f2bbcc",
+      "pdf_url": "https://doi.org/10.3389/frai.2025.1546179",
+      "fields_of_study": [
+        "Medicine",
+        "Computer Science"
+      ],
+      "publication_date": "2025-04-25"
+    },
+    {
+      "id": "b6f58920496e7e528d31948667693cb9c0c5069f",
+      "title": "Earthquake event knowledge graph construction and reasoning",
+      "authors": [
+        "Peiyuan Qiu",
+        "Linke Pang",
+        "Yong Luo",
+        "Yaohui Liu",
+        "Huaqiao Xing",
+        "Kang Liu",
+        "Guoliang Zhuang"
+      ],
+      "year": 2024,
+      "venue": "Geomatics, Natural Hazards & Risk",
+      "citation_count": 9,
+      "abstract": "Abstract Efficient decision-making in earthquake emergencies plays a crucial role in ensuring individual safety, protecting personal property, and maintaining societal stability. However, traditional approaches to earthquake emergency decision-making rely on manual analysis or rule-based methods, which often struggle to fully leverage the wealth of information and uncover hidden data connections. Consequently, the efficiency of earthquake emergency decision-making is compromised. To address this issue, this study proposes a method for constructing an earthquake event knowledge graph and utilizing it for decision-making in earthquake emergencies. Firstly, specialized earthquake event knowledge ontology is developed, tailored to the unique characteristics of earthquake event data. Secondly, structured instances of earthquake event knowledge are extracted from text using transfer learning techniques, enabling the construction of the earthquake event knowledge graph. Thirdly, the earthquake event knowledge is represented as multidimensional vectors using knowledge graph representation learning technology. This facilitates the identification of similar earthquake events through inference based on vector similarity computation. In conclusion, the results of a case-based study demonstrate the effectiveness of the proposed method in providing accurate outcomes, facilitating earthquake event matching, enabling the retrieval and reuse of historical earthquake event knowledge, and serving as a valuable reference for earthquake emergency decision-making.",
+      "doi": "10.1080/19475705.2024.2383768",
+      "url": "https://www.semanticscholar.org/paper/b6f58920496e7e528d31948667693cb9c0c5069f",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/19475705.2024.2383768?needAccess=true",
+      "fields_of_study": null,
+      "publication_date": "2024-08-07"
+    },
+    {
+      "id": "4a7d232ff1a806b257a93e31893319b1cd869cb0",
+      "title": "Semantic interlinking of Immigration Data using LLMs for Knowledge Graph Construction",
+      "authors": [
+        "Radhakrishnan Venkatakrishnan",
+        "Emrah Tanyildizi",
+        "M. A. Canbaz"
+      ],
+      "year": 2024,
+      "venue": "The Web Conference",
+      "citation_count": 9,
+      "abstract": "The challenge of managing immigration data is exacerbated by its reliance on paper-based, evidence-driven records maintained by legal professionals, creating obstacles for efficient processing and analysis due to inherent trust issues with AI-based systems. This paper introduces a cutting-edge framework to surmount these hurdles by synergizing Large Language Models (LLMs) with Knowledge Graphs (KGs), revolutionizing traditional data handling methods. Our method transforms archaic, paper-based immigration records into a structured, interconnected knowledge network that intricately mirrors the legal and procedural nuances of immigration, ensuring a dynamic and trustworthy platform for data analysis. Utilizing LLMs, we extract vital entities and relationships from diverse legal documents to forge a comprehensive knowledge graph, encapsulating the complex legalities and procedural disparities in immigration processes and mapping the multifaceted interactions among stakeholders like applicants, sponsors, and legal experts. This graph not only facilitates a deep dive into the legal stipulations but also incorporates them, significantly boosting the system's reliability and precision. With the integration of Retrieval Augmented Generation (RAG) for exact, context-aware data retrieval and Augmented Knowledge Creation for developing a conversational interface via LLMs, our framework offers a scalable, adaptable solution to immigration data management. This innovative amalgamation of LLMs, KGs, and RAG techniques marks a paradigm shift towards more informed, efficient, and trustworthy decision-making in the sphere of global migration, setting a new benchmark for legal technology and data source management.",
+      "doi": "10.1145/3589335.3651557",
+      "url": "https://www.semanticscholar.org/paper/4a7d232ff1a806b257a93e31893319b1cd869cb0",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3589335.3651557",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-05-13"
+    },
+    {
+      "id": "ee879c056e81471e833f221ff3aa7118972b3531",
+      "title": "KGValidator: A Framework for Automatic Validation of Knowledge Graph Construction",
+      "authors": [
+        "Jack Boylan",
+        "Shashank Mangla",
+        "Dominic Thorn",
+        "D. Ghalandari",
+        "Parsa Ghaffari",
+        "Chris Hokamp"
+      ],
+      "year": 2024,
+      "venue": "TEXT2KG/DQMLKG@ESWC",
+      "citation_count": 9,
+      "abstract": "This study explores the use of Large Language Models (LLMs) for automatic evaluation of knowledge graph (KG) completion models. Historically, validating information in KGs has been a challenging task, requiring large-scale human annotation at prohibitive cost. With the emergence of general-purpose generative AI and LLMs, it is now plausible that human-in-the-loop validation could be replaced by a generative agent. We introduce a framework for consistency and validation when using generative models to validate knowledge graphs. Our framework is based upon recent open-source developments for structural and semantic validation of LLM outputs, and upon flexible approaches to fact checking and verification, supported by the capacity to reference external knowledge sources of any kind. The design is easy to adapt and extend, and can be used to verify any kind of graph-structured data through a combination of model-intrinsic knowledge, user-supplied context, and agents capable of external knowledge retrieval.",
+      "doi": "10.48550/arXiv.2404.15923",
+      "url": "https://www.semanticscholar.org/paper/ee879c056e81471e833f221ff3aa7118972b3531",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-04-24"
+    },
+    {
+      "id": "e4229dc38f25e40df92bb3d4ed96ca72a3bf7f89",
+      "title": "Can LLMs be Good Graph Judge for Knowledge Graph Construction?",
+      "authors": [
+        "Haoyu Huang",
+        "Chong Chen",
+        "Zeang Sheng",
+        "Yang Li",
+        "Wentao Zhang"
+      ],
+      "year": 2024,
+      "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+      "citation_count": 9,
+      "abstract": "In real-world scenarios, most of the data obtained from the information retrieval (IR) system is unstructured. Converting natural language sentences into structured Knowledge Graphs (KGs) remains a critical challenge. We identified three limitations with respect to existing KG construction methods: (1) There could be a large amount of noise in real-world documents, which could result in extracting messy information. (2) Naive LLMs usually extract inaccurate knowledge from some domain-specific documents. (3) Hallucination phenomenon cannot be overlooked when directly using LLMs to construct KGs. In this paper, we propose \\textbf{GraphJudge}, a KG construction framework to address the aforementioned challenges. In this framework, we designed an entity-centric strategy to eliminate the noise information in the documents. And we fine-tuned a LLM as a graph judge to finally enhance the quality of generated KGs. Experiments conducted on two general and one domain-specific text-graph pair datasets demonstrate state-of-the-art performance against various baseline methods with strong generalization abilities. Our code is available at \\href{https://github.com/hhy-huang/GraphJudge}{https://github.com/hhy-huang/GraphJudge}.",
+      "doi": "10.18653/v1/2025.emnlp-main.554",
+      "url": "https://www.semanticscholar.org/paper/e4229dc38f25e40df92bb3d4ed96ca72a3bf7f89",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-11-26"
+    },
+    {
+      "id": "c13a391270a3ed73cec267881aa9350b8262800d",
+      "title": "A Graph-Based Keyword Extraction Method for Academic Literature Knowledge Graph Construction",
+      "authors": [
+        "Lin Zhang",
+        "Yanan Li",
+        "Qinru Li"
+      ],
+      "year": 2024,
+      "venue": "Mathematics",
+      "citation_count": 8,
+      "abstract": "In this paper, we construct an academic literature knowledge graph based on the relationship between documents to facilitate the storage and research of academic literature data. Keywords are an important type of node in the knowledge graph. To solve the problem that there are no keywords in some documents for several reasons in the process of knowledge graph construction, an improved keyword extraction algorithm called TP-CoGlo-TextRank is proposed by using word frequency, position, word co-occurrence frequency, and a word embedding model. By combining the word frequency and position in the document, the importance of words is distinguished. By introducing the GloVe word-embedding model, which brings the external knowledge of documents into the TextRank algorithm, and combining the internal word co-occurrence frequency in the documents, the word-adjacency relationship is transferred non-uniformly. Finally, the words with the highest scores are combined into phrases if they are adjacent in the original text. The validity of the TP-CoGlo-TextRank algorithm is verified by experiments. On this basis, the Neo4j graph database is used to store and display the academic literature knowledge graph, to provide data support for research tasks such as text clustering, automatic summarization, and question-answering systems.",
+      "doi": "10.3390/math12091349",
+      "url": "https://www.semanticscholar.org/paper/c13a391270a3ed73cec267881aa9350b8262800d",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2024-04-29"
+    },
+    {
+      "id": "4419aae8b22a843e3c2d50014da296dad86ca9ee",
+      "title": "A Semi-Supervised Failure Knowledge Graph Construction Method for Decision Support in Operations and Maintenance",
+      "authors": [
+        "Yi Ding",
+        "He Li",
+        "Feng Zhu",
+        "Zhe Wang",
+        "Wei Peng",
+        "Min Xie"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Industrial Informatics",
+      "citation_count": 8,
+      "abstract": "Maintenance logs of industrial equipment record descriptive and unstructured operation and maintenance (O&M) information, which is the basis of reliability, availability, and maintainability investigations. However, the construction of failure knowledge graphs as a basis for understanding the failure and maintenance properties of systems is challenging due to the requirement of annotation efforts and domain knowledge. This article proposes a novel semi-supervised method for failure knowledge graph construction. Initially, a semantic module is proposed to extract hidden contextual information from maintenance records and identify corresponding failure modes. The semantic module is trained by unlabeled maintenance records with the assistance of the hard pseudo-label acquisition and the proposed self-training algorithm. Subsequently, a taxonomy induction module is presented to extract failure items and their relationships to construct failure knowledge graphs that provide decision support. The feasibility and superiority of the proposed method are validated by maintenance logs from real wind farms. Overall, the proposed method provides an effective tool for semantic information digitalization of well-cumulated industrial O&M data.",
+      "doi": "10.1109/TII.2023.3299078",
+      "url": "https://www.semanticscholar.org/paper/4419aae8b22a843e3c2d50014da296dad86ca9ee",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-03-01"
+    },
+    {
+      "id": "b31bae7d1a3f6a7a4a6a1be16f54564495fe2ae5",
+      "title": "Representing the Interaction between Users and Products via LLM-assisted Knowledge Graph Construction",
+      "authors": [
+        "Julio Vizcarra",
+        "Shuichiro Haruta",
+        "Mori Kurokawa"
+      ],
+      "year": 2024,
+      "venue": "International Computer Science Conference",
+      "citation_count": 7,
+      "abstract": "To understand user behavior, representing the semantic knowledge of user-product interaction is essential. In this paper, we represent the interaction between user and product via large language model (LLM)-assisted knowledge graph construction. We capture users’ behavioral actions and static properties of the products from raw text data of “user review” and “product catalog”. Moreover, the information needed for updating the knowledge graph is captured by raw texts of “news related to the products”. The proposed methodology integrates them as a single knowledge graph to provide causal reasoning on user-product interaction. To alleviate the situation where a small quantity of annotated text exists in these data, we use LLM as a data annotator and augmentor.",
+      "doi": "10.1109/ICSC59802.2024.00043",
+      "url": "https://www.semanticscholar.org/paper/b31bae7d1a3f6a7a4a6a1be16f54564495fe2ae5",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-02-05"
+    },
+    {
+      "id": "f90fac51647274b56de6df097e14b544f3c176a2",
+      "title": "Ontology-grounded Automatic Knowledge Graph Construction by LLM under Wikidata schema",
+      "authors": [
+        "Xiaohan Feng",
+        "Xixin Wu",
+        "Helen M. Meng"
+      ],
+      "year": 2024,
+      "venue": "HI-AI@KDD",
+      "citation_count": 6,
+      "abstract": "We propose an ontology-grounded approach to Knowledge Graph (KG) construction using Large Language Models (LLMs) on a knowledge base. An ontology is authored by generating Competency Questions (CQ) on knowledge base to discover knowledge scope, extracting relations from CQs, and attempt to replace equivalent relations by their counterpart in Wikidata. To ensure consistency and interpretability in the resulting KG, we ground generation of KG with the authored ontology based on extracted relations. Evaluation on benchmark datasets demonstrates competitive performance in knowledge graph construction task. Our work presents a promising direction for scalable KG construction pipeline with minimal human intervention, that yields high quality and human-interpretable KGs, which are interoperable with Wikidata semantics for potential knowledge base expansion.",
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/f90fac51647274b56de6df097e14b544f3c176a2",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-12-30"
+    },
+    {
+      "id": "e113ad6b4227cfd959d2f33524d812899b6e2031",
+      "title": "Research on Knowledge Graph Construction Methods for News Domain",
+      "authors": [
+        "Peiyi Yang",
+        "Bin Song",
+        "Zhiyong Zhang"
+      ],
+      "year": 2024,
+      "venue": "Academic Journal of Science and Technology",
+      "citation_count": 5,
+      "abstract": "With the rapid development of the Internet and artificial intelligence technology, massive text data is growing exponentially, and the news industry is generating massive text data every moment. Most of the existing knowledge graphs focus on tourism, healthcare, finance and other fields, while there are relatively few in the news field, which is not well constructed. Aiming at the above problems, this paper firstly devotes to the construction of ontology library in news domain, and precisely defines 8 types of entities and 9 types of relations, which lays a solid foundation for the construction of news knowledge graph. Subsequently, with the help of web crawler technology, we extensively collected news text and image data, and carried out rigorous knowledge cleaning, extraction and fusion processing on these data to ensure the accuracy and completeness of the data. Finally, with the help of Neo4j graph database, the effective storage of news knowledge is realised, and the news domain knowledge graph is successfully constructed. It provides new ideas and means for information mining and utilisation in the news industry, and also provides rich, high-quality data support for downstream applications, which is expected to promote the intelligent development of the news field.",
+      "doi": "10.54097/dfdnfs56",
+      "url": "https://www.semanticscholar.org/paper/e113ad6b4227cfd959d2f33524d812899b6e2031",
+      "pdf_url": "https://drpress.org/ojs/index.php/ajst/article/download/21756/21278",
+      "fields_of_study": null,
+      "publication_date": "2024-05-21"
+    },
+    {
+      "id": "23b9447b70ad3ceaf3aa4a5437b0aeadbc320590",
+      "title": "An LLM supported approach to ontology and knowledge graph construction",
+      "authors": [
+        "Hang Yang",
+        "Liang Xiao",
+        "Rujun Zhu",
+        "Ziji Liu",
+        "Jianxia Chen"
+      ],
+      "year": 2024,
+      "venue": "IEEE International Conference on Bioinformatics and Biomedicine",
+      "citation_count": 4,
+      "abstract": "The continuous development in the medical field faces multiple challenges in managing a large amount of literature and research results using traditional ontology and knowledge graph construction methods. These challenges include high labor costs, limited coverage, and poor dynamism of traditional ontology and knowledge graph construction methods. Large language models (LLMs) can solve various natural language processing tasks and can understand and generate human-like natural language, which makes automated construction of ontology expansion and knowledge graphs (KGs) possible. This paper proposes an ontology expansion method based on LLMs, using LLMs to formulate competency questions (CQs) to extend the initial ontology, and then constructing the knowledge graph based on the extended ontology. We demonstrated the feasibility of the method by creating a knowledge graph for breast cancer treatment. The combination of LLMs-based medical ontology and knowledge graph can achieve more efficient medical knowledge management and application, promoting the informatization and intelligent development of the medical field.",
+      "doi": "10.1109/BIBM62325.2024.10822222",
+      "url": "https://www.semanticscholar.org/paper/23b9447b70ad3ceaf3aa4a5437b0aeadbc320590",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-12-03"
+    },
+    {
+      "id": "1436674e18611af06b94ee1f664f071442ed854a",
+      "title": "An Adaptive Framework Embedded With LLM for Knowledge Graph Construction",
+      "authors": [
+        "Qingwang Wang",
+        "Chaohui Li",
+        "Yi Liu",
+        "Qiubai Zhu",
+        "Jian Song",
+        "Tao Shen"
+      ],
+      "year": 2025,
+      "venue": "IEEE transactions on multimedia",
+      "citation_count": 3,
+      "abstract": "Knowledge graph construction is aimed at storing and representing the knowledge of the objective world in a structured form. Existing methods for automatic construction of knowledge graphs have problems such as difficulty in understanding potential semantics and low precision. The emergence of Large Language Models (LLMs) provides an effective way for automatic knowledge graph construction. However, using LLMs as automatic knowledge graph construction engines relies on the embedding of schema layers, which brings challenges to the input length of LLMs. In this paper, we present a framework for Adaptive Construction of Knowledge Graph by leveraging the exceptional generation capabilities of LLMs and the latent relational semantic information of triples, named ACKG-LLM. Our proposed framework divides the knowledge graph construction task into three subtasks within a unified pipeline: triple extraction of open information, additional relational semantic information embedding and knowledge graph normalization based on schema-level embedding. The framework can construct knowledge graphs in different domains, making up for the defects of existing frameworks that need to retrain and fine-tune the internal model. Extensive experiments demonstrate that our proposed ACKG-LLM performs favorably against representative methods on the REBEL and WiKi-NRE datasets.",
+      "doi": "10.1109/TMM.2025.3557717",
+      "url": "https://www.semanticscholar.org/paper/1436674e18611af06b94ee1f664f071442ed854a",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "70c3c1527ba929b392536ecca1a9564879f1f0f6",
+      "title": "Landslide knowledge graph construction",
+      "authors": [
+        "Yuhan Hou",
+        "Runqing Ye",
+        "Runze Wu",
+        "Jue Huang",
+        "Xiaolin Fu"
+      ],
+      "year": 2025,
+      "venue": "Other Conferences",
+      "citation_count": 0,
+      "abstract": "In the contemporary era of big data, the field of landslide research has amassed a substantial volume of data. To effectively leverage this data, a bottom-up approach can be employed to construct a landslide knowledge graph, facilitating efficient retrieval and comprehensive analysis of landslide information. This paper proposes a framework for the construction of such a knowledge graph, aiming to integrate geological hazard data. The framework utilizes graph database technology for storage and enables visualization of the knowledge graph, enhancing its usability and interpretability.",
+      "doi": "10.1117/12.3061511",
+      "url": "https://www.semanticscholar.org/paper/70c3c1527ba929b392536ecca1a9564879f1f0f6",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Engineering"
+      ],
+      "publication_date": "2025-04-25"
+    }
+  ]
+}

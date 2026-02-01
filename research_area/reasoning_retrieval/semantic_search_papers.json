@@ -1,0 +1,911 @@
+{
+  "query": "semantic search dense retrieval",
+  "timestamp": "2026-01-25T13:16:11.879085",
+  "count": 40,
+  "papers": [
+    {
+      "id": "8f06a8cff762b5ce6337d3b617442c72a46374a4",
+      "title": "Blended RAG: Improving RAG (Retriever-Augmented Generation) Accuracy with Semantic Search and Hybrid Query-Based Retrievers",
+      "authors": [
+        "Kunal Sawarkar",
+        "Abhilasha Mangal",
+        "S. R. Solanki"
+      ],
+      "year": 2024,
+      "venue": "Conference on Multimedia Information Processing and Retrieval",
+      "citation_count": 128,
+      "abstract": "Retrieval-Augmented Generation (RAG) is a prevalent approach to infuse a private knowledge base of documents with Large Language Models (LLM) to build Generative Q&A (Question-Answering) systems. However, RAG accuracy becomes increasingly challenging as the corpus of documents scales up, with Retrievers playing an outsized role in the overall RAG accuracy by extracting the most relevant document from the corpus to provide context to the LLM. In this paper, we propose the ‘Blended RAG’ method of leveraging semantic search techniques, such as Dense Vector indexes and Sparse Encoder indexes, blended with hybrid query strategies. Our study achieves better retrieval results and sets new benchmarks for IR (Information Retrieval) datasets like NQ and TREC-COVID datasets. We further extend such a ‘Blended Retriever’ to the RAG system to demonstrate far superior results on Generative Q&A datasets like SQUAD, even surpassing fine-tuning performance.",
+      "doi": "10.1109/MIPR62202.2024.00031",
+      "url": "https://www.semanticscholar.org/paper/8f06a8cff762b5ce6337d3b617442c72a46374a4",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-03-22"
+    },
+    {
+      "id": "5ee036d4586f3fd7bb0ecc475f8cfff28d620df0",
+      "title": "REMAP: Multi-Layer Entropy-Guided Pooling of Dense CNN Features for Image Retrieval",
+      "authors": [
+        "S. Husain",
+        "M. Bober"
+      ],
+      "year": 2019,
+      "venue": "IEEE Transactions on Image Processing",
+      "citation_count": 53,
+      "abstract": "This paper addresses the problem of very large-scale image retrieval, focusing on improving its accuracy and robustness. We target enhanced robustness of search to factors, such as variations in illumination, object appearance and scale, partial occlusions, and cluttered backgrounds—particularly important when a search is performed across very large datasets with significant variability. We propose a novel CNN-based global descriptor, called REMAP, which learns and aggregates a hierarchy of deep features from multiple CNN layers, and is trained end-to-end with a triplet loss. REMAP explicitly learns discriminative features which are mutually supportive and complementary at various semantic levels of visual abstraction. These dense local features are max-pooled spatially at each layer, within multi-scale overlapping regions, before aggregation into a single image-level descriptor. To identify the semantically useful regions and layers for retrieval, we propose to measure the information gain of each region and layer using KL-divergence. Our system effectively learns during training how useful various regions and layers are and weights them accordingly. We show that such relative entropy-guided aggregation outperforms classical CNN-based aggregation controlled by SGD. The entire framework is trained in an end-to-end fashion, outperforming the latest state-of-the-art results. On image retrieval datasets Holidays, Oxford, and MPEG, the REMAP descriptor achieves mAP of 95.5%, 91.5%, and 80.1%, respectively, outperforming any results published to date. REMAP also formed the core of the winning submission to the Google Landmark Retrieval Challenge on Kaggle.",
+      "doi": "10.1109/TIP.2019.2917234",
+      "url": "https://www.semanticscholar.org/paper/5ee036d4586f3fd7bb0ecc475f8cfff28d620df0",
+      "pdf_url": "https://doi.org/10.1109/tip.2019.2917234",
+      "fields_of_study": [
+        "Medicine",
+        "Computer Science",
+        "Mathematics"
+      ],
+      "publication_date": "2019-05-22"
+    },
+    {
+      "id": "32481d9d0a7482d3fa20caa91a6b7299c497b04d",
+      "title": "Multi-Aspect Dense Retrieval",
+      "authors": [
+        "Weize Kong",
+        "Swaraj Khadanga",
+        "Cheng Li",
+        "Shaleen Gupta",
+        "Mingyang Zhang",
+        "Wensong Xu",
+        "Michael Bendersky"
+      ],
+      "year": 2022,
+      "venue": "Knowledge Discovery and Data Mining",
+      "citation_count": 21,
+      "abstract": "Prior work in Dense Retrieval usually encodes queries and documents using single-vector representations (also called embeddings) and performs retrieval in the embedding space using approximate nearest neighbor search. This paradigm enables efficient semantic retrieval. However, the single-vector representations can be ineffective at capturing different aspects of the queries and documents in relevance matching, especially for some vertical domains. For example, in e-commerce search, these aspects could be category, brand and color. Given a query ''white nike socks\", a Dense Retrieval model may mistakenly retrieve some ''white adidas socks\" while missing out the intended brand. We propose to explicitly represent multiple aspects using one embedding per aspect. We introduce an aspect prediction task to teach the model to capture aspect information with particular aspect embeddings. We design a lightweight network to fuse the aspect embeddings for representing queries and documents. Our evaluation using an e-commerce dataset shows impressive improvements over strong Dense Retrieval baselines. We also discover that the proposed aspect embeddings can enhance the interpretability of Dense Retrieval models as a byproduct.",
+      "doi": "10.1145/3534678.3539137",
+      "url": "https://www.semanticscholar.org/paper/32481d9d0a7482d3fa20caa91a6b7299c497b04d",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-08-14"
+    },
+    {
+      "id": "496c896507e509a63450df6772fb9a202a7e5d94",
+      "title": "Generative Retrieval as Multi-Vector Dense Retrieval",
+      "authors": [
+        "Shiguang Wu",
+        "Wenda Wei",
+        "Mengqi Zhang",
+        "Zhumin Chen",
+        "Jun Ma",
+        "Zhaochun Ren",
+        "M. D. Rijke",
+        "Pengjie Ren"
+      ],
+      "year": 2024,
+      "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "citation_count": 19,
+      "abstract": "For a given query generative retrieval generates identifiers of relevant documents in an end-to-end manner using a sequence-to-sequence architecture. The relation between generative retrieval and other retrieval methods, especially those based on matching within dense retrieval models, is not yet fully comprehended. Prior work has demonstrated that generative retrieval with atomic identifiers is equivalent to single-vector dense retrieval. Accordingly, generative retrieval exhibits behavior analogous to hierarchical search within a tree index in dense retrieval when using hierarchical semantic identifiers. However, prior work focuses solely on the retrieval stage without considering the deep interactions within the decoder of generative retrieval. In this paper, we fill this gap by demonstrating that generative retrieval and multi-vector dense retrieval share the same framework for measuring the relevance to a query of a document. Specifically, we examine the attention layer and prediction head of generative retrieval, revealing that generative retrieval can be understood as a special case of multi-vector dense retrieval. Both methods compute relevance as a sum of products of query and document vectors and an alignment matrix. We then explore how generative retrieval applies this framework, employing distinct strategies for computing document token vectors and the alignment matrix. We have conducted experiments to verify our conclusions and show that both paradigms exhibit commonalities of term matching in their alignment matrix. Our findings apply to many generative retrieval identifier designs and provide possible explanations on how generative retrieval can express query-document relevance. As multi-vector dense retrieval is the state-of-the-art dense retrieval method currently, understanding the connection between generative retrieval and multi-vector dense retrieval is crucial for shedding light on the underlying mechanisms of generative retrieval and for developing, and understanding the potential of, new retrieval models.",
+      "doi": "10.1145/3626772.3657697",
+      "url": "https://www.semanticscholar.org/paper/496c896507e509a63450df6772fb9a202a7e5d94",
+      "pdf_url": "https://arxiv.org/pdf/2404.00684",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-03-31"
+    },
+    {
+      "id": "984ec2da7e1544c9e4153503be0774ee66950d48",
+      "title": "Taxonomy-guided Semantic Indexing for Academic Paper Search",
+      "authors": [
+        "SeongKu Kang",
+        "Yunyi Zhang",
+        "Pengcheng Jiang",
+        "Dongha Lee",
+        "Jiawei Han",
+        "Hwanjo Yu"
+      ],
+      "year": 2024,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "citation_count": 14,
+      "abstract": "Academic paper search is an essential task for efficient literature discovery and scientific advancement. While dense retrieval has advanced various ad-hoc searches, it often struggles to match the underlying academic concepts between queries and documents, which is critical for paper search. To enable effective academic concept matching for paper search, we propose Taxonomy-guided Semantic Indexing (TaxoIndex) framework. TaxoIndex extracts key concepts from papers and organizes them as a semantic index guided by an academic taxonomy, and then leverages this index as foundational knowledge to identify academic concepts and link queries and documents. As a plug-and-play framework, TaxoIndex can be flexibly employed to enhance existing dense retrievers. Extensive experiments show that TaxoIndex brings significant improvements, even with highly limited training data, and greatly enhances interpretability.",
+      "doi": "10.18653/v1/2024.emnlp-main.407",
+      "url": "https://www.semanticscholar.org/paper/984ec2da7e1544c9e4153503be0774ee66950d48",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-10-25"
+    },
+    {
+      "id": "9d01320da9f6c421e925c3911d5c5819abb1a9be",
+      "title": "BMX: Entropy-weighted Similarity and Semantic-enhanced Lexical Search",
+      "authors": [
+        "Xianming Li",
+        "Julius Lipp",
+        "Aamir Shakir",
+        "Rui Huang",
+        "Jing Li"
+      ],
+      "year": 2024,
+      "venue": "arXiv.org",
+      "citation_count": 11,
+      "abstract": "BM25, a widely-used lexical search algorithm, remains crucial in information retrieval despite the rise of pre-trained and large language models (PLMs/LLMs). However, it neglects query-document similarity and lacks semantic understanding, limiting its performance. We revisit BM25 and introduce BMX, a novel extension of BM25 incorporating entropy-weighted similarity and semantic enhancement techniques. Extensive experiments demonstrate that BMX consistently outperforms traditional BM25 and surpasses PLM/LLM-based dense retrieval in long-context and real-world retrieval benchmarks. This study bridges the gap between classical lexical search and modern semantic approaches, offering a promising direction for future information retrieval research. The reference implementation of BMX can be found in Baguetter, which was created in the context of this work. The code can be found here: https://github.com/mixedbread-ai/baguetter.",
+      "doi": "10.48550/arXiv.2408.06643",
+      "url": "https://www.semanticscholar.org/paper/9d01320da9f6c421e925c3911d5c5819abb1a9be",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-08-13"
+    },
+    {
+      "id": "3c49aa02bc05f5343b090786d272bd31d7e53b3a",
+      "title": "AdaCQR: Enhancing Query Reformulation for Conversational Search via Sparse and Dense Retrieval Alignment",
+      "authors": [
+        "Yilong Lai",
+        "Jialong Wu",
+        "Congzhi Zhang",
+        "Haowen Sun",
+        "Deyu Zhou"
+      ],
+      "year": 2024,
+      "venue": "International Conference on Computational Linguistics",
+      "citation_count": 10,
+      "abstract": "Conversational Query Reformulation (CQR) has significantly advanced in addressing the challenges of conversational search, particularly those stemming from the latent user intent and the need for historical context. Recent works aimed to boost the performance of CQR through alignment. However, they are designed for one specific retrieval system, which potentially results in sub-optimal generalization. To overcome this limitation, we present a novel framework AdaCQR. By aligning reformulation models with both term-based and semantic-based retrieval systems, AdaCQR enhances the generalizability of information-seeking queries among diverse retrieval environments through a two-stage training strategy. Moreover, two effective approaches are proposed to obtain superior labels and diverse input candidates, boosting the efficiency and robustness of the framework. Experimental results on the TopiOCQA and QReCC datasets demonstrate that AdaCQR outperforms the existing methods in a more efficient framework, offering both quantitative and qualitative improvements in conversational query reformulation.",
+      "doi": "10.48550/arXiv.2407.01965",
+      "url": "https://www.semanticscholar.org/paper/3c49aa02bc05f5343b090786d272bd31d7e53b3a",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-07-02"
+    },
+    {
+      "id": "09e13d4b6ce3d32fc89a1a564288d61ba6fb5a0b",
+      "title": "Improving First-stage Retrieval of Point-of-interest Search by Pre-training Models",
+      "authors": [
+        "Lang Mei",
+        "Jiaxin Mao",
+        "Juan Hu",
+        "Naiqiang Tan",
+        "Hua Chai",
+        "Ji-rong Wen"
+      ],
+      "year": 2023,
+      "venue": "ACM Trans. Inf. Syst.",
+      "citation_count": 9,
+      "abstract": "Point-of-interest (POI) search is important for location-based services, such as navigation and online ride-hailing service. The goal of POI search is to find the most relevant destinations from a large-scale POI database given a text query. To improve the effectiveness and efficiency of POI search, most existing approaches are based on a multi-stage pipeline that consists of an efficiency-oriented retrieval stage and one or more effectiveness-oriented re-rank stages. In this article, we focus on the first efficiency-oriented retrieval stage of the POI search. We first identify the limitations of existing first-stage POI retrieval models in capturing the semantic-geography relationship and modeling the fine-grained geographical context information. Then, we propose a Geo-Enhanced Dense Retrieval framework for POI search to alleviate the above problems. Specifically, the proposed framework leverages the capacity of pre-trained language models (e.g., BERT) and designs a pre-training approach to better model the semantic match between the query prefix and POIs. With the POI collection, we first perform a token-level pre-training task based on a geographical-sensitive masked language prediction and design two retrieval-oriented pre-training tasks that link the address of each POI to its name and geo-location. With the user behavior logs collected from an online POI search system, we design two additional pre-training tasks based on users’ query reformulation behavior and the transitions between POIs. We also utilize a late-interaction network structure to model the fine-grained interactions between the text and geographical context information within an acceptable query latency. Extensive experiments on the real-world datasets collected from the Didichuxing application demonstrate that the proposed framework can achieve superior retrieval performance over existing first-stage POI retrieval methods.",
+      "doi": "10.1145/3631937",
+      "url": "https://www.semanticscholar.org/paper/09e13d4b6ce3d32fc89a1a564288d61ba6fb5a0b",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-11-07"
+    },
+    {
+      "id": "ce750b62c1b090770aedd949fb289b96b03eedad",
+      "title": "SeDR: Segment Representation Learning for Long Documents Dense Retrieval",
+      "authors": [
+        "Junying Chen",
+        "Qingcai Chen",
+        "Dongfang Li",
+        "Yutao Huang"
+      ],
+      "year": 2022,
+      "venue": "arXiv.org",
+      "citation_count": 7,
+      "abstract": "Recently, Dense Retrieval (DR) has become a promising solution to document retrieval, where document representations are used to perform effective and efficient semantic search. However, DR remains challenging on long documents, due to the quadratic complexity of its Transformer-based encoder and the finite capacity of a low-dimension embedding. Current DR models use suboptimal strategies such as truncating or splitting-and-pooling to long documents leading to poor utilization of whole document information. In this work, to tackle this problem, we propose Segment representation learning for long documents Dense Retrieval (SeDR). In SeDR, Segment-Interaction Transformer is proposed to encode long documents into document-aware and segment-sensitive representations, while it holds the complexity of splitting-and-pooling and outperforms other segment-interaction patterns on DR. Since GPU memory requirements for long document encoding causes insufficient negatives for DR training, Late-Cache Negative is further proposed to provide additional cache negatives for optimizing representation learning. Experiments on MS MARCO and TREC-DL datasets show that SeDR achieves superior performance among DR models, and confirm the effectiveness of SeDR on long document retrieval.",
+      "doi": "10.48550/arXiv.2211.10841",
+      "url": "https://www.semanticscholar.org/paper/ce750b62c1b090770aedd949fb289b96b03eedad",
+      "pdf_url": "http://arxiv.org/pdf/2211.10841",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-11-20"
+    },
+    {
+      "id": "c095ce4bb2f0ac410e040ab23893f303a53f3251",
+      "title": "Pre-training with Aspect-Content Text Mutual Prediction for Multi-Aspect Dense Retrieval",
+      "authors": [
+        "Xiaojie Sun",
+        "Keping Bi",
+        "Jiafeng Guo",
+        "Xinyu Ma",
+        "Yixing Fan",
+        "Hongyuan Shan",
+        "Qishen Zhang",
+        "Zhongyi Liu"
+      ],
+      "year": 2023,
+      "venue": "International Conference on Information and Knowledge Management",
+      "citation_count": 6,
+      "abstract": "Grounded on pre-trained language models (PLMs), dense retrieval has been studied extensively on plain text. In contrast, there has been little research on retrieving data with multiple aspects using dense models. In the scenarios such as product search, the aspect information plays an essential role in relevance matching, e.g., category: Electronics, Computers, and Pet Supplies. A common way of leveraging aspect information for multi-aspect retrieval is to introduce an auxiliary classification objective, i.e., using item contents to predict the annotated value IDs of item aspects. However, by learning the value embeddings from scratch, this approach may not capture the various semantic similarities between the values sufficiently. To address this limitation, we leverage the aspect information as text strings rather than class IDs during pre-training so that their semantic similarities can be naturally captured in the PLMs. To facilitate effective retrieval with the aspect strings, we propose mutual prediction objectives between the text of the item aspect and content. In this way, our model makes more sufficient use of aspect information than conducting undifferentiated masked language modeling (MLM) on the concatenated text of aspects and content. Extensive experiments on two real-world datasets (product and mini-program search) show that our approach can outperform competitive baselines both treating aspect values as classes and conducting the same MLM for aspect and content strings. Code and related dataset will be available at the URL \\footnotehttps://github.com/sunxiaojie99/ATTEMPT.",
+      "doi": "10.1145/3583780.3615157",
+      "url": "https://www.semanticscholar.org/paper/c095ce4bb2f0ac410e040ab23893f303a53f3251",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3583780.3615157",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-08-22"
+    },
+    {
+      "id": "5fef57eb61737c128c238a161094c651e539a77e",
+      "title": "From Missteps to Mastery: Enhancing Low-Resource Dense Retrieval through Adaptive Query Generation",
+      "authors": [
+        "Zhenyu Tong",
+        "Chuan Qin",
+        "Chuyu Fang",
+        "Kaichun Yao",
+        "Xi Chen",
+        "Jingshuai Zhang",
+        "Chen Zhu",
+        "Hengshu Zhu"
+      ],
+      "year": 2025,
+      "venue": "Knowledge Discovery and Data Mining",
+      "citation_count": 5,
+      "abstract": "Document retrieval, designed to recall query-relevant documents from expansive collections, is essential for information-seeking tasks, such as web search and open-domain question-answering. Advances in representation learning and pretrained language models (PLMs) have driven a paradigm shift from traditional sparse retrieval methods to more effective dense retrieval approaches, forging enhanced semantic connections between queries and documents and establishing new performance benchmarks. However, reliance on extensive annotated document-query pairs limits their competitiveness in low-resource scenarios. Recent research efforts employing the few-shot capabilities of large language models (LLMs) and prompt engineering for synthetic data generation have emerged as a promising solution. Nonetheless, these approaches are hindered by the generation of lower-quality data within the conventional dense retrieval training process. To this end, in this paper, we introduce iGFT, a framework aimed at enhancing low-resource dense retrieval by integrating a three-phase process --- Generation, Filtering, and Tuning --- coupled with an iterative optimization strategy. Specifically, we first employ supervised fine-tuning on limited ground truth data, enabling an LLM to function as the generator capable of producing potential queries from given documents. Subsequently, we present a multi-stage filtering module to minimize noise in the generated data while retaining samples poised to significantly improve the dense retrieval model's performance in the follow-up fine-tuning process. Furthermore, we design a novel iterative optimization strategy that dynamically optimizes the query generator for producing more informative queries, thereby enhancing the efficacy of the entire framework. Finally, extensive experiments conducted on a series of publicly available retrieval benchmark datasets have demonstrated the effectiveness of the proposed iGFT.",
+      "doi": "10.1145/3690624.3709225",
+      "url": "https://www.semanticscholar.org/paper/5fef57eb61737c128c238a161094c651e539a77e",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-07-20"
+    },
+    {
+      "id": "937b9b4f18db86805b542282a3cc7d9b4d51d954",
+      "title": "A Multi-Granularity-Aware Aspect Learning Model for Multi-Aspect Dense Retrieval",
+      "authors": [
+        "Xiaojie Sun",
+        "Keping Bi",
+        "J. Guo",
+        "Sihui Yang",
+        "Qishen Zhang",
+        "Zhongyi Liu",
+        "Guannan Zhang",
+        "Xueqi Cheng"
+      ],
+      "year": 2023,
+      "venue": "Web Search and Data Mining",
+      "citation_count": 5,
+      "abstract": "Dense retrieval methods have been mostly focused on unstructured text and less attention has been drawn to structured data with various aspects, e.g., products with aspects such as category and brand. Recent work has proposed two approaches to incorporate the aspect information into item representations for effective retrieval by predicting the values associated with the item aspects. Despite their efficacy, they treat the values as isolated classes (e.g., \"Smart Homes\", \"Home, Garden & Tools\", and \"Beauty & Health\") and ignore their fine-grained semantic relation. Furthermore, they either enforce the learning of aspects into the CLS token, which could confuse it from its designated use for representing the entire content semantics, or learn extra aspect embeddings only with the value prediction objective, which could be insufficient especially when there are no annotated values for an item aspect. Aware of these limitations, we propose a MUlti-granulaRity-aware Aspect Learning model (MURAL) for multi-aspect dense retrieval. It leverages aspect information across various granularities to capture both coarse and fine-grained semantic relations between values. Moreover, MURAL incorporates separate aspect embeddings as input to transformer encoders so that the masked language model objective can assist implicit aspect learning even without aspect-value annotations. Extensive experiments on two real-world datasets of products and mini-programs show that MURAL outperforms state-of-the-art baselines significantly. Code will be available at the URL.",
+      "doi": "10.1145/3616855.3635770",
+      "url": "https://www.semanticscholar.org/paper/937b9b4f18db86805b542282a3cc7d9b4d51d954",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3616855.3635770",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-12-05"
+    },
+    {
+      "id": "cd5053e05911cfbf2f15b4b951137cfe259e771f",
+      "title": "LLM-Based Query Expansion with Gaussian Kernel Semantic Enhancement for Dense Retrieval",
+      "authors": [
+        "Min Pan",
+        "Wenrui Xiong",
+        "Shuting Zhou",
+        "Mengfei Gao",
+        "Jinguang Chen"
+      ],
+      "year": 2025,
+      "venue": "Electronics",
+      "citation_count": 3,
+      "abstract": "In the field of Information Retrieval (IR), user-submitted keyword queries often fail to accurately represent users’ true search intent. With the rapid advancement of artificial intelligence, particularly in natural language processing (NLP), query expansion (QE) based on large language models (LLMs) has emerged as a key strategy for improving retrieval effectiveness. However, such methods often introduce query topic drift, which negatively impacts retrieval accuracy and efficiency. To address this issue, this study proposes an LLM-based QE framework that incorporates a Gaussian kernel-enhanced semantic space for dense retrieval. Specifically, the model first employs LLMs to expand the semantic dimensions of the initial query, generating multiple query representations. Then, by introducing a Gaussian kernel semantic space, it captures deep semantic relationships among these query vectors, refining their semantic distribution to better represent the original query’s intent. Finally, the ColBERTv2 model is utilized to retrieve documents based on the enhanced query representations, enabling precise relevance assessment and improving retrieval performance. To validate the effectiveness of the proposed approach, extensive empirical evaluations were conducted on the MS MARCO passage ranking dataset. The model was systematically assessed using key metrics, including MAP, NDCG@10, MRR@10, and Recall@1000. Experimental results demonstrate that the proposed method outperforms existing approaches across multiple metrics, significantly improving retrieval precision while effectively mitigating query drift, offering a novel approach for building efficient QE mechanisms.",
+      "doi": "10.3390/electronics14091744",
+      "url": "https://www.semanticscholar.org/paper/cd5053e05911cfbf2f15b4b951137cfe259e771f",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-04-24"
+    },
+    {
+      "id": "b10da08a293d9214bf48bfeee4df0a20d52985b7",
+      "title": "Multimodal Semantic Retrieval for Product Search",
+      "authors": [
+        "Dong Liu",
+        "Esther Lopez Ramos"
+      ],
+      "year": 2025,
+      "venue": "The Web Conference",
+      "citation_count": 3,
+      "abstract": "Semantic retrieval (also known as dense retrieval) based on textual data has been extensively studied for both web search and product search application fields, where the relevance of a query and a potential target document is computed by their dense vector representation comparison. Product image is crucial for e-commerce search interactions and is a key factor for customers at product explorations. However, its impact on semantic retrieval has not been well studied yet. In this research, we build a multimodal representation for product items in e-commerce search in contrast to pure-text representation of products, and investigate the impact of such representations. The models are developed and evaluated on e-commerce datasets. We demonstrate that a multimodal representation scheme for a product can show improvement either on purchase recall or relevance accuracy in semantic retrieval. Additionally, we provide numerical analysis for exclusive matches retrieved by a multimodal semantic retrieval model versus a text-only semantic retrieval model, to demonstrate the validation of multimodal solutions.",
+      "doi": "10.1145/3701716.3717567",
+      "url": "https://www.semanticscholar.org/paper/b10da08a293d9214bf48bfeee4df0a20d52985b7",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-01-13"
+    },
+    {
+      "id": "712942c2d0739442ab7ef1deade5d5cda635a8bf",
+      "title": "Unsupervised Dense Retrieval for Scientific Articles",
+      "authors": [
+        "Dan Li",
+        "Vikrant Yadav",
+        "Zubair Afzal",
+        "G. Tsatsaronis"
+      ],
+      "year": 2022,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "citation_count": 3,
+      "abstract": "In this work, we build a dense retrieval based semantic search engine on scientific articles from Elsevier. The major challenge is that there is no labeled data for training and testing. We apply a state-of-the-art unsupervised dense retrieval model called Generative Pseudo Labeling that generates high-quality pseudo training labels. Furthermore, since the articles are unbalanced across different domains, we select passages from multiple domains to form balanced training data. For the evaluation, we create two test sets: one manually annotated and one automatically created from the meta-information of our data. We compare the semantic search engine with the currently deployed lexical search engine on the two test sets. The results of the experiment show that the semantic search engine trained with pseudo training labels can significantly improve search performance.",
+      "doi": "10.18653/v1/2022.emnlp-industry.32",
+      "url": "https://www.semanticscholar.org/paper/712942c2d0739442ab7ef1deade5d5cda635a8bf",
+      "pdf_url": "https://aclanthology.org/2022.emnlp-industry.32.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": null
+    },
+    {
+      "id": "0add4d032428c3f8460df9d02f95f12ab7ed19af",
+      "title": "TaoSearchEmb: A Multi-Objective Reinforcement Learning Framework for Dense Retrieval in Taobao Search",
+      "authors": [
+        "Xingxian Liu",
+        "Dongshuai Li",
+        "Tao Wen",
+        "Jiahui Wan",
+        "Gui Ling",
+        "Fuyu Lv",
+        "Dan Ou",
+        "Haihong Tang"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 1,
+      "abstract": "Dense retrieval, as the core component of e-commerce search engines, maps user queries and items into a unified semantic space through pre-trained embedding models to enable large-scale real-time semantic retrieval. Despite the rapid advancement of LLMs gradually replacing traditional BERT architectures for embedding, their training paradigms still adhere to BERT-like supervised fine-tuning and hard negative mining strategies. This approach relies on complex offline hard negative sample construction pipelines, which constrain model iteration efficiency and hinder the evolutionary potential of semantic representation capabilities. Besides, existing multi-task learning frameworks face the seesaw effect when simultaneously optimizing semantic relevance and non-relevance objectives. In this paper, we propose Retrieval-GRPO, a multi-objective reinforcement learning-based dense retrieval framework designed to address these challenges. The method eliminates offline hard negative sample construction by dynamically retrieving Top-K candidate products for each query during training, while introducing a relevance LLM as a reward model to generate real-time feedback. Specifically, the retrieval model dynamically optimizes embedding representations through reinforcement learning, with reward signals combining LLM-generated relevance scores, product quality scores, and multi-way exclusivity metrics to achieve multi-objective user preference alignment and real-time error correction. This mechanism not only removes dependency on hard negatives but also mitigates the seesaw effect through collaborative multi-objective optimization, significantly enhancing the model's semantic generalization capability for complex long-tail queries. Extensive offline and online experiments validate the effectiveness of Retrieval-GRPO, which has been deployed on China's largest e-commerce platform.",
+      "doi": "10.48550/arXiv.2511.13885",
+      "url": "https://www.semanticscholar.org/paper/0add4d032428c3f8460df9d02f95f12ab7ed19af",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-11-17"
+    },
+    {
+      "id": "05f6ceb62bff47751c482e024b41b5b07d0930a8",
+      "title": "Advances in Transformer-Based Semantic Search: Techniques, Benchmarks, and Future Directions",
+      "authors": [
+        "Mohammad Kamil",
+        "Duygu Çakır"
+      ],
+      "year": 2025,
+      "venue": "Turkish journal of mathematics & computer science",
+      "citation_count": 1,
+      "abstract": "Semantic search has developed quickly as the need for accurate information retrieval has increased in a variety of fields, from expert knowledge systems to web search engines. Conventional search methods that rely solely on keywords frequently fail to understand user intent and contextual hints. This survey focuses on recent advances in Transformer-based models, such as BERT, RoBERTa, T5, and GPT, which leverage self-attention mechanisms and contextual embeddings to deliver heightened precision and recall across diverse domains. Key architectural elements underlying these models are discussed, including dual-encoder and cross-encoder frameworks, and how Dense Passage Retrieval extends their capabilities to large-scale applications is examined. Practical considerations, such as domain adaptation and fine-tuning strategies, are reviewed to highlight their impact on real-world deployment. Benchmark evaluations (e.g., MS MARCO, TREC, and BEIR) are also presented to illustrate performance gains over traditional Information Retrieval methods and explore ongoing challenges involving interpretability, bias, and resource-intensive training. Lastly, emerging trends—multimodal semantic search, personalized retrieval, and continual learning—that promise to shape the future of AI-driven information retrieval are identified for more efficient and interpretable semantic search.",
+      "doi": "10.47000/tjmcs.1633092",
+      "url": "https://www.semanticscholar.org/paper/05f6ceb62bff47751c482e024b41b5b07d0930a8",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-06-30"
+    },
+    {
+      "id": "89092499210c5b8d6af2f899e2c056c6c53aee6a",
+      "title": "EHI: End-to-end Learning of Hierarchical Index for Efficient Dense Retrieval",
+      "authors": [
+        "Ramnath Kumar",
+        "Anshul Mittal",
+        "Nilesh Gupta",
+        "Aditya Kusupati",
+        "Inderjit S. Dhillon",
+        "Prateek Jain"
+      ],
+      "year": 2023,
+      "venue": "arXiv.org",
+      "citation_count": 1,
+      "abstract": "Dense embedding-based retrieval is widely used for semantic search and ranking. However, conventional two-stage approaches, involving contrastive embedding learning followed by approximate nearest neighbor search (ANNS), can suffer from misalignment between these stages. This mismatch degrades retrieval performance. We propose End-to-end Hierarchical Indexing (EHI), a novel method that directly addresses this issue by jointly optimizing embedding generation and ANNS structure. EHI leverages a dual encoder for embedding queries and documents while simultaneously learning an inverted file index (IVF)-style tree structure. To facilitate the effective learning of this discrete structure, EHI introduces dense path embeddings that encodes the path traversed by queries and documents within the tree. Extensive evaluations on standard benchmarks, including MS MARCO (Dev set) and TREC DL19, demonstrate EHI's superiority over traditional ANNS index. Under the same computational constraints, EHI outperforms existing state-of-the-art methods by +1.45% in MRR@10 on MS MARCO (Dev) and +8.2% in nDCG@10 on TREC DL19, highlighting the benefits of our end-to-end approach.",
+      "doi": "10.48550/arXiv.2310.08891",
+      "url": "https://www.semanticscholar.org/paper/89092499210c5b8d6af2f899e2c056c6c53aee6a",
+      "pdf_url": "https://arxiv.org/pdf/2310.08891",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-10-13"
+    },
+    {
+      "id": "83c3d7b57e783b022f883101467bf91cd1b48263",
+      "title": "RAG-Driven Cybersecurity Intelligence: Leveraging Semantic Search for Improved Threat Detection",
+      "authors": [
+        "Sahaj Tushar Gandhi"
+      ],
+      "year": 2023,
+      "venue": "International journal of research and applied innovations",
+      "citation_count": 1,
+      "abstract": "Retrieval-Augmented Generation (RAG) unifies dense retrieval with generative models to ground generated\noutputs in external documents, suppressing hallucinations and supporting up-to-date, domain-specific reasoning. We\nintroduce an architecture combining semantic search (dense vector retrieval and knowledge-graph indexing) with RAG\nworkflows to improve CTI ingestion, correlation and detection. The system ingests heterogeneous CTI sources (OSINT\nreports, vendor feeds, malware descriptions) and locks and loads the semantic chunking and entity linking process that\nindexes embeddings in a vector store alongside a cybersecurity knowledge graph for relational reasoning. A policy-aware\nRAGenerator which produces ranked threat hypotheses and suggested actions. Methodologically, we deploy as prototype a\ndense bi-encoder retriever and FAISS index alongside an off-the-shelf seq2seq generator fine-tuned on CTI summarization\ntasks and a knowledge graph with Neo4j underneath. The evaluation is based on a set of 2,400 CTI incident reports and\nsynthetic network alert sequences with known ground truth; metrics include detection precision, recall, F1 measure, time-\nto-context (TTC), and reduction in analyst workload. On the other hand, results demonstrate a 25.7% increase in detection\nF1 over keyword/TTP-matching based baseline and an average decrease of 31% in analyst triage time for RAG-driven\npipeline, while knowledge-graph augmentation enhanced true positive correlation of multi-stage attacks by 22%. It also\nlowered hallucination rate on generated advisories by 45% (as measured with ground-truth grounding). Conclusion: Only\nindexing corpus quality reliance and possible privacy leakage in retrieval. In the future, secure retrieval technique and\nautomated counter-adversarial training will be perfected.",
+      "doi": "10.15662/ijrai.2023.0603003",
+      "url": "https://www.semanticscholar.org/paper/83c3d7b57e783b022f883101467bf91cd1b48263",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2023-04-25"
+    },
+    {
+      "id": "3c9d267d12bbc317614204b32eba3564b1f9e4ba",
+      "title": "Discriminative Language Model via Self-Teaching for Dense Retrieval",
+      "authors": [
+        "Luyao Chen",
+        "Ruqing Zhang",
+        "J. Guo",
+        "Yixing Fan",
+        "Xueqi Cheng"
+      ],
+      "year": 2022,
+      "venue": "International Conference on Information and Knowledge Management",
+      "citation_count": 1,
+      "abstract": "Dense retrieval (DR) has shown promising results in many information retrieval (IR) related tasks, whose foundation is high-quality text representations for effective search. Taking the pre-trained language models (PLMs) as the text encoders has become a popular choice in DR. However, the learned representations based on these PLMs often lose the discriminative power, and thus hurt the recall performance, particularly as PLMs consider too much content of the input texts. Therefore, in this work, we propose to pre-train a discriminative language representation model, called DiscBERT, for DR. The key idea is that a good text representation should be able to automatically keep those discriminative features that could well distinguish different texts from each other in the semantic space. Specifically, inspired by knowledge distillation, we employ a simple yet effective training method, called self-teaching, to distill the model's knowledge constructed when training on the sampled representative tokens of a text sequence into the model's knowledge for the entire text sequence. By further fine-tuning on publicly available retrieval benchmark datasets, DiscBERT can outperform the state-of-the-art retrieval methods.",
+      "doi": "10.1145/3511808.3557582",
+      "url": "https://www.semanticscholar.org/paper/3c9d267d12bbc317614204b32eba3564b1f9e4ba",
+      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3511808.3557582",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-10-17"
+    },
+    {
+      "id": "ca2cf7733a54124baac0cb736dbdb23f94e1a16f",
+      "title": "On the Value of Behavioral Representations for Dense Retrieval",
+      "authors": [
+        "Nan Jiang",
+        "D. Eswaran",
+        "C. Teo",
+        "Yexiang Xue",
+        "Yesh Dattatreya",
+        "S. Sanghavi",
+        "Vishy Vishwanathan"
+      ],
+      "year": 2022,
+      "venue": "arXiv.org",
+      "citation_count": 1,
+      "abstract": "We consider text retrieval within dense representational space in real-world settings such as e-commerce search where (a) document popularity and (b) diversity of queries associated with a document have a skewed distribution. Most of contemporary dense retrieval literature–which typically focuses on MSMARCO and TREC bench-mark datasets–present two shortcomings in these settings. (1) They learn an almost equal number of representations per document , agnostic to the fact that a few ‘head’ documents are disproportionately more critical to achieving a good retrieval performance. (ii) They learn purely semantic document representations inferred from intrinsic document characteristics (e.g. tokenized text) which may not contain adequate information to determine the queries for which the document is relevant–especially when the document is short. We propose to overcome these limitations by augmenting seman- tic document representations learned by bi-encoders with behavioral document representations learned by our proposed approach MVG. To do so, MVG (1) determines how to divide the total budget for behavioral representations by drawing a connection to Pitman-Yor process, and (2) simply clusters the queries related to a given document (based on user behavior) within the representational space learned by a base bi-encoder, and treats the cluster centers as its behavioral representations. Our central contribution is the finding such a simple intuitive light-weight approach leads to substantial gains in key first-stage retrieval metrics (e.g. recall) . We comparing to single-vector (e.g. and multi-vector (e.g.",
+      "doi": "10.48550/arXiv.2208.05663",
+      "url": "https://www.semanticscholar.org/paper/ca2cf7733a54124baac0cb736dbdb23f94e1a16f",
+      "pdf_url": "http://arxiv.org/pdf/2208.05663",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2022-08-11"
+    },
+    {
+      "id": "8f1b3d28af3bd318c8ab8315a0f4bc13db6cd4a2",
+      "title": "Event-driven Real-time Retrieval in Web Search",
+      "authors": [
+        "Nan Yang",
+        "Shusen Zhang",
+        "Yannan Zhang",
+        "Xiaoling Bai",
+        "Hualong Deng",
+        "Tianhua Zhou",
+        "Jin Ma"
+      ],
+      "year": 2023,
+      "venue": "arXiv.org",
+      "citation_count": 1,
+      "abstract": "Information retrieval in real-time search presents unique challenges distinct from those encountered in classical web search. These challenges are particularly pronounced due to the rapid change of user search intent, which is influenced by the occurrence and evolution of breaking news events, such as earthquakes, elections, and wars. Previous dense retrieval methods, which primarily focused on static semantic representation, lack the capacity to capture immediate search intent, leading to inferior performance in retrieving the most recent event-related documents in time-sensitive scenarios. To address this issue, this paper expands the query with event information that represents real-time search intent. The Event information is then integrated with the query through a cross-attention mechanism, resulting in a time-context query representation. We further enhance the model's capacity for event representation through multi-task training. Since publicly available datasets such as MS-MARCO do not contain any event information on the query side and have few time-sensitive queries, we design an automatic data collection and annotation pipeline to address this issue, which includes ModelZoo-based Coarse Annotation and LLM-driven Fine Annotation processes. In addition, we share the training tricks such as two-stage training and hard negative sampling. Finally, we conduct a set of offline experiments on a million-scale production dataset to evaluate our approach and deploy an A/B testing in a real online system to verify the performance. Extensive experimental results demonstrate that our proposed approach significantly outperforms existing state-of-the-art baseline methods.",
+      "doi": "10.48550/arXiv.2312.00372",
+      "url": "https://www.semanticscholar.org/paper/8f1b3d28af3bd318c8ab8315a0f4bc13db6cd4a2",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-12-01"
+    },
+    {
+      "id": "430efc68a46d14d7eaf9679c7b430ea0737c8d58",
+      "title": "Neural Semantic Search Models for Contextual Retrieval of Precedents and Statutory Provisions in AI-Driven Legal Research Platforms",
+      "authors": [
+        "Ali Jasem Mohammed Al-Saadi",
+        "Aqeel M. Alsadi",
+        "Mohammed Sameer Hasan",
+        "Qutaiba Shafeeq Darb",
+        "Mumtaz Raed AlHommada",
+        "Shamel Abdstar Jalial",
+        "Hanan Ali Ibrahim"
+      ],
+      "year": 2025,
+      "venue": "International Conference Control and Robots",
+      "citation_count": 0,
+      "abstract": "The study proposes a high-precision semantic retrieval paradigm for legal information systems through the fusion of transformer-based legal NLP models, ontology-aware representation learning, and contextual reranking. By utilizing dual encoders, namely LegalBERT and CaseLawBERT, the system was evaluated using large multi-jurisdictional legal corpora of statutes, appellate opinions, and domain-specific case law. It repeatedly produced Top-5 retrieval accuracies of over 94.1% and attained Mean Reciprocal Rank (MRR) scores of up to 0.86, outperforming keyword-based baselines such as BM25 and TF-IDF. The use of legal ontologies, citation-sensitive heuristics, and cross-encoder reranking modules improved semantic precision and interpretability, facilitating accurate multi-hop and cross-domain precedent chaining. In contrast to computationally expensive generative LLMs, this dense retrieval pipeline achieves sub-0.12s latency with GPU acceleration, enabling real-time resolution of legal queries. Robust domain generalization and jurisdictional scalability are achieved without retraining, making available a practical, interpretable, and high-fidelity statutory interpretation and legal precedent analytics solution.",
+      "doi": "10.1109/ICCR67387.2025.11291889",
+      "url": "https://www.semanticscholar.org/paper/430efc68a46d14d7eaf9679c7b430ea0737c8d58",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-07-03"
+    },
+    {
+      "id": "61ae2d030f29283f5a518be93f0c16cfd69073bf",
+      "title": "Semantic Search for Information Retrieval",
+      "authors": [
+        "Kayla Farivar"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 0,
+      "abstract": "Information retrieval systems have progressed notably from lexical techniques such as BM25 and TF-IDF to modern semantic retrievers. This survey provides a brief overview of the BM25 baseline, then discusses the architecture of modern state-of-the-art semantic retrievers. Advancing from BERT, we introduce dense bi-encoders (DPR), late-interaction models (ColBERT), and neural sparse retrieval (SPLADE). Finally, we examine MonoT5, a cross-encoder model. We conclude with common evaluation tactics, pressing challenges, and propositions for future directions.",
+      "doi": "10.48550/arXiv.2508.17694",
+      "url": "https://www.semanticscholar.org/paper/61ae2d030f29283f5a518be93f0c16cfd69073bf",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-08-25"
+    },
+    {
+      "id": "a690012f2b8ff89c300e5db69c2030e9b0e5ec59",
+      "title": "Streamlining NASA Research Retrieval with RAG-Inspired Semantic Search",
+      "authors": [
+        "Samuel Brooks",
+        "Ian Ortega",
+        "Hunter Sandidge"
+      ],
+      "year": 2025,
+      "venue": "54th International Conference on Environmental Systems",
+      "citation_count": 0,
+      "abstract": "The vast corpus of NASA-related research is dispersed\nacross numerous isolated repositories, posing significant\nchallenges for researchers in efficiently discovering\nrelevant literature. This paper introduces a novel solution\nleveraging large language models and hybrid retrieval\nmethodologies to streamline the search and retrieval\nprocess of NASA's extensive research publications. Our\nproposed system aggregates and scrapes abstracts, metadata,\nand other relevant details from disparate NASA-related\npublishing sources, ensuring structured and standardized\nindexing. As proof of concept for our proposed solution, we\nimplement a combination of search techniques, including\nsparse retrieval (BM25), dense vector embeddings, and\nhybrid ranking via Reciprocal Rank Fusion (RRF). The system\nis designed to be modular, scalable, and computationally\nefficient, allowing for continuous enhancement and\nexpansion. The resulting prototype is packaged as a\nPython-based Streamlit application to demonstrate its\nfeasibility and accessibility. This tool aims to reduce\nbarriers to literature discovery, foster multidisciplinary\ncollaboration, and serve as a foundation for future\nimprovements in AI-assisted research retrieval by enabling\nmore precise and efficient access to NASA-related research.",
+      "doi": "10.32865/2346/102677",
+      "url": "https://www.semanticscholar.org/paper/a690012f2b8ff89c300e5db69c2030e9b0e5ec59",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-07-13"
+    },
+    {
+      "id": "4352b56c34e3fb0b79ec3447a69e49d50582e3a7",
+      "title": "A Simple and Effective Framework for Symmetric Consistent Indexing in Large-Scale Dense Retrieval",
+      "authors": [
+        "Huimu Wang",
+        "Yiming Qiu",
+        "Xingzhi Yao",
+        "Zhiguo Chen",
+        "Guoyu Tang",
+        "Songlin Wang",
+        "Sulong Xu",
+        "Mingming Li"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 0,
+      "abstract": "Dense retrieval has become the industry standard in large-scale information retrieval systems due to its high efficiency and competitive accuracy. Its core relies on a coarse-to-fine hierarchical architecture that enables rapid candidate selection and precise semantic matching, achieving millisecond-level response over billion-scale corpora. This capability makes it essential not only in traditional search and recommendation scenarios but also in the emerging paradigm of generative recommendation driven by large language models, where semantic IDs-themselves a form of coarse-to-fine representation-play a foundational role. However, the widely adopted dual-tower encoding architecture introduces inherent challenges, primarily representational space misalignment and retrieval index inconsistency, which degrade matching accuracy, retrieval stability, and performance on long-tail queries. These issues are further magnified in semantic ID generation, ultimately limiting the performance ceiling of downstream generative models. To address these challenges, this paper proposes a simple and effective framework named SCI comprising two synergistic modules: a symmetric representation alignment module that employs an innovative input-swapping mechanism to unify the dual-tower representation space without adding parameters, and an consistent indexing with dual-tower synergy module that redesigns retrieval paths using a dual-view indexing strategy to maintain consistency from training to inference. The framework is systematic, lightweight, and engineering-friendly, requiring minimal overhead while fully supporting billion-scale deployment. We provide theoretical guarantees for our approach, with its effectiveness validated by results across public datasets and real-world e-commerce datasets.",
+      "doi": "10.48550/arXiv.2512.13074",
+      "url": "https://www.semanticscholar.org/paper/4352b56c34e3fb0b79ec3447a69e49d50582e3a7",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-12-15"
+    },
+    {
+      "id": "1ac75786cc77fdbed0d8bd6ce4c878c7c34494c8",
+      "title": "Large Reasoning Embedding Models: Towards Next-Generation Dense Retrieval Paradigm",
+      "authors": [
+        "Jianting Tang",
+        "Dongshuai Li",
+        "Tao Wen",
+        "Fuyu Lv",
+        "Dan Ou",
+        "Linli Xu"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 0,
+      "abstract": "In modern e-commerce search systems, dense retrieval has become an indispensable component. By computing similarities between query and item (product) embeddings, it efficiently selects candidate products from large-scale repositories. With the breakthroughs in large language models (LLMs), mainstream embedding models have gradually shifted from BERT to LLMs for more accurate text modeling. However, these models still adopt direct-embedding methods, and the semantic accuracy of embeddings remains inadequate. Therefore, contrastive learning is heavily employed to achieve tight semantic alignment between positive pairs. Consequently, such models tend to capture statistical co-occurrence patterns in the training data, biasing them toward shallow lexical and semantic matches. For difficult queries exhibiting notable lexical disparity from target items, the performance degrades significantly. In this work, we propose the Large Reasoning Embedding Model (LREM), which novelly integrates reasoning processes into representation learning. For difficult queries, LREM first conducts reasoning to achieve a deep understanding of the original query, and then produces a reasoning-augmented query embedding for retrieval. This reasoning process effectively bridges the semantic gap between original queries and target items, significantly improving retrieval accuracy. Specifically, we adopt a two-stage training process: the first stage optimizes the LLM on carefully curated Query-CoT-Item triplets with SFT and InfoNCE losses to establish preliminary reasoning and embedding capabilities, and the second stage further refines the reasoning trajectories via reinforcement learning (RL). Extensive offline and online experiments validate the effectiveness of LREM, leading to its deployment on China's largest e-commerce platform since August 2025.",
+      "doi": "10.48550/arXiv.2510.14321",
+      "url": "https://www.semanticscholar.org/paper/1ac75786cc77fdbed0d8bd6ce4c878c7c34494c8",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-10-16"
+    },
+    {
+      "id": "f1d320077dd7c65fb867394e388ea9ccbb8c6bed",
+      "title": "GLoSS: Generative Language Models with Semantic Search for Sequential Recommendation",
+      "authors": [
+        "Krishna Acharya",
+        "Aleksandr V. Petrov",
+        "Juba Ziani"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 0,
+      "abstract": "We propose Generative Low-rank language model with Semantic Search (GLoSS), a generative recommendation framework that combines large language models with dense retrieval for sequential recommendation. Unlike prior methods such as GPT4Rec, which rely on lexical matching via BM25, GLoSS uses semantic search to retrieve relevant items beyond lexical matching. For query generation, we employ 4-bit quantized LlaMA-3 models fine-tuned with low-rank adaptation (LoRA), enabling efficient training and inference on modest hardware. We evaluate GLoSS on three real-world Amazon review datasets: Beauty, Toys, and Sports, and find that it achieves state-of-the-art performance. Compared to traditional ID-based baselines, GLoSS improves Recall@5 by 33.3%, 52.8%, and 15.2%, and NDCG@5 by 30.0%, 42.6%, and 16.1%, respectively. It also outperforms LLM-based recommenders such as P5, GPT4Rec, LlamaRec and E4SRec with Recall@5 gains of 4.3%, 22.8%, and 29.5%. Additionally, user segment evaluations show that GLoSS performs particularly well for cold-start users in the Amazon Toys and Sports datasets, and benefits from longer user histories in Amazon Beauty dataset, demonstrating robustness across different levels of interaction lengths.",
+      "doi": "10.48550/arXiv.2506.01910",
+      "url": "https://www.semanticscholar.org/paper/f1d320077dd7c65fb867394e388ea9ccbb8c6bed",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-06-02"
+    },
+    {
+      "id": "cc10eae92743df4a1978b2bb5fb25e2c3d7f848f",
+      "title": "Fine-Tuning Small LLMs for High-Quality Semantic Search: A Cost-Efficient Alternative to Foundation Models",
+      "authors": [
+        "Puripanda SHARAT CHANDRA"
+      ],
+      "year": 2025,
+      "venue": "INTERNATIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
+      "citation_count": 0,
+      "abstract": "Abstract - Large language models (LLMs) have demonstrated remarkable performance in natural language understanding, yet their deployment for real-time semantic search and recommendation tasks remains impractical due to significant computational demands. This paper introduces a cost-efficient framework for fine-tuning small-scale models tailored for high-quality semantic movie recommendation. We leverage Gemma 3, a compact generative model, to produce enriched natural language descriptions of movies from structured metadata, and Granite Embedder, a lightweight transformer-based encoder, to compute dense vector representations for semantic similarity retrieval. Fine-tuning is performed using contrastive learning on curated triplet datasets derived from public movie data sources, enabling the model to learn meaningful semantic distances between similar and dissimilar movie entries.\n\nOur pipeline developed using Python with Hugging Face Transformers, PyTorch, Qdrant supports end-to-end generation, embedding, and retrieval of semantically similar movies. All experiments were conducted on an AWS EC2 instance equipped with a 24 GB GPU, allowing for efficient training and inference at scale. We demonstrate a notable improvement in recommendation quality, with Recall@10 increasing from 0.56 to 0.81, and mean cosine similarity between relevant movie vectors improving from 0.43 to 0.72 after fine-tuning. A sample system output, such as “If you enjoyed avengers:age of ultron, you might love eternals for its mind-bending story and similar sci-fi execution,” showcases the model’s contextual sensitivity and domain-specific relevance. This research highlights a scalable, low-cost alternative to large foundation models for semantic search and recommendation tasks, effective as of June 2, 2025.\n\n \n\nKey Words: Semantic Search, Fine-Tuning, Small Language Models, Vector Embeddings, Cost-Efficiency.",
+      "doi": "10.55041/ijsrem49678",
+      "url": "https://www.semanticscholar.org/paper/cc10eae92743df4a1978b2bb5fb25e2c3d7f848f",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-06-10"
+    },
+    {
+      "id": "08fd66305f5118df9cb0d1ddc7043220d9b4c1d5",
+      "title": "Efficient Semantic Search for Detecting Redundant Student Project Proposals",
+      "authors": [
+        "Andre Fransiscus Masalle",
+        "Indra Azimi",
+        "Erna Hikmawati"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE International Conference on Artificial Intelligence for Learning and Optimization (ICoAILO)",
+      "citation_count": 0,
+      "abstract": "Academic institutions face persistent challenges with redundant student project proposals, leading to duplicated efforts and diminished research originality. These challenges are exacerbated by limited visibility into prior submissions, varying terminologies, and the growing volume of archived proposals, which render manual review processes ineffective. To address these limitations, this paper introduces an automated Project Similarity Detection System leveraging advanced natural language processing. The solution combines Sentence-BERT for generating multilingual semantic embeddings of project proposals and Facebook AI Similarity Search for efficient high-dimensional similarity retrieval. A domain-optimized pipeline processes academic text through tokenization, stopword removal, and stemming before converting titles/descriptions into dense vectors. The system enables real-time comparison against institutional archives using cosine similarity, providing immediate feedback during proposal submission. Evaluations confirm the system's effectiveness in identifying semantically similar projects with high relevance and practical response times. This approach supports originality, enhances institutional knowledge reuse, and opens pathways for future expansion to broader academic text inputs and user-interactive refinement.",
+      "doi": "10.1109/ICoAILO66760.2025.11155951",
+      "url": "https://www.semanticscholar.org/paper/08fd66305f5118df9cb0d1ddc7043220d9b4c1d5",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-08-07"
+    },
+    {
+      "id": "eb9a23543c60eae3fd2c000aeeb1fdd4110bafcc",
+      "title": "Cohort Retrieval using Dense Passage Retrieval",
+      "authors": [
+        "P. Jadhav"
+      ],
+      "year": 2025,
+      "venue": "arXiv.org",
+      "citation_count": 0,
+      "abstract": "Patient cohort retrieval is a pivotal task in medical research and clinical practice, enabling the identification of specific patient groups from extensive electronic health records (EHRs). In this work, we address the challenge of cohort retrieval in the echocardiography domain by applying Dense Passage Retrieval (DPR), a prominent methodology in semantic search. We propose a systematic approach to transform an echocardiographic EHR dataset of unstructured nature into a Query-Passage dataset, framing the problem as a Cohort Retrieval task. Additionally, we design and implement evaluation metrics inspired by real-world clinical scenarios to rigorously test the models across diverse retrieval tasks. Furthermore, we present a custom-trained DPR embedding model that demonstrates superior performance compared to traditional and off-the-shelf SOTA methods.To our knowledge, this is the first work to apply DPR for patient cohort retrieval in the echocardiography domain, establishing a framework that can be adapted to other medical domains.",
+      "doi": "10.48550/arXiv.2507.01049",
+      "url": "https://www.semanticscholar.org/paper/eb9a23543c60eae3fd2c000aeeb1fdd4110bafcc",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-06-26"
+    },
+    {
+      "id": "2e668c1b98ebb43a6324a7c508200e4667791d7a",
+      "title": "Evaluating Dense Model-based Approaches for Multimodal Medical Case Retrieval",
+      "authors": [
+        "Catarina Pires",
+        "Sérgio Nunes",
+        "Luís Filipe Teixeira"
+      ],
+      "year": 2025,
+      "venue": "Inf. Retr. Res. J.",
+      "citation_count": 0,
+      "abstract": "Medical case retrieval plays a crucial role in clinical decision-making by enabling healthcare professionals to find relevant cases based on patient records, diagnostic images, and textual descriptions. Given the inherently multimodal nature of medical data, effective retrieval requires models that can bridge the gap between different modalities. Traditional retrieval approaches often rely on unimodal representations, limiting their ability to capture cross-modal relationships. Recent advances in dense model-based techniques have shown promise in overcoming these limitations by encoding multimodal information into a shared latent space, facilitating retrieval based on semantic similarity. This paper investigates the potential of dense models to enhance multimodal search systems. We evaluate various dense model-based approaches to assess which model characteristics have the greatest impact on retrieval effectiveness, using the medical case-based retrieval task from ImageCLEFmed 2013 as a benchmark. Our findings indicate that different dense model approaches substantially impact retrieval effectiveness, and that applying the CombMAX fusion methodto combine their output results further improves effectiveness. Extending context length, however, yielded mixed results depending on the input data. Additionally, domain-specific models—those trained on medical data—outperformed general models trained on broad, non-specialized datasets within their respective fields. Furthermore, when text is the dominant information source, text-only models surpassed multimodal models",
+      "doi": "10.54195/irrj.19769",
+      "url": "https://www.semanticscholar.org/paper/2e668c1b98ebb43a6324a7c508200e4667791d7a",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-09-16"
+    },
+    {
+      "id": "96ff5deb2dd8c7c0a78e8ecf212018007ce6686e",
+      "title": "Domain Adaptation of Multilingual Semantic Search - Literature Review",
+      "authors": [
+        "Anna Bringmann",
+        "Anastasia Zhukova"
+      ],
+      "year": 2024,
+      "venue": "arXiv.org",
+      "citation_count": 0,
+      "abstract": "This literature review gives an overview of current approaches to perform domain adaptation in a low-resource and approaches to perform multilingual semantic search in a low-resource setting. We developed a new typology to cluster domain adaptation approaches based on the part of dense textual information retrieval systems, which they adapt, focusing on how to combine them efficiently. We also explore the possibilities of combining multilingual semantic search with domain adaptation approaches for dense retrievers in a low-resource setting.",
+      "doi": "10.48550/arXiv.2402.02932",
+      "url": "https://www.semanticscholar.org/paper/96ff5deb2dd8c7c0a78e8ecf212018007ce6686e",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2024-02-05"
+    },
+    {
+      "id": "2e0e846b3ed203590bcd688af24c0cd425c15ea9",
+      "title": "Retrieval-Augmented Generation with GPT-4o-mini: Integrating Configurable Chunking, Hybrid Search, and Multimodal Image Retrieval",
+      "authors": [
+        "Chun Wei Loo",
+        "Zi Qian Leong",
+        "J. Ong",
+        "Huen Thong Chong",
+        "Yong Poh Yu",
+        "Tong Ming Lim"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE International Conference on Computation, Big-Data and Engineering (ICCBE)",
+      "citation_count": 0,
+      "abstract": "Retrieval-augmented generation (RAG) systems significantly enhance the capabilities of large language models (LLMs) by grounding responses in external knowledge. We implemented a RAG system utilizing the GPT-4o-mini model to advance knowledge base management, configurable document processing, and multimodal information retrieval. We constructed a modular knowledge base framework that supports creation, configuration, and granular management of diverse information sources, including text in formats of TXT, PDF, CSV, and extracted visual data. The key feature of the developed framework is the user-configurable document chunking process, allowing optimization of text segmentation through adjustable parameters (chunk size, overlap, custom separators) before ingestion. The framework employs ChromaDB as its vector store, implementing a hybrid search that combines dense vector-based semantic similarity with traditional keyword matching, offering configurable weighting and relevance thresholds. Furthermore, we introduce automated image extraction from PDF documents into knowledge ingestion. Extracted images are indexed with associated metadata and rudimentary captions. In the query process, relevant images are retrieved alongside pertinent text chunks, providing richer, multimodal context to the GPT-4o-mini model. The developed framework highlights the design and implementation details of the components, demonstrating a flexible and efficient construction of RAG systems capable of leveraging both textual and visual information from managed knowledge bases.",
+      "doi": "10.1109/ICCBE65177.2025.11255653",
+      "url": "https://www.semanticscholar.org/paper/2e0e846b3ed203590bcd688af24c0cd425c15ea9",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": "2025-06-27"
+    },
+    {
+      "id": "8170007ada8fcd8e515aa36532456d4c17fcdd80",
+      "title": "Enhancing Point of Interest Search with Semantic and Spatial Information",
+      "authors": [
+        "Yue Zhang",
+        "Xiaoan Ding",
+        "Zeyu Zhang",
+        "Adi Hajj-Ahmad"
+      ],
+      "year": 2025,
+      "venue": "SIGSPATIAL/GIS",
+      "citation_count": 0,
+      "abstract": "Point of Interest (POI) search faces unique challenges in effectively combining semantic relevance, geographic context, and location priorities. To address these challenges, we propose a novel two-stage approach that leverages modern text embeddings for both semantic and geographic matching. Our method fuses the user query, user address, and POI metadata into a unified text format for dense retrieval, followed by a re-scoring stage that incorporates distance and popularity biases. Experiments on a 17 million US location database demonstrate that our dense retrieval method significantly surpasses traditional lexical approaches, and the addition of distance and popularity biases further enhances performance achieving an improvement from 55.3% to 81.1% Recall@100.",
+      "doi": "10.1145/3748636.3764606",
+      "url": "https://www.semanticscholar.org/paper/8170007ada8fcd8e515aa36532456d4c17fcdd80",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2025-11-03"
+    },
+    {
+      "id": "898d180d0f7a5e5de456348084353ef62dab63d6",
+      "title": "AgriLens: Semantic Retrieval in Agricultural Texts Using Topic Modeling and Language Models",
+      "authors": [
+        "Heba Shakeel",
+        "Tanvir Ahmad",
+        "Tanya Liyaqat",
+        "Chandni Saxena"
+      ],
+      "year": 2026,
+      "venue": "",
+      "citation_count": 0,
+      "abstract": "As the volume of unstructured text continues to grow across domains, there is an urgent need for scalable methods that enable interpretable organization, summarization, and retrieval of information. This work presents a unified framework for interpretable topic modeling, zero-shot topic labeling, and topic-guided semantic retrieval over large agricultural text corpora. Leveraging BERTopic, we extract semantically coherent topics. Each topic is converted into a structured prompt, enabling a language model to generate meaningful topic labels and summaries in a zero-shot manner. Querying and document exploration are supported via dense embeddings and vector search, while a dedicated evaluation module assesses topical coherence and bias. This framework supports scalable and interpretable information access in specialized domains where labeled data is limited.",
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/898d180d0f7a5e5de456348084353ef62dab63d6",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2026-01-13"
+    },
+    {
+      "id": "8093f2b74c5f9d705d88076d5d9675ecbed8ef50",
+      "title": "MarineVRS: Marine Video Retrieval System with Explainability via Semantic Understanding",
+      "authors": [
+        "Tan-Sang Ha",
+        "Hai Nguyen-Truong",
+        "Tuan-Anh Vu",
+        "Sai-Kit Yeung"
+      ],
+      "year": 2023,
+      "venue": "Oceans",
+      "citation_count": 0,
+      "abstract": "Building a video retrieval system that is robust and reliable, especially for the marine environment, is a challenging task due to several factors such as dealing with massive amounts of dense and repetitive data, occlusion, blurriness, low lighting conditions, and abstract queries. To address these challenges, we present MarineVRS, a novel and flexible video retrieval system designed explicitly for the marine domain. MarineVRS integrates state-of-the-art methods for visual and linguistic object representation to enable efficient and accurate search and analysis of vast volumes of underwater video data. In addition, unlike the conventional video retrieval system, which only permits users to index a collection of images or videos and search using a freeform natural language sentence, our retrieval system includes an additional Explainability module that outputs the segmentation masks of the objects that the input query referred to. This feature allows users to identify and isolate specific objects in the video footage, leading to more detailed analysis and understanding of their behavior and movements. Finally, with its adaptability, explainability, accuracy, and scalability, MarineVRS is a powerful tool for marine researchers and scientists to efficiently and accurately process vast amounts of data and gain deeper insights into the behavior and movements of marine species.",
+      "doi": "10.1109/OCEANSLimerick52467.2023.10244425",
+      "url": "https://www.semanticscholar.org/paper/8093f2b74c5f9d705d88076d5d9675ecbed8ef50",
+      "pdf_url": "https://arxiv.org/pdf/2306.04593",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-06-05"
+    },
+    {
+      "id": "b0c3e3b974bea918d0972038f1606026c8736730",
+      "title": "dIR - Discrete Information Retrieval: Conversational Search over Unstructured (and Structured) Data with Large Language Models",
+      "authors": [
+        "Pablo M. Rodriguez Bertorello",
+        "Jean Rodmond Junior Laguerre"
+      ],
+      "year": 2023,
+      "venue": "arXiv.org",
+      "citation_count": 0,
+      "abstract": "Data is stored in both structured and unstructured form. Querying both, to power natural language conversations, is a challenge. This paper introduces dIR, Discrete Information Retrieval, providing a unified interface to query both free text and structured knowledge. Specifically, a Large Language Model (LLM) transforms text into expressive representation. After the text is extracted into columnar form, it can then be queried via a text-to-SQL Semantic Parser, with an LLM converting natural language into SQL. Where desired, such conversation may be effected by a multi-step reasoning conversational agent. We validate our approach via a proprietary question/answer data set, concluding that dIR makes a whole new class of queries on free text possible when compared to traditionally fine-tuned dense-embedding-model-based Information Retrieval (IR) and SQL-based Knowledge Bases (KB). For sufficiently complex queries, dIR can succeed where no other method stands a chance.",
+      "doi": "10.48550/arXiv.2312.13264",
+      "url": "https://www.semanticscholar.org/paper/b0c3e3b974bea918d0972038f1606026c8736730",
+      "pdf_url": "",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2023-12-20"
+    },
+    {
+      "id": "74f8e16c90172f094b46fdc70b6d321dd0670bc1",
+      "title": "Hybrid Semantic Search for Legal Document Retrieval in the Swiss Parliament: The ParlementAIre Approach",
+      "authors": [
+        "Ornella Vaccarelli1",
+        "Emmanuel de Salis2",
+        "Eden Brenot1",
+        "Henrique Marques Reis2",
+        "Jacqueline Kucera3",
+        "Philippe Meyer3",
+        "Aphrodite Albanis3",
+        "Hatem Ghorbel2",
+        "Jean Hennebert1",
+        "Vishal Gandhi",
+        "Sagar Gandhi",
+        "Chenxi Huang1",
+        "Rodrigo Onate2",
+        "Markos Markides1",
+        "Arodh Lal Karn2",
+        "Vedat Dogan",
+        "Steven Prestwich",
+        "Barry O'Sullivan",
+        "Marihan Shehata",
+        "M. Moness",
+        "Ahmed M. Mostafa",
+        "Brandon Michael Lim1",
+        "Jonathan Thamrun2",
+        "Wassim Kharrat1",
+        "Khadija Bousselmi2",
+        "Ichrack Amdouni1",
+        "Isaac Liu12",
+        "Mai Tung1",
+        "Jason Moya2",
+        "Suryakant Kaushik",
+        "Zachary Zhang1",
+        "Austin Amakye Ansah2",
+        "Mustapha Zeroual",
+        "Abderrazek Karim",
+        "Youssef Baddi",
+        "F. Bensalah",
+        "Diego Costa",
+        "Gabriel Matos",
+        "Gilson Russo",
+        "Leon Barroso",
+        "Erick Bezerra",
+        "AM SIDIAManaus-",
+        "Brazil",
+        "Lawrence Wen Lam1",
+        "Success Godday2",
+        "T. Michno",
+        "R. Holom",
+        "S. Schmalzer",
+        "P. Meyer-Heye",
+        "G. Scampone",
+        "E. Riegler",
+        "M. Hartmann",
+        "U. Repanšek",
+        "N. Koˇsir",
+        "P.Sifrer",
+        "K. Poczęta",
+        "Sviatoslav Stumpf1",
+        "Vladislav Povyshev2",
+        "Antony Seabra",
+        "Claudio Cavalcante",
+        "Sérgio Lifschitz",
+        "PUC-Rio - Pontifical Catholic"
+      ],
+      "year": null,
+      "venue": "",
+      "citation_count": 0,
+      "abstract": null,
+      "doi": "",
+      "url": "https://www.semanticscholar.org/paper/74f8e16c90172f094b46fdc70b6d321dd0670bc1",
+      "pdf_url": "",
+      "fields_of_study": null,
+      "publication_date": null
+    },
+    {
+      "id": "2e5ec9046ab028712ee794e999b809ddac67d5c8",
+      "title": "Bidirectional Temporal Context Fusion with Bi-Modal Semantic Features using a gating mechanism for Dense Video Captioning",
+      "authors": [
+        "Noorhan Khaled",
+        "M. Aref",
+        "M. Marey"
+      ],
+      "year": 2021,
+      "venue": "International Journal of Intelligent Computing and Information Sciences",
+      "citation_count": 0,
+      "abstract": "Dense video captioning involves detecting interesting events and generating textual descriptions for each event in an untrimmed video. Many machine intelligent applications such as video summarization, search and retrieval, automatic video subtitling for supporting blind disabled people, benefit from automated dense captions generator. Most recent works attempted to make use of an encoder-decoder neural network framework which employs a 3D-CNN as an encoder for representing a detected event frames, and an RNN as a decoder for caption generation. They follow an attention based mechanism to learn where to focus in the encoded video frames during caption generation. Although the attention-based approaches have achieved excellent results, they directly link visual features to textual captions and ignore the rich intermediate/high-level video concepts such as people, objects, scenes, and actions. In this paper, we firstly propose to obtain a better event representation that discriminates between events nearly ending at the same time by applying an attention based fusion. Where hidden states from a bi-directional LSTM sequence video encoder, which encodes past and future surrounding context information of a detected event are fused along with its visual (R3D) features. Secondly, we propose to explicitly extract bi-modal semantic concepts (nouns and verbs) from a detected event segment and equilibrate the contributions from the proposed event representation and the semantic concepts dynamically using a gating mechanism while captioning. Experimental results demonstrates that our proposed attention based fusion is better in representing an event for captioning. Also involving semantic concepts improves captioning performance.",
+      "doi": "10.21608/IJICIS.2021.60216.1055",
+      "url": "https://www.semanticscholar.org/paper/2e5ec9046ab028712ee794e999b809ddac67d5c8",
+      "pdf_url": "https://ijicis.journals.ekb.eg/article_184716_29b47f611b623ec8e6e499fad298c6b2.pdf",
+      "fields_of_study": [
+        "Computer Science"
+      ],
+      "publication_date": "2021-07-18"
+    }
+  ]
+}
